@@ -11,7 +11,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Kanit } from "next/font/google";
 import "./globals.css";
 import "../../public/meanmenu.min.css";
-
+import "../../public/master.css";
 import Script from 'next/script';
 import Head from 'next/head';
 

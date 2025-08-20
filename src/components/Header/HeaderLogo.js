@@ -9,7 +9,7 @@ function HeaderLogo() {
           <Image src="/logo.png" alt="Site Logo" width={220} height={54} />
         
         </a>
-        {/* <a href="index-2.html" className="logo-light"><img src="assets/imgs/logo/site-logo-white-2.png" alt="Site Logo"/></a> */}
+        <a href="/" className="logo-light"><Image src="/white-logo.png" alt="Site Logo" width={220} height={54} /></a>
       </div>
     </>
   )
