@@ -1,14 +1,17 @@
+import { offcanvasLinks } from '@/data/navLinks'
 import React from 'react'
+
+
 
 function OffcanvasLinks() {
   return (
     <>
         <div className="offcanvas__links">
             <ul>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">contact</a></li>
-                <li><a href="career.html">Career</a></li>
-                <li><a href="blog.html">blog</a></li>
+              {offcanvasLinks.map((links, index)=>(
+                <li key={index}><a href={links.href}>{links.title}</a></li>
+              ))}
+
             </ul>
         </div>
     </>

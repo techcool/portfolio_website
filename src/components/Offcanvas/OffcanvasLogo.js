@@ -4,7 +4,7 @@ function OffcanvasLogo() {
   return (
     <>
         <div className="offcanvas__logo">
-        <a href="index-2.html"><Image src="/site-logo-white-2.png" alt="Offcanvas Logo" width={100} height={33}/></a>
+        <a href="index-2.html"><Image src="/white-logo.png" alt="Offcanvas Logo" width={200} height={51}/></a>
         </div>
     </>
   )

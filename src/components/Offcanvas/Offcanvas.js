@@ -25,7 +25,7 @@ function Offcanvas() {
               <OffcanvasSearch/>
               <OffcanvasContact/>
               <Image src="/11.png" alt="shape" className="shape-1" width={189} height={94}/>
-              <img src="/12.png" alt="shape" className="shape-2" width={81} height={80}/>
+              <Image src="/12.png" alt="shape" className="shape-2" width={81} height={80}/>
             </div>
             <OffcanvasClose/>   
           </div>
