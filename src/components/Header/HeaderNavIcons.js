@@ -34,7 +34,7 @@ function HeaderNavIcons() {
                 icon={faXmark}
               />
             </button>
-            <button id="open_offcanvas">
+            <button id="open_offcanvas" className='cursor-pointer'>
               <Image
                 src="/menu-black.png"
                 alt="Menubar Icon"

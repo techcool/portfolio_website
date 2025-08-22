@@ -1,5 +1,3 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
-
 
 // import 'gsap/dist/gsap.min.js';
 // import 'gsap/dist/ScrollTrigger.min.js';
@@ -14,6 +12,8 @@ import "../../public/meanmenu.min.css";
 import "../../public/master.css";
 import Script from 'next/script';
 import Head from 'next/head';
+import Cursor from '@/components/Cursor';
+import Preloader from '@/components/Preloader';
 
 
 
@@ -44,10 +44,12 @@ export default function RootLayout({ children }) {
         <link rel="stylesheet" href="/meanmenu.min.css"/>
       </Head>
       <body className={`${kanit.variable}`}>
+        <Cursor />
+        <Preloader />
         {children}
         <Script src="/jquery-3.6.0.min.js" strategy="beforeInteractive" />
         <Script src="/jquery-ui.min.js" strategy="beforeInteractive" />
-        <Script src="/bootstrap.bundle.min.js" strategy="afterInteractive"></Script>
+        
         <Script src="/swiper-bundle.min.js" strategy="afterInteractive" />
         <Script src="/counter.js" strategy="afterInteractive" />
         <Script src="/gsap.min.js" strategy="afterInteractive" />
