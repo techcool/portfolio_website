@@ -2311,10 +2311,10 @@
 
   // Mode JS
   $('.mode-type button').on('click', function (e) {
-    $(this).removeClass('active').siblings().addClass('active');
+    $(this).addClass('active').siblings().removeClass('active');
 
-    var mode_val = $(this).attr('data-mode');
-    if (mode_val == 'light') {
+    var mode_val = $('.mode-type button.active').attr('data-mode');
+    if (mode_val == 'dark') {
       $('body').addClass('dark');
     } else {
       $('body').removeClass('dark');

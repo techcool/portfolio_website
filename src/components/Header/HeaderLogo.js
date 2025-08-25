@@ -1,15 +1,20 @@
 import React from 'react'
 import Image from "next/image";
+import logo from '../../../public/assets/imgs/logo.png'
+import whiteLogo from '../../../public/assets/imgs/white-logo.png'
+
 
 function HeaderLogo() {
   return (
     <>
       <div className="header__logo-2">
         <a href="/" className="logo-dark">
-          <Image src="/logo.png" alt="Site Logo" width={220} height={54} />
+          <Image src={logo} alt="Site Logo"  />
         
+        </a>  
+        <a href="/" className="logo-light">
+          <Image src={whiteLogo} alt="Site Logo"  />
         </a>
-        <a href="/" className="logo-light"><Image src="/white-logo.png" alt="Site Logo" width={220} height={54} /></a>
       </div>
     </>
   )

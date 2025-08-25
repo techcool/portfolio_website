@@ -73,8 +73,7 @@ body {
 
 * {
   box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+  
 }
 
 a {
@@ -551,10 +550,7 @@ a {
 /*----------------------------------------*/
 /*  05. THEME CSS START
 /*----------------------------------------*/
-* {
-  margin: 0;
-  padding: 0;
-}
+
 
 html {
   scroll-behavior: smooth;
@@ -7535,7 +7531,7 @@ img {
   /* background-image: url(../imgs/shape/7.png); */
   background-repeat: no-repeat;
   background-position: 100% 30%;
-  background-color: var(--black-2);
+  /* background-color: var(--black-2); */
   position: relative;
 }
 .about__area-3::after {
@@ -7545,7 +7541,7 @@ img {
   height: 100%;
   left: 60%;
   bottom: 0px;
-  background-color: var(--black-5);
+  /* background-color: var(--black-5); */
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .about__area-3::after {
@@ -7571,13 +7567,13 @@ img {
   color: var(--white);
   text-transform: uppercase;
   padding-bottom: 40px;
-  background-color: var(--black-2);
+  /* background-color: var(--black-2); */
 }
 .about__area-3 .sec-sub-title {
   color: var(--white);
   text-transform: uppercase;
   padding-top: 45px;
-  background-color: var(--black-2);
+  /* background-color: var(--black-2); */
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .about__area-3 .sec-sub-title {

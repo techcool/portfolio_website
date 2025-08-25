@@ -8,6 +8,7 @@
 
 import { Kanit } from "next/font/google";
 import "./globals.css";
+import "../../public/swiper-bundle.min.css"
 import "../../public/meanmenu.min.css";
 import "../../public/master.css";
 import Script from 'next/script';
@@ -37,8 +38,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Head>
-        <link rel="stylesheet" href="/bootstrap.min.css"/>
-        {/* <link rel="stylesheet" href="/all.min.css"/> */}
+        {/* <link rel="stylesheet" href="/bootstrap.min.css"/> */}
+        <link rel="stylesheet" href="/all.min.css"/>
         <link rel="stylesheet" href="/swiper-bundle.min.css"/>
         <link rel="stylesheet" href="/progressbar.css"/>
         <link rel="stylesheet" href="/meanmenu.min.css"/>
@@ -49,7 +50,7 @@ export default function RootLayout({ children }) {
         {children}
         <Script src="/jquery-3.6.0.min.js" strategy="beforeInteractive" />
         <Script src="/jquery-ui.min.js" strategy="beforeInteractive" />
-        
+        {/* <script src="/bootstrap.min.js" strategy="afterInteractive"></script> */}
         <Script src="/swiper-bundle.min.js" strategy="afterInteractive" />
         <Script src="/counter.js" strategy="afterInteractive" />
         <Script src="/gsap.min.js" strategy="afterInteractive" />

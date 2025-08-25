@@ -1,58 +1,5 @@
 @charset "UTF-8";
-/*-----------------------------------------------------------------------------------
 
-  Theme Name: Axtra - Digital Agency HTML5 Template
-  Author: Crowdyflow
-  Support: habib.crowdyflow@gmail.com
-  Description: BUILDY – is a  Constructor HTML5 template that comes with high-quality 3 Pre build Home Pages and many built-in awesome inner pages  which are perfect for any creative agencies, designers, digital agencies, freelancers, developers, designers, marketing, startup, blog and portfolio.
-  Version: 1.0
-
------------------------------------------------------------------------------------
-
-/************ TABLE OF CONTENTS ***************
-
-  01. VARIBALES CSS START
-  02. MIXIN CSS START
-  03. SPACE CSS START
-  04. ANIMATION CSS START
-  05. THEME CSS START
-  06. THEME DARK CSS START
-  07. BUTTON CSS START
-  08. TITLE CSS START
-  09. MENU CSS START
-  10. MODAL CSS START
-  11. CURSOR CSS START
-  12. HEADER CSS START
-  13. OFFCANVAS CSS START
-  14. HERO CSS START
-  15. SLIDER CSS START
-  16. ABOUT CSS START
-  17. SERVICE CSS START
-  18. COUNTER CSS START
-  19. WORKFLOW CSS START
-  20. BRAND CSS START
-  21. TESTIMONIAL CSS START
-  22. PORTFOLIO CSS START
-  23. PORTFOLIO 2 CSS START
-  24. BLOG CSS START
-  25. CTA CSS START
-  26. STORY CSS START
-  27. TEAM CSS START
-  28. SOLUTION CSS START
-  29. DEVELOPMENT CSS START
-  30. AWARD CSS START
-  31. FAQ CSS START
-  32. CAREER CSS START
-  33. FEATURE CSS START
-  34. CONTACT CSS START
-  35. PRICE CSS START
-  36. ERROR CSS START
-  37. HOME 5 CSS START
-  38. FOOTER CSS START
-**********************************************/
-/*----------------------------------------*/
-/*  01. VARIBALES CSS START
-/*----------------------------------------*/
 :root {
   --primary: #c9f31d;
   --secondary: #2c2c2c;
@@ -579,17 +526,18 @@
 /*----------------------------------------*/
 /*  05. THEME CSS START
 /*----------------------------------------*/
-* {
+
+
+body {
+  font-family: "Kanit", sans-serif;
   margin: 0;
   padding: 0;
 }
 
-body {
-  font-family: "Kanit", sans-serif;
-}
-
 html {
   scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
 }
 
 h1,
@@ -5071,7 +5019,7 @@ img {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 150px auto 150px;
-  grid-template-columns: 150px auto 150px;
+  grid-template-columns: 220px auto 161px;
   padding: 0 30px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -7578,7 +7526,7 @@ img {
   background-image: url(assets/imgs/shape/3.png);
   background-repeat: no-repeat;
   background-position: 100% 30%;
-  background-color: var(--black-2);
+  /* background-color: var(--black-2); */
   position: relative;
 }
 .about__area-3::after {
@@ -7588,7 +7536,7 @@ img {
   height: 100%;
   left: 60%;
   bottom: 0px;
-  background-color: var(--black-5);
+  background-color: var(--white-4);
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .about__area-3::after {
@@ -7614,13 +7562,17 @@ img {
   color: var(--white);
   text-transform: uppercase;
   padding-bottom: 40px;
-  background-color: var(--black-2);
+  /* background-color: var(--black-2); */
+  background: #162556;
+  background: linear-gradient(168deg, #471e7b 0%, #4b1d7e 100%);
 }
 .about__area-3 .sec-sub-title {
   color: var(--white);
   text-transform: uppercase;
   padding-top: 45px;
-  background-color: var(--black-2);
+  /* background-color: var(--black-2); */
+  background: #162556;
+background: linear-gradient(168deg,rgba(71, 30, 123, 1) 0%, rgba(89, 22, 139, 1) 100%);
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .about__area-3 .sec-sub-title {
@@ -7631,7 +7583,7 @@ img {
   max-width: 410px;
   font-size: 18px;
   line-height: 1.4;
-  color: var(--gray-2);
+  color:var(--white-7);
   padding-bottom: 22px;
 }
 @media only screen and (max-width: 767px) {
@@ -34927,4 +34879,31 @@ ul.mega-menu-2.woocomerce-megamenu {
 .dark.dir-rtl .portfolio__about .brand-title-wrap {
   border-left: 1px solid var(--secondary);
 }
-/*# sourceMappingURL=master.css.map */
+
+
+/* new css */
+
+.about__area-3 .wc-btn-light{
+  border-color: var(--white);
+}
+
+@media only screen and (max-width: 1280px) {
+  .main-menu-3 > li{
+        padding: 0 25px;
+  }
+  .header__logo-2{
+    max-width: 220px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .about__area-3::after {
+    opacity: .2;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .about__area-3 .sec-sub-title, .about__area-3 .sec-title{
+    background: transparent;
+  }
+}
