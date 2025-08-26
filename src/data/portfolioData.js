@@ -13,7 +13,7 @@ export const portfolioData = [
     imgSrc: "assets/imgs/portfolio/3/2.jpg",
     shortDescription: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     category: "Web Development",
-    year: "2012"
+    year: "2013"
     },
     {
     id: 3,
@@ -21,7 +21,7 @@ export const portfolioData = [
     imgSrc: "assets/imgs/portfolio/3/3.jpg",
     shortDescription: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     category: "App Development",
-    year: "2012"
+    year: "2014"
     },
     {
     id: 4,
@@ -29,7 +29,7 @@ export const portfolioData = [
     imgSrc: "assets/imgs/portfolio/3/4.jpg",
     shortDescription: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     category: "Full-Stack Development",
-    year: "2012"
+    year: "2015"
     },
     {
     id: 5,  
@@ -37,7 +37,7 @@ export const portfolioData = [
     imgSrc: "assets/imgs/portfolio/3/1.jpg",
     shortDescription: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     category: "Digital Marketing",
-    year: "2012"
+    year: "2016"
     },
     {
     id: 6,  
@@ -45,7 +45,7 @@ export const portfolioData = [
     imgSrc: "assets/imgs/portfolio/3/2.jpg",
     shortDescription: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     category: "Search Engine Optimization",
-    year: "2012"
+    year: "2016"
     },
     {
     id: 7,  
@@ -53,7 +53,7 @@ export const portfolioData = [
     imgSrc: "assets/imgs/portfolio/3/3.jpg",
     shortDescription: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     category: "Social Media Optimization",
-    year: "2012"
+    year: "2018"
     },
     {
     id: 8,  
@@ -61,7 +61,7 @@ export const portfolioData = [
     imgSrc: "assets/imgs/portfolio/3/4.jpg",
     shortDescription: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     category: "Pay Per Click",
-    year: "2012"
+    year: "2019"
     },
     {
     id: 9,
@@ -69,7 +69,7 @@ export const portfolioData = [
     imgSrc: "assets/imgs/portfolio/3/1.jpg",
     shortDescription: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     category: "E-Commerce",
-    year: "2012"
+    year: "2020"
     },
     {
     id: 10,
@@ -77,6 +77,6 @@ export const portfolioData = [
     imgSrc: "assets/imgs/portfolio/3/2.jpg",    
     shortDescription: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     category: "Web Design",
-    year: "2012"
+    year: "2021"
     }
 ]
