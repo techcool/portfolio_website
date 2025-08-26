@@ -1998,7 +1998,7 @@ img {
   width: 350px;
   height: 350px;
 }
-.wc-btn-primary i, .wc-btn-black i, .wc-btn-light i, .wc-btn-pink i, .wc-btn-secondary i {
+.wc-btn-primary i, .wc-btn-black i, .wc-btn-light i, .wc-btn-pink i, .wc-btn-secondary i, .wc-btn-black svg, .wc-btn-light svg {
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
   padding-left: 5px;
@@ -34885,6 +34885,38 @@ ul.mega-menu-2.woocomerce-megamenu {
 
 .about__area-3 .wc-btn-light{
   border-color: var(--white);
+}
+
+.dark .about__area-3 >div{
+  background: transparent;
+}
+.dark .about__area-3 .sec-sub-title, .dark .about__area-3 .sec-title{
+  background: var(--black-2);
+  color: var(--white);
+}
+.dark .about__area-3:after{
+  opacity: .2;
+}
+
+.hero__area-3 .sec-title>div{
+background: #162556;
+background: linear-gradient(-90deg,rgba(22, 37, 86, 1) 25%, rgba(161, 26, 173, 1) 41%, rgba(89, 22, 139, 1) 56%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.dark .hero__area-3 .sec-title>div{
+background:transparent;
+-webkit-background-clip: unset;
+  -webkit-text-fill-color: unset;
+}
+
+.portfolio__area-3{
+  background: #003399;
+  background: linear-gradient(168deg,rgba(0, 51, 153, 1) 0%, rgba(153, 51, 153, 1) 49%, rgba(51, 102, 204, 1) 100%);
+}
+.dark .portfolio__area-3{
+  background: transparent;
 }
 
 @media only screen and (max-width: 1280px) {

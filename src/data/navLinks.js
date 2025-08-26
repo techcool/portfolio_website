@@ -38,3 +38,12 @@ export const socialLinks =[
   {title:"Pinterest", href: "https://www.instagram.com/uniterrene/", icon: faPinterestP},
   {title:"LinkedIn", href: "https://www.linkedin.com/company/uniterrene-websoft/", icon: faLinkedinIn },
 ]
+
+// export const brandLogos = [
+//   { img: "../../../public/assets/imgs/brand/1.png", alt: "Brand Logo", href: "#" },
+//   { img: "../../../public/assets/imgs/brand/2.png", alt: "Brand Logo", href: "#" },
+//   { img: "../../../public/assets/imgs/brand/3.png", alt: "Brand Logo", href: "#" },
+//   { img: "../../../public/assets/imgs/brand/4.png", alt: "Brand Logo", href: "#" },
+//   { img: "../../../public/assets/imgs/brand/5.png", alt: "Brand Logo", href: "#" },
+//   { img: "../../../public/assets/imgs/brand/6.png", alt: "Brand Logo", href: "#" },
+// ]

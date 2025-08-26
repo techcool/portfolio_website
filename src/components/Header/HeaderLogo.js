@@ -13,7 +13,7 @@ function HeaderLogo() {
         
         </a>  
         <a href="/" className="logo-light">
-          <Image src={whiteLogo} alt="Site Logo"  />
+          <Image src={whiteLogo} alt="Light Logo"  />
         </a>
       </div>
     </>

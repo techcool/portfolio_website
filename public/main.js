@@ -71,7 +71,8 @@
 
 (function ($) {
   "use strict";
-
+  
+  
   // Get Device width
   let device_width = window.innerWidth;
 
@@ -2311,9 +2312,11 @@
 
   // Mode JS
   $('.mode-type button').on('click', function (e) {
-    $(this).addClass('active').siblings().removeClass('active');
-
+    $(this).removeClass('active').siblings().addClass('active');
+    
     var mode_val = $('.mode-type button.active').attr('data-mode');
+    //console.log('mode_val', this);
+    
     if (mode_val == 'dark') {
       $('body').addClass('dark');
     } else {

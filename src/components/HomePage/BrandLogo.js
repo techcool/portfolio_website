@@ -6,6 +6,7 @@ import logo4 from "../../../public/assets/imgs/brand/4.png";
 import logo5 from "../../../public/assets/imgs/brand/5.png";
 import logo6 from "../../../public/assets/imgs/brand/6.png";
 import Image from "next/image";
+//import { brandLogos } from "@/data/navLinks";
 
 
 
@@ -21,6 +22,11 @@ function BrandLogo() {
               </h2>
 
               <div className="brand__list-3 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 items-center justify-items-center">
+                {/* {brandLogos.map((logo, index) => (
+                  <div className="brand__item-2 fade_bottom" key={index}>   
+                    <Image src={logo.img} alt={logo.alt} className="object-contain" />
+                  </div>
+                ))} */}
                 <div className="brand__item-2 fade_bottom">
                   <Image src={logo1} alt="Brand Logo" className="object-contain" />
                 </div>
