@@ -5,6 +5,7 @@ import HomeAbout from '@/components/HomePage/HomeAbout';
 import HomeHero from '@/components/HomePage/HomeHero';
 import HomePortfolio from '@/components/HomePage/HomePortfolio';
 import Services from '@/components/HomePage/Services';
+import Testimonial from '@/components/HomePage/Testimonial';
 import Offcanvas from '@/components/Offcanvas/Offcanvas';
 
 
@@ -21,6 +22,7 @@ export default function Home() {
             <HomeAbout />
             <Services />
             <HomePortfolio />
+            <Testimonial />
           </div>
         </div>
       </main>
