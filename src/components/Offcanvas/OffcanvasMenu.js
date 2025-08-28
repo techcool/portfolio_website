@@ -1,4 +1,5 @@
 import { navLinks } from '@/data/navLinks'
+import Link from 'next/link'
 import React from 'react'
 
 function OffcanvasMenu() {
@@ -10,13 +11,13 @@ function OffcanvasMenu() {
                           <ul className="menu-anim">
                             {
                               navLinks.map((links, index)=>(
-                                <li key={index}><a href={links.href || '#'}>{links.title}</a>
+                                <li key={index}><Link href={links.href || '#'}>{links.title}</Link>
                                 {
                                   links.submenu && (
                                     <ul>
                                       {
                                         links.submenu.map((submenuLink, subIndex)=>(
-                                          <li key={subIndex}><a href={submenuLink.href || '#'}>{submenuLink.title}</a></li>
+                                          <li key={subIndex}><Link href={submenuLink.href || '#'}>{submenuLink.title}</Link></li>
                                         ))
                                       }
                                     </ul>

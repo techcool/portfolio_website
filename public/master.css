@@ -34918,6 +34918,38 @@ background:transparent;
 .dark .portfolio__area-3{
   background: transparent;
 }
+.accordion .collapse{
+  visibility: visible !important;
+}
+.collapse:not(.show) {
+    display: none;
+}
+
+.custom-faq-accordion .accordion-body{
+  min-height: 0px !important;
+  transition: all 0.4s ease;
+}  
+
+.custom-faq-accordion .accordion-item .accordion-body{
+  min-height: 160px !important;
+}
+.custom-faq-accordion .accordion-item.open .accordion-button::after{
+  content: "-" !important;
+}
+.custom-faq-accordion .accordion-item.close .accordion-button::after{
+  content: "+" !important;
+}
+.custom-solution .sec-title-6.title-anim, .custom-solution .solution__list li{
+  color: var(--black-2);
+}
+.dark .custom-solution .sec-title-6.title-anim, .dark .custom-solution .solution__list li{
+  color: var(--white);
+}
+.dark .custom-solution .sec-subtile-6 {
+  color: var(--black-2);
+  background-color: var(--white) !important;
+}
+
 
 @media only screen and (max-width: 1280px) {
   .main-menu-3 > li{

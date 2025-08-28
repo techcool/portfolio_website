@@ -2,33 +2,34 @@
 
 import { faFacebookF, faXTwitter, faInstagram, faPinterestP, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 export const navLinks = [
-  { title: "About Us", href: "#" },
+  { title: "About Us", link: "" },
   {
     title: "Services",
     submenu: [
-      { title: "Web Design", href: "#" },
-      { title: "Web Development", href: "#" },
-      { title: "App Development", href: "#" },
-      { title: "Full-Stack Development", href: "#" },
-      { title: "Digital Maketing", href: "#" },
-      { title: "Search Engine Optimization", href: "#" },
-      { title: "Social Media Optimization", href: "#" },
-      { title: "Social Media Marketing", href: "#" },
-      { title: "Pay Per Click", href: "#" },
-      { title: "E-Commerce", href: "#" },
+      { title: "Web Design", link: "#" },
+      { title: "Web Development", link: "#" },
+      { title: "App Development", link: "#" },
+      { title: "Full-Stack Development", link: "#" },
+      { title: "Digital Maketing", link: "#" },
+      { title: "Search Engine Optimization", link: "#" },
+      { title: "Social Media Optimization", link: "#" },
+      { title: "Social Media Marketing", link: "#" },
+      { title: "Pay Per Click", link: "#" },
+      { title: "E-Commerce", link: "#" },
       
     ]
   },
-  { title: "Portfolio", href: "#" },
-  { title: "Blog", href: "#" },
-  { title: "Contact Us", href: "#" }
+  { title: "Portfolio", link: "#" },
+  { title: "Blog", link: "#" },
+  { title: "Contact Us", link: "#" }
 ];
 
 export const offcanvasLinks = [
   { title: "About", href: "#" },
   { title: "Contact", href: "#" },
   { title: "Career", href: "#" },
-  { title: "Blog", href: "#" }
+  { title: "Blog", href: "#" },
+  { title: "Faq", href: "#" }
 ]
 
 export const socialLinks =[

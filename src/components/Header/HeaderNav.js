@@ -1,4 +1,5 @@
 import { navLinks } from '@/data/navLinks'
+import Link from 'next/link'
 import React from 'react'
 
 function HeaderNav() {
@@ -8,12 +9,12 @@ function HeaderNav() {
             <ul className="main-menu-3 menu-anim">
               { navLinks.map((links,index) => (
                 <li key={index}>
-                  <a href={links.href || "#"}>{links.title}</a>
+                  <Link href={`/${links.link}`}>{links.title}</Link>
                   {links.submenu && (
                     <ul className='main-dropdown'>
                       {links.submenu.map((subLink, subIndex) => (
                         <li key={subIndex}>
-                          <a href={subLink.href || "#"}>{subLink.title}</a>
+                          <Link href={`/${subLink.link}`}>{subLink.title}</Link>
                         </li>
                       ))}
                     </ul>
@@ -22,6 +23,7 @@ function HeaderNav() {
               ))
                 
               }
+              
             </ul>
           </div>
     </>

@@ -15,6 +15,9 @@ import Script from 'next/script';
 import Head from 'next/head';
 import Cursor from '@/components/Cursor';
 import Preloader from '@/components/Preloader';
+import Header from "@/components/Header/Header";
+import Offcanvas from '@/components/Offcanvas/Offcanvas';
+import Footer from "@/components/Footer/Footer";
 
 
 
@@ -47,7 +50,16 @@ export default function RootLayout({ children }) {
       <body className={`${kanit.variable}`}>
         <Cursor />
         <Preloader />
-        {children}
+        <Header />
+        <Offcanvas/>
+        <main>
+          <div id='smooth-wrapper'>
+          <div id='smooth-content'>
+          {children}
+          <Footer />
+          </div>
+          </div>
+        </main>
         <Script src="/jquery-3.6.0.min.js" strategy="beforeInteractive" />
         <Script src="/jquery-ui.min.js" strategy="beforeInteractive" />
         {/* <script src="/bootstrap.min.js" strategy="afterInteractive"></script> */}
