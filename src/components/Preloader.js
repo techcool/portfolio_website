@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Preloader() {
+export default function Preloader() {
   return (
     <>
       <div className="preloader">
@@ -19,4 +19,3 @@ function Preloader() {
   )
 }
 
-export default Preloader

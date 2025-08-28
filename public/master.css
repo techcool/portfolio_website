@@ -29610,7 +29610,7 @@ ul.mega-menu-2.woocomerce-megamenu {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
-.woocomerce__shopsidebar .accordion-button::after {
+/* .woocomerce__shopsidebar .accordion-button::after {
   background-image: url("d.html");
   content: "+";
   font-weight: 700;
@@ -29627,7 +29627,7 @@ ul.mega-menu-2.woocomerce-megamenu {
   font-family: "Font Awesome 6 Free";
   -webkit-transform: unset;
           transform: unset;
-}
+} */
 .woocomerce__shopsidebar-list {
   margin: 0;
   padding: 0;
@@ -30116,7 +30116,7 @@ ul.mega-menu-2.woocomerce-megamenu {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
-.woocomerce__single .accordion-button::after {
+/* .woocomerce__single .accordion-button::after {
   background-image: url("d.html");
   content: "+";
   font-weight: 700;
@@ -30130,7 +30130,7 @@ ul.mega-menu-2.woocomerce-megamenu {
   font-family: "Font Awesome 6 Free";
   -webkit-transform: unset;
           transform: unset;
-}
+} */
 .woocomerce__cart {
   position: relative;
   padding-bottom: 300px;
