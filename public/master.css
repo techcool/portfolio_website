@@ -34904,6 +34904,12 @@ background: linear-gradient(-90deg,rgba(22, 37, 86, 1) 25%, rgba(161, 26, 173, 1
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.hero__area-3 .sec-title.black>div, .dark .hero__area-3 .sec-title.black>div{
+  color: var(--black-2) !important;
+  background: unset !important;
+  -webkit-background-clip: unset !important;
+  -webkit-text-fill-color: unset !important;
+}
 
 .dark .hero__area-3 .sec-title>div{
 background:transparent;
@@ -34950,6 +34956,26 @@ background:transparent;
   background-color: var(--white) !important;
 }
 
+.about__area-3.about2{
+    background-image: url(/assets/imgs/shape/7.png);
+    background-repeat: no-repeat;
+    background-position: 100% 30%;
+    background-color: var(--black-2);
+    position: relative;
+}
+.about__area-3.about2 .sec-sub-title, .about__area-3.about2 .sec-title{
+      background: var(--black-2);
+}
+.about__area-3.about2::after{
+      background-color: var(--black-5);
+}
+
+.about__area-3.about2 .wc-btn-light {
+    border: 1px solid var(--secondary);
+}
+.portfolio__area-3.black{
+  background: var(--black-2);
+}
 
 @media only screen and (max-width: 1280px) {
   .main-menu-3 > li{

@@ -3,7 +3,7 @@ import React from 'react'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
-function ServiceItems() {
+function ServiceItems2() {
   return (
     <>
          <div className="row">
@@ -39,10 +39,10 @@ function ServiceItems() {
                                         </a>
                                     </div>
                                 </div>
-                                <div
-                                    className="service__hover-3 original"
+                                {/* <div
+                                    className="service__hover-3"
                                     style={{ backgroundImage: `url(${service.hoverImg})` }} 
-                                    ></div>
+                                    ></div> */}
                             </div>
                         ))    
                     }
@@ -54,4 +54,4 @@ function ServiceItems() {
   )
 }
 
-export default ServiceItems
+export default ServiceItems2

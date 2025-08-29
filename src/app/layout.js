@@ -52,14 +52,14 @@ export default function RootLayout({ children }) {
         <Preloader />
         <Header />
         <Offcanvas/>
-        <main>
-          <div id='smooth-wrapper'>
+        <div id='smooth-wrapper'>
           <div id='smooth-content'>
-          {children}
-          <Footer />
+            <main>
+              {children}
+            </main>
+              <Footer />
           </div>
-          </div>
-        </main>
+        </div>
         <Script src="/jquery-3.6.0.min.js" strategy="beforeInteractive" />
         <Script src="/jquery-ui.min.js" strategy="beforeInteractive" />
         {/* <script src="/bootstrap.min.js" strategy="afterInteractive"></script> */}
