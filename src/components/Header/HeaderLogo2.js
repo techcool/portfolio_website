@@ -1,11 +1,11 @@
 import React from 'react'
 import Image from "next/image";
-import logo from '../../../public/assets/imgs/logo.png'
-// import logo from "../../../public/assets/imgs/black-logo.png"
+// import logo from '../../../public/assets/imgs/logo.png'
+import logo from "../../../public/assets/imgs/black-logo.png"
 import whiteLogo from '../../../public/assets/imgs/white-logo.png'
 
 
-function HeaderLogo() {
+function HeaderLogo2() {
   return (
     <>
       <div className="header__logo-2">
@@ -21,4 +21,4 @@ function HeaderLogo() {
   )
 }
 
-export default HeaderLogo
+export default HeaderLogo2

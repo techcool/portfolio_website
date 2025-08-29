@@ -1,21 +1,49 @@
 
-
 import { faFacebookF, faXTwitter, faInstagram, faPinterestP, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 export const navLinks = [
   { title: "About Us", link: "" },
   {
     title: "Services",
     submenu: [
-      { title: "Web Design", link: "#" },
-      { title: "Web Development", link: "#" },
-      { title: "App Development", link: "#" },
-      { title: "Full-Stack Development", link: "#" },
-      { title: "Digital Maketing", link: "#" },
-      { title: "Search Engine Optimization", link: "#" },
-      { title: "Social Media Optimization", link: "#" },
-      { title: "Social Media Marketing", link: "#" },
-      { title: "Pay Per Click", link: "#" },
-      { title: "E-Commerce", link: "#" },
+      { 
+        title: "Design Lab", 
+        link: "/design-lab",
+        icon: "/assets/imgs/icon/design-lab.png",
+        subServices: [
+          { title: "Web Design", link: "#" },
+          { title: "App Design", link: "#" },
+          { title: "UI/UX Design", link: "#" },
+          { title: "Logo Design", link: "#" },
+          { title: "Brand Design", link: "#" },
+          { title: "Social Media Design", link: "#" },
+        ]
+      },
+      { 
+        title: "Tech Lab", 
+        link: "/tech-lab",
+        icon: "/assets/imgs/icon/tech-lab.png",
+        subServices: [
+          { title: "Web Application Development", link: "#" },
+          { title: "App Development", link: "#" },
+          { title: "Full-Stack Development", link: "#" },
+          { title: "E-Commerce Solution", link: "#" },
+          { title: "API Development", link: "#" },
+          { title: "CMS Development", link: "#" },
+        ]
+      },
+      { 
+        title: "Growth Lab",
+        link: "/growth-lab",
+        icon: "/assets/imgs/icon/growth-lab.png",
+        subServices: [
+          { title: "Search Engine Optimization", link: "#" },
+          { title: "Social Media Optimization", link: "#" },
+          { title: "Social Media Marketing", link: "#" },
+          { title: "Pay Per Click (PPC) Campaigns", link: "#" },
+          { title: "Content Marketing", link: "#" },
+          { title: "Email Marketing", link: "#" },
+        ]
+      }
       
     ]
   },

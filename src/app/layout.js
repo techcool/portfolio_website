@@ -15,8 +15,8 @@ import Script from 'next/script';
 import Head from 'next/head';
 import Cursor from '@/components/Cursor';
 import Preloader from '@/components/Preloader';
-import Header from "@/components/Header/Header";
-import Offcanvas from '@/components/Offcanvas/Offcanvas';
+//import Header from "@/components/Header/Header";
+//import Offcanvas from '@/components/Offcanvas/Offcanvas';
 import Footer from "@/components/Footer/Footer";
 
 
@@ -50,8 +50,7 @@ export default function RootLayout({ children }) {
       <body className={`${kanit.variable}`}>
         <Cursor />
         <Preloader />
-        <Header />
-        <Offcanvas/>
+        
         <div id='smooth-wrapper'>
           <div id='smooth-content'>
             <main>

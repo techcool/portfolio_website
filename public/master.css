@@ -3451,6 +3451,12 @@ img {
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
+.mega-menu.customize-megamenu{
+  grid-template-columns: 75% 25%;
+}
+
+
+
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .mega-menu, .mega-menu-2 {
     padding: 40px 100px;
@@ -34976,6 +34982,37 @@ background:transparent;
 .portfolio__area-3.black{
   background: var(--black-2);
 }
+a.black-text{
+  color: var(--black-2) !important;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+}
+.customize-megamenu.mega-menu li a{
+  margin-bottom: 0 !important;
+  padding: 0 !important;
+}
+.customize-megamenu.mega-menu .menuItems ul li a{
+  padding: 8px 0 !important;
+  font-size: 15px !important;
+  font-weight: 300 !important;
+}
+.customize-megamenu.mega-menu .menuItems .subMenus{
+  margin-left: 42px !important;
+}
+.customize-megamenu.mega-menu .menuItems .subMenus li a{
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+.customize-megamenu.mega-menu .menuItems .subMenus li a svg path{
+  fill: #ffcc00;
+}
+.customize-megamenu.mega-menu .call-btn{
+  padding: 15px !important;
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
+}
+
 
 @media only screen and (max-width: 1280px) {
   .main-menu-3 > li{

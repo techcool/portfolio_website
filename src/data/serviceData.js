@@ -9,7 +9,7 @@ export const serviceData = [
    }, 
   { 
     id: 2, 
-    titleFirstPart: 'Web', 
+    titleFirstPart: 'Web Application', 
     titleSecondPart: 'Development',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     features: ['React', 'Vue', 'NextJs', 'Full-Stack', 'More'],
@@ -42,7 +42,7 @@ export const serviceData = [
 },
 {
     id: 6, 
-    titleFirstPart: 'Saerch Engine', 
+    titleFirstPart: 'Search Engine', 
     titleSecondPart: 'Optimization',
     description: 'We help brands stand out through aweful, elegant visual design. Our design mainly philosophy.',
     features: ['On-Page SEO', 'Off-Page SEO', 'Technical SEO','Content SEO', 'More'],
