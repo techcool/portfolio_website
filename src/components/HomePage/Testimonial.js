@@ -4,12 +4,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 import Image from "next/image";
-import testimonialImg1 from '../../../public/assets/imgs/testimonial/3/1.jpg'
-import testimonialImg2 from '../../../public/assets/imgs/testimonial/3/2.jpg'   
-import testimonialImg3 from '../../../public/assets/imgs/testimonial/3/3.jpg'
-import testimonialImg4 from '../../../public/assets/imgs/testimonial/3/4.jpg'
-import testimonialImg5 from '../../../public/assets/imgs/testimonial/3/5.jpg'
-import testimonialImg6 from '../../../public/assets/imgs/testimonial/3/6.jpg'
+import testimonialImg1 from '@public/assets/imgs/testimonial/3/1.jpg'
+import testimonialImg2 from '@public/assets/imgs/testimonial/3/2.jpg'   
+import testimonialImg3 from '@public/assets/imgs/testimonial/3/3.jpg'
+import testimonialImg4 from '@public/assets/imgs/testimonial/3/4.jpg'
+import testimonialImg5 from '@public/assets/imgs/testimonial/3/5.jpg'
+import testimonialImg6 from '@public/assets/imgs/testimonial/3/6.jpg'
 
 function Testimonial() {
   return (

@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image';
-import whiteLogo from '../../../public/assets/imgs/white-logo.png'
+import whiteLogo from '@public/assets/imgs/white-logo.png'
 function OffcanvasLogo() {
   return (
     <>

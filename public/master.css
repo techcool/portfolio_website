@@ -44,6 +44,7 @@
   --d-black: #1A1A1A;
   --d-black-2: #171717;
   --d-black-3: #1A1A1A;
+  --yellow: #f3c31d
 }
 
 @font-face {
@@ -15443,17 +15444,18 @@ background: linear-gradient(168deg,rgba(71, 30, 123, 1) 0%, rgba(89, 22, 139, 1)
 /*----------------------------------------*/
 .story__area {
   overflow: hidden;
+  position:relative
 }
 .story__area .sec-title-wrapper {
   padding-bottom: 40px;
 }
 .story__area .from-text {
   position: absolute;
-  top: -140px;
-  right: -220px;
+  top: 50px;
+  right: 0;
   width: 160px;
   height: 90px;
-  background-color: var(--primary);
+  background-color: var(--yellow);
   padding: 20px 30px;
   font-weight: 400;
   font-size: 18px;
@@ -15468,20 +15470,20 @@ background: linear-gradient(168deg,rgba(71, 30, 123, 1) 0%, rgba(89, 22, 139, 1)
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .story__area .from-text {
     right: 0;
-    top: -89px;
+    top: 50px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .story__area .from-text {
-    right: -20px;
-    top: -80px;
+    right: 0px;
+    top: 50px;
   }
 }
 @media only screen and (max-width: 767px) {
   .story__area .from-text {
     width: 120px;
     right: 0;
-    top: -60px;
+    top: 50px;
   }
 }
 .story__area .from-text span {
@@ -15536,8 +15538,8 @@ background: linear-gradient(168deg,rgba(71, 30, 123, 1) 0%, rgba(89, 22, 139, 1)
   }
 }
 .story__img-wrapper img {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
+  width:100% !important;
+ 
   width: fit-content;
   margin-bottom: 30px;
   max-width: 100%;
@@ -35012,7 +35014,26 @@ a.black-text{
   padding-top: 12px !important;
   padding-bottom: 12px !important;
 }
+.last-item a{
+  background: var(--black-2);
+  color: var(--white) !important;
+  border-radius: 60px;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
+}
+.last-item a .menu-text{
+      text-shadow: 0 16px 0 var(--white) !important;
+}
 
+.hero__area-3 .btn_wrapper{
+  position: relative;
+  z-index:9999
+}
+.hero__about .btn_wrapper  > a .label{
+  max-width:85px
+}
 
 @media only screen and (max-width: 1280px) {
   .main-menu-3 > li{

@@ -1,7 +1,7 @@
 import { counter } from "@/data/whyChooseData";
 import React from "react";
 
-import counterImg from "../../../public/assets/imgs/thumb/counter-3.png"
+import counterImg from "@public/assets/imgs/thumb/counter-3.png"
 import Image from "next/image";
 
 export default function WhyChooseCounter() {

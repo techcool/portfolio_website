@@ -2,8 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 
 import aboutImg from '../../../public/assets/imgs/about/3/1.jpg'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
+import CircleButton from '../common/CircleButton'
 
 function HomeAbout() {
   return (
@@ -38,17 +37,8 @@ function HomeAbout() {
                             customers love our services.
                         </p>
 
-                        <div className="btn_wrapper">
-                            <a
-                            href="about.html"
-                            className="wc-btn-light btn-hover btn-item inline-flex items-center bg-transparent text-gray-800 font-medium py-2 px-5 rounded-full transition"
-                            >
-                            <span></span>
-                            Explore Us
-                            <FontAwesomeIcon icon={faArrowRight} className='ml-2'/>
-                            
-                            </a>
-                        </div>
+                      
+                        <CircleButton variant='colored' position='left' link="/about" label="Explore Us" />
                         </div>
                     </div>
                     </div>

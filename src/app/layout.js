@@ -8,16 +8,16 @@
 
 import { Kanit } from "next/font/google";
 import "./globals.css";
-import "../../public/swiper-bundle.min.css"
-import "../../public/meanmenu.min.css";
-import "../../public/master.css";
+import "@public/swiper-bundle.min.css"
+import "@public/meanmenu.min.css";
+import "@public/master.css";
 import Script from 'next/script';
 import Head from 'next/head';
 import Cursor from '@/components/Cursor';
 import Preloader from '@/components/Preloader';
 //import Header from "@/components/Header/Header";
 //import Offcanvas from '@/components/Offcanvas/Offcanvas';
-import Footer from "@/components/Footer/Footer";
+import Footer from "@/components/layouts/footer/Footer";
 
 
 

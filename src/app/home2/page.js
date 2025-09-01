@@ -12,8 +12,8 @@ import WhyChooseUs from '@/components/HomePage/WhyChooseUs';
 import HomeAbout2 from '@/components/HomePage2/HomeAbout2';
 import HomeHero2 from '@/components/HomePage2/HomeHero2';
 import Services2 from '@/components/HomePage2/Services2';
-import Offcanvas from '@/components/Offcanvas/Offcanvas';
-import Header2 from '@/components/Header/Header2';
+import Offcanvas from '@/components/layouts/offcanvas/Offcanvas';
+import Header2 from '@/components/layouts/header/Header2';
 
 export default function Home() {
   return (

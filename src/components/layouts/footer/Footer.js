@@ -1,6 +1,6 @@
 import React from "react";
 
-import footerLogo from "../../../public/assets/imgs/white-logo.png";
+import footerLogo from "@public/assets/imgs/white-logo.png";
 import Image from "next/image";
 import FooterSocial from "./FooterSocial";
 import FooterNav from "./FooterNav";

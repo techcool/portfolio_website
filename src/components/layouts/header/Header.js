@@ -13,7 +13,6 @@ function Header() {
 
   const onSearch =(query)=>{
     console.log('Search from Header:', query);
-    
   }
   return (
     <>

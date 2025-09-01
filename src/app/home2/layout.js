@@ -1,5 +1,5 @@
-import Header2 from '@/components/Header/Header2';
-import Offcanvas from '@/components/Offcanvas/Offcanvas';
+import Header2 from '@/components/layouts/header/Header2';
+import Offcanvas from '@/components/layouts/offcanvas/Offcanvas';
 import React from 'react'
 
 export const metadata = {

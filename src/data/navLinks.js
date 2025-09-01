@@ -1,7 +1,7 @@
 
 import { faFacebookF, faXTwitter, faInstagram, faPinterestP, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 export const navLinks = [
-  { title: "About Us", link: "" },
+  { title: "About Us", link: "about-us" },
   {
     title: "Services",
     submenu: [
@@ -49,7 +49,8 @@ export const navLinks = [
   },
   { title: "Portfolio", link: "#" },
   { title: "Blog", link: "#" },
-  { title: "Contact Us", link: "#" }
+  { title: "Contact Us", link: "#" },
+  { title: "Let's Collaborate", link: "#" }
 ];
 
 export const offcanvasLinks = [

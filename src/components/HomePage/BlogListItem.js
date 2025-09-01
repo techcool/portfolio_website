@@ -3,6 +3,7 @@ import React from "react";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import Image from "next/image";
 
 export default function BlogListItem() {
   return (
@@ -14,12 +15,12 @@ export default function BlogListItem() {
                   <div className="blog__img-wrapper-3">
                     <a href={blog.link}>
                       <div className="img-box relative">
-                        <img
+                        <Image
                           className="image-box__item w-full object-cover"
                           src={blog.imgSrc}
                           alt="Blog Thumbnail"
                         />
-                        <img
+                        <Image
                           className="image-box__item absolute inset-0 transition"
                           src={blog.imgSrc}
                           alt="Blog Thumbnail"

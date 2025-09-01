@@ -9,8 +9,8 @@ import OffcanvasMenu from './OffcanvasMenu';
 import OffcanvasSearch from './OffcanvasSearch';
 import OffcanvasContact from './OffcanvasContact';
 import OffcanvasClose from './OffcanvasClose';
-import circleShape1 from "../../../public/assets/imgs/shape/11.png"
-import circleShape2 from "../../../public/assets/imgs/shape/12.png"
+import circleShape1 from "@public/assets/imgs/shape/11.png"
+import circleShape2 from "@public/assets/imgs/shape/12.png"
 
 function Offcanvas() {
   return (

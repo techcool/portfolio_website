@@ -1,7 +1,6 @@
 import { serviceData } from '@/data/serviceData'
 import React from 'react'
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import CircleButton from '../common/CircleButton';
 
 function ServiceItems() {
   return (
@@ -28,17 +27,8 @@ function ServiceItems() {
                                         ))}
                                     </ul>
                                 </div>
-                                <div className="service__btn-3">
-                                    <div className="btn_wrapper">
-                                        <a
-                                            href="#"
-                                            className="wc-btn-black btn-hover btn-item"
-                                        >
-                                            <span></span> Details
-                                            <FontAwesomeIcon icon={faArrowRight} />
-                                        </a>
-                                    </div>
-                                </div>
+                               
+                                <CircleButton variant='light' position='right' link="#" label='Details' />
                                 <div
                                     className="service__hover-3 original"
                                     style={{ backgroundImage: `url(${service.hoverImg})` }} 

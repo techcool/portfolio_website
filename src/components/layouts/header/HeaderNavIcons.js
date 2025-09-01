@@ -2,7 +2,7 @@ import React from 'react'
 import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMagnifyingGlass, faXmark, faMoon, faSun } from "@fortawesome/free-solid-svg-icons";
-import menuIcon from '../../../public/assets/imgs/menu-black.png'
+import menuIcon from '@public/assets/imgs/menu-black.png'
 
 
 function HeaderNavIcons() {

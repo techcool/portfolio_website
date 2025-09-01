@@ -2,7 +2,8 @@ import React from "react";
 import VideoInfo from "./VideoInfo";
 import HeroImg from "./HeroImg";
 import Image from "next/image";
-import arrowDownIcon from "../../../public/assets/imgs/icon/arrow-down-sm.png";
+import arrowDownIcon from "@public/assets/imgs/icon/arrow-down-sm.png";
+import CircleButton from "../common/CircleButton";
 
 function HomeHero() {
   return (
@@ -24,6 +25,7 @@ function HomeHero() {
                     your dev environment
                   </p>
                 </div>
+                <CircleButton variant='light' position='left' link="/free-consultation" label="Free Consultation" />
                 <div className="scroll-down">
                   <button>
                     <Image src={arrowDownIcon} alt="arrow icon" />
