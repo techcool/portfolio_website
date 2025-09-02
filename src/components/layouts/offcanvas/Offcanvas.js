@@ -23,8 +23,8 @@ function Offcanvas() {
               <OffcanvasLinks/>
             </div>
             <OffcanvasMenu/>
-            <div className="offcanvas__right">
-              <OffcanvasSearch/>
+            <div className="offcanvas__right flex items-center">
+              {/* <OffcanvasSearch/> */}
               <OffcanvasContact/>
               <Image src={circleShape1} alt="shape" className="shape-1"/>
               <Image src={circleShape2} alt="shape" className="shape-2"/>

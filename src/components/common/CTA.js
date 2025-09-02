@@ -1,5 +1,5 @@
 import React from "react";
-import CircleButton from "../common/CircleButton";
+import CircleButton from "./CircleButton";
 
 export default function CTA() {
   return (

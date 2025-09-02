@@ -468,22 +468,22 @@
 
   /////////////////////////////////////////////////////
   // 09. Header Search
-  let header_search = document.querySelector(".header__search");
-  let search_icon = document.querySelector("#search_icon");
-  let search_close = document.querySelector("#search_close");
-  if (header_search) {
-    search_icon.addEventListener("click", function () {
-      header_search.classList.add('open-search');
-      search_icon.style.display = 'none';
-      search_close.style.display = 'block';
-    });
+  // let header_search = document.querySelector(".header__search");
+  // let search_icon = document.querySelector("#search_icon");
+  // let search_close = document.querySelector("#search_close");
+  // if (header_search) {
+  //   search_icon.addEventListener("click", function () {
+  //     header_search.classList.add('open-search');
+  //     search_icon.style.display = 'none';
+  //     search_close.style.display = 'block';
+  //   });
 
-    search_close.addEventListener("click", function () {
-      header_search.classList.remove('open-search');
-      search_icon.style.display = 'block';
-      search_close.style.display = 'none';
-    });
-  }
+  //   search_close.addEventListener("click", function () {
+  //     header_search.classList.remove('open-search');
+  //     search_icon.style.display = 'block';
+  //     search_close.style.display = 'none';
+  //   });
+  // }
   /////////////////////////////////////////////////////
 
 

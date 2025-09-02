@@ -8,7 +8,7 @@ import React from "react";
 
 
 import Testimonial from "@/components/aboutPage/Testimonial";
-import CTA from "@/components/aboutPage/CTA";
+import CTA from "@/components/common/CTA";
 
 export default function AboutUs() {
   return (

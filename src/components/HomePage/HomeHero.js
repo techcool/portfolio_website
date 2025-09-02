@@ -25,13 +25,15 @@ function HomeHero() {
                     your dev environment
                   </p>
                 </div>
-                <CircleButton variant='light' position='left' link="/free-consultation" label="Free Consultation" />
-                <div className="scroll-down">
+                <div className="md:-mt-16 homeHeroBtn">
+                  <CircleButton variant='light' position='left' link="/free-consultation" label="Free Consultation" />
+                </div>
+                {/* <div className="scroll-down">
                   <button>
                     <Image src={arrowDownIcon} alt="arrow icon" />
                    
                   </button>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

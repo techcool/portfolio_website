@@ -14,11 +14,11 @@ export default function TestimonialSlider() {
                   </div>
                 </div>
 
-                <div className="testimonial__pagination flex items-center gap-4 mt-6">
-                  <button className="prev-button w-10 h-10 flex items-center justify-center rounded-full border border-gray-400 hover:bg-gray-800 hover:text-white transition">
+                <div className="testimonial__pagination flex-col flex items-center gap-4 mt-6">
+                  <button className="prev-button w-10 h-10 flex items-center justify-center rounded-full border border-gray-400 hover:bg-gray-800 hover:text-white transition cursor-pointer">
                     <FontAwesomeIcon icon={faArrowRight} className="fa-solid"></FontAwesomeIcon>
                   </button>
-                  <button className="next-button w-10 h-10 flex items-center justify-center rounded-full border border-gray-400 hover:bg-gray-800 hover:text-white transition">
+                  <button className="next-button w-10 h-10 flex items-center justify-center rounded-full border border-gray-400 hover:bg-gray-800 hover:text-white transition cursor-pointer">
                     <FontAwesomeIcon icon={faArrowLeft} className="fa-solid fa-arrow-left"></FontAwesomeIcon>
                   </button>
                 </div>

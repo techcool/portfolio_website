@@ -58,6 +58,37 @@
 /*----------------------------------------*/
 /*  03. SPACE CSS START
 /*----------------------------------------*/
+
+
+
+@media (min-width:576px){
+  .container{
+    max-width: 540px;
+  }
+}
+@media (min-width:768px){
+  .container{
+    max-width: 920px;
+  }
+}
+@media (min-width:992px){
+  .container{
+    max-width: 960px;
+  }
+}
+@media (min-width:1200px){
+  .container{
+    max-width: 1140px;
+  }
+}
+
+@media (min-width:1400px){
+  .container{
+    max-width: 1320px;
+  }
+}
+
+
 .pb-100 {
   padding-bottom: 100px;
 }
@@ -5160,7 +5191,7 @@ img {
 }
 .header__nav-icon-3 .search-icon {
   padding-top: 3px;
-  padding-right: 50px;
+  padding-right: 47px;
   position: relative;
   font-size: 18px;
 }
@@ -5232,6 +5263,32 @@ img {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
+.dark .wc-btn-black, .dark .wc-btn-light{
+      border-color: var(--white);
+}
+.homeHeroBtn .wc-btn-black{
+  background: var(--black-2) !important;
+  color:var(--white) !important
+}
+.homeHeroBtn .wc-btn-black span.hover{
+  background:var(--white) !important;
+  
+}
+.homeHeroBtn .wc-btn-black:hover{
+  color:var(--black-2) !important;
+  border-color:var(--white)
+}
+
+@media only screen and (max-width:1440px){
+  .homeHeroBtn{
+    margin-top: 0px;
+  }
+  .hero3-img-ani{
+    margin-top:-48px
+  }
+}
+
+
 @media only screen and (max-width: 767px) {
   .header__search {
     right: 10px;
@@ -5408,6 +5465,7 @@ img {
   visibility: hidden;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+  z-index: 99999999999999999;
 }
 .offcanvas__body {
   display: -ms-grid;
@@ -11247,10 +11305,13 @@ background: linear-gradient(168deg,rgba(71, 30, 123, 1) 0%, rgba(89, 22, 139, 1)
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: 30px 35px;
+  margin: 0;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   position: relative;
+}
+.portfolioPage .portfolio__item-6 img{
+  height:auto !important
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .testimonial__pagination .next-button,
@@ -11740,6 +11801,7 @@ background: linear-gradient(168deg,rgba(71, 30, 123, 1) 0%, rgba(89, 22, 139, 1)
 .portfolio__area-6 .sec-sub-title {
   font-size: 24px;
   padding-bottom: 0;
+ 
 }
 .portfolio__slider-2 {
   position: relative;
@@ -15687,12 +15749,16 @@ background: linear-gradient(168deg,rgba(71, 30, 123, 1) 0%, rgba(89, 22, 139, 1)
   color: var(--black-2);
 }
 .team__member-name-7 {
-  font-weight: 500;
+  font-weight: 700;
   font-size: 80px;
   line-height: 1;
   color: var(--black-2);
   padding-bottom: 30px;
 }
+.dark .teamDetailsCTA, .dark .cta__area {
+  background-color: var(--black-4);
+}
+
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .team__member-name-7 {
     font-size: 60px;

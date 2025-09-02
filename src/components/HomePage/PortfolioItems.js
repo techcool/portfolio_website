@@ -3,6 +3,8 @@ import React from "react";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import Image from "next/image";
+import Link from "next/link";
 
 function PortfolioItems() {
   return (
@@ -15,15 +17,15 @@ function PortfolioItems() {
                 portfolioData.slice(0,5).map((item,index)=>(
                     <div className="swiper-slide" key={index}>
                         <div className="portfolio__slide-3">
-                            <a href="#">
+                            <Link href={`portfolio/${item.id}`}>
                                 <h3 className="portfolio__title-3">
                                     {item.title} {item.year}
                                 </h3>
-                                <img
+                                <Image
                                     src={item.imgSrc}
                                     alt="Portfolio Image"
                                 />
-                            </a>
+                            </Link>
                         </div>
                     </div>
                         

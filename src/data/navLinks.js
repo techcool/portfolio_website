@@ -47,18 +47,18 @@ export const navLinks = [
       
     ]
   },
-  { title: "Portfolio", link: "#" },
-  { title: "Blog", link: "#" },
-  { title: "Contact Us", link: "#" },
-  { title: "Let's Collaborate", link: "#" }
+  { title: "Portfolio", link: "portfolio" },
+  { title: "Blog", link: "blog" },
+  { title: "Contact Us", link: "contact-us" },
+  { title: "Let's Collaborate", link: "lets-collaborate" }
 ];
 
 export const offcanvasLinks = [
-  { title: "About", href: "#" },
-  { title: "Contact", href: "#" },
-  { title: "Career", href: "#" },
-  { title: "Blog", href: "#" },
-  { title: "Faq", href: "#" }
+  { title: "About", href: "about" },
+  { title: "Contact", href: "contact-us" },
+  { title: "Career", href: "career" },
+  { title: "Blog", href: "blog" },
+  { title: "Faq", href: "faq" }
 ]
 
 export const socialLinks =[
