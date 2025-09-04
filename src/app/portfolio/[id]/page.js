@@ -19,13 +19,7 @@ export default async function PortfolioDetails({ params }) {
           </div>
         </div>
 
-        <div className="portfolio__detail-thumb">
-          <img
-            src="assets/imgs/portfolio/detail/1.jpg"
-            alt="Portfolio Thumbnail"
-            data-speed="auto"
-          />
-        </div>
+        
 
         <div className="portfolio__detail-content">
           <div className="container mx-auto px-4 g-0 line pt-140">

@@ -29,11 +29,7 @@ export default function Portfolio() {
                 </div>
 
                 <div className="w-full md:w-[60%]">
-                  <div className="portfolio__wrapper-6">
-                    <div className="portfolio__list-6">
-                      <PortfolioItems/>
-                    </div>
-                  </div>
+                    <PortfolioItems/>
                 </div>
               </div>
             </div>
