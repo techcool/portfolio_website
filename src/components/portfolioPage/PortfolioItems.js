@@ -10,6 +10,9 @@ import React, { useEffect } from "react";
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 
 export default function PortfolioItems() {
+ // const totalPortfolioItem = portfolioData.length;
+ //const displayTotalPortfolioItem = totalPortfolioItem>9? totalPortfolioItem:`0${totalPortfolioItem}`
+
   useEffect(() => {
     let ctx = gsap.context(() => {
       const device_width = window.innerWidth;
@@ -37,7 +40,10 @@ export default function PortfolioItems() {
         pinSpacing: false,
       });
     });
-
+   
+    // if (setDisplayTotal){
+    //   setDisplayTotal(displayTotalPortfolioItem)
+    // }
     // cleanup on unmount
     return () => ctx.revert();
   }, []);

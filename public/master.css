@@ -11797,6 +11797,9 @@ background: linear-gradient(168deg,rgba(71, 30, 123, 1) 0%, rgba(89, 22, 139, 1)
   .portfolio__area-6 .sec-title-wrapper p::before {
     width: 50px;
   }
+      .portfolio__detail-thumb img {
+        position: unset !important;
+    }
 }
 .portfolio__area-6 .sec-sub-title {
   font-size: 24px;
@@ -12581,9 +12584,18 @@ background: linear-gradient(168deg,rgba(71, 30, 123, 1) 0%, rgba(89, 22, 139, 1)
     padding-top: 40px;
     padding-bottom: 0;
   }
+  .portfolio__detail .block-gallery img{
+    width:100% !important;
+  }
+  .portfolio__detail .block-gallery img:nth-child(odd) {
+    padding-right: 0px !important;
+}
+.portfolio__detail .block-gallery img:nth-child(2n) {
+    padding-left: 0px !important;
+}
 }
 .portfolio__detail-text .fonts img {
-  width: auto;
+  width: 100%;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .portfolio__detail-text .fonts img {
@@ -14577,16 +14589,16 @@ background: linear-gradient(168deg,rgba(71, 30, 123, 1) 0%, rgba(89, 22, 139, 1)
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .blog__area-6 .sec-title-wrapper {
-    padding-top: 90px;
+    padding-top: 40px;
   }
 }
 @media only screen and (max-width: 767px) {
   .blog__area-6 .sec-title-wrapper {
-    padding-top: 60px;
+    padding-top: 40px;
   }
 }
 .blog__area-6 .blog__item, .blog__area-6 .blog__item-2 {
-  padding-bottom: 55px;
+  padding-bottom: 0px;
   position: relative;
   z-index: 1;
 }
@@ -14751,7 +14763,7 @@ background: linear-gradient(168deg,rgba(71, 30, 123, 1) 0%, rgba(89, 22, 139, 1)
   top: 0;
   right: -28px;
 }
-.blog__btn span i {
+.blog__btn span i,  .blog__btn span svg{
   -webkit-transform: translate(0, 0) rotate(-45deg);
           transform: translate(0, 0) rotate(-45deg);
   -webkit-transition: all 0.5s;
@@ -15158,7 +15170,7 @@ background: linear-gradient(168deg,rgba(71, 30, 123, 1) 0%, rgba(89, 22, 139, 1)
   position: absolute;
   top: 0;
   left: 0;
-  width: auto;
+  width: 100%;
   height: 100%;
   -webkit-transition: 0.5s;
   transition: 0.5s;

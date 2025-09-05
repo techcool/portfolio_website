@@ -4,9 +4,9 @@ import React from "react";
 export default function TitleData({portfolioData}) {
   return (
     <>
-      <div className="flex items-end justify-between">
+      <div className="flex flex-wrap items-end justify-between">
         <div className="w-full md:w-[58%] lg:w-[66%]">
-          <div className="sec-title-wrapper w-full md:w-[60%]">
+          <div className="sec-title-wrapper w-full ">
             <h2 className="sec-title animation__char_come">
               {portfolioData.title}
             </h2>

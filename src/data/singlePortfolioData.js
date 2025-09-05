@@ -1,8 +1,8 @@
 import portfolioThumbImg from "@public/assets/imgs/portfolio/detail/1.jpg"
 import portfolioThumbImg2 from "@public/assets/imgs/portfolio/detail/2.jpg"
-import portfolioThumbImg3 from "@public/assets/imgs/portfolio/detail/2.jpg"
+import portfolioThumbImg3 from "@public/assets/imgs/portfolio/detail/5.jpg"
 import galleryPic1 from "@public/assets/imgs/portfolio/detail/3.jpg"
-import galleryPic2 from "@public/assets/imgs/portfolio/detail/5.jpg"
+import galleryPic2 from "@public/assets/imgs/portfolio/detail/4.jpg"
 
 export const singlePortfolioData = [
     {
@@ -26,10 +26,10 @@ export const singlePortfolioData = [
         visualTypographyTitle:"Visual and typograpy hierarchy",
         visualTypographyDetails:"Visual hierarchy is the principle of arranging elements to show their order of importance. Designers structure visual characteristics—e.g., menu icons—so users can understand information easily. By laying out elements logically and strategically, designers influence users’ perceptions and guide them to desired actions. Users notice larger elements more easily can convert.",
         fonts:[
-            {weight:"regular", example:"This is text message"},
-            {weight:"Medium", example:"Medium typography"},
-            {weight:"SemiBold", example:"Just Amazing"},
-            {weight:"Blod", example:"Awesome"},
+            {weight:"Regular", example:"This is text message", class:"regular"},
+            {weight:"Medium", example:"Medium typography", class:"medium"},
+            {weight:"SemiBold", example:"semibold"},
+            {weight:"Blod", example:"bold"},
         ],
         gallery:[
             {imgUrl:galleryPic1, alt:"Gallery Image 1"},

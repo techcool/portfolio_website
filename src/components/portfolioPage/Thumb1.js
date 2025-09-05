@@ -6,7 +6,7 @@ export default function Thumb1({portfolioData}) {
     <>
       <div className="portfolio__detail-thumb">
         <Image
-          src="assets/imgs/portfolio/detail/1.jpg"
+          src={portfolioData.portFolioThumbImg}
           alt="Portfolio Thumbnail"
           data-speed="auto"
         />
