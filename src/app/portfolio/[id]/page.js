@@ -15,7 +15,7 @@ export default async function PortfolioDetails({ params }) {
   const portfolioData = singlePortfolioData.find(
     (data) => data.id === Number(id)
   );
-  //console.log('data', portfolioData);
+  console.log('data', id);
   
   if (!portfolioData) {
     return (
@@ -24,10 +24,10 @@ export default async function PortfolioDetails({ params }) {
   }
  const currentIndex = singlePortfolioData.findIndex((item)=> item.id === portfolioData.id)
  
- const prevIndex = currentIndex > 0 ? currentIndex -1 : portfolioData.length-1;
+ const prevIndex = currentIndex > 0 ? currentIndex -1 : singlePortfolioData.length-1;
  const prevId = singlePortfolioData[prevIndex].id;
 
- const nextIndex = currentIndex < portfolioData.length -1 ? currentIndex+1 : 0
+ const nextIndex = currentIndex < singlePortfolioData.length -1 ? currentIndex+1 : 0
  const nextId= singlePortfolioData[nextIndex].id;
 
   return (
