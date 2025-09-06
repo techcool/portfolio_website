@@ -1,6 +1,5 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import CircleButton from "@/ui/CircleButton";
 
 
 
@@ -18,17 +17,8 @@ export default function WhyChooseCTA() {
                 <h2 className="cta__title-2 mb-8">
                   Let's make something great together!
                 </h2>
-                <div className="btn_wrapper">
-                  <a
-                    href="contact.html"
-                    className="wc-btn-black btn-hover btn-item inline-flex items-center bg-transparent py-3 px-6 rounded-full transition"
-                  >
-                    <span></span> Contact <br />
-                    with us
-                    <FontAwesomeIcon icon={faArrowRight} className="ml-2" />
-                    {/* <i className="fa-solid fa-arrow-right ml-2"></i> */}
-                  </a>
-                </div>
+                <CircleButton variant='light' position='left' link="contact-us" label='Contact With Us'/>
+                
               </div>
             </div>
           </div>

@@ -1,4 +1,4 @@
-import CTA from "@/components/common/CTA";
+import CTA from "@/ui/CTA";
 import { sinleTeamData } from "@/data/singleTeamData";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";

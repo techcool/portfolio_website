@@ -6,8 +6,8 @@ import "@public/meanmenu.min.css";
 import "@public/master.css";
 import Script from "next/script";
 import Head from "next/head";
-import Cursor from "@/components/Cursor";
-import Preloader from "@/components/Preloader";
+import Cursor from "@/ui/Cursor";
+import Preloader from "@/ui/Preloader";
 import Footer from "@/components/layouts/footer/Footer";
 
 

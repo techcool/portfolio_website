@@ -1,5 +1,5 @@
 import { socialLinks } from '@/data/navLinks'
-import Link from 'next/link'
+
 
 import React from 'react'
 
@@ -12,9 +12,9 @@ function OffcanvasSocial() {
               { socialLinks.map((links, index)=>(
                
                 <li key={index}>
-                  <Link href={links.href} target='_blank' rel="noopener noreferrer">
+                  <a href={links.href} target='_blank' rel="noopener noreferrer">
                     {links.title}
-                  </Link>
+                  </a>
                 </li>
               ))}
                 

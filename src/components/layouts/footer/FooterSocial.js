@@ -1,5 +1,4 @@
 import { socialLinks } from "@/data/navLinks";
-import Link from "next/link";
 import React from "react";
 
 export default function FooterSocial() {
@@ -9,7 +8,7 @@ export default function FooterSocial() {
         {
             socialLinks.map((item, index)=>(
                 <li key={index}>
-                    <Link href={item.href} target="_blank">{item.title}</Link>
+                    <a href={item.href} target="_blank">{item.title}</a>
                 </li>
             ))
         }

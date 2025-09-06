@@ -3894,7 +3894,7 @@ img {
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between;
+          /* justify-content: space-between; */
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -4206,39 +4206,39 @@ img {
   font-size: 24px;
   text-transform: capitalize;
   border-top: none !important;
-  padding: 20px 0 20px 150px;
+  padding: 20px 0 20px 0px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
 .offcanvas__menu-wrapper.mean-container .mean-nav ul li li a:hover {
   letter-spacing: 1px;
 }
-@media only screen and (min-width: 1400px) and (max-width: 1919px) {
+/* @media only screen and (min-width: 1400px) and (max-width: 1919px) {
   .offcanvas__menu-wrapper.mean-container .mean-nav ul li li a {
     padding-left: 90px;
   }
-}
-@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+} */
+/* @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .offcanvas__menu-wrapper.mean-container .mean-nav ul li li a {
     padding-left: 80px;
   }
-}
+} */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .offcanvas__menu-wrapper.mean-container .mean-nav ul li li a {
-    padding-left: 60px;
+    /* padding-left: 60px; */
     font-size: 24px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .offcanvas__menu-wrapper.mean-container .mean-nav ul li li a {
     font-size: 20px;
-    padding: 15px 0 15px 30px;
+    padding: 15px 0 15px 0px;
   }
 }
 @media only screen and (max-width: 767px) {
   .offcanvas__menu-wrapper.mean-container .mean-nav ul li li a {
     font-size: 18px;
-    padding: 15px 0 15px 30px;
+    padding: 15px 0 15px 0px;
   }
 }
 .offcanvas__menu-wrapper.mean-container .mean-nav ul li li a.mean-expand {
@@ -4272,7 +4272,7 @@ img {
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .offcanvas__menu-wrapper.mean-container .mean-nav ul li li li a {
-    padding-left: 30px;
+    padding-left: 50px;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -5502,7 +5502,7 @@ img {
   display: -ms-grid;
   display: grid;
   -ms-grid-rows: 0.5fr 2.1fr 1fr;
-  grid-template-rows: 0.5fr 2.1fr 1fr;
+  grid-template-rows: 0.5fr 1.5fr 1.5fr;
   border-right: 1px solid var(--black-4);
 }
 @media only screen and (max-width: 767px) {
@@ -5623,7 +5623,7 @@ img {
 }
 .offcanvas__social {
   padding-left: 50px;
-  padding-top: 220px;
+  padding-top: 110px;
   border-bottom: 1px solid var(--black-4);
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {

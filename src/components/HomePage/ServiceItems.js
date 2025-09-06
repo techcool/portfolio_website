@@ -1,6 +1,7 @@
 import { serviceData } from '@/data/serviceData'
 import React from 'react'
-import CircleButton from '../common/CircleButton';
+import CircleButton from '../../ui/CircleButton';
+import Link from 'next/link';
 
 function ServiceItems() {
   return (
@@ -12,10 +13,10 @@ function ServiceItems() {
                         serviceData.map((service, index) => (
                             <div className="service__item-3 service_animation" key={index}> 
                                 <h3>
-                                    <a href={service.link} className="service__title-3">
+                                    <Link href="#" className="service__title-3">
                                         {service.titleFirstPart} <br />  
                                         {service.titleSecondPart}
-                                    </a>
+                                    </Link>
                                 </h3>
                                 <div className="service__content-3">
                                     <p>

@@ -1,5 +1,5 @@
 
-import CTA from "@/components/common/CTA";
+import CTA from "@/ui/CTA";
 import PortfolioItems from "@/components/portfolioPage/PortfolioItems";
 import { portfolioData } from "@/data/portfolioData";
 

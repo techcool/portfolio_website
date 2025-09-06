@@ -2,7 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 
 import aboutImg from '../../../public/assets/imgs/about/3/1.jpg'
-import CircleButton from '../common/CircleButton'
+import CircleButton from '../../ui/CircleButton'
 
 function HomeAbout() {
   return (

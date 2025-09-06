@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from "next/image";
-import CircleButton from '../common/CircleButton';
+import CircleButton from '../../ui/CircleButton';
 import award from "@public/assets/imgs/awards/award.png"
 
 export default function AboutHero() {

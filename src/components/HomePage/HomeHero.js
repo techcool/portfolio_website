@@ -3,7 +3,7 @@ import VideoInfo from "./VideoInfo";
 import HeroImg from "./HeroImg";
 import Image from "next/image";
 import arrowDownIcon from "@public/assets/imgs/icon/arrow-down-sm.png";
-import CircleButton from "../common/CircleButton";
+import CircleButton from "../../ui/CircleButton";
 
 function HomeHero() {
   return (
