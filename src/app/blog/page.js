@@ -1,7 +1,11 @@
+import { blogData } from "@/data/blogData";
+import { getAllCategories } from "@/libs/blogHelpers";
 import BlogCard from "@/ui/BlogCard";
+import Filter from "@/ui/Filter";
 import React from "react";
 
 export default function Blog() {
+  const categories = getAllCategories(blogData);
   return (
     <>
       <section className="blog__area-6 blog__animation">
@@ -26,9 +30,9 @@ export default function Blog() {
               </div>
             </div>
           </div>
-
+          <Filter categories={categories}/>     
           <div className="grid gap-6 md:gap-7 lg:gap-14 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ">
-            <BlogCard/>
+            <BlogCard posts={blogData} />
           </div>
         </div>
       </section>

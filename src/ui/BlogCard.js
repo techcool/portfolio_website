@@ -6,10 +6,16 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-export default function BlogCard() {
+export default function BlogCard({posts}) {
+
+  if(!posts || posts===0){
+    return <p className="font-bold text-red-700 text-center">No blog posts found.</p>
+  }
+    
   return (
     <>
-      {blogData.map((data, id) => (
+
+      {posts.map((data, id) => (
         <div className="w-full" key={id}>
           <article className="blog__item">
             <div className="blog__img-wrapper">
@@ -29,7 +35,7 @@ export default function BlogCard() {
               </Link>
             </div>
             <h4 className="blog__meta">
-              <Link href="#">{data.category}</Link> . {data.date}
+              <Link href={`/blog/category/${slugify(data.category)}`}>{data.category}</Link> . {data.date}
             </h4>
             <h5>
               <Link href={`/blog/${slugify(data.title)}`} className="blog__title">

@@ -35112,6 +35112,29 @@ a.black-text{
 .hero__about .btn_wrapper  > a .label{
   max-width:85px
 }
+.filter ul{
+  padding:15px 25px;
+  background:var(--black-2);
+  top:40px;
+  transition:all .5s ease-in-out;
+  opacity:0;
+  visibility:hidden;
+  pointer-events:none;
+}
+.filter ul li a{
+  transition:all .5s ease-in-out
+}
+.filter ul li a:hover{
+  letter-spacing:1px;
+  opacity:65%
+}
+
+.show-cat:hover ul{
+  top:25px;
+  opacity:1;
+  visibility:visible;
+  pointer-events:all;
+}
 
 @media only screen and (max-width: 1280px) {
   .main-menu-3 > li{

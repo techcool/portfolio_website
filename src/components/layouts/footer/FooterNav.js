@@ -9,7 +9,7 @@ export default function FooterNav() {
         {
             offcanvasLinks.map((item, index)=>(
                 <li key={index}>
-                    <Link href={item.href}>{item.title}</Link>
+                    <Link href={`/${item.href}`}>{item.title}</Link>
                 </li>
             ))
         }

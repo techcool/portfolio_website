@@ -1,0 +1,68 @@
+// app/blog/category/[category]/page.js
+import { blogData } from "@/data/blogData";
+import slugify from "@/libs/slugify";
+import BlogCard from "@/ui/BlogCard";
+
+// ✅ Dynamic metadata for SEO
+export async function generateMetadata({ params }) {
+  const { category } = params;
+
+  // Convert slug back to readable text
+  const categoryName = category.replace(/-/g, " ");
+
+  // Get posts for this category
+  const posts = blogData.filter(
+    (post) => slugify(post.category) === category
+  );
+
+  // Build meta dynamically
+  return {
+    title: posts.length
+      ? `${categoryName} Articles & Insights | My Blog`
+      : `No ${categoryName} Articles Found | My Blog`,
+    description: posts.length
+      ? `Explore ${posts.length} insightful posts about ${categoryName}.`
+      : `Sorry, we couldn’t find any posts in ${categoryName}.`,
+    openGraph: {
+      title: `${categoryName} | My Blog`,
+      description: posts.length
+        ? `Read the latest posts in ${categoryName}.`
+        : `No posts available in ${categoryName}.`,
+      url: `/blog/category/${category}`,
+      type: "website",
+    }
+   
+  };
+}
+
+export default async function BlogCategory({ params }) {
+  const { category } = params;
+  const posts = blogData.filter(
+    (post) => slugify(post.category) === category
+  );
+
+  return (
+    <section className="blog__area-6 blog__animation">
+      <div className="container mx-auto px-4 relative line pt-110 pb-110">
+        <span className="line-3"></span>
+        <div className="flex flex-wrap items-center justify-between pb-130">
+          <div className="w-full">
+            <div className="sec-title-wrapper">
+              <h2 className="sec-title-2 animation__char_come capitalize">
+                {posts.length > 0 ? posts[0].category : "No Category Found"}
+              </h2>
+            </div>
+          </div>
+        </div>
+
+        <div className="grid gap-6 md:gap-7 lg:gap-14 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ">
+          {posts.length > 0 ? (
+            <BlogCard posts={posts} />
+          ) : (
+            <p className="text-red-500">No posts found in this category.</p>
+          )}
+        </div>
+      </div>
+    </section>
+  );
+}
