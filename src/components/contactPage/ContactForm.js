@@ -1,5 +1,7 @@
 "use client";
 
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useState } from "react";
 
 export default function ContactForm() {
@@ -110,7 +112,7 @@ export default function ContactForm() {
                 type="submit"
               >
                 <span></span> Send <br />
-                Messages <i className="fa-solid fa-arrow-right"></i>
+                Messages <FontAwesomeIcon icon={faArrowRight} ></FontAwesomeIcon>
               </button>
             </div>
           </div>

@@ -13,6 +13,7 @@ import Offcanvas from '@/components/layouts/offcanvas/Offcanvas';
 
 
 
+
 export default function Home() {
   return (
     <>
@@ -25,7 +26,7 @@ export default function Home() {
             <HomePortfolio />
             <Testimonial />
             <WhyChooseUs />
-            <Pricing />
+            <Pricing/>
             <Blogs />
          
      

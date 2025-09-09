@@ -4,13 +4,43 @@ import slugify from "@/libs/slugify";
 import BlogCard from "@/ui/BlogCard";
 import React from "react";
 
-export default function BlogTag({params}) {
+export async function generateMetadata({ params }) {
+  const { tag } = params;
 
-    const tagPosts = blogData.filter((post) =>
-        post.tags.map((t) => slugify(t)).includes(params.tag)
-);
-const tags  = getAllTags(tagPosts);
-const uniqueTags =tags.map(tag => ` ${tag}`).join(',');
+  // Get posts matching the tag
+  const tagPosts = blogData.filter((post) =>
+    post.tags.map((t) => slugify(t)).includes(tag)
+  );
+
+  // Capitalize or prettify the tag for SEO
+  const formattedTag = tag.replace(/-/g, " ");
+
+  return {
+    title: `Posts tagged with "${formattedTag}" | My Blog`,
+    description:
+      tagPosts.length > 0
+        ? `Read ${tagPosts.length} article(s) related to "${formattedTag}". Explore insights, tutorials, and resources around ${formattedTag}.`
+        : `No articles found for the tag "${formattedTag}".`,
+  };
+}
+
+export default function BlogTag({ params }) {
+  const { tag } = params;
+  const page = 1;
+  const postsPerPage = 6;
+
+  // const tagPosts = blogData.filter((post) =>
+  //   post.tags.map((t) => slugify(t)).includes(params.tag)
+  // );
+  //console.log(tagPosts);
+  const filteredPosts = blogData.filter((post) =>
+    post.tags.map((t) => slugify(t)).includes(tag)
+  );
+  const totalPages = Math.ceil(filteredPosts.length / postsPerPage);
+  const currentPosts = filteredPosts.slice(0, postsPerPage);
+
+  const tags = getAllTags(currentPosts);
+  const uniqueTags = tags.map((tag) => ` ${tag}`).join(",");
   return (
     <>
       <section className="blog__area-6 blog__animation">
@@ -20,15 +50,17 @@ const uniqueTags =tags.map(tag => ` ${tag}`).join(',');
             <div className="w-full">
               <div className="sec-title-wrapper">
                 <h4>
-                  Tags: <span >{uniqueTags}</span>
+                  Tags: <span>{uniqueTags}</span>
                 </h4>
               </div>
             </div>
           </div>
-
-          <div className="grid gap-6 md:gap-7 lg:gap-14 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ">
-            <BlogCard posts={tagPosts} />
-          </div>
+          <BlogCard
+            posts={currentPosts}
+            currentPage={page}
+            totalPages={totalPages}
+            basePath={`/blog/tag/${tag}`}
+          />
         </div>
       </section>
     </>

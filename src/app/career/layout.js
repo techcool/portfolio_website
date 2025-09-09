@@ -8,7 +8,7 @@ export const metadata = {
     "We are committed to helping companies grow digitally with web development and digital marketing services! Learn about our capabilities and quality of services.",
 };
 
-export default function FaqLayout({ children }) {
+export default function CareerLayout({ children }) {
   return (
     <>
       <Header />

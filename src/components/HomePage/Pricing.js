@@ -1,6 +1,7 @@
 import React from "react";
 import FaqAccordion from "./FaqAccordion";
 import GetInTouch from "./GetInTouch";
+import { homeAccordionData } from "@/data/faqAccordionData";
 
 export default function Pricing() {
   return (
@@ -17,7 +18,7 @@ export default function Pricing() {
                 </h3>
               </div>
 
-              <FaqAccordion />
+              <FaqAccordion accordData={homeAccordionData}  />
             </div>
 
             <GetInTouch />

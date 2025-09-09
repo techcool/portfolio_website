@@ -1,8 +1,8 @@
 "use client";
 import { useState } from "react";
-import { faqAccordionData } from "@/data/faqAccordionData";
+//import { homeAccordionData } from "@/data/faqAccordionData";
 
-export default function FaqAccordion() {
+export default function FaqAccordion({accordData}) {
   const [openIndex, setOpenIndex] = useState(0);
 
   return (
@@ -10,7 +10,7 @@ export default function FaqAccordion() {
       <div className="accordion" id="faqAccordion">
 
       
-      {faqAccordionData.map((item, index) => (
+      {accordData.map((item, index) => (
         <div
           key={index}
           className={`accordion-item ${openIndex === index ? "open" : "close"}`}
@@ -25,7 +25,7 @@ export default function FaqAccordion() {
             </button>
           </h2>
           <div
-            className={`py-3 accordion-collapse collapse ${
+            className={`py-3 accordion-collapse collapsed ${
               openIndex === index ? "show" : ""
             }`}
           >

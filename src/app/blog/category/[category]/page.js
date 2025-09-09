@@ -3,7 +3,7 @@ import { blogData } from "@/data/blogData";
 import slugify from "@/libs/slugify";
 import BlogCard from "@/ui/BlogCard";
 
-// ✅ Dynamic metadata for SEO
+// Dynamic metadata for SEO
 export async function generateMetadata({ params }) {
   const { category } = params;
 
@@ -11,9 +11,7 @@ export async function generateMetadata({ params }) {
   const categoryName = category.replace(/-/g, " ");
 
   // Get posts for this category
-  const posts = blogData.filter(
-    (post) => slugify(post.category) === category
-  );
+  const posts = blogData.filter((post) => slugify(post.category) === category);
 
   // Build meta dynamically
   return {
@@ -30,16 +28,23 @@ export async function generateMetadata({ params }) {
         : `No posts available in ${categoryName}.`,
       url: `/blog/category/${category}`,
       type: "website",
-    }
-   
+    },
   };
 }
 
 export default async function BlogCategory({ params }) {
   const { category } = params;
-  const posts = blogData.filter(
+  // const posts = blogData.filter(
+  //   (post) => slugify(post.category) === category
+  // );
+  const page = 1;
+  const postsPerPage = 6;
+
+  const filteredPosts = blogData.filter(
     (post) => slugify(post.category) === category
   );
+  const totalPages = Math.ceil(filteredPosts.length / postsPerPage);
+  const currentPosts = filteredPosts.slice(0, postsPerPage);
 
   return (
     <section className="blog__area-6 blog__animation">
@@ -49,19 +54,21 @@ export default async function BlogCategory({ params }) {
           <div className="w-full">
             <div className="sec-title-wrapper">
               <h2 className="sec-title-2 animation__char_come capitalize">
-                {posts.length > 0 ? posts[0].category : "No Category Found"}
+                {currentPosts.length > 0 ? currentPosts[0].category : "No Category Found"}
               </h2>
             </div>
           </div>
         </div>
 
-        <div className="grid gap-6 md:gap-7 lg:gap-14 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ">
-          {posts.length > 0 ? (
-            <BlogCard posts={posts} />
-          ) : (
-            <p className="text-red-500">No posts found in this category.</p>
-          )}
-        </div>
+        {filteredPosts.length > 0 ? (
+          <BlogCard
+            posts={currentPosts}
+            currentPage={page}
+            totalPages={totalPages}
+          />
+        ) : (
+          <p className="text-red-500">No posts found in this category.</p>
+        )}
       </div>
     </section>
   );
