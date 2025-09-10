@@ -1,4 +1,5 @@
 import { teamData } from '@/data/teamData'
+import slugify from '@/libs/slugify'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
@@ -10,7 +11,7 @@ export default function TeamSliderItems() {
        {
            teamData.map(data =>(
                 <div className="swiper-slide team__slide" key={data.id}>
-                    <Link href={`/about-us/${data.id}`} className="block group">
+                    <Link href={`/about-us/${slugify(data.name)}`} className="block group">
                         <Image
                             src={data.teamImg}
                             alt="Team Member"

@@ -338,38 +338,38 @@
       modal_testimonial_3.classList.remove("modal-show");
     });
   }
-
+ 
   var job_apply = document.querySelector(".job__apply");
   if (job_apply) {
 
     // application Modal 1
-    var modal_application = document.querySelector("#application_form");
-    var apply_trigger = document.querySelector(".job__apply");
-    var apply_close = document.querySelector("#apply_close");
+    // var modal_application = document.querySelector("#application_form");
+    // var apply_trigger = document.querySelector(".job__apply");
+    // var apply_close = document.querySelector("#apply_close");
 
-    apply_trigger.addEventListener("click", function () {
-      modal_application.classList.add("modal-show");
-    });
-    apply_close.addEventListener("click", function () {
-      modal_application.classList.remove("modal-show");
-    });
+    // apply_trigger.addEventListener("click", function () {
+    //   modal_application.classList.add("modal-show");
+    // });
+    // apply_close.addEventListener("click", function () {
+    //   modal_application.classList.remove("modal-show");
+    // });
 
     // application Modal 2
-    var modal_application_2 = document.querySelector("#application_form2");
-    var apply_trigger_2 = document.querySelector(".apply-trigger");
-    var apply_close_2 = document.querySelector("#apply_close2");
-    var back_form1 = document.querySelector("#back_form1");
+    // var modal_application_2 = document.querySelector("#application_form2");
+    // var apply_trigger_2 = document.querySelector(".apply-trigger");
+    // var apply_close_2 = document.querySelector("#apply_close2");
+    // var back_form1 = document.querySelector("#back_form1");
 
-    apply_trigger_2.addEventListener("click", function () {
-      modal_application_2.classList.add("modal-show");
-    });
-    apply_close_2.addEventListener("click", function () {
-      modal_application_2.classList.remove("modal-show");
-      modal_application.classList.remove("modal-show");
-    });
-    back_form1.addEventListener("click", function () {
-      modal_application_2.classList.remove("modal-show");
-    });
+    // apply_trigger_2.addEventListener("click", function () {
+    //   modal_application_2.classList.add("modal-show");
+    // });
+    // apply_close_2.addEventListener("click", function () {
+    //   modal_application_2.classList.remove("modal-show");
+    //   modal_application.classList.remove("modal-show");
+    // });
+    // back_form1.addEventListener("click", function () {
+    //   modal_application_2.classList.remove("modal-show");
+    // });
   }
   /////////////////////////////////////////////////////
 

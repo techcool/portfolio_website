@@ -1,18 +1,20 @@
 import { jobData } from "@/data/jobData";
+import slugify from "@/libs/slugify";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Link from "next/link";
 import React from "react";
 
 export default function JobList() {
   return (
     <>
       {jobData.map((data, index) => (
-        <a href="job-details.html" key={index}>
+        <Link href={`career/${slugify(data.title)}`} key={index}>
           <div className="job__item">
             <p className="job__no">
                {data.id < 10 ? 0:""}{data.id}
             </p>
-            <h3 className="job__title">{data.tittle}</h3>
+            <h3 className="job__title">{data.title}</h3>
             <h4 className="job__open">
                 ({data.id < 10 ? 0:"" }{data.specificatios.map(spec=> spec.vacancy)} Open Roles)
                 </h4>
@@ -22,7 +24,7 @@ export default function JobList() {
               </span>
             </div>
           </div>
-        </a>
+        </Link>
       ))}
     </>
   );

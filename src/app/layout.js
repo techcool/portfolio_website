@@ -9,6 +9,7 @@ import Head from "next/head";
 import Cursor from "@/ui/Cursor";
 import Preloader from "@/ui/Preloader";
 import Footer from "@/components/layouts/footer/Footer";
+import ApplicationModal from "@/components/careerPage/ApplicationModal";
 
 
 const kanit = Kanit({
@@ -58,6 +59,8 @@ export default function RootLayout({ children }) {
             <Footer />
           </div>
         </div>
+        {/* Job Application Modal 1  */}
+        {/* <ApplicationModal/> */}
 
         {/* ✅ Load jQuery first */}
         <Script src="/jquery-3.6.0.min.js" strategy="beforeInteractive" />

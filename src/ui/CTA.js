@@ -14,7 +14,7 @@ export default function CTA() {
                 <h2 className="cta__title title-anim">
                   We would love to hear more about your project
                 </h2>
-                <CircleButton href="contact-us" position="left" variant="light" label="Let’s talk us"/>
+                <CircleButton link="contact-us" position="left" variant="light" label="Let’s talk us"/>
                 
               </div>
             </div>

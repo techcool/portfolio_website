@@ -23,7 +23,7 @@ export default function AboutHero() {
                 {/* Button */}
                 <div className="hero__about-btn">
                  
-                  <CircleButton href="services" label='Trends & Technology' position='left' variant='light'/>
+                  <CircleButton link="services" label='Trends & Technology' position='left' variant='light' modal='false'/>
                 </div>
 
                 {/* Text */}

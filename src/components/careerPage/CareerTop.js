@@ -18,7 +18,7 @@ export default function CareerTop() {
               </div>
               <div className="w-full md:w-[25%] justify-start flex md:justify-end">
                 <CircleButton
-                  href="#job_list"
+                  link="#job_list"
                   label="Explore job vacancies"
                   position="left"
                   variant="light"

@@ -3,7 +3,7 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import Link from 'next/link'
 import React from 'react'
 
-export default function CircleButton({ variant = "colored", position = "right", label="details", link }) {
+export default function CircleButton({ variant = "colored", position = "right", label="details", link="#",  modal="false", onClick}) {
   const variantClass =
     variant === 'colored' ? 'wc-btn-light' : variant === 'light' ? 'wc-btn-black' : '';
 
@@ -22,7 +22,7 @@ export default function CircleButton({ variant = "colored", position = "right", 
       )}
 
 
-      {variant === 'light' && position==='left' && (
+      {variant === 'light' && position==='left' && modal==='false' &&(
           <div className="btn_wrapper">
             <Link href={link || "#"} className={`${variantClass} btn-hover btn-item`}>
               <span className='hover'></span> <div className='label'>{label}</div>
@@ -37,6 +37,16 @@ export default function CircleButton({ variant = "colored", position = "right", 
               <span className='hover'></span> <div className='label'>{label}</div>
               <FontAwesomeIcon icon={faArrowRight} />
             </Link>
+          </div>
+        </div>
+      )}
+      {variant === 'light' && position==='left' && modal==='true' &&(
+        <div className={positionClass}>
+          <div className="btn_wrapper job__apply">
+            <button className={`${variantClass} btn-hover btn-item`} onClick={onClick}>
+              <span className='hover'></span> <div className='label'>{label}</div>
+              <FontAwesomeIcon icon={faArrowRight} />
+            </button>
           </div>
         </div>
       )}

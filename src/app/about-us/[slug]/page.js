@@ -4,10 +4,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import slugify from "@/libs/slugify";
 
 export async function generateMetadata({params}) {
-  const {id} = await params;
-  const teamData = sinleTeamData.find(member => member.id === Number(id));
+  const {slug} = await params;
+  const teamData = sinleTeamData.find(member => slugify(member.name) === slug);
   return {
     title: teamData.name,
     description: teamData.Message.slice(0,160),
@@ -16,8 +17,8 @@ export async function generateMetadata({params}) {
 }
 
 export default async function TeamDetails({params}) {
-    const {id} = params;
-    const teamData = sinleTeamData.find(member => member.id === Number(id));
+    const {slug} = params;
+    const teamData = sinleTeamData.find(member => slugify(member.name) === slug);
     if (!teamData) {
       return <p className="text-center text-red-500">Team member not found</p>;
     }

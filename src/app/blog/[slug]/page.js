@@ -25,8 +25,8 @@ export default async function BlogDetails({ params }) {
   if (!blog) {
     return <p className="text-red-500">No blog found</p>;
   }
-  
   const tags = blog.tags || [];
+
   return (
     <>
       <section className="blog__detail">

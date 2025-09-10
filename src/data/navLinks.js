@@ -65,6 +65,7 @@ export const navLinks = [
   { title: "Portfolio", link: "portfolio" },
   { title: "Blog", link: "blog" },
   { title: "Contact Us", link: "contact-us" },
+  { title: "Let's Collaborate", link: "lets-collaborate" },
 ];
 
 // ✅ Offcanvas Links
