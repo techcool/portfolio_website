@@ -3628,7 +3628,8 @@ img {
   transition: all 0.2s;
 }
 .mega-menu.customize-megamenu {
-  grid-template-columns: 75% 25%;
+  display:block !important;
+  
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
@@ -5525,7 +5526,7 @@ img {
   position: fixed;
   width: 100%;
   top: 0;
-  z-index: 9999;
+  z-index: 99999999;
 }
 .header__area-3.sticky-3 {
   background-color: var(--white);
@@ -35873,9 +35874,14 @@ a.black-text {
   font-size: 15px !important;
   font-weight: 300 !important;
 }
-.customize-megamenu.mega-menu .menuItems .subMenus {
-  margin-left: 42px !important;
+.customize-megamenu.mega-menu .menuItems ul li h5 a {
+  font-size: 18px !important;
+  text-transform:uppercase
 }
+
+/* .customize-megamenu.mega-menu .menuItems .subMenus {
+  margin-left: 42px !important;
+} */
 .customize-megamenu.mega-menu .menuItems .subMenus li a {
   display: flex;
   align-items: center;
@@ -35946,6 +35952,32 @@ a.black-text {
 .faq-page .accordion-item {
   border: 1px solid #dee2e6 !important;
 }
+
+.customize-megamenu .main {
+  grid-template-rows: repeat(4, 200px);
+}
+.customize-megamenu .main .menuItems:nth-of-type(2){
+   grid-row: 1 / span 5;
+   grid-column:2/span 3
+}
+.customize-megamenu .main .menuItems:nth-of-type(4){
+  grid-row: 3 / span 4;
+  grid-column:1/span 1
+}
+.customize-megamenu .main .menuItems:nth-of-type(5){
+  grid-row: 2 / span 4;
+  grid-column:1/span 1
+}
+.customize-megamenu .main .menuItems:nth-of-type(6){
+  grid-row: 4 / span 5;
+  grid-column:2/span 3
+}
+.customize-megamenu .subMenus a.heading:hover{
+  letter-spacing:0 !important;
+  color:#fc0
+}
+/* .customize-megamenu .subMenus  */
+
 
 @media only screen and (max-width: 1280px) {
   .main-menu-3 > li {

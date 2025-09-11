@@ -1,39 +1,292 @@
 // src/data/navLinks.js
 
-import { 
-  faFacebookF, 
-  faXTwitter, 
-  faInstagram, 
-  faPinterestP, 
-  faLinkedinIn 
+import {
+  faFacebookF,
+  faXTwitter,
+  faInstagram,
+  faPinterestP,
+  faLinkedinIn,
+  faUikit,
 } from "@fortawesome/free-brands-svg-icons";
 
-// ✅ Helper: Service Submenus
+// Service Submenus
 const serviceSubmenus = {
-  designLab: [
-    { title: "Web Design", link: "services/design-lab/web-design" },
-    { title: "App Design", link: "services/design-lab/app-design" },
-    { title: "UI/UX Design", link: "services/design-lab/ul-ux-design" },
-    { title: "Logo Design", link: "services/design-lab/logo-design" },
-    { title: "Brand Design", link: "services/design-lab/brand-design" },
-    { title: "Social Media Design", link: "services/design-lab/social-media-design" },
+  designBrand: [
+    {
+      heading: "",
+      subNavs: [
+        {
+          title: "Web & UI/UX Design",
+          icon: faUikit,
+        },
+        {
+          title: "App Design",
+          icon: faUikit,
+        },
+        {
+          title: "Logo & Brand Identity",
+          icon: faUikit,
+        },
+        {
+          title: "Social Media Ads",
+          icon: faUikit,
+        },
+      ],
+    },
   ],
-  techLab: [
-    { title: "Web Application Development", link: "services/design-lab/web-application-development" },
-    { title: "App Development", link: "services/design-lab/app-development" },
-    { title: "Full-Stack Development", link: "services/design-lab/full-stack-development" },
-    { title: "E-Commerce Solution", link: "services/design-lab/e-commerce-solution" },
-    { title: "API Development", link: "services/design-lab/api-development" },
-    { title: "CMS Development", link: "services/design-lab/cms-development" },
+  webDevelopment: [
+   
+    {
+       heading: "CMS",
+       subNavs: [
+        {
+          title: "WordPress",
+          icon: faUikit,
+        },
+        {
+          title: "Joomla",
+          icon: faUikit,
+        },
+        {
+          title: "Drupal",
+          icon: faUikit,
+        },
+        {
+          title: "Webflow",
+          icon: faUikit,
+        },
+        {
+          title: "Wix",
+          icon: faUikit,
+        },
+        {
+          title: "Squarespace",
+          icon: faUikit,
+        },
+        {
+          title: "HubSpot CMS",
+          icon: faUikit,
+        },
+      ],
+    },
+    {
+       heading: "Full Stack Development",
+       subNavs: [
+        {
+          title: "Node.js",
+          icon: faUikit,
+        },
+        {
+          title: "Angular",
+          icon: faUikit,
+        },
+        {
+          title: "React.js",
+          icon: faUikit,
+        },
+        {
+          title: "Express.js",
+          icon: faUikit,
+        },
+        {
+          title: "MongoDB",
+          icon: faUikit,
+        },
+      ],
+    },
+    {
+       heading: "eCommerce Development",
+       subNavs: [
+        {
+          title: "WooCommerce",
+          icon: faUikit,
+        },
+        {
+          title: "Magento",
+          icon: faUikit,
+        },
+        {
+          title: "Shopify",
+          icon: faUikit,
+        },
+      ],
+    },
+    
+    {
+       heading: "Open Source & Enterprise Technologies",
+       subNavs: [
+        {
+          title: "Python",
+          icon: faUikit,
+        },
+        {
+          title: "PHP",
+          icon: faUikit,
+        },
+        {
+          title: "JavaScript",
+          icon: faUikit,
+        },
+        {
+          title: "C#",
+          icon: faUikit,
+        },
+        {
+          title: ".NET",
+          icon: faUikit,
+        },
+      ],
+    },
+    {
+       heading: "PHP Framework",
+       subNavs: [
+        {
+          title: "Laravel",
+          icon: faUikit,
+        },
+        {
+          title: "Cake PHP",
+          icon: faUikit,
+        },
+      ],
+    },
   ],
-  growthLab: [
-    { title: "Search Engine Optimization", link: "services/design-lab/search-engine-optimization" },
-    { title: "Social Media Optimization", link: "services/design-lab/social-media-optimization" },
-    { title: "Social Media Marketing", link: "services/design-lab/social-media-marketing" },
-    { title: "Pay Per Click Campaigns", link: "services/design-lab/pay-per-click-campaigns" },
-    { title: "Content Marketing", link: "services/design-lab/content-marketing" },
-    { title: "Email Marketing", link: "services/design-lab/email-marketing" },
+  appDevelopment:[
+    {
+      heading: "",
+      subNavs:[
+        {
+          title: "Hybrid Apps",
+          icon: faUikit,
+        },
+        {
+          title: "React Native",
+          icon: faUikit,
+        },
+        {
+          title: "Flutter",
+          icon: faUikit,
+        },
+        {
+          title: "Kotlin",
+          icon: faUikit,
+        },
+        {
+          title: "Java",
+          icon: faUikit,
+        },
+        {
+          title: "Swift",
+          icon: faUikit,
+        },
+        {
+          title: "Progressive Web Apps",
+          icon: faUikit,
+        },
+      ]
+    }
   ],
+  digitalMarketing:[
+    {
+      heading: "",
+      subNavs:[
+        {
+          title: "SEO",
+          icon: faUikit,
+        },
+        {
+          title: "SMM",
+          icon: faUikit,
+        },
+        {
+          title: "SMO",
+          icon: faUikit,
+        },
+        {
+          title: "PPC",
+          icon: faUikit,
+        },
+        {
+          title: "Content Marketing",
+          icon: faUikit,
+        },
+        {
+          title: "Email Marketing",
+          icon: faUikit,
+        },
+      ]
+    }
+  ],
+  gameDevelopment:[
+    {
+      heading: "",
+      subNavs:[
+        {
+          title: "2D & 3D Game Design",
+          icon: faUikit,
+        },
+        {
+          title: "Unity/Unreal Engine Development",
+          icon: faUikit,
+        },
+        {
+          title: "AR/VR Game Experinces",
+          icon: faUikit,
+        },
+      ]
+    }
+  ],
+  aiDevelopment:[
+    {
+      heading: "",
+      subNavs:[
+        {
+          title: "Chatbot Development",
+          icon: faUikit,
+        },
+        {
+          title: "Decision Management Systems",
+          icon: faUikit,
+        },
+        {
+          title: "Machine Learning Solutions",
+          icon: faUikit,
+        },
+        {
+          title: "Deep Learning Models",
+          icon: faUikit,
+        },
+        {
+          title: "NLP",
+          icon: faUikit,
+        },
+      ]
+    }
+  ],
+  cloudDevOps:[
+    {
+      heading: "",
+      subNavs:[
+        {
+          title: "Cloud Development",
+          icon: faUikit,
+        },
+        {
+          title: "CI/CD Pipeline Setup",
+          icon: faUikit,
+        },
+        {
+          title: "Containerization (Docker, Kubernetes)",
+          icon: faUikit,
+        },
+        {
+          title: "Serverless Architecture",
+          icon: faUikit,
+        },
+        
+      ]
+    }
+  ]
 };
 
 // ✅ Main Navigation Links
@@ -43,22 +296,32 @@ export const navLinks = [
     title: "Services",
     submenu: [
       {
-        title: "Design Lab",
-        link: "services/design-lab",
-        icon: "/assets/imgs/icon/design-lab.png",
-        subServices: serviceSubmenus.designLab,
+        title: "Designs & Branding",
+        subServices: serviceSubmenus.designBrand,
       },
       {
-        title: "Tech Lab",
-        link: "services/tech-lab",
-        icon: "/assets/imgs/icon/tech-lab.png",
-        subServices: serviceSubmenus.techLab,
+        title: "Web Development",
+        subServices: serviceSubmenus.webDevelopment,
       },
       {
-        title: "Growth Lab",
-        link: "services/growth-lab",
-        icon: "/assets/imgs/icon/growth-lab.png",
-        subServices: serviceSubmenus.growthLab,
+        title: "App Developmnt",
+        subServices: serviceSubmenus.appDevelopment,
+      },
+      {
+        title: "Digital Marketing",
+        subServices: serviceSubmenus.digitalMarketing,
+      },
+      {
+        title: "Game Development",
+        subServices: serviceSubmenus.gameDevelopment,
+      },
+      {
+        title: "AI Development",
+        subServices: serviceSubmenus.aiDevelopment,
+      },
+      {
+        title: "Cloud & DevOps",
+        subServices: serviceSubmenus.cloudDevOps,
       },
     ],
   },
@@ -79,9 +342,25 @@ export const offcanvasLinks = [
 
 // ✅ Social Links
 export const socialLinks = [
-  { title: "Facebook", href: "https://www.facebook.com/UniterreneWebsoft/", icon: faFacebookF },
+  {
+    title: "Facebook",
+    href: "https://www.facebook.com/UniterreneWebsoft/",
+    icon: faFacebookF,
+  },
   { title: "Twitter", href: "https://x.com/UniterreneWeb", icon: faXTwitter },
-  { title: "Instagram", href: "https://www.instagram.com/uniterrene/", icon: faInstagram },
-  { title: "Pinterest", href: "https://www.instagram.com/uniterrene/", icon: faPinterestP },
-  { title: "LinkedIn", href: "https://www.linkedin.com/company/uniterrene-websoft/", icon: faLinkedinIn },
+  {
+    title: "Instagram",
+    href: "https://www.instagram.com/uniterrene/",
+    icon: faInstagram,
+  },
+  {
+    title: "Pinterest",
+    href: "https://www.instagram.com/uniterrene/",
+    icon: faPinterestP,
+  },
+  {
+    title: "LinkedIn",
+    href: "https://www.linkedin.com/company/uniterrene-websoft/",
+    icon: faLinkedinIn,
+  },
 ];

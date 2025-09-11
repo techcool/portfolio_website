@@ -21,7 +21,7 @@ function HeaderNav() {
                 ].filter(Boolean).join(' ');
                 return (  
                 <li key={index} className={liClass}>
-                  <Link href={`/${links.link}`}>{links.title}</Link>
+                  <Link href="#">{links.title}</Link>
                   {links.submenu && <MegaMenu submenu={links.submenu}/>}
                 </li>
                 );

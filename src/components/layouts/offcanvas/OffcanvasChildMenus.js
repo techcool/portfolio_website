@@ -10,13 +10,7 @@ export default function OffcanvasChildMenus({ submenu }) {
       {submenu.map((submenuLink, subIndex) => (
         <li key={subIndex}>
           <div className="flex flex-row items-center gap-2 mb-4 pl-6 md:pl-9 lg:pl-24">
-            <Image
-              src={submenuLink.icon}
-              alt="Design Lab"
-              className="w-8"
-              width={32}
-              height={32}
-            />
+            
             <Link href={submenuLink.href || "#"}>{submenuLink.title}</Link>
           </div>
           
