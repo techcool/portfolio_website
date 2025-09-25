@@ -7,6 +7,25 @@ import {
   faPinterestP,
   faLinkedinIn,
   faUikit,
+  faWordpress,
+  faJoomla,
+  faDrupal,
+  faWebflow,
+  faWix,
+  faSquarespace,
+  faHubspot,
+  faNodeJs,
+  faAngular,
+  faReact,
+  faMagento,
+  faShopify,
+  faPython,
+  faPhp,
+  faLaravel,
+  faFlutter,
+  faJava,
+  faSwift,
+  faCloud
 } from "@fortawesome/free-brands-svg-icons";
 
 // Service Submenus
@@ -41,31 +60,31 @@ const serviceSubmenus = {
        subNavs: [
         {
           title: "WordPress",
-          icon: faUikit,
+          icon: faWordpress,
         },
         {
           title: "Joomla",
-          icon: faUikit,
+          icon: faJoomla,
         },
         {
           title: "Drupal",
-          icon: faUikit,
+          icon: faDrupal,
         },
         {
           title: "Webflow",
-          icon: faUikit,
+          icon: faWebflow,
         },
         {
           title: "Wix",
-          icon: faUikit,
+          icon: faWix,
         },
         {
           title: "Squarespace",
-          icon: faUikit,
+          icon: faSquarespace,
         },
         {
           title: "HubSpot CMS",
-          icon: faUikit,
+          icon: faHubspot,
         },
       ],
     },
@@ -74,15 +93,15 @@ const serviceSubmenus = {
        subNavs: [
         {
           title: "Node.js",
-          icon: faUikit,
+          icon: faNodeJs,
         },
         {
           title: "Angular",
-          icon: faUikit,
+          icon: faAngular,
         },
         {
           title: "React.js",
-          icon: faUikit,
+          icon: faReact,
         },
         {
           title: "Express.js",
@@ -103,11 +122,11 @@ const serviceSubmenus = {
         },
         {
           title: "Magento",
-          icon: faUikit,
+          icon: faMagento,
         },
         {
           title: "Shopify",
-          icon: faUikit,
+          icon: faShopify,
         },
       ],
     },
@@ -117,11 +136,11 @@ const serviceSubmenus = {
        subNavs: [
         {
           title: "Python",
-          icon: faUikit,
+          icon: faPython,
         },
         {
           title: "PHP",
-          icon: faUikit,
+          icon: faPhp,
         },
         {
           title: "JavaScript",
@@ -142,7 +161,7 @@ const serviceSubmenus = {
        subNavs: [
         {
           title: "Laravel",
-          icon: faUikit,
+          icon: faLaravel,
         },
         {
           title: "Cake PHP",
@@ -161,23 +180,23 @@ const serviceSubmenus = {
         },
         {
           title: "React Native",
-          icon: faUikit,
+          icon: faReact,
         },
         {
           title: "Flutter",
-          icon: faUikit,
+          icon: faFlutter,
         },
         {
           title: "Kotlin",
-          icon: faUikit,
+          icon:  faUikit,
         },
         {
           title: "Java",
-          icon: faUikit,
+          icon: faJava,
         },
         {
           title: "Swift",
-          icon: faUikit,
+          icon: faSwift,
         },
         {
           title: "Progressive Web Apps",
@@ -294,6 +313,7 @@ export const navLinks = [
   { title: "About Us", link: "about-us" },
   {
     title: "Services",
+    link:"",
     submenu: [
       {
         title: "Designs & Branding",

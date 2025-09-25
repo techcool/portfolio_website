@@ -6,7 +6,8 @@ import React, { useState } from "react";
 
 export default function ContactForm() {
   const [formData, setFormData] = useState({
-    name: "",
+    first_name: "",
+    last_name: "",
     email: "",
     phone: "",
     subject: "",
@@ -30,8 +31,8 @@ export default function ContactForm() {
     });
 
     if (res.ok) {
-      setStatus("✅ Message sent!");
-      setFormData({ name: "", email: "", message: "" });
+      setStatus("✅ Message sent successfully!");
+      setFormData({ first_name: "", last_name: "", email: "", subject: "", message: "" });
     } else {
       setStatus("❌ Failed to send message");
     }
@@ -44,9 +45,19 @@ export default function ContactForm() {
           <div className="w-full md:w-[48%]">
             <input
               type="text"
-              name="name"
-              placeholder="Name *"
-              value={formData.name}
+              name="first_name"
+              placeholder="First Name *"
+              value={formData.first_name}
+              onChange={handleChange}
+              required
+            />
+          </div>
+          <div className="w-full md:w-[48%]">
+            <input
+              type="text"
+              name="last_name"
+              placeholder="Last Name *"
+              value={formData.last_name}
               onChange={handleChange}
               required
             />
@@ -61,8 +72,6 @@ export default function ContactForm() {
               required
             />
           </div>
-        </div>
-        <div className="flex flex-wrap items-center justify-between gap-2.5">
           <div className="w-full md:w-[48%]">
             <input
               type="tel"
@@ -84,7 +93,10 @@ export default function ContactForm() {
               className="border p-2 w-full"
             /> */}
           </div>
-          <div className="w-full md:w-[48%]">
+        </div>
+        <div className="flex flex-wrap items-center justify-between gap-2.5">
+          
+          <div className="w-full">
             <input
               type="text"
               name="subject"

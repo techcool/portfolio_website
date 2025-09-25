@@ -61,11 +61,11 @@ export default function MegaMenu({ submenu }) {
             <div
               key={idx}
               className={`menuItems ${
-                item.subServices.length > 1 ? "lg:col-span-3 md:col-span-2" : ""
+                item.subServices.length > 1 ? "has-clild-menus lg:col-span-3 md:col-span-2" : ""
               }`}
             >
               {/* Title */}
-              <div className="flex flex-row items-center gap-2 mb-4">
+              <div className="flex heading flex-row items-center gap-2 mb-4">
                 <Link href="#" className="mb-0 text-white text-xl">
                   {item.title}
                 </Link>
@@ -74,7 +74,7 @@ export default function MegaMenu({ submenu }) {
               {/* Submenus */}
               <ul
                 className={`subMenus ${
-                  item.subServices.length > 1 ? "grid grid-cols-3 gap-6 multi-col" : ""
+                  item.subServices.length > 1 ? "grid grid-cols-2 gap-6 multi-col" : ""
                 }`}
               >
                 {item.subServices.map((subItem, subIdx) => (

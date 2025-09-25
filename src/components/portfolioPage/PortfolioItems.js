@@ -1,5 +1,6 @@
 "use client";
 import { portfolioData } from "@/data/portfolioData";
+import slugify from "@/libs/slugify";
 import gsap from "gsap";
 import ScrollSmoother from "gsap/ScrollSmoother";
 import ScrollTrigger from "gsap/ScrollTrigger";
@@ -57,7 +58,7 @@ export default function PortfolioItems() {
               data-portfitem={data.id}
               key={data.id}
             >
-              <Link href={`portfolio/${data.id}`}>
+              <Link href={`portfolio/${slugify(data.title)}`}>
                 <Image
                   src={data.imgSrc}
                   alt={data.title}
@@ -65,9 +66,10 @@ export default function PortfolioItems() {
                   data-speed="0.4"
                 />
                 <div className="portfolio__content-6">
+                  
                   <h4 className="portfolio__title-6">{data.title}</h4>
                   <h5 className="portfolio__date">
-                    {data.date} {data.year}
+                    {data.endDate}
                   </h5>
                 </div>
               </Link>

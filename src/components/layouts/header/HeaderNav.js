@@ -1,11 +1,6 @@
 import { navLinks } from '@/data/navLinks'
-import { faArrowRight, faCheck, faCircle } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
-
 import Link from 'next/link'
 import React from 'react'
-import Image from 'next/image'
 import MegaMenu from './MegaMenu'
 
 function HeaderNav() {
@@ -21,7 +16,8 @@ function HeaderNav() {
                 ].filter(Boolean).join(' ');
                 return (  
                 <li key={index} className={liClass}>
-                  <Link href="#">{links.title}</Link>
+                  <Link href={links.link ? `/${links.link}` : "#"}>{links.title}</Link>
+                 
                   {links.submenu && <MegaMenu submenu={links.submenu}/>}
                 </li>
                 );

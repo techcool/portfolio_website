@@ -1,3 +1,4 @@
+import slugify from "@/libs/slugify";
 import Link from "next/link";
 import React from "react";
 
@@ -18,7 +19,7 @@ export default function TitleData({portfolioData}) {
             <ul>
               <li>
                 Category{" "}
-                <Link href="category.html">{portfolioData.category}</Link>
+                <Link href={`/portfolio/category/${slugify(portfolioData.category)}`}>{portfolioData.category}</Link>
               </li>
               <li>
                 Client <span>{portfolioData.client}</span>
