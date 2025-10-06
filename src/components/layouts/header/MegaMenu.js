@@ -89,10 +89,15 @@ export default function MegaMenu({ submenu }) {
                       {subItem.subNavs?.map((nav, i) => (
                         <li key={i}>
                           <Link href="#" className="flex items-center gap-2">
-                            <FontAwesomeIcon
+                            {typeof nav.icon === "string" ? (
+                             <Image src={nav.icon} alt={nav.title} width={20} height={20} className="obeject-contain"/>
+                            ):
+                             ( <FontAwesomeIcon
                               icon={nav.icon}
                               className="text-[20px] text-yellow-400"
                             />
+                            )}
+                            
                             {nav.title}
                           </Link>
                         </li>

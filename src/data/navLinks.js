@@ -1,5 +1,7 @@
 // src/data/navLinks.js
 
+import customIcons from "@/utils/customIcons";
+
 import {
   faFacebookF,
   faXTwitter,
@@ -25,8 +27,11 @@ import {
   faFlutter,
   faJava,
   faSwift,
-  faCloud
+  
 } from "@fortawesome/free-brands-svg-icons";
+// import{
+   
+// }
 
 // Service Submenus
 const serviceSubmenus = {
@@ -36,19 +41,19 @@ const serviceSubmenus = {
       subNavs: [
         {
           title: "Web & UI/UX Design",
-          icon: faUikit,
+          icon: customIcons.ux,
         },
         {
           title: "App Design",
-          icon: faUikit,
+          icon: customIcons.app,
         },
         {
           title: "Logo & Brand Identity",
-          icon: faUikit,
+          icon: customIcons.brand,
         },
         {
           title: "Social Media Ads",
-          icon: faUikit,
+          icon: customIcons.adBanner,
         },
       ],
     },
@@ -105,11 +110,11 @@ const serviceSubmenus = {
         },
         {
           title: "Express.js",
-          icon: faUikit,
+          icon: customIcons.js,
         },
         {
           title: "MongoDB",
-          icon: faUikit,
+          icon: customIcons.mongodb,
         },
       ],
     },
@@ -118,7 +123,7 @@ const serviceSubmenus = {
        subNavs: [
         {
           title: "WooCommerce",
-          icon: faUikit,
+          icon: customIcons.woo,
         },
         {
           title: "Magento",
@@ -144,15 +149,15 @@ const serviceSubmenus = {
         },
         {
           title: "JavaScript",
-          icon: faUikit,
+          icon: customIcons.js,
         },
         {
           title: "C#",
-          icon: faUikit,
+          icon: customIcons.cSurf,
         },
         {
           title: ".NET",
-          icon: faUikit,
+          icon: customIcons.dontnet,
         },
       ],
     },
@@ -165,7 +170,7 @@ const serviceSubmenus = {
         },
         {
           title: "Cake PHP",
-          icon: faUikit,
+          icon: customIcons.cakephp,
         },
       ],
     },
@@ -176,7 +181,7 @@ const serviceSubmenus = {
       subNavs:[
         {
           title: "Hybrid Apps",
-          icon: faUikit,
+          icon: customIcons.hybrid,
         },
         {
           title: "React Native",
@@ -188,7 +193,7 @@ const serviceSubmenus = {
         },
         {
           title: "Kotlin",
-          icon:  faUikit,
+          icon:  customIcons.kotlin,
         },
         {
           title: "Java",
@@ -200,7 +205,7 @@ const serviceSubmenus = {
         },
         {
           title: "Progressive Web Apps",
-          icon: faUikit,
+          icon: customIcons.pwa,
         },
       ]
     }
@@ -211,27 +216,27 @@ const serviceSubmenus = {
       subNavs:[
         {
           title: "SEO",
-          icon: faUikit,
+          icon: customIcons.seo,
         },
         {
           title: "SMM",
-          icon: faUikit,
+          icon: customIcons.smm,
         },
         {
           title: "SMO",
-          icon: faUikit,
+          icon: customIcons.smo,
         },
         {
           title: "PPC",
-          icon: faUikit,
+          icon: customIcons.ppc,
         },
         {
           title: "Content Marketing",
-          icon: faUikit,
+          icon: customIcons.cm,
         },
         {
           title: "Email Marketing",
-          icon: faUikit,
+          icon: customIcons.em,
         },
       ]
     }
@@ -242,15 +247,15 @@ const serviceSubmenus = {
       subNavs:[
         {
           title: "2D & 3D Game Design",
-          icon: faUikit,
+          icon: customIcons.games,
         },
         {
           title: "Unity/Unreal Engine Development",
-          icon: faUikit,
+          icon: customIcons.unity,
         },
         {
           title: "AR/VR Game Experinces",
-          icon: faUikit,
+          icon: customIcons.ar,
         },
       ]
     }
@@ -261,23 +266,23 @@ const serviceSubmenus = {
       subNavs:[
         {
           title: "Chatbot Development",
-          icon: faUikit,
+          icon: customIcons.chatbot,
         },
         {
           title: "Decision Management Systems",
-          icon: faUikit,
+          icon: customIcons.system,
         },
         {
           title: "Machine Learning Solutions",
-          icon: faUikit,
+          icon: customIcons.machine,
         },
         {
           title: "Deep Learning Models",
-          icon: faUikit,
+          icon: customIcons.deep,
         },
         {
           title: "NLP",
-          icon: faUikit,
+          icon: customIcons.nlp,
         },
       ]
     }
@@ -288,19 +293,19 @@ const serviceSubmenus = {
       subNavs:[
         {
           title: "Cloud Development",
-          icon: faUikit,
+          icon: customIcons.cloud,
         },
         {
           title: "CI/CD Pipeline Setup",
-          icon: faUikit,
+          icon: customIcons.pipeline,
         },
         {
           title: "Containerization (Docker, Kubernetes)",
-          icon: faUikit,
+          icon: customIcons.docker,
         },
         {
-          title: "Serverless Architecture",
-          icon: faUikit,
+          title: "Serverless Architecture",
+          icon: customIcons.architecture,
         },
         
       ]

@@ -29,6 +29,9 @@ export default async function PortfolioCategory({ params }) {
     (portfolio) => slugify(portfolio.category) === category
   );
 
+  //console.log('portfolio ', filteredPortfolio.length);
+  
+
   return (
     <>
       <section className="blog__area-6 blog__animation">
