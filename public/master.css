@@ -11508,6 +11508,7 @@ img {
   bottom: 0;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+  cursor:pointer
 }
 .testimonial__slider-3 .swipper-btn:hover {
   background-color: var(--black-2);
@@ -36004,6 +36005,22 @@ a.black-text {
 .menuItems:nth-of-type(6){
   margin-top: -130px
 }
+.lastChildMenus.subMenus.direct{
+  display:block !important
+}
+.pp-prev, .pp-next{
+  cursor:pointer
+}
+
+.testimonial__slider-3{
+  padding-bottom:30px !important;
+}
+.swipper-btn:hover svg path{
+  fill:#fff
+}
+
+
+
 
 @media only screen and (max-width:1580px){
   .main-menu-3 > li{

@@ -1,14 +1,23 @@
-import React from "react";
+"use client";
+
+import React, { useEffect, useRef } from "react";
 import VideoInfo from "./VideoInfo";
 import HeroImg from "./HeroImg";
-import Image from "next/image";
-import arrowDownIcon from "@public/assets/imgs/icon/arrow-down-sm.png";
 import CircleButton from "../../ui/CircleButton";
+import { homeHeroAnimation } from "@/libs/homeHeroAnimaton";
 
 function HomeHero() {
+
+  const sectionRef = useRef(null);
+
+  useEffect(()=>{
+    const cleanup = homeHeroAnimation(sectionRef.current);
+    return cleanup;
+  },[])
+
   return (
     <>
-      <section className="hero__area-3">
+      <section ref={sectionRef} className="hero__area-3">
         <div className="container mx-auto px-4">
           <div className="flex flex-wrap">
             <div className="w-full">
@@ -28,12 +37,7 @@ function HomeHero() {
                 <div className="md:-mt-16 homeHeroBtn">
                   <CircleButton variant='light' position='left' link="/free-consultation" label="Free Consultation" />
                 </div>
-                {/* <div className="scroll-down">
-                  <button>
-                    <Image src={arrowDownIcon} alt="arrow icon" />
-                   
-                  </button>
-                </div> */}
+               
               </div>
             </div>
           </div>

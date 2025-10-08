@@ -13,7 +13,7 @@ function OffcanvasMenu() {
               {navLinks.map((links, index) => (
                 <li key={index}>
                   <Link href={links.link || "#"}>{links.title}</Link>
-                  {/* {links.submenu && <OffcanvasChildMenus submenu={links.submenu}/>} */}
+                  {links.submenu && <OffcanvasChildMenus submenu={links.submenu}/>} 
                 </li>
               ))}
             </ul>

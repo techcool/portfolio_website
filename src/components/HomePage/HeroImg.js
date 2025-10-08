@@ -1,14 +1,13 @@
+import imgRef from "@/utils/images";
+import Image from "next/image";
 import React from "react";
 
 function HeroImg() {
   return (
     <>
       <div className="hero3-img-ani">
-        <img
-          src="assets/imgs/hero/3/1.jpg"
-          alt="Hero Image"
-          className="hero3-img"
-        />
+        <Image src={imgRef.homeHeroImg} alt="Hero Image" className="hero3-img" width={1000} height={293}/>
+        
       </div>
     </>
   );

@@ -50,8 +50,8 @@ export default function RootLayout({ children }) {
       </Head>
       <body className={`${kanit.variable}`}>
         {/* Site-wide components */}
-        <Cursor />
-        <Preloader />
+        {/* <Cursor />
+        <Preloader /> */}
 
         <div id="smooth-wrapper">
           <div id="smooth-content">

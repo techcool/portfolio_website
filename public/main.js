@@ -146,120 +146,120 @@
 
   var portfolio4_cursor = document.getElementById("portfolio4_cursor");
 
-  function mousemoveHandler(e) {
-    try {
-      const target = e.target;
+  // function mousemoveHandler(e) {
+  //   try {
+  //     const target = e.target;
 
-      let tl = gsap.timeline({
-        defaults: {
-          x: e.clientX,
-          y: e.clientY,
-        }
-      })
-      let t2 = gsap.timeline({
-        defaults: {
-          x: e.clientX,
-          y: e.clientY,
-        }
-      })
+  //     let tl = gsap.timeline({
+  //       defaults: {
+  //         x: e.clientX,
+  //         y: e.clientY,
+  //       }
+  //     })
+  //     let t2 = gsap.timeline({
+  //       defaults: {
+  //         x: e.clientX,
+  //         y: e.clientY,
+  //       }
+  //     })
 
-      // Home Page Client Cursor
-      if (target.closest(".testimonial__img")) {
-        tl.to(client_cursor, {
-          opacity: 1,
-          ease: "power4.out"
-        }, "-=0.3");
-      }
-      else {
-        t2.to(client_cursor, {
-          opacity: 0,
-          ease: "power4.out"
-        }, "-=0.3");
-      }
+  //     // Home Page Client Cursor
+  //     if (target.closest(".testimonial__img")) {
+  //       tl.to(client_cursor, {
+  //         opacity: 1,
+  //         ease: "power4.out"
+  //       }, "-=0.3");
+  //     }
+  //     else {
+  //       t2.to(client_cursor, {
+  //         opacity: 0,
+  //         ease: "power4.out"
+  //       }, "-=0.3");
+  //     }
 
-      // Team Page Team Cursor
-      if (target.closest(".team__slider")) {
-        tl.to(team_cursor, {
-          opacity: 1,
-          ease: "power4.out"
-        }, "-=0.3");
-      }
-      else {
-        t2.to(team_cursor, {
-          opacity: 0,
-          ease: "power4.out"
-        }, "-=0.3");
-      }
+  //     // Team Page Team Cursor
+  //     if (target.closest(".team__slider")) {
+  //       tl.to(team_cursor, {
+  //         opacity: 1,
+  //         ease: "power4.out"
+  //       }, "-=0.3");
+  //     }
+  //     else {
+  //       t2.to(team_cursor, {
+  //         opacity: 0,
+  //         ease: "power4.out"
+  //       }, "-=0.3");
+  //     }
 
-      // Portfolio Cursor
-      if (target.closest(".portfolio__item-6")) {
-        tl.to(portf_cursor_6, {
-          opacity: 1,
-          ease: "power4.out"
-        }, "-=0.3");
-      }
-      else {
-        t2.to(portf_cursor_6, {
-          opacity: 0,
-          ease: "power4.out"
-        }, "-=0.3");
-      }
-      // Portfolio Cursor
-      if (target.closest(".portfolio__item-6")) {
-        tl.to(portf_cursor_6, {
-          opacity: 1,
-          ease: "power4.out"
-        }, "-=0.3");
-      }
-      else {
-        t2.to(portf_cursor_6, {
-          opacity: 0,
-          ease: "power4.out"
-        }, "-=0.3");
-      }
+  //     // Portfolio Cursor
+  //     if (target.closest(".portfolio__item-6")) {
+  //       tl.to(portf_cursor_6, {
+  //         opacity: 1,
+  //         ease: "power4.out"
+  //       }, "-=0.3");
+  //     }
+  //     else {
+  //       t2.to(portf_cursor_6, {
+  //         opacity: 0,
+  //         ease: "power4.out"
+  //       }, "-=0.3");
+  //     }
+  //     // Portfolio Cursor
+  //     if (target.closest(".portfolio__item-6")) {
+  //       tl.to(portf_cursor_6, {
+  //         opacity: 1,
+  //         ease: "power4.out"
+  //       }, "-=0.3");
+  //     }
+  //     else {
+  //       t2.to(portf_cursor_6, {
+  //         opacity: 0,
+  //         ease: "power4.out"
+  //       }, "-=0.3");
+  //     }
 
-      // featured  Cursor
-      if (target.closest(".portfolio__slider-3")) {
-        tl.to(featured_cursor, {
-          opacity: 1,
-          ease: "power4.out"
-        }, "-=0.3");
-      }
-      else {
-        t2.to(featured_cursor, {
-          opacity: 0,
-          ease: "power4.out"
-        }, "-=0.3");
-      }
+  //     // featured  Cursor
+  //     // if (target.closest(".portfolio__slider-3")) {
+  //     //   tl.to(featured_cursor, {
+  //     //     opacity: 1,
+  //     //     ease: "power4.out"
+  //     //   }, "-=0.3");
+  //     // }
+  //     // else {
+  //     //   t2.to(featured_cursor, {
+  //     //     opacity: 0,
+  //     //     ease: "power4.out"
+  //     //   }, "-=0.3");
+  //     // }
 
-      // featured  Cursor
-      if (target.closest(".portfolio__area-5")) {
-        tl.to(portfolio4_cursor, {
-          opacity: 1,
-          ease: "power4.out"
-        }, "-=0.3");
-      }
-      else {
-        t2.to(portfolio4_cursor, {
-          opacity: 0,
-          ease: "power4.out"
-        }, "-=0.3");
-      }
+  //     // featured  Cursor
+  //     if (target.closest(".portfolio__area-5")) {
+  //       tl.to(portfolio4_cursor, {
+  //         opacity: 1,
+  //         ease: "power4.out"
+  //       }, "-=0.3");
+  //     }
+  //     else {
+  //       t2.to(portfolio4_cursor, {
+  //         opacity: 0,
+  //         ease: "power4.out"
+  //       }, "-=0.3");
+  //     }
 
-      // Main Cursor Moving 
-      tl.to(".cursor1", {
-        ease: "power2.out"
-      })
-        .to(".cursor2", {
-          ease: "power2.out"
-        }, "-=0.4")
+  //     // Main Cursor Moving 
+  //     tl.to(".cursor1", {
+  //       ease: "power2.out"
+  //     })
+  //       .to(".cursor2", {
+  //         ease: "power2.out"
+  //       }, "-=0.4")
 
-    } catch (error) {
-      console.log(error)
-    }
+  //   } catch (error) {
+  //     console.log(error)
+  //   }
 
-  }
-  document.addEventListener("mousemove", mousemoveHandler);
+  // }
+  // document.addEventListener("mousemove", mousemoveHandler);
   /////////////////////////////////////////////////////
 
 
@@ -564,58 +564,58 @@
 
   /////////////////////////////////////////////////////
   // 12. Team Slider
-  var team_slider = new Swiper(".team__slider", {
-    spaceBetween: 30,
-    loop: true,
-    freemode: true,
-    slidesPerView: 1,
-    speed: 2000,
-    breakpoints: {
-      640: {
-        slidesPerView: 2,
-      },
-      1000: {
-        slidesPerView: 3,
-      },
-      1200: {
-        slidesPerView: 4,
-      },
-    }
-  });
+  // var team_slider = new Swiper(".team__slider", {
+  //   spaceBetween: 30,
+  //   loop: true,
+  //   freemode: true,
+  //   slidesPerView: 1,
+  //   speed: 2000,
+  //   breakpoints: {
+  //     640: {
+  //       slidesPerView: 2,
+  //     },
+  //     1000: {
+  //       slidesPerView: 3,
+  //     },
+  //     1200: {
+  //       slidesPerView: 4,
+  //     },
+  //   }
+  // });
   /////////////////////////////////////////////////////
 
 
   /////////////////////////////////////////////////////
   // 13. Testimonial Slider
-  var testimonial_slider = new Swiper(".testimonial__slider", {
-    spaceBetween: 0,
-    loop: true,
-    freemode: true,
-    slidesPerView: 1,
-    speed: 2000,
+  // var testimonial_slider = new Swiper(".testimonial__slider", {
+  //   spaceBetween: 0,
+  //   loop: true,
+  //   freemode: true,
+  //   slidesPerView: 1,
+  //   speed: 2000,
 
-    navigation: {
-      nextEl: ".next-button",
-      prevEl: ".prev-button",
-    },
-  });
+  //   navigation: {
+  //     nextEl: ".next-button",
+  //     prevEl: ".prev-button",
+  //   },
+  // });
   /////////////////////////////////////////////////////
 
 
   /////////////////////////////////////////////////////
   // 14. Testimonial Slider 3
-  var testimonial_slider_3 = new Swiper(".testimonial__slider-3", {
-    spaceBetween: 0,
-    loop: true,
-    freemode: true,
-    slidesPerView: 1,
-    speed: 2000,
+  // var testimonial_slider_3 = new Swiper(".testimonial__slider-3", {
+  //   spaceBetween: 0,
+  //   loop: true,
+  //   freemode: true,
+  //   slidesPerView: 1,
+  //   speed: 2000,
 
-    navigation: {
-      nextEl: ".next-button",
-      prevEl: ".prev-button",
-    },
-  });
+  //   navigation: {
+  //     nextEl: ".next-button",
+  //     prevEl: ".prev-button",
+  //   },
+  // });
   /////////////////////////////////////////////////////
 
 
@@ -918,42 +918,42 @@
 
     /////////////////////////////////////////////////////
     // 24. Portfolio 5 Animation 
-    let skewSetter = gsap.quickTo(".portfolio__item-5 img", "skewY"),
-      clamp = gsap.utils.clamp(-15, 15);
-    const smoother = ScrollSmoother.create({
-      smooth: 1.35,
-      effects: device_width < 1025 ? false : true,
-      smoothTouch: false,
-      normalizeScroll: false,
-      ignoreMobileResize: true,
-      onUpdate: self => skewSetter(clamp(self.getVelocity() / -80)),
-      onStop: () => skewSetter(0)
-    });
+    // let skewSetter = gsap.quickTo(".portfolio__item-5 img", "skewY"),
+    //   clamp = gsap.utils.clamp(-15, 15);
+    // const smoother = ScrollSmoother.create({
+    //   smooth: 1.35,
+    //   effects: device_width < 1025 ? false : true,
+    //   smoothTouch: false,
+    //   normalizeScroll: false,
+    //   ignoreMobileResize: true,
+    //   onUpdate: self => skewSetter(clamp(self.getVelocity() / -80)),
+    //   onStop: () => skewSetter(0)
+    // });
 
     /////////////////////////////////////////////////////
 
 
     ///////////////////////////////////////////////////// 
     // 25. Title Animation
-    let splitTitleLines = gsap.utils.toArray(".title-anim");
+    // let splitTitleLines = gsap.utils.toArray(".title-anim");
 
-    splitTitleLines.forEach(splitTextLine => {
-      const tl = gsap.timeline({
-        scrollTrigger: {
-          trigger: splitTextLine,
-          start: 'top 90%',
-          end: 'bottom 60%',
-          scrub: false,
-          markers: false,
-          toggleActions: 'play none none none'
-        }
-      });
+    // splitTitleLines.forEach(splitTextLine => {
+    //   const tl = gsap.timeline({
+    //     scrollTrigger: {
+    //       trigger: splitTextLine,
+    //       start: 'top 90%',
+    //       end: 'bottom 60%',
+    //       scrub: false,
+    //       markers: false,
+    //       toggleActions: 'play none none none'
+    //     }
+    //   });
 
-      const itemSplitted = new SplitText(splitTextLine, { type: "words, lines" });
-      gsap.set(splitTextLine, { perspective: 400 });
-      itemSplitted.split({ type: "lines" })
-      tl.from(itemSplitted.lines, { duration: 1, delay: 0.3, opacity: 0, rotationX: -80, force3D: true, transformOrigin: "top center -50", stagger: 0.1 });
-    });
+    //   const itemSplitted = new SplitText(splitTextLine, { type: "words, lines" });
+    //   gsap.set(splitTextLine, { perspective: 400 });
+    //   itemSplitted.split({ type: "lines" })
+    //   tl.from(itemSplitted.lines, { duration: 1, delay: 0.3, opacity: 0, rotationX: -80, force3D: true, transformOrigin: "top center -50", stagger: 0.1 });
+    // });
     /////////////////////////////////////////////////////
 
 
@@ -965,26 +965,26 @@
 
     /////////////////////////////////////////////////////
     // 27. Text Animation
-    let splitTextLines = gsap.utils.toArray(".text-anim p");
+    // let splitTextLines = gsap.utils.toArray(".text-anim p");
 
-    splitTextLines.forEach(splitTextLine => {
-      const tl = gsap.timeline({
-        scrollTrigger: {
-          trigger: splitTextLine,
-          start: 'top 90%',
-          duration: 2,
-          end: 'bottom 60%',
-          scrub: false,
-          markers: false,
-          toggleActions: 'play none none none'
-        }
-      });
+    // splitTextLines.forEach(splitTextLine => {
+    //   const tl = gsap.timeline({
+    //     scrollTrigger: {
+    //       trigger: splitTextLine,
+    //       start: 'top 90%',
+    //       duration: 2,
+    //       end: 'bottom 60%',
+    //       scrub: false,
+    //       markers: false,
+    //       toggleActions: 'play none none none'
+    //     }
+    //   });
 
-      const itemSplitted = new SplitText(splitTextLine, { type: "lines" });
-      gsap.set(splitTextLine, { perspective: 400 });
-      itemSplitted.split({ type: "lines" })
-      tl.from(itemSplitted.lines, { duration: 1, delay: 0.5, opacity: 0, rotationX: -80, force3D: true, transformOrigin: "top center -50", stagger: 0.1 });
-    });
+    //   const itemSplitted = new SplitText(splitTextLine, { type: "lines" });
+    //   gsap.set(splitTextLine, { perspective: 400 });
+    //   itemSplitted.split({ type: "lines" })
+    //   tl.from(itemSplitted.lines, { duration: 1, delay: 0.5, opacity: 0, rotationX: -80, force3D: true, transformOrigin: "top center -50", stagger: 0.1 });
+    // });
     /////////////////////////////////////////////////////
 
 
@@ -1417,23 +1417,24 @@
 
   /////////////////////////////////////////////////////
   // 40. Portfolio Slider 3
-  var portfolio_slider_3 = new Swiper(".portfolio__slider-3", {
-    speed: 1500,
-    loop: true,
-    effect: 'fade',
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false
-    },
-    pagination: {
-      el: ".swiper-pagination",
-      type: "fraction",
-    },
-    navigation: {
-      nextEl: ".pp-next",
-      prevEl: ".pp-prev",
-    },
-  });
+  // var portfolio_slider_3 = new Swiper(".portfolio__slider-3", {
+  //   speed: 1500,
+  //   loop: true,
+  //   effect: 'fade',
+  //   autoplay:false,
+  //   // autoplay: {
+  //   //   delay: 5000,
+  //   //   disableOnInteraction: false
+  //   // },
+  //   pagination: {
+  //     el: ".swiper-pagination",
+  //     type: "fraction",
+  //   },
+  //   navigation: {
+  //     nextEl: ".pp-next",
+  //     prevEl: ".pp-prev",
+  //   },
+  // });
   /////////////////////////////////////////////////////
 
 
@@ -1560,40 +1561,40 @@
 
   /////////////////////////////////////////////////////
   // 42. Counter Animation
-  gsap.set(".counter_animation .counter__anim", { y: -100, opacity: 0, })
-  if (device_width < 1023) {
-    const counterArray = gsap.utils.toArray(".counter_animation .counter__anim")
-    counterArray.forEach((item, i) => {
-      let counterTl = gsap.timeline({
-        scrollTrigger: {
-          trigger: item,
-          start: "top center+=200",
-        }
-      })
-      counterTl.to(item, {
-        y: 0,
-        opacity: 1,
-        ease: "bounce",
-        duration: 1.5,
-      })
-    })
-  }
-  else {
+  // gsap.set(".counter_animation .counter__anim", { y: -100, opacity: 0, })
+  // if (device_width < 1023) {
+  //   const counterArray = gsap.utils.toArray(".counter_animation .counter__anim")
+  //   counterArray.forEach((item, i) => {
+  //     let counterTl = gsap.timeline({
+  //       scrollTrigger: {
+  //         trigger: item,
+  //         start: "top center+=200",
+  //       }
+  //     })
+  //     counterTl.to(item, {
+  //       y: 0,
+  //       opacity: 1,
+  //       ease: "bounce",
+  //       duration: 1.5,
+  //     })
+  //   })
+  // }
+  // else {
 
-    gsap.to(".counter_animation .counter__anim", {
-      scrollTrigger: {
-        trigger: ".counter_animation",
-        start: "top center+=300",
-      },
-      y: 0,
-      opacity: 1,
-      ease: "bounce",
-      duration: 1.5,
-      stagger: {
-        each: 0.3,
-      }
-    })
-  }
+  //   gsap.to(".counter_animation .counter__anim", {
+  //     scrollTrigger: {
+  //       trigger: ".counter_animation",
+  //       start: "top center+=300",
+  //     },
+  //     y: 0,
+  //     opacity: 1,
+  //     ease: "bounce",
+  //     duration: 1.5,
+  //     stagger: {
+  //       each: 0.3,
+  //     }
+  //   })
+  // }
   /////////////////////////////////////////////////////
 
 
@@ -1618,41 +1619,41 @@
 
   /////////////////////////////////////////////////////
   // 44. Workflow Slider Animation 2 |  fade_bottom
-  gsap.set(".fade_bottom", { y: 30, opacity: 0 });
+  // gsap.set(".fade_bottom", { y: 30, opacity: 0 });
 
-  if (device_width < 1023) {
-    const fadeArray = gsap.utils.toArray(".fade_bottom")
-    fadeArray.forEach((item, i) => {
-      let fadeTl = gsap.timeline({
-        scrollTrigger: {
-          trigger: item,
-          start: "top center+=200",
-        }
-      })
-      fadeTl.to(item, {
-        y: 0,
-        opacity: 1,
-        ease: "power2.out",
-        duration: 1.5,
-      })
-    })
-  }
-  else {
-    gsap.to(".fade_bottom", {
-      scrollTrigger: {
-        trigger: ".fade_bottom",
-        start: "top center+=300",
-        markers: false
-      },
-      y: 0,
-      opacity: 1,
-      ease: "power2.out",
-      duration: 1,
-      stagger: {
-        each: 0.2
-      }
-    })
-  }
+  // if (device_width < 1023) {
+  //   const fadeArray = gsap.utils.toArray(".fade_bottom")
+  //   fadeArray.forEach((item, i) => {
+  //     let fadeTl = gsap.timeline({
+  //       scrollTrigger: {
+  //         trigger: item,
+  //         start: "top center+=200",
+  //       }
+  //     })
+  //     fadeTl.to(item, {
+  //       y: 0,
+  //       opacity: 1,
+  //       ease: "power2.out",
+  //       duration: 1.5,
+  //     })
+  //   })
+  // }
+  // else {
+  //   gsap.to(".fade_bottom", {
+  //     scrollTrigger: {
+  //       trigger: ".fade_bottom",
+  //       start: "top center+=300",
+  //       markers: false
+  //     },
+  //     y: 0,
+  //     opacity: 1,
+  //     ease: "power2.out",
+  //     duration: 1,
+  //     stagger: {
+  //       each: 0.2
+  //     }
+  //   })
+  // }
   /////////////////////////////////////////////////////
 
 
@@ -2158,11 +2159,11 @@
   gsap.from(split_word_up.words, { duration: 1, y: 50, autoAlpha: 0, stagger: 0.05 });
 
   // Service Page hero Animation   
-  let word_come = document.querySelectorAll(".animation__word_come")
-  word_come.forEach((word_come) => {
-    let split_word_come = new SplitText(word_come, { type: "chars words", position: "absolute" })
-    gsap.from(split_word_come.words, { duration: 1, x: 50, autoAlpha: 0, stagger: 0.05 });
-  })
+  // let word_come = document.querySelectorAll(".animation__word_come")
+  // word_come.forEach((word_come) => {
+  //   let split_word_come = new SplitText(word_come, { type: "chars words", position: "absolute" })
+  //   gsap.from(split_word_come.words, { duration: 1, x: 50, autoAlpha: 0, stagger: 0.05 });
+  // })
 
   // Service Page hero Animation   
   let word_come_long = document.querySelectorAll(".animation__word_come_long")
@@ -2590,18 +2591,18 @@
 
 
   // Charchater Come long Animation 
-  let mark = document.querySelector(".hero__area-3 .title-left")
-  let eting = document.querySelector(".hero__area-3 .title-right")
-  let hero__text_animation = document.querySelector(".hero__text-animation")
+  // let mark = document.querySelector(".hero__area-3 .title-left")
+  // let eting = document.querySelector(".hero__area-3 .title-right")
+  // let hero__text_animation = document.querySelector(".hero__text-animation")
 
 
-  let split_creatives = new SplitText(mark, { type: "chars" })
-  let split_solutions = new SplitText(eting, { type: "chars" })
-  let split_text_animation = new SplitText(hero__text_animation, { type: "chars words" })
+  // let split_creatives = new SplitText(mark, { type: "chars" })
+  // let split_solutions = new SplitText(eting, { type: "chars" })
+  // let split_text_animation = new SplitText(hero__text_animation, { type: "chars words" })
 
-  HomeDigital.from(split_creatives.chars, { duration: 2, x: 100, autoAlpha: 0, stagger: 0.2 });
-  HomeDigital.from(split_solutions.chars, { duration: 1, x: 100, autoAlpha: 0, stagger: 0.1 }, "-=1");
-  HomeDigital.from(split_text_animation.words, { duration: 1, x: 50, autoAlpha: 0, stagger: 0.05 }, "-=1");
+  // HomeDigital.from(split_creatives.chars, { duration: 2, x: 100, autoAlpha: 0, stagger: 0.2 });
+  // HomeDigital.from(split_solutions.chars, { duration: 1, x: 100, autoAlpha: 0, stagger: 0.1 }, "-=1");
+  // HomeDigital.from(split_text_animation.words, { duration: 1, x: 50, autoAlpha: 0, stagger: 0.05 }, "-=1");
 
 
 

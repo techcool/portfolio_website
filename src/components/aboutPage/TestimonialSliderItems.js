@@ -1,7 +1,11 @@
+
+
 import { testimonialData } from "@/data/testimonialData";
 import React from "react";
 
+
 export default function TestimonialSliderItems() {
+
   return (
     <>
       {testimonialData.map((data) => (
@@ -11,7 +15,7 @@ export default function TestimonialSliderItems() {
               {data.title}
             </h2>
             <p className="testimonial__text-2 text-gray-600 leading-relaxed">
-             {data.message}
+              {data.message}
             </p>
             <h3 className="testimonial__author font-semibold text-lg">
               {data.name}
