@@ -2193,6 +2193,8 @@ img {
   width: 250px;
   border-radius: 100%;
   margin-left: -40px;
+  /* opacity:1 !important;
+  visibility:visible !important */
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .btn_wrapper,
@@ -2296,6 +2298,7 @@ img {
   font-size: 120px;
   line-height: 0.9;
   color: var(--black-2);
+
 }
 @media only screen and (min-width: 1400px) and (max-width: 1919px) {
   .sec-title-2 {
@@ -3104,6 +3107,7 @@ img {
   transition: transform 0.4s ease, box-shadow 0.4s ease;
   transition: transform 0.4s ease, box-shadow 0.4s ease,
     -webkit-transform 0.4s ease, -webkit-box-shadow 0.4s ease;
+    text-transform:uppercase;
 }
 .main-menu-3 > li > a .menu-text {
   display: -webkit-box;
@@ -10728,7 +10732,6 @@ img {
   padding-bottom: 60px;
 }
 .workflow__area-3 {
-  overflow: hidden;
   background-color: var(--pink-4);
   padding-top: 60px;
   direction: ltr;
@@ -10756,6 +10759,7 @@ img {
   height: 100%;
   will-change: transform;
   opacity: 1 !important;
+  flex: 0 0 100vw;
 }
 .workflow__area-6 {
   overflow: hidden;
@@ -10767,13 +10771,11 @@ img {
   }
 }
 .workflow__wrapper-3 {
-  width: 400%;
   height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: no-wrap;
-  flex-wrap: no-wrap;
+  flex-wrap: nowrap;
+  width: max-content;
+  overflow: hidden;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .workflow__wrapper-3 {
@@ -36017,6 +36019,9 @@ a.black-text {
 }
 .swipper-btn:hover svg path{
   fill:#fff
+}
+.be-kind > div{
+  text-align:left !important
 }
 
 

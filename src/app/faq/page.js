@@ -1,3 +1,4 @@
+import FaqHeading from '@/components/faq/FaqHeading'
 import FaqAccordion from '@/components/HomePage/FaqAccordion'
 import { faqPageAccordionData } from '@/data/faqAccordionData'
 import CTA from '@/ui/CTA'
@@ -13,7 +14,7 @@ export default function FaqPage() {
             <div className="row">
               <div className="w-full">
                 <div className="sec-title-wrapper">
-                  <h2 className="sec-title-2 animation__char_come">FAQ</h2>
+                  <FaqHeading/>
                   <p className="">Frequently asked question (FAQ) <br/> pages to find answars.</p>
                 </div>
               </div>

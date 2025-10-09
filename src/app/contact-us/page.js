@@ -1,5 +1,7 @@
 import ContactForm from '@/components/contactPage/ContactForm'
+import ContactHeading from '@/components/contactPage/ContactHeading'
 import ContactInfo from '@/components/contactPage/ContactInfo'
+import ContactInfoHeading from '@/components/contactPage/ContactInfoHeading'
 import React from 'react'
 
 export default function ContactUs() {
@@ -11,7 +13,7 @@ export default function ContactUs() {
             <div className="flex flex-wrap items-center justify-between">
               <div className="w-full md:w-[50%]">
                 <div className="sec-title-wrapper">
-                  <h2 className="sec-title-2 animation__char_come">Let’s get in touch</h2>
+                  <ContactHeading/>
                 </div>
               </div>
               <div className="w-full md:w-[50%]">
@@ -24,7 +26,7 @@ export default function ContactUs() {
             <div className="flex flex-wrap gap-0 md:gap-24 items-start justify-between contact__btm">
               <div className="w-full md:w-[36%]">
                 <div className="contact__info">
-                  <h3 className="sub-title-anim-top animation__word_come">Don't be afraid man ! say hello</h3>
+                  <ContactInfoHeading/>
                   <ContactInfo/>
                 </div>
               </div>

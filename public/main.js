@@ -717,41 +717,41 @@
 
   /////////////////////////////////////////////////////
   // 19. Button Move Animation
-  const all_btns = gsap.utils.toArray(".btn_wrapper");
-  if (all_btns.length > 0) {
-    var all_btn = gsap.utils.toArray(".btn_wrapper");
-  }
-  else {
-    var all_btn = gsap.utils.toArray("#btn_wrapper");
-  }
-  const all_btn_cirlce = gsap.utils.toArray(".btn-item");
-  all_btn.forEach((btn, i) => {
-    $(btn).mousemove(function (e) {
-      callParallax(e);
-    });
-    function callParallax(e) {
-      parallaxIt(e, all_btn_cirlce[i], 80);
-    }
+  // const all_btns = gsap.utils.toArray(".btn_wrapper");
+  // if (all_btns.length > 0) {
+  //   var all_btn = gsap.utils.toArray(".btn_wrapper");
+  // }
+  // else {
+  //   var all_btn = gsap.utils.toArray("#btn_wrapper");
+  // }
+  // const all_btn_cirlce = gsap.utils.toArray(".btn-item");
+  // all_btn.forEach((btn, i) => {
+  //   $(btn).mousemove(function (e) {
+  //     callParallax(e);
+  //   });
+  //   function callParallax(e) {
+  //     parallaxIt(e, all_btn_cirlce[i], 80);
+  //   }
 
-    function parallaxIt(e, target, movement) {
-      var $this = $(btn);
-      var relX = e.pageX - $this.offset().left;
-      var relY = e.pageY - $this.offset().top;
+  //   function parallaxIt(e, target, movement) {
+  //     var $this = $(btn);
+  //     var relX = e.pageX - $this.offset().left;
+  //     var relY = e.pageY - $this.offset().top;
 
-      gsap.to(target, 0.5, {
-        x: ((relX - $this.width() / 2) / $this.width()) * movement,
-        y: ((relY - $this.height() / 2) / $this.height()) * movement,
-        ease: Power2.easeOut,
-      });
-    }
-    $(btn).mouseleave(function (e) {
-      gsap.to(all_btn_cirlce[i], 0.5, {
-        x: 0,
-        y: 0,
-        ease: Power2.easeOut,
-      });
-    });
-  });
+  //     gsap.to(target, 0.5, {
+  //       x: ((relX - $this.width() / 2) / $this.width()) * movement,
+  //       y: ((relY - $this.height() / 2) / $this.height()) * movement,
+  //       ease: Power2.easeOut,
+  //     });
+  //   }
+  //   $(btn).mouseleave(function (e) {
+  //     gsap.to(all_btn_cirlce[i], 0.5, {
+  //       x: 0,
+  //       y: 0,
+  //       ease: Power2.easeOut,
+  //     });
+  //   });
+  // });
   /////////////////////////////////////////////////////
 
 
@@ -847,70 +847,70 @@
 
   /////////////////////////////////////////////////////
   // 23. Choose Section
-  if (device_width > 1200) {
+  // if (device_width > 1200) {
 
-    var workflow_section_3 = document.querySelector('.workflow__wrapper-3');
-    if (workflow_section_3) {
+  //   var workflow_section_3 = document.querySelector('.workflow__wrapper-3');
+  //   if (workflow_section_3) {
 
-      let duration = 1,
-        sections = gsap.utils.toArray(".wf_panel"),
-        sectionIncrement = duration / (sections.length - 1),
-        tl = gsap.timeline({
-          scrollTrigger: {
-            trigger: ".workflow__wrapper-3",
-            pin: true,
-            scrub: 1,
-            start: "top top",
-            end: "+=5000"
-          }
-        });
+  //     let duration = 1,
+  //       sections = gsap.utils.toArray(".wf_panel"),
+  //       sectionIncrement = duration / (sections.length - 1),
+  //       tl = gsap.timeline({
+  //         scrollTrigger: {
+  //           trigger: ".workflow__wrapper-3",
+  //           pin: true,
+  //           scrub: 1,
+  //           start: "top top",
+  //           end: "+=5000"
+  //         }
+  //       });
 
-      tl.to(sections, {
-        xPercent: -100 * (sections.length - 1),
-        duration: duration,
-        ease: "none"
-      });
+  //     tl.to(sections, {
+  //       xPercent: -100 * (sections.length - 1),
+  //       duration: duration,
+  //       ease: "none"
+  //     });
 
-      sections.forEach((section, index) => {
-        let tween = gsap.from(section, {
-          opacity: 0,
-          scale: 0.6,
-          duration: 0.5,
-          force3D: true,
-          paused: true
-        });
-        addSectionCallbacks(tl, {
-          start: sectionIncrement * (index - 0.99),
-          end: sectionIncrement * (index + 0.99),
-          onEnter: () => tween.play(),
-          onLeave: () => tween.reverse(),
-          onEnterBack: () => tween.play(),
-          onLeaveBack: () => tween.reverse()
-        });
-        index || tween.progress(1);
-      });
+  //     sections.forEach((section, index) => {
+  //       let tween = gsap.from(section, {
+  //         opacity: 0,
+  //         scale: 0.6,
+  //         duration: 0.5,
+  //         force3D: true,
+  //         paused: true
+  //       });
+  //       addSectionCallbacks(tl, {
+  //         start: sectionIncrement * (index - 0.99),
+  //         end: sectionIncrement * (index + 0.99),
+  //         onEnter: () => tween.play(),
+  //         onLeave: () => tween.reverse(),
+  //         onEnterBack: () => tween.play(),
+  //         onLeaveBack: () => tween.reverse()
+  //       });
+  //       index || tween.progress(1);
+  //     });
 
-      function addSectionCallbacks(timeline, { start, end, param, onEnter, onLeave, onEnterBack, onLeaveBack }) {
-        let trackDirection = animation => {
-          let onUpdate = animation.eventCallback("onUpdate"),
-            prevTime = animation.time();
-          animation.direction = animation.reversed() ? -1 : 1;
-          animation.eventCallback("onUpdate", () => {
-            let time = animation.time();
-            if (prevTime !== time) {
-              animation.direction = time < prevTime ? -1 : 1;
-              prevTime = time;
-            }
-            onUpdate && onUpdate.call(animation);
-          });
-        },
-          empty = v => v;
-        timeline.direction || trackDirection(timeline);
-        start >= 0 && timeline.add(() => ((timeline.direction < 0 ? onLeaveBack : onEnter) || empty)(param), start);
-        end <= timeline.duration() && timeline.add(() => ((timeline.direction < 0 ? onEnterBack : onLeave) || empty)(param), end);
-      }
-    }
-  }
+  //     function addSectionCallbacks(timeline, { start, end, param, onEnter, onLeave, onEnterBack, onLeaveBack }) {
+  //       let trackDirection = animation => {
+  //         let onUpdate = animation.eventCallback("onUpdate"),
+  //           prevTime = animation.time();
+  //         animation.direction = animation.reversed() ? -1 : 1;
+  //         animation.eventCallback("onUpdate", () => {
+  //           let time = animation.time();
+  //           if (prevTime !== time) {
+  //             animation.direction = time < prevTime ? -1 : 1;
+  //             prevTime = time;
+  //           }
+  //           onUpdate && onUpdate.call(animation);
+  //         });
+  //       },
+  //         empty = v => v;
+  //       timeline.direction || trackDirection(timeline);
+  //       start >= 0 && timeline.add(() => ((timeline.direction < 0 ? onLeaveBack : onEnter) || empty)(param), start);
+  //       end <= timeline.duration() && timeline.add(() => ((timeline.direction < 0 ? onEnterBack : onLeave) || empty)(param), end);
+  //     }
+  //   }
+  // }
   /////////////////////////////////////////////////////
 
 
@@ -1115,21 +1115,21 @@
 
   /////////////////////////////////////////////////////
   // 32. Menu Text Animation
-  document.querySelectorAll('.menu-anim > li > a').forEach(button => button.innerHTML = '<div class="menu-text"><span>' + button.textContent.split('').join('</span><span>') + '</span></div>');
+  // document.querySelectorAll('.menu-anim > li > a').forEach(button => button.innerHTML = '<div class="menu-text"><span>' + button.textContent.split('').join('</span><span>') + '</span></div>');
 
-  setTimeout(() => {
-    var menu_text = document.querySelectorAll(".menu-text span")
-    menu_text.forEach((item) => {
-      var font_sizes = window.getComputedStyle(item, null);
-      let font_size = font_sizes.getPropertyValue("font-size");
-      let size_in_number = parseInt(font_size.replace("px", ""));
-      let new_size = parseInt(size_in_number / 3)
-      new_size = new_size + "px"
-      if (item.innerHTML == " ") {
-        item.style.width = new_size
-      }
-    })
-  }, 1000)
+  // setTimeout(() => {
+  //   var menu_text = document.querySelectorAll(".menu-text span")
+  //   menu_text.forEach((item) => {
+  //     var font_sizes = window.getComputedStyle(item, null);
+  //     let font_size = font_sizes.getPropertyValue("font-size");
+  //     let size_in_number = parseInt(font_size.replace("px", ""));
+  //     let new_size = parseInt(size_in_number / 3)
+  //     new_size = new_size + "px"
+  //     if (item.innerHTML == " ") {
+  //       item.style.width = new_size
+  //     }
+  //   })
+  // }, 1000)
   /////////////////////////////////////////////////////
 
 
@@ -1219,21 +1219,21 @@
   let arr2 = gsap.utils.toArray(".btn_wrapper")
   const all_buttons = arr1.concat(arr2);
 
-  all_buttons.forEach((btn) => {
-    if (!(btn.classList.contains("hero__button"))) {
-      gsap.from(btn, {
-        scrollTrigger: {
-          trigger: btn,
-          start: "top center+=150",
-          markers: false,
-        },
-        opacity: 0,
-        y: -70,
-        ease: "bounce",
-        duration: 1.5,
-      })
-    }
-  })
+  // all_buttons.forEach((btn) => {
+  //   if (!(btn.classList.contains("hero__button"))) {
+  //     gsap.from(btn, {
+  //       scrollTrigger: {
+  //         trigger: btn,
+  //         start: "top center+=150",
+  //         markers: false,
+  //       },
+  //       opacity: 0,
+  //       y: -70,
+  //       ease: "bounce",
+  //       duration: 1.5,
+  //     })
+  //   }
+  // })
 
   let imageTl = gsap.timeline({
     scrollTrigger: {
@@ -2129,21 +2129,21 @@
 
 
   // Charchater Come Animation 
-  let char_come = document.querySelectorAll(".animation__char_come")
+  // let char_come = document.querySelectorAll(".animation__char_come")
 
-  char_come.forEach((char_come) => {
-    let split_char = new SplitText(char_come, { type: "chars, words" })
-    gsap.from(split_char.chars, { duration: 1, x: 70, autoAlpha: 0, stagger: 0.05 });
-  })
+  // char_come.forEach((char_come) => {
+  //   let split_char = new SplitText(char_come, { type: "chars, words" })
+  //   gsap.from(split_char.chars, { duration: 1, x: 70, autoAlpha: 0, stagger: 0.05 });
+  // })
 
 
   // Charchater Come long Animation 
-  let char_come_long = document.querySelectorAll(".animation__char_come_long")
+  // let char_come_long = document.querySelectorAll(".animation__char_come_long")
 
-  char_come_long.forEach((char_come) => {
-    let split_char = new SplitText(char_come, { type: "chars, words" })
-    gsap.from(split_char.chars, { duration: 1, x: 70, autoAlpha: 0, stagger: 0.15 });
-  })
+  // char_come_long.forEach((char_come) => {
+  //   let split_char = new SplitText(char_come, { type: "chars, words" })
+  //   gsap.from(split_char.chars, { duration: 1, x: 70, autoAlpha: 0, stagger: 0.15 });
+  // })
 
 
   // Charchater Up Animation 

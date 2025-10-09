@@ -1,3 +1,4 @@
+import PortfolioCategoryTitle from "@/components/portfolioPage/PortfolioCategoryTitle";
 import { portfolioData } from "@/data/portfolioData";
 import slugify from "@/libs/slugify";
 
@@ -40,11 +41,7 @@ export default async function PortfolioCategory({ params }) {
           <div className="flex flex-wrap items-center justify-between pb-130">
             <div className="w-full">
               <div className="sec-title-wrapper">
-                <h2 className="sec-title-2 animation__char_come capitalize">
-                  {filteredPortfolio.length > 0
-                    ? filteredPortfolio[0].category
-                    : "No Category Found"}
-                </h2>
+                <PortfolioCategoryTitle filteredPortfolio={filteredPortfolio}/>
               </div>
             </div>
           </div>

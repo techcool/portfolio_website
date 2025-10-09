@@ -1,8 +1,30 @@
+"use client"
+
 import slugify from "@/libs/slugify";
+import gsap from "gsap";
+import { SplitText } from "gsap/all";
 import Link from "next/link";
-import React from "react";
+import React, { useEffect } from "react";
+gsap.registerPlugin(SplitText);
 
 export default function TitleData({portfolioData}) {
+
+  useEffect(() => {
+    let char_come = document.querySelectorAll(".animation__char_come");
+
+    char_come.forEach((char_come) => {
+      let split_char = new SplitText(char_come, { type: "chars, words" });
+      gsap.from(split_char.chars, {
+        duration: 1,
+        x: 70,
+        autoAlpha: 0,
+        stagger: 0.05,
+      });
+    });
+
+    
+  }, []);
+
   return (
     <>
       <div className="flex flex-wrap items-end justify-between">

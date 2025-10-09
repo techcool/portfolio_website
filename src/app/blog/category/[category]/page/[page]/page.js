@@ -27,7 +27,7 @@ export default function CategoryPagePagination({ params }) {
           <div className="w-full">
             <div className="sec-title-wrapper">
               <h2 className="sec-title-2 animation__char_come capitalize">
-                {posts.length > 0 ? posts[0].category : "No Category Found"}
+                {filteredPosts.length > 0 ? filteredPosts[0].category : "No Category Found"}
               </h2>
             </div>
           </div>

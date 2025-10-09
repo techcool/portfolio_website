@@ -7,8 +7,7 @@ import WhyChooseCTA from "./WhyChooseCTA";
 
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { SplitText } from "gsap/all";
-gsap.registerPlugin(ScrollTrigger , SplitText);
+gsap.registerPlugin(ScrollTrigger /*, SplitText */);
 
 function initHorizontalWorkflow() {
   const deviceWidth = window.innerWidth;
@@ -23,7 +22,7 @@ function initHorizontalWorkflow() {
   // Make sure panels are horizontal and each take viewport width
   // We set this via GSAP set so it works even if your CSS didn't cover it.
   gsap.set(container, { display: "flex", flexWrap: "nowrap" });
-  // sections.forEach((s) => gsap.set(s, { flex: "0 0 100%", width: "100vw" }));
+  sections.forEach((s) => gsap.set(s, { flex: "0 0 100%", width: "100vw" }));
 
   // Calculate scroll distance = width to move (total panels - 1) * viewport
   const scrollDistance = (sections.length - 1) * window.innerWidth;
@@ -101,38 +100,6 @@ function initHorizontalWorkflow() {
 export default function WhyChooseUs() {
   useEffect(() => {
     const cleanup = initHorizontalWorkflow();
-    const splitTitleLines = gsap.utils.toArray(".title-anim");
-
-    splitTitleLines.forEach((splitTextLine) => {
-      // Split text into lines
-      const split = new SplitText(splitTextLine, { type: "lines" });
-      gsap.set(splitTextLine, { perspective: 400 });
-
-      // Animation timeline
-      const tl = gsap.timeline({
-        scrollTrigger: {
-          trigger: splitTextLine,
-          start: "top 90%",
-          end: "bottom 60%",
-          scrub: false,
-          markers: false,
-          toggleActions: "play none none none",
-        },
-      });
-
-      // Animate each line
-      tl.from(split.lines, {
-        duration: 1,
-        delay: 0.3,
-        opacity: 0,
-        rotationX: -80,
-        force3D: true,
-        transformOrigin: "top center -50",
-        stagger: 0.1,
-        ease: "power3.out",
-      });
-    });
-       
     return () => cleanup && cleanup();
   }, []);
 

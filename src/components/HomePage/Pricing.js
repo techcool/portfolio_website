@@ -2,6 +2,7 @@ import React from "react";
 import FaqAccordion from "./FaqAccordion";
 import GetInTouch from "./GetInTouch";
 import { homeAccordionData } from "@/data/faqAccordionData";
+import PricingHeading from "./PricingHeading";
 
 export default function Pricing() {
   return (
@@ -12,10 +13,7 @@ export default function Pricing() {
             <div className="w-full lg:w-1/2 px-4 mb-12 lg:mb-0">
               <div className="sec-title-wrapper mb-8">
                
-                <h3 className="sec-title title-anim">
-                  Be kind to your <br />
-                  mind
-                </h3>
+               <PricingHeading/>
               </div>
 
               <FaqAccordion accordData={homeAccordionData}  />

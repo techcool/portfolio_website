@@ -1,3 +1,5 @@
+import BlogMainHeading from "@/components/blogPage/BlogMainHeading";
+import BlogSingleThumbnail from "@/components/blogPage/BlogSingleThumbnail";
 import RelatedPost from "@/components/blogPage/RelatedPost";
 import { blogData } from "@/data/blogData";
 import { getAllTags } from "@/libs/blogHelpers";
@@ -36,12 +38,7 @@ export default async function BlogDetails({ params }) {
             {/* Blog header */}
             <div className="w-full lg:w-[80%] lg:self-end">
               <div className="blog__detail-top">
-                <h2 className="blog__detail-date animation__word_come">
-                  {blog.category}
-                </h2>
-                <h3 className="blog__detail-title animation__word_come">
-                  {blog.title}
-                </h3>
+                <BlogMainHeading blog={blog}/>
                 <div className="blog__detail-metalist">
                   <div className="blog__detail-meta">
                     <p className="block md:flex items-center gap-1.5">
@@ -54,11 +51,7 @@ export default async function BlogDetails({ params }) {
             </div>
 
             {/* Thumbnail */}
-            <div className="w-full">
-              <div className="blog__detail-thumb">
-                <Image src={blog.imgSrc} alt={blog.title} data-speed="0.5" />
-              </div>
-            </div>
+            <BlogSingleThumbnail blog={blog}/>
 
             {/* Blog content */}
             <div className="w-full lg:w-[80%] lg:self-end">

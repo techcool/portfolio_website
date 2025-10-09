@@ -1,6 +1,7 @@
 import CircleButton from "@/ui/CircleButton";
 import Video from "@/ui/Video";
 import React from "react";
+import CareerHeading from "./CareerHeading";
 
 export default function CareerTop() {
   return (
@@ -11,9 +12,7 @@ export default function CareerTop() {
             <div className="flex flex-wrap items-center justify-between pb-120">
               <div className="w-full md:w-[75%]">
                 <div className="sec-title-wrapper">
-                  <h2 className="sec-title-2 animation__char_come">
-                    Join our team & let’s work together
-                  </h2>
+                  <CareerHeading/>
                 </div>
               </div>
               <div className="w-full md:w-[25%] justify-start flex md:justify-end">

@@ -6,10 +6,18 @@ import CircleButton from "../../ui/CircleButton";
 import award from "@public/assets/imgs/awards/award.png";
 import Video from "@/ui/Video";
 import gsap from "gsap";
-import { SplitText } from "gsap/all";
+import { ScrollTrigger, SplitText } from "gsap/all";
+import { usePathname } from "next/navigation";
 
+gsap.registerPlugin(ScrollTrigger, SplitText);
 
 export default function AboutHero() {
+  const pathname = usePathname();
+ 
+  // kill existing animations if any
+    ScrollTrigger.getAll().forEach(trigger => trigger.kill());
+    gsap.globalTimeline.clear();
+
   useEffect(() => {
     let word_come = document.querySelectorAll(".animation__word_come");
     word_come.forEach((word_come) => {
@@ -26,8 +34,6 @@ export default function AboutHero() {
     });
 
   const splits = [];
-
-    // Split text animation for titles
     const splitTitleLines = gsap.utils.toArray(".title-anim p");
     splitTitleLines.forEach((el) => {
       const split = new SplitText(el, { type: "lines" });
@@ -50,7 +56,13 @@ export default function AboutHero() {
         stagger: 0.1,
       });
     });
-  }, []);
+
+    // cleanup
+    return () => {
+      splits.forEach(split => split.revert());
+      ScrollTrigger.getAll().forEach(trigger => trigger.kill());
+    };
+  }, [pathname]);
 
   return (
     <>

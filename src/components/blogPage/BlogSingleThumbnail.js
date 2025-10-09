@@ -1,13 +1,13 @@
 "use client"
-
-import gsap from "gsap";
-import { ScrollTrigger, ScrollSmoother, SplitText } from "gsap/all";
 import Image from "next/image";
 import React, { useEffect } from "react";
+import gsap from "gsap";
+import { ScrollTrigger, ScrollSmoother, SplitText } from "gsap/all";
 
-export default function Thumb1({portfolioData}) {
- 
-  useEffect(()=>{
+
+function BlogSingleThumbnail({blog}) {
+
+   useEffect(()=>{
     if (typeof window === "undefined") return;
 
     gsap.registerPlugin(ScrollTrigger, ScrollSmoother, SplitText);
@@ -29,17 +29,16 @@ export default function Thumb1({portfolioData}) {
         onStop: () => skewSetter(0),
       });
     }
-  },[])
-
+  },[]) 
   return (
     <>
-      <div className="portfolio__detail-thumb">
-        <Image
-          src={portfolioData.portFolioThumbImg}
-          alt="Portfolio Thumbnail"
-          data-speed="auto"
-        />
+      <div className="w-full">
+        <div className="blog__detail-thumb">
+          <Image src={blog.imgSrc} alt={blog.title} data-speed="0.5" />
+        </div>
       </div>
     </>
   );
 }
+
+export default BlogSingleThumbnail;

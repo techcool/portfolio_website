@@ -1,4 +1,5 @@
 // app/blog/category/[category]/page.js
+import BlogCategoryHeading from "@/components/blogPage/BlogCategoryHeading";
 import { blogData } from "@/data/blogData";
 import slugify from "@/libs/slugify";
 import BlogCard from "@/ui/BlogCard";
@@ -53,9 +54,7 @@ export default async function BlogCategory({ params }) {
         <div className="flex flex-wrap items-center justify-between pb-130">
           <div className="w-full">
             <div className="sec-title-wrapper">
-              <h2 className="sec-title-2 animation__char_come capitalize">
-                {currentPosts.length > 0 ? currentPosts[0].category : "No Category Found"}
-              </h2>
+              <BlogCategoryHeading currentPosts={currentPosts}/>
             </div>
           </div>
         </div>
