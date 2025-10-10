@@ -1,10 +1,7 @@
 import React from "react";
 
-import galleryPic1 from "@public/assets/imgs/career/2.jpg"
-import galleryPic2 from "@public/assets/imgs/career/3.jpg"
-import galleryPic3 from "@public/assets/imgs/career/4.jpg"
-import galleryPic4 from "@public/assets/imgs/career/5.jpg"
-import Image from "next/image";
+
+import CareerGalleryImg from "./CareerGalleryImg";
 
 
 export default function CareerGallery() {
@@ -30,28 +27,7 @@ export default function CareerGallery() {
             </div>
           </div>
 
-          <div className="flex flex-wrap gap-4 justify-between">
-            <div className="w-full md:w-[23%] ">
-              <div className="career__gallery-img">
-                <Image src={galleryPic1} alt="Career image 1" />
-              </div>
-            </div>
-            <div className="w-full md:w-[40%]">
-              <div className="career__gallery-img img-anim">
-                <Image
-                  src={galleryPic2}
-                  alt="Career image 2"
-                  data-speed="auto"
-                />
-              </div>
-            </div>
-            <div className="w-full md:w-[33%]">
-              <div className="career__gallery-img">
-                <Image src={galleryPic3} alt="Career image 3" />
-                <Image src={galleryPic4} alt="Career image 4" />
-              </div>
-            </div>
-          </div>
+          <CareerGalleryImg/>
         </div>
       </section>
     </>

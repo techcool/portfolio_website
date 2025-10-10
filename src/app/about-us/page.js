@@ -13,7 +13,6 @@ import CTA from "@/ui/CTA";
 export default function AboutUs() {
   return (
     <>
-        
         <AboutHero /> 
         <Story/>
         <Counter/>

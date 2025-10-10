@@ -1,5 +1,6 @@
 import React from 'react'
 import JobList from './JobList'
+import CareerAreaHeading from './CareerAreaHeading'
 
 export default function CareerArea() {
   return (
@@ -9,52 +10,12 @@ export default function CareerArea() {
             <div className="row">
               <div className="w-full">
                 <div className="sec-title-wrapper">
-                  <h2 className="sec-title title-anim">We’re Currently <br/>hiring</h2>
+                  <CareerAreaHeading/>
                 </div>
               </div>
               <div className="col-xxl-12">
                 <div className="job__list">
                    <JobList/> 
-                  {/* <a href="job-details.html">
-                    <div className="job__item">
-                      <p className="job__no">01</p>
-                      <h3 className="job__title">UI/UX Designer</h3>
-                      <h4 className="job__open">(02 Open Roles)</h4>
-                      <div className="job__link"><span><i className="fa-solid fa-arrow-right"></i></span></div>
-                    </div>
-                  </a>
-                  <a href="job-details.html">
-                    <div className="job__item">
-                      <p className="job__no">02</p>
-                      <h3 className="job__title">Frontend Developer</h3>
-                      <h4 className="job__open">(07 Open Roles)</h4>
-                      <div className="job__link"><span><i className="fa-solid fa-arrow-right"></i></span></div>
-                    </div>
-                  </a>
-                  <a href="job-details.html">
-                    <div className="job__item">
-                      <p className="job__no">03</p>
-                      <h3 className="job__title">Product Manager</h3>
-                      <h4 className="job__open">(15 Open Roles)</h4>
-                      <div className="job__link"><span><i className="fa-solid fa-arrow-right"></i></span></div>
-                    </div>
-                  </a>
-                  <a href="job-details.html">
-                    <div className="job__item">
-                      <p className="job__no">04</p>
-                      <h3 className="job__title">JavaScript Engineer</h3>
-                      <h4 className="job__open">(03 Open Roles)</h4>
-                      <div className="job__link"><span><i className="fa-solid fa-arrow-right"></i></span></div>
-                    </div>
-                  </a>
-                  <a href="job-details.html">
-                    <div className="job__item">
-                      <p className="job__no">05</p>
-                      <h3 className="job__title">Joomla Developer</h3>
-                      <h4 className="job__open">(09 Open Roles)</h4>
-                      <div className="job__link"><span><i className="fa-solid fa-arrow-right"></i></span></div>
-                    </div>
-                  </a> */}
                 </div>
               </div>
             </div>

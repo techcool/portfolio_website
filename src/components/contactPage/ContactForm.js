@@ -3,6 +3,8 @@
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useState } from "react";
+import loader from "@public/assets/imgs/css-loader.gif"
+import Image from "next/image";
 
 export default function ContactForm() {
   const [formData, setFormData] = useState({
@@ -14,6 +16,7 @@ export default function ContactForm() {
     message: "",
   });
   const [status, setStatus] = useState("");
+  const [isLoading, setIsLoading] = useState(false)
   const handleChange = (e) => {
     setFormData({
       ...formData,
@@ -23,8 +26,10 @@ export default function ContactForm() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setIsLoading(true)
 
-    const res = await fetch("/api/contact", {
+    try{
+      const res = await fetch("/api/contact", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(formData),
@@ -32,10 +37,17 @@ export default function ContactForm() {
 
     if (res.ok) {
       setStatus("✅ Message sent successfully!");
-      setFormData({ first_name: "", last_name: "", email: "", subject: "", message: "" });
+      setFormData({ first_name: "", last_name: "",phone: "", email: "", subject: "", message: "" });
     } else {
       setStatus("❌ Failed to send message");
     }
+    }catch(error){
+      setStatus("❌ Something went wrong");
+    }finally{
+      setIsLoading(false)
+    }
+
+    
   };
 
   return (
@@ -76,7 +88,7 @@ export default function ContactForm() {
             <input
               type="tel"
               name="phone"
-              placeholder="Phone *"
+              placeholder="9123456780"
               required
               value={formData.phone}
               onChange={handleChange}
@@ -117,7 +129,7 @@ export default function ContactForm() {
           </div>
         </div>
         <div className="row g-3">
-          <div className="col-12">
+          <div className="col-12 flex gap-2 items-center">
             <div className="btn_wrapper">
               <button
                 className="wc-btn-black btn-hover btn-item cursor-pointer"
@@ -127,6 +139,10 @@ export default function ContactForm() {
                 Messages <FontAwesomeIcon icon={faArrowRight} ></FontAwesomeIcon>
               </button>
             </div>
+            {
+              isLoading && <Image className="contactLoader" src={loader} alt="loader" width={25} height={25} />
+            }
+            
           </div>
         </div>
         {status && <p>{status}</p>}

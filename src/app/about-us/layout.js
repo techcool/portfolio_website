@@ -9,8 +9,6 @@ export const metadata = {
 export default function AboutUsLayout({children}) {
   return (
     <>
-        <Header />
-        <Offcanvas/>
         {children}
     </>
   )

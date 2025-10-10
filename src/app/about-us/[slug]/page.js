@@ -1,10 +1,12 @@
 import CTA from "@/ui/CTA";
 import { sinleTeamData } from "@/data/singleTeamData";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Image from "next/image";
+
 import Link from "next/link";
 import React from "react";
 import slugify from "@/libs/slugify";
+import TeamImg from "@/components/aboutPage/TeamImg";
+import SingleTeamHeading from "@/components/aboutPage/SingleTeamHeading";
 
 export async function generateMetadata({params}) {
   const {slug} = await params;
@@ -30,23 +32,11 @@ export default async function TeamDetails({params}) {
         <section className="team__detail">
           <div className="container mx-auto px-4 pb-36 ">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
-              <div className="flex justify-center md:justify-start">
-                <Image
-                  src={teamData.image}
-                  alt={teamData.name}
-                  className="w-full object-cover"
-                />
-              </div>
+              <TeamImg teamData={teamData}/>
 
               <div className="pt-10 md:pt-28">
                 <div className="sec-title-wrapper">
-                    <h2 className="team__member-name-7 animation__char_come mb-4">
-                      {teamData.name}
-                    </h2>
-                    <h3 className="team__member-role-7 animation__char_come">
-                    
-                      {teamData.designation}
-                    </h3>
+                    <SingleTeamHeading teamData={teamData}/>
                     <p>
                       {teamData.Message}
                     </p>

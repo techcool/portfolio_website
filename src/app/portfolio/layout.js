@@ -9,8 +9,6 @@ export const metadata = {
 export default function PortfolioLayout({children}) {
   return (
     <>
-        <Header />
-        <Offcanvas/>
         {children}
     </>
   )

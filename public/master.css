@@ -59,6 +59,10 @@
 /*  03. SPACE CSS START
 /*----------------------------------------*/
 
+main {
+  background: #fff;
+}
+
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
@@ -729,7 +733,7 @@ img {
   position: fixed;
   right: 20px;
   bottom: 20px;
-  z-index: 9991;
+  z-index: 9999999;
   border-radius: 100px;
   color: var(--white);
   background: var(--white);
@@ -737,6 +741,7 @@ img {
   transition: all 0.3s;
   display: none;
   mix-blend-mode: exclusion;
+  cursor: pointer;
 }
 .scroll-top i {
   font-size: 18px;
@@ -2298,7 +2303,6 @@ img {
   font-size: 120px;
   line-height: 0.9;
   color: var(--black-2);
-
 }
 @media only screen and (min-width: 1400px) and (max-width: 1919px) {
   .sec-title-2 {
@@ -3107,7 +3111,7 @@ img {
   transition: transform 0.4s ease, box-shadow 0.4s ease;
   transition: transform 0.4s ease, box-shadow 0.4s ease,
     -webkit-transform 0.4s ease, -webkit-box-shadow 0.4s ease;
-    text-transform:uppercase;
+  text-transform: uppercase;
 }
 .main-menu-3 > li > a .menu-text {
   display: -webkit-box;
@@ -4966,7 +4970,7 @@ img {
   transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
   transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s,
     -webkit-transform 0.25s;
-  z-index: 99999;
+  z-index: 999999999;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -11510,7 +11514,7 @@ img {
   bottom: 0;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  cursor:pointer
+  cursor: pointer;
 }
 .testimonial__slider-3 .swipper-btn:hover {
   background-color: var(--black-2);
@@ -35945,6 +35949,8 @@ a.black-text {
 }
 .faq-page .faq__list-3 .accordion-header button {
   font-size: 20px !important;
+  width: 100%;
+  text-align: left;
 }
 .faq-page .accordion-body p {
   font-size: 18px !important;
@@ -35961,10 +35967,10 @@ a.black-text {
 }
 
 .customize-megamenu .main .menuItems:nth-of-type(2) {
-    grid-row-start: 1;
-    grid-column-start: 2;
-    grid-row-end: 3;
-    grid-column-end: 5;
+  grid-row-start: 1;
+  grid-column-start: 2;
+  grid-row-end: 3;
+  grid-column-end: 5;
 }
 /* .customize-megamenu .main .menuItems:nth-of-type(4) {
   grid-row: 3 / span 4;
@@ -35983,63 +35989,72 @@ a.black-text {
 } */
 /* .customize-megamenu .subMenus  */
 
-.subMenus.multi-col li ul{
+.subMenus.multi-col li ul {
   column-count: 2;
 }
 
-.subMenus.multi-col h5, .menuItems div.heading{
+.subMenus.multi-col h5,
+.menuItems div.heading {
   margin-bottom: 10px !important;
   border-bottom: 1px solid var(--black-13);
 }
-.menuItems.has-clild-menus{
+.menuItems.has-clild-menus {
   border-right: 1px solid var(--black-13);
   padding-right: 15px !important;
   padding-left: 15px !important;
   border-left: 1px solid var(--black-13);
 }
 
-.menuItems div.heading a{
-  padding-bottom:8px
+.menuItems div.heading a {
+  padding-bottom: 8px;
 }
-.menuItems:nth-of-type(4){
-  margin-top: -110px
+.menuItems:nth-of-type(4) {
+  margin-top: -110px;
 }
-.menuItems:nth-of-type(6){
-  margin-top: -130px
+.menuItems:nth-of-type(6) {
+  margin-top: -130px;
 }
-.lastChildMenus.subMenus.direct{
-  display:block !important
+.lastChildMenus.subMenus.direct {
+  display: block !important;
 }
-.pp-prev, .pp-next{
-  cursor:pointer
-}
-
-.testimonial__slider-3{
-  padding-bottom:30px !important;
-}
-.swipper-btn:hover svg path{
-  fill:#fff
-}
-.be-kind > div{
-  text-align:left !important
+.pp-prev,
+.pp-next {
+  cursor: pointer;
 }
 
+.testimonial__slider-3 {
+  padding-bottom: 30px !important;
+}
+.swipper-btn:hover svg path {
+  fill: #fff;
+}
+.be-kind > div {
+  text-align: left !important;
+}
+
+.scroll-top svg path {
+  fill: var(--black-2);
+}
 
 
+/* .contactLoader{
+  display:none
+} */
 
-@media only screen and (max-width:1580px){
-  .main-menu-3 > li{
-        padding: 0 30px;
+
+@media only screen and (max-width: 1580px) {
+  .main-menu-3 > li {
+    padding: 0 30px;
   }
 }
 
-@media only screen and (max-width:1440px){
-  .mega-menu.customize-megamenu{
+@media only screen and (max-width: 1440px) {
+  .mega-menu.customize-megamenu {
     padding: 40px 50px;
   }
   .main-menu-3 > li {
-        padding: 0 20px;
-    }
+    padding: 0 20px;
+  }
 }
 
 @media only screen and (max-width: 1280px) {
@@ -36049,18 +36064,18 @@ a.black-text {
   .header__logo-2 {
     max-width: 220px;
   }
-  .customize-megamenu .main{
+  .customize-megamenu .main {
     grid-template-columns: repeat(4, 280px);
   }
-  .menuItems:nth-of-type(3){
-    margin-top: -70px
+  .menuItems:nth-of-type(3) {
+    margin-top: -70px;
   }
   .menuItems:nth-of-type(4) {
     margin-top: -30px;
-}
-.menuItems:nth-of-type(6) {
+  }
+  .menuItems:nth-of-type(6) {
     margin-top: 0px;
-}
+  }
 }
 
 @media only screen and (max-width: 991px) {

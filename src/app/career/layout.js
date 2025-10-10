@@ -11,8 +11,6 @@ export const metadata = {
 export default function CareerLayout({ children }) {
   return (
     <>
-      <Header />
-      <Offcanvas />
       {children}
     </>
   );

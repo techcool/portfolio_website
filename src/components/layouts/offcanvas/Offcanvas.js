@@ -1,4 +1,6 @@
-import React from 'react'
+"use client"
+
+import React, { useEffect } from 'react'
 
 import Image from 'next/image';
 
@@ -12,7 +14,43 @@ import OffcanvasClose from './OffcanvasClose';
 import circleShape1 from "@public/assets/imgs/shape/11.png"
 import circleShape2 from "@public/assets/imgs/shape/12.png"
 
+//  $("#open_offcanvas").click(function () {
+//     $('.offcanvas__area').css('opacity', '1');
+//     $('.offcanvas__area').css('visibility', 'visible');
+//   });
+//   $("#close_offcanvas").click(function () {
+//     $('.offcanvas__area').css('opacity', '0');
+//     $('.offcanvas__area').css('visibility', 'hidden');
+//   });
+
+
 function Offcanvas() {
+  useEffect(() => {
+    const openBtn = document.getElementById("open_offcanvas");
+    const closeBtn = document.getElementById("close_offcanvas");
+    const offcanvasArea = document.querySelector(".offcanvas__area");
+
+    if (openBtn && closeBtn && offcanvasArea) {
+      const openHandler = () => {
+        offcanvasArea.style.opacity = "1";
+        offcanvasArea.style.visibility = "visible";
+      };
+
+      const closeHandler = () => {
+        offcanvasArea.style.opacity = "0";
+        offcanvasArea.style.visibility = "hidden";
+      };
+
+      openBtn.addEventListener("click", openHandler);
+      closeBtn.addEventListener("click", closeHandler);
+
+      // Cleanup on unmount
+      return () => {
+        openBtn.removeEventListener("click", openHandler);
+        closeBtn.removeEventListener("click", closeHandler);
+      };
+    }
+  }, []);
   return (
     <>
          <div className="offcanvas__area">
