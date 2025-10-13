@@ -36040,6 +36040,9 @@ a.black-text {
 /* .contactLoader{
   display:none
 } */
+input::placeholder, textarea::placeholder{
+  color:rgba(0,0,0,.3) !important
+}
 
 
 @media only screen and (max-width: 1580px) {
