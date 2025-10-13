@@ -88,7 +88,7 @@ export default function ContactForm() {
             <input
               type="tel"
               name="phone"
-              placeholder="9123456780 *"
+              placeholder="+91 *"
               required
               value={formData.phone}
               onChange={handleChange}
