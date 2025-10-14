@@ -3,6 +3,7 @@ import React from "react";
 
 import counterImg from "@public/assets/imgs/thumb/counter-3.png"
 import Image from "next/image";
+import Counter from "@/ui/Counter";
 
 export default function WhyChooseCounter() {
   return (
@@ -23,18 +24,7 @@ export default function WhyChooseCounter() {
           <div className="flex flex-wrap items-center -mx-4">
             <div className="w-full md:w-5/12 px-4 mb-10 md:mb-0">
               <div className="counter__wrapper-3 grid grid-cols-2 gap-8">
-                {
-                    counter.map((item)=>(
-                        <div className="counter__item-3" key={item.id}>
-                            <h2 className="counter__number">{item.number}</h2>
-                            <p className="text-gray-600">
-                                {item.titlePart1} <br />
-                                {item.titlePart2}
-                            </p>
-                        </div>
-                    ))
-                }
-                
+                <Counter/>
               </div>
             </div>
 

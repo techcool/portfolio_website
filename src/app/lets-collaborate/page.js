@@ -1,9 +1,9 @@
-import ConsultatonForm from "@/components/free-consultation/ConsultatonForm";
 import CommonHeading from "@/components/layouts/Heading/CommonHeading";
+import CollaborationForm from "@/components/letsCollaboratePage/CollaborationForm";
 import Counter from "@/ui/Counter";
 import React from "react";
 
-export default function FreeConsultation() {
+export default function LetsCollaborate() {
   return (
     <>
       <section className="contact__area-6">
@@ -12,29 +12,34 @@ export default function FreeConsultation() {
           <div className="flex flex-wrap items-start justify-between">
             <div className="w-full md:w-[50%]">
               <div className="sec-title-wrapper">
-                <CommonHeading label="Together, we can build something remarkable." tag="h3" />
+                <CommonHeading
+                  label="Do You Have A Project In Mind?"
+                  tag="h3"
+                />
                 <div className="spacer h-4"></div>
                 <p>
-                  Our Consultants will reply back to you within 7 hours or less
+                  Let's collaborate for the project that have in your mind
                 </p>
                 <div className="spacer h-7"></div>
                 <h4 className="text-xl md:text-2xl">Quick Facts</h4>
                 <div className="spacer h-5"></div>
                 <div className="counter__wrapper-3 grid grid-cols-2 gap-8">
-                 <Counter/>
+                  <Counter/>
                 </div>
               </div>
             </div>
             <div className="w-full md:w-[50%]">
-               <CommonHeading label="Schedule a Free 30-minute free Consultation" tag="h2"/> 
-              
+              <CommonHeading
+                label="Let's Collaborate"
+                tag="h2"
+              />
+
               <div className="spacer h-4"></div>
               <p>
-                It’s Free. You will get a call from us as per this schedule. Our
-                team will discuss about your requirements and its solution.
+                Let’s get acquainted with you.
               </p>
               <div className="contact__form mt-6">
-                <ConsultatonForm />
+                <CollaborationForm/>
               </div>
             </div>
           </div>

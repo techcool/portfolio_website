@@ -37,7 +37,7 @@ export default function ContactForm() {
 
     if (res.ok) {
       setStatus("✅ Message sent successfully!");
-      setFormData({ first_name: "", last_name: "",phone: "", email: "", subject: "", message: "" });
+      setFormData({ first_name: "", last_name: "", email: "", phone: "", subject: "", message: "" });
     } else {
       setStatus("❌ Failed to send message");
     }
@@ -118,7 +118,6 @@ export default function ContactForm() {
             />
           </div>
         </div>
-        <div className="w-full">
           <div className="w-full">
             <textarea
               name="message"
@@ -127,7 +126,7 @@ export default function ContactForm() {
               onChange={handleChange}
             ></textarea>
           </div>
-        </div>
+        
         <div className="row g-3">
           <div className="col-12 flex gap-2 items-center">
             <div className="btn_wrapper">

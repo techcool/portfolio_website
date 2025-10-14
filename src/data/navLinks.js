@@ -329,7 +329,7 @@ export const navLinks = [
         subServices: serviceSubmenus.webDevelopment,
       },
       {
-        title: "App Developmnt",
+        title: "App Development",
         subServices: serviceSubmenus.appDevelopment,
       },
       {
