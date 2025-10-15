@@ -1,11 +1,12 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useCallback, useState } from "react";
 
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import loader from "@public/assets/imgs/css-loader.gif";
 import Image from "next/image";
+import FileUploadDropzone from "./FileUploadDropzone";
 
 export default function CollaborationForm() {
   const [formData, setFormData] = useState({
@@ -13,66 +14,121 @@ export default function CollaborationForm() {
     last_name: "",
     email: "",
     phone: "",
-    company:"",
+    company: "",
     services: "",
-    attachments:null,
+    attachments: null,
     requirement: "",
   });
   const [status, setStatus] = useState("");
   const [isLoading, setIsLoading] = useState(false);
+  // const handleChange = (e) => {
+  //   setFormData({
+  //     ...formData,
+  //     [e.target.name]: e.target.value,
+  //   });
+  // };
+  // const handleFileChange = (e) => {
+  //   const file = e.target.files[0];
+  //   if (!file) return;
+
+  //   const allowedFileType = [
+  //     "application/pdf",
+  //     "application/msword",
+  //     "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+  //     "image/jpg",
+  //     "image/jpeg",
+  //     "image/png",
+  //   ];
+
+  //   const maxSize = 25 * 1024 * 1024;
+
+  //   if (!allowedFileType.includes(file.type)) {
+  //     alert("Only PDF, doc, docx, JPG, jpeg and PNG files are allowed!");
+  //     e.target.value = "";
+  //     return;
+  //   }
+
+  //   if (file.size > maxSize) {
+  //     alert("File size must not exceed 25 MB!");
+  //     e.target.value = "";
+  //     return;
+  //   }
+
+  //   setFormData({
+  //     ...formData,
+  //     attachments: file,
+  //   });
+  // };
+
   const handleChange = (e) => {
     setFormData({
       ...formData,
       [e.target.name]: e.target.value,
     });
-  };
-  const handleFileChange = (e) => {
-    const file= e.target.files[0];
-    if(!file) return
-   
-    const allowedFileType = ["application/pdf", "application/msword", "application/vnd.openxmlformats-officedocument.wordprocessingml.document", "image/jpg", "image/jpeg", "image/png"] 
+  }; // The handleFileChange logic remains exactly the same,
+
+  // but we'll wrap it in useCallback for performance (optional but good practice)
+  const handleFileChange = useCallback((e) => {
+    const file = e.target.files[0];
+    if (!file) return;
+    const allowedFileType = [
+      "application/pdf",
+      "application/msword",
+      "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "image/jpg",
+      "image/jpeg",
+      "image/png",
+    ];
 
     const maxSize = 25 * 1024 * 1024;
 
-    if(!allowedFileType.includes(file.type)){
-        alert("Only PDF, doc, docx, JPG, jpeg and PNG files are allowed!");
-        e.target.value="";
-        return
+    if (!allowedFileType.includes(file.type)) {
+      alert("Only PDF, doc, docx, JPG, jpeg and PNG files are allowed!");
+      e.target.value = "";
+      return;
     }
 
-    if(file.size > maxSize){
-         alert("File size should not exceed 25 MB!");
-         e.target.value="";
-         return
+    if (file.size > maxSize) {
+      alert("File size should not exceed 25 MB!");
+      e.target.value = "";
+      return;
     }
-   
-    setFormData({
-      ...formData,
+    setFormData((prev) => ({
+      ...prev,
       attachments: file,
-    });
-  };
+    }));
+  }, []); // Dependency array is empty since it only uses setFormData
 
+  const handleFileRemove = useCallback(() => {
+    setFormData((prev) => ({
+      ...prev,
+      attachments: null,
+    }));
+    // Optionally reset the hidden input value to allow re-uploading the same file
+    const fileInput = document.getElementById("attachments-input");
+    if (fileInput) fileInput.value = null;
+  }, []);
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsLoading(true);
 
     try {
       const data = new FormData();
-      data.append("first_name", formData.first_name)
-      data.append("last_name", formData.last_name)
-      data.append("email", formData.email)
-      data.append("phone", formData.phone)
-      data.append("company", formData.company)
-      data.append("services", formData.services)
-      data.append("requirement", formData.requirement)
+      data.append("first_name", formData.first_name);
+      data.append("last_name", formData.last_name);
+      data.append("email", formData.email);
+      data.append("phone", formData.phone);
+      data.append("company", formData.company);
+      data.append("services", formData.services);
+      data.append("requirement", formData.requirement);
 
-      if(formData.attachments){
-        data.append("attachments", formData.attachments)
+      if (formData.attachments) {
+        data.append("attachments", formData.attachments);
       }
 
       const res = await fetch("/api/collaborate", {
         method: "POST",
-        body:data,
+        body: data,
       });
 
       if (res.ok) {
@@ -82,9 +138,9 @@ export default function CollaborationForm() {
           last_name: "",
           email: "",
           phone: "",
-          company:"",
+          company: "",
           services: "",
-          attachments:"",
+          attachments: "",
           requirement: "",
         });
       } else {
@@ -153,36 +209,47 @@ export default function CollaborationForm() {
             />
           </div>
           <div className="w-full md:w-[48%]">
-           
-            <select name="services" value={formData.services} required onChange={handleChange}>
-                <option value="">Select Services</option>
-                <option value="dedicated_hiring">Dedicated Hiring</option>
-                <option value="mobile_app_development">Mobile App Development</option>
-                <option value="web_development">Web Development</option>
-                <option value="maintenance_support">Maintenance & Support</option>
-                <option value="job_enquiry">Job Enquiry</option>
-                <option value="others">Others</option>
+            <select
+              name="services"
+              value={formData.services}
+              required
+              onChange={handleChange}
+            >
+              <option value="">Select Services</option>
+              <option value="dedicated_hiring">Dedicated Hiring</option>
+              <option value="mobile_app_development">
+                Mobile App Development
+              </option>
+              <option value="web_development">Web Development</option>
+              <option value="maintenance_support">Maintenance & Support</option>
+              <option value="job_enquiry">Job Enquiry</option>
+              <option value="others">Others</option>
             </select>
           </div>
         </div>
         <div className="flex flex-wrap items-center justify-between gap-2.5"></div>
         <div className="w-full">
-           <input type="file"
+          {/* <input type="file"
               name="attachments"
               placeholder="Attachments"
               accept=".pdf,.doc,.docx,image/*"
               onChange={handleFileChange} className="mb-0"/> <br/>
-              <span className="text-[14px] text-gray-400 block ">Upload only .pdf, .doc, .docx, .jpg, .jpeg and max file size upto 25mb</span>
+              <span className="text-[14px] text-gray-400 block ">Upload only .pdf, .doc, .docx, .jpg, .jpeg and max file size upto 25mb</span> */}
+          <FileUploadDropzone
+            file={formData.attachments}
+            onFileSelect={handleFileChange}
+            onFileRemove={handleFileRemove}
+          />
         </div>
-          <div className="w-full">
-            <textarea
-              name="requirement"
-              placeholder="Requirements"
-              value={formData.requirement}
-              onChange={handleChange}
-            ></textarea>
-          </div>
-        
+        <div className="w-full">
+          <textarea
+            name="requirement"
+            placeholder="Requirements"
+            value={formData.requirement}
+            onChange={handleChange}
+          ></textarea>
+        </div>
+
         <div className="row g-3">
           <div className="col-12 flex gap-2 items-center">
             <div className="btn_wrapper">

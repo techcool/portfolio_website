@@ -70,7 +70,7 @@ export async function POST(req) {
       to: process.env.GMAIL_USER,
       subject: `New Collaboration Form Submission: ${company || "Details Provided"}`,
       html: `
-        <h3>Collaboration Request</h3>
+        <h3>Collaboration Request From</h3>
         <p><b>Name:</b> ${first_name} ${last_name}</p>
         <p><b>Email:</b> ${email}</p>
         <p><b>Phone:</b> ${phone}</p>
