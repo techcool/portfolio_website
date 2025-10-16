@@ -23,14 +23,17 @@ export async function POST(req) {
     const data = await req.formData();
 
     // 2. Extract fields (no array normalization needed, they come as strings)
-    const first_name = data.get("first_name");
-    const last_name = data.get("last_name");
+    const jobTitle = data.get("jobTitle");
+    const question = data.get("question");
+    const question2 = data.get("question2");
+    const question3 = data.get("question3");
+    const question5 = data.get("question5");
+    const question6 = data.get("question6");
+    const question7 = data.get("question7");
+    const question8 = data.get("question8");
+    const name = data.get("name");
     const email = data.get("email");
-    const area_code= data.get("area_code");
     const phone = data.get("phone");
-    const company = data.get("company");
-    const services = data.get("services");
-    const requirement = data.get("requirement");
     const attachmentBlob = data.get("attachments");
 
     // 3. Handle Attachment: Convert Blob to Buffer for Nodemailer
@@ -57,18 +60,26 @@ export async function POST(req) {
 
     // 5. Prepare mail options
     const mailOptions = {
-      from: `"Website Collaboration Form" <${process.env.GMAIL_USER}>`,
+      from: `"Website Application Form" <${process.env.GMAIL_USER}>`,
       to: process.env.GMAIL_USER,
-      subject: `New Collaboration Form Submission: ${company || "Details Provided"}`,
+      subject: `Apply for: ${jobTitle || "Details Provided"}`,
       html: `
-        <h3>Collaboration Request From</h3>
-        <p><b>Name:</b> ${first_name} ${last_name}</p>
+        <h3>Candidate Details</h3>
+        <p><b>Name:</b> ${name}</p>
         <p><b>Email:</b> ${email}</p>
-        <p><b>Phone:</b> ${area_code} ${phone}</p>
-        <p><b>Company:</b> ${company}</p>
-        <p><b>Services:</b> ${services}</p>
-        <p><b>Requirements:</b><br/>${requirement}</p>
-        ${attachment ? `<p>Attached File: ${attachment.filename}</p>` : ''}
+        <p><b>Phone:</b> ${phone}</p>
+        <ul>
+          <li style="margin-bottom:15px"><b>Why you decided to apply here and why should we select you?:</b><br/> ${question}</li>
+          <li style="margin-bottom:15px"><b>Tell us about a project that you worked on and felt proud of it.:</b><br/> ${question2}</li>
+          <li style="margin-bottom:15px"><b>Share your portfolios. (Behance, Dribbble, etc):</b><br/> ${question3}</li>
+          <li style="margin-bottom:15px"><b>Do you have any other designs to show us?:</b><br/> ${question5}</li>
+          <li style="margin-bottom:15px"><b>What are you looking for in your next job/journey?:</b><br/> ${question6}</li>
+          <li style="margin-bottom:15px"><b>What makes you angry? and what makes you smile?:</b><br/> ${question7}</li>
+          <li><b>Your current salary & what are your salary expectations?:</b><br/> ${question8}</li>
+        </ul>
+       
+       
+        ${attachment ? `<p>Candidate's CV: ${attachment.filename}</p>` : ''}
       `,
       attachments: attachment ? [attachment] : [],
     };

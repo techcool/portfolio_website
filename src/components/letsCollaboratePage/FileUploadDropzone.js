@@ -56,7 +56,7 @@ export default function FileUploadDropzone({
         <button
           type="button"
           onClick={onFileRemove}
-          className="text-red-600 hover:text-red-800 ml-4 font-bold"
+          className="text-red-600 hover:text-red-800 ml-4 font-bold cursor-pointer" 
         >
           Remove
         </button>
@@ -67,7 +67,7 @@ export default function FileUploadDropzone({
   return (
     <>
       <div
-        className={`border-2 border-dashed rounded-lg p-6 text-center cursor-pointer transition-colors ${
+        className={`border-2 mb-5 border-dashed rounded-lg p-6 text-center cursor-pointer transition-colors ${
           isDragOver
             ? "border-indigo-500 bg-indigo-50"
             : "border-gray-300 bg-white"
@@ -77,11 +77,11 @@ export default function FileUploadDropzone({
         onDragLeave={handleDragLeave}
         onClick={handleZoneClick}
       >
-        <p className="text-gray-400 text-sm mb-1">
+        <p className="text-gray-400 text-sm mb-1 msg">
           {" "}
           **Drag & drop file here** or **Click to upload**
         </p>
-        <p>
+        <p className="msg">
           {allowedFileTypesDisplay} only | Max size: {maxSizeDisplay}
         </p>
 
@@ -93,6 +93,7 @@ export default function FileUploadDropzone({
           accept=".pdf,.doc,.docx,image/*"
           onChange={onFileSelect}
           className="hidden"
+          
         />
       </div>
     </>

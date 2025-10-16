@@ -5,7 +5,7 @@ export default function Expectations({expectations}) {
     <>
       <ul>
         {
-            expectations.map((data,indx)=><li key={indx}>{data.item}</li>)
+            expectations.map((data,indx)=><React.Fragment key={indx}><li key={indx}>{data.item}</li></React.Fragment>)
         }
        
       </ul>

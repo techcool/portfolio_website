@@ -20976,7 +20976,7 @@ img {
   opacity: 1;
 }
 .contact__form textarea {
-  height: 55px;
+  height: 75px;
 }
 .contact__form #btn_wrapper,
 .contact__form .btn_wrapper {
@@ -36040,10 +36040,39 @@ a.black-text {
 /* .contactLoader{
   display:none
 } */
-input::placeholder, textarea::placeholder{
-  color:rgba(0,0,0,.3) !important
+
+.contact__form p.msg, input::placeholder, textarea::placeholder, .form-apply p.msg{
+ color:rgba(0,0,0,.3) !important
 }
 
+.form-apply p.msg{
+  font-size:16px
+}
+
+
+
+select{
+  width:100%;
+  padding: 15px 0;
+  border-bottom: 1px solid var(--gray);
+      margin-bottom: 35px;
+}
+input.short{
+  width:32px !important
+}
+
+
+textarea.border-red{
+  border-color:red !important
+}
+
+p.status{
+  margin-top: 20px;
+}
+
+.back-btn svg{
+  transform: unset;
+}
 
 @media only screen and (max-width: 1580px) {
   .main-menu-3 > li {

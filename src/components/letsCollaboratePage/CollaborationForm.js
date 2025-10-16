@@ -13,6 +13,7 @@ export default function CollaborationForm() {
     first_name: "",
     last_name: "",
     email: "",
+    area_code: "",
     phone: "",
     company: "",
     services: "",
@@ -21,53 +22,15 @@ export default function CollaborationForm() {
   });
   const [status, setStatus] = useState("");
   const [isLoading, setIsLoading] = useState(false);
-  // const handleChange = (e) => {
-  //   setFormData({
-  //     ...formData,
-  //     [e.target.name]: e.target.value,
-  //   });
-  // };
-  // const handleFileChange = (e) => {
-  //   const file = e.target.files[0];
-  //   if (!file) return;
-
-  //   const allowedFileType = [
-  //     "application/pdf",
-  //     "application/msword",
-  //     "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-  //     "image/jpg",
-  //     "image/jpeg",
-  //     "image/png",
-  //   ];
-
-  //   const maxSize = 25 * 1024 * 1024;
-
-  //   if (!allowedFileType.includes(file.type)) {
-  //     alert("Only PDF, doc, docx, JPG, jpeg and PNG files are allowed!");
-  //     e.target.value = "";
-  //     return;
-  //   }
-
-  //   if (file.size > maxSize) {
-  //     alert("File size must not exceed 25 MB!");
-  //     e.target.value = "";
-  //     return;
-  //   }
-
-  //   setFormData({
-  //     ...formData,
-  //     attachments: file,
-  //   });
-  // };
-
+  
   const handleChange = (e) => {
     setFormData({
       ...formData,
       [e.target.name]: e.target.value,
     });
-  }; // The handleFileChange logic remains exactly the same,
+  }; 
 
-  // but we'll wrap it in useCallback for performance (optional but good practice)
+  // Wrap it in useCallback for performance for best practice
   const handleFileChange = useCallback((e) => {
     const file = e.target.files[0];
     if (!file) return;
@@ -108,6 +71,7 @@ export default function CollaborationForm() {
     const fileInput = document.getElementById("attachments-input");
     if (fileInput) fileInput.value = null;
   }, []);
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsLoading(true);
@@ -117,6 +81,7 @@ export default function CollaborationForm() {
       data.append("first_name", formData.first_name);
       data.append("last_name", formData.last_name);
       data.append("email", formData.email);
+      data.append("area_code", formData.area_code);
       data.append("phone", formData.phone);
       data.append("company", formData.company);
       data.append("services", formData.services);
@@ -137,6 +102,7 @@ export default function CollaborationForm() {
           first_name: "",
           last_name: "",
           email: "",
+          area_code: "",
           phone: "",
           company: "",
           services: "",
@@ -180,22 +146,34 @@ export default function CollaborationForm() {
             <input
               type="email"
               name="email"
-              placeholder="youremail@gmail.com *"
+              placeholder="youremail@example.com *"
               value={formData.email}
               onChange={handleChange}
               required
             />
           </div>
-          <div className="w-full md:w-[48%]">
+          <div className="w-full md:w-[48%] flex items-center gap-2">
+            <input
+              type="text"
+              placeholder="91 *"
+              required
+              name="area_code"
+              value={formData.area_code}
+              onChange={handleChange}
+              pattern="[0-9]*"
+              maxLength="3"
+              className="w-8 short"
+            />
             <input
               type="tel"
               name="phone"
-              placeholder="+91 *"
+              placeholder="Phone number *"
               required
               value={formData.phone}
               onChange={handleChange}
               pattern="[0-9]{10}"
               inputMode="numeric"
+              className="w-[90%] long"
             />
           </div>
           <div className="w-full md:w-[48%]">
