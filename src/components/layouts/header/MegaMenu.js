@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import graphics from "@public/assets/imgs/graphics2.png";
+import slugify from "@/libs/slugify";
 
 export default function MegaMenu({ submenu }) {
   //console.log('submenu ', submenu.map(title=>title.subServices));
@@ -66,7 +67,7 @@ export default function MegaMenu({ submenu }) {
             >
               {/* Title */}
               <div className="flex heading flex-row items-center gap-2 mb-4">
-                <Link href="#" className="mb-0 text-white text-xl">
+                <Link href={`/services/${slugify(item?.title)}`} className="mb-0 text-white text-xl">
                   {item.title}
                 </Link>
               </div>

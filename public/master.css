@@ -17192,7 +17192,7 @@ img {
   display: grid;
   -ms-grid-columns: 1fr 80px 1fr;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 80px;
+  grid-gap: 50px;
   padding-bottom: 35px;
   margin-bottom: 30px;
   border-bottom: 1px solid var(--black-3);

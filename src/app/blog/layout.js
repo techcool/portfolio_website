@@ -1,5 +1,3 @@
-import Header from '@/components/layouts/header/Header';
-import Offcanvas from '@/components/layouts/offcanvas/Offcanvas';
 import React from 'react'
 
 export const metadata = {
