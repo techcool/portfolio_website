@@ -1,5 +1,7 @@
 import webServicesTopPic from "@public/assets/imgs/thumb/dev-1.jpg"
 import trendImg from "@public/assets/imgs/thumb/service-detail.png"
+import expertImg from "@public/assets/imgs/service/6.jpg"
+import faqImg from "@public/assets/imgs/thumb/faq.jpg"
 export const middleData = [
     {
         id:1,
@@ -25,7 +27,7 @@ export const middleData = [
         ],
         behindTheSceneHeading:"Behind the Scenes: How a CMS Powers Your Website",
         behindTheSceneContent:`<p>A CMS works in that the design and the content are decoupled. This framework is capable of enabling the user to edit or update content without affecting the entire layout. </p><p>Plugins, themes, and the third-party tools can be incorporated by developers, which enables easy updates and improvements. This type of modular system is easier to maintain and optimize websites without downtime. It is a flexible base that can change according to your business needs and maintain performance levels.</p>`,
-       
+        expertImg:expertImg,
         experTeamHeading:"Our Expert Team: Building CMS That Work for You",
         expertTeamContent:"Our CMS developers at Uniterrene Websoft have a mixture of technical and creative strategy. It begins with an insight into your business requirements, followed by either a selection of the appropriate platform or a bespoke CMS to suit your workflow.",
         epertTeamListHead:"Our process involves:",
@@ -44,18 +46,22 @@ export const middleData = [
             }
             
         ],
+        faqImg:faqImg,
         faqs:[
             {
-                questions:"What makes Uniterrene Websoft’s CMS solutions different?",
-                answers:"Our CMS solutions exist with the focus on your brand objectives and will be flexible, easy to use and scalable in the long term."
+                title:"What makes Uniterrene Websoft’s CMS solutions different?",
+                content:"Our CMS solutions exist with the focus on your brand objectives and will be flexible, easy to use and scalable in the long term.",
+                open: true,
             },
             {
-                questions:"Can I update my website without technical skills?",
-                answers:"Yes. Our CMS interfaces are simple and intuitive, allowing you to manage, edit, or upload content with ease."
+                title:"Can I update my website without technical skills?",
+                content:"Yes. Our CMS interfaces are simple and intuitive, allowing you to manage, edit, or upload content with ease.",
+                 open: false,
             },
             {
-                questions:"Which platforms do you use for CMS development?",
-                answers:"Our CMS solutions exist with the focus on your brand objectives and will be flexible, easy to use and scalable in the long term."
+                title:"Which platforms do you use for CMS development?",
+                content:"Our CMS solutions exist with the focus on your brand objectives and will be flexible, easy to use and scalable in the long term.",
+                open: false,
             },
         ],
        

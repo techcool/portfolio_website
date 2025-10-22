@@ -82,7 +82,7 @@ export default function MegaMenu({ submenu }) {
                   <li key={subIdx} className="min-w-0">
                     {subItem.heading && (
                       <h5 className="text-xl mb-2">
-                        <Link className="heading" href="#">{subItem.heading}</Link>
+                        <Link className="heading" href={`/services/${slugify(item.title)}/${slugify(subItem.heading)}`}>{subItem.heading}</Link>
                       </h5>
                     )}
 
