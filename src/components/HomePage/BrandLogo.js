@@ -15,7 +15,6 @@ function BrandLogo() {
               <h2 className="brand__title-3 title-anim">
                 We worked with global largest brands
               </h2>
-
               <BrandLogoItems/>
             </div>
           </div>

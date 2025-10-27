@@ -52,7 +52,7 @@ export default function WhatWeDo({portfolioData}) {
                     <ul>
                       {
                         portfolioData.whatWeDo.map((data,indx)=>(
-                            <li key={indx}>{data.title}</li>
+                            <li key={indx}>+ {data.title}</li>
                         ))
                       }  
                     </ul>

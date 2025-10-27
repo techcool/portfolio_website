@@ -4,7 +4,7 @@ import React, { useEffect } from "react";
 import gsap from "gsap";
 import { SplitText } from "gsap/all";
 
-export default function CommonHeading({label, tag}) {
+export default function CommonHeading({label, tag, extraClass=''}) {
   useEffect(() => {
     let char_come = document.querySelectorAll(".animation__char_come");
 
@@ -23,7 +23,7 @@ export default function CommonHeading({label, tag}) {
        {tag === "h3" ? (
         <h3 className="text-2xl md:text-4xl animation__char_come">{label}</h3>
       ) : tag === "h2" ? (
-        <h2 className="text-3xl md:text-5xl animation__char_come">{label}</h2>
+        <h2 className={`text-3xl md:text-5xl animation__char_come  ${extraClass}`}>{label}</h2>
       ) : null}
       
     </>

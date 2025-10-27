@@ -318,7 +318,7 @@ export const navLinks = [
   { title: "About Us", link: "about-us" },
   {
     title: "Services",
-    link:"",
+    link:"services",
     submenu: [
       {
         title: "Designs & Branding",

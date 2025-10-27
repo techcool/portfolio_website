@@ -26,7 +26,8 @@ export const topData = [
         latestrendList:[],
         trendImg:trendImg,
         whyChooseHeading:"Why Choose Uniterrene Websoft for Web Development?",
-        whyChooseContent:`<p>Our web development service would be characterized by its accuracy, innovation, and dedication to deliverables. We do not think that a great site is purely about the looks, it is about the intentions, functionality and functionality.</p><p><strong>We ensure that every project delivers:</strong></p>`,
+        whyChooseContent:`<p>Our web development service would be characterized by its accuracy, innovation, and dedication to deliverables. We do not think that a great site is purely about the looks, it is about the intentions, functionality and functionality.</p>`,
+        whyChooseListHeading:"We ensure that every project delivers:",
         whyChooseList:[
             {title:"An interactive and user-centered design.",content:""},
             {title:"Fast loading and SEO optimization code.",content:""},
@@ -46,33 +47,30 @@ export const topData = [
         specializedServicesContentTopPart:"Uniterrene Websoft offers a full suite of web development services tailored to meet your business needs and industry standards.",
         servicesList:[
             {
-                title:"WordPress Development",
-                content:"Custom websites with flexible CMS and theme design."
+                title:"CMS Development",
+                content:"Build, manage, and scale your website effortlessly with robust CMS platforms like WordPress, Drupal, Joomla, and Wix."
+            },
+            
+            {
+                title:"Full Stack Development",
+                content:"Comprehensive front-end and back-end development solutions that ensure seamless functionality and superior performance."
             },
             {
                 title:"E-commerce Development",
                 content:"Secure, user-friendly stores that maximize sales."
             },
             {
-                title:"PHP and Laravel Development",
-                content:"Robust frameworks for scalable web applications."
-            },
-            {
-                title:"React and Angular Development ",
+                title:"Open Source & Enterprise Technology",
                 content:"Dynamic and interactive front-end solutions7"
             },
             {
-                title:"Custom Web Application Development",
-                content:"Tailored platforms built for unique business operations."
-            },
-            {
-                title:"Website Maintenance and Support ",
-                content:"Regular updates, monitoring, and performance optimization."
+                title:"PHP Framework",
+                content:"Robust frameworks for scalable web applications."
             }
+            
         ],
-        specializedServicesContentTopPart:"Each service is designed to deliver reliability, performance, and measurable growth for your brand.",
+        specializedServicesContentBottomPart:"Each service is designed to deliver reliability, performance, and measurable growth for your brand.",
        
-        
     },
     {
         id:2,
@@ -109,6 +107,7 @@ export const topData = [
         trendImg:trendImg,
         whyChooseHeading:"Why Are Our Design and Branding Solutions the Best in the Market?",
         whyChooseContent:`<p>Design and branding are a rapidly changing industry that lives continuously due to the influence of innovation, technology and audience behaviour. At Uniterrene Websoft, we are well ahead of the curve by incorporating the new trends across the world in each project we undertake.</p><p>The following is the current design environment shaping up:</p>`,
+         whyChooseHeading:"",
         whyChooseList:[
             {title:"Holistic Strategy",content:"We begin by learning your business objectives, target audience and competition."},
             {title:"Brand Consistency",content:": Your brand should feel consistent, whether it is color schemes or tone of voice, we make everything smooth."},
@@ -131,41 +130,22 @@ export const topData = [
         listHeading:"Our Core Services Include:",
         servicesList:[
              {
-                title:"",
-                content:"Logo Design & Brand Identity Creation"
+                title:"Web & UI/UX Design",
+                content:""
             },
              {
-                title:"",
-                content:"Website and UI/UX Design"
+                title:"App Design",
+                content:""
             },
              {
-                title:"",
-                content:"Corporate Stationery Design"
+                title:"Logo & Brand Identity",
+                content:""
             },
              {
-                title:"",
-                content:"Social Media Branding"
+                title:"Social Media Branding",
+                content:""
             },
-             {
-                title:"",
-                content:"Packaging Design"
-            },
-             {
-                title:"",
-                content:"Marketing Collateral Design (Brochures, Flyers, Banners)"
-            },
-             {
-                title:"",
-                content:"Brand Strategy & Consultation"
-            },
-             {
-                title:"",
-                content:"Rebranding and Visual Refresh Services"
-            },
-             {
-                title:"",
-                content:"Motion Graphics & Interactive Visuals"
-            },
+             
         ],
         ServicesContentTopPartHeading:"Ready to Build a Brand That Inspires?",
         specializedServicesContentTopPart:"Partner with Uniterrene Websoft, where creativity meets strategy, and design meets purpose. Let’s create something extraordinary together."
