@@ -64,16 +64,19 @@ export const bottomData = [
         faqImg:faqImg,
         faqs:[
             {
-                questions:"Why should I choose WordPress for my website?",
-                answers:"WordPress is flexible, scalable, and easy to manage, which is why it is suitable for all types of businesses."
+                title:"Why should I choose WordPress for my website?",
+                content:"WordPress is flexible, scalable, and easy to manage, which is why it is suitable for all types of businesses.",
+                open: true,
             },
             {
                 questions:"Will my WordPress website be secure?",
-                answers:"Absolutely. We use the latest plugins, SSL integration, and regular updates to ensure strong website security."
+                answers:"Absolutely. We use the latest plugins, SSL integration, and regular updates to ensure strong website security.",
+                open: false,
             },
             {
                 questions:"Do you develop e-commerce websites using WordPress?",
-                answers:"Yes. We work in the field of WooCommerce development to produce high-functioning online shops with high security."
+                answers:"Yes. We work in the field of WooCommerce development to produce high-functioning online shops with high security.",
+                open: false,
             },
         ],
     },
@@ -138,16 +141,19 @@ export const bottomData = [
         faqImg:faqImg,
         faqs:[
             {
-                questions:"Why should I choose WordPress for my website?",
-                answers:"WordPress is flexible, scalable, and easy to manage, which is why it is suitable for all types of businesses."
+                title:"Why should I choose WordPress for my website?",
+                content:"WordPress is flexible, scalable, and easy to manage, which is why it is suitable for all types of businesses.",
+                open: true,
             },
             {
-                questions:"Will my WordPress website be secure?",
-                answers:"Absolutely. We use the latest plugins, SSL integration, and regular updates to ensure strong website security."
+                title:"Will my WordPress website be secure?",
+                content:"Absolutely. We use the latest plugins, SSL integration, and regular updates to ensure strong website security.",
+                open: false,
             },
             {
-                questions:"Do you develop e-commerce websites using WordPress?",
-                answers:"Yes. We work in the field of WooCommerce development to produce high-functioning online shops with high security."
+                title:"Do you develop e-commerce websites using WordPress?",
+                content:"Yes. We work in the field of WooCommerce development to produce high-functioning online shops with high security.",
+                open: false,
             },
         ],
     },

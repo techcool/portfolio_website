@@ -7,11 +7,13 @@ import Pricing from '@/components/HomePage/Pricing';
 import Services from '@/components/HomePage/Services';
 import Testimonial from '@/components/HomePage/Testimonial';
 import WhyChooseUs from '@/components/HomePage/WhyChooseUs';
+import ScrollSmootherEffect from '@/components/layouts/ScrollSmootherEffect';
 
 
 export default function Home() {
   return (
     <>
+      <ScrollSmootherEffect/>
       <HomeHero />
       <BrandLogo />
       <HomeAbout />

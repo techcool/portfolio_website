@@ -21,7 +21,7 @@ export default function CommonHeading({label, tag, extraClass=''}) {
   return (
     <>
        {tag === "h3" ? (
-        <h3 className="text-2xl md:text-4xl animation__char_come">{label}</h3>
+        <h3 className={`text-2xl md:text-4xl animation__char_come ${extraClass}`}>{label}</h3>
       ) : tag === "h2" ? (
         <h2 className={`text-3xl md:text-5xl animation__char_come  ${extraClass}`}>{label}</h2>
       ) : null}

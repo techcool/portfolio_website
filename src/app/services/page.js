@@ -1,5 +1,6 @@
 import BrandLogo from "@/components/HomePage/BrandLogo";
 import CommonHeading from "@/components/layouts/Heading/CommonHeading";
+import ScrollSmootherEffect from "@/components/layouts/ScrollSmootherEffect";
 import SubLinks from "@/components/services/SubLinks";
 import { navLinks } from "@/data/navLinks";
 import slugify from "@/libs/slugify";
@@ -13,6 +14,7 @@ export default function ServicesPage() {
 
   return (
     <>
+      <ScrollSmootherEffect />
       <section className="portfolio__service service-v5 pt-140 pb-140 services-main-page">
         <div className="container mx-auto px-4 pt-24 pb-36 relative">
           <div className="flex items-center flex-wrap">

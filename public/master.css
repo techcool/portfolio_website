@@ -10815,7 +10815,7 @@ img {
 }
 .workflow__wrapper-6 {
   border-top: 1px solid var(--white-4);
-  padding-top: 50px;
+  padding-top: 0px;
 }
 @media only screen and (max-width: 767px) {
   .workflow__wrapper-6 {
@@ -10863,6 +10863,8 @@ img {
 .workflow__slide-6 {
   max-width: 270px;
   position: relative;
+      padding-top: 40px;
+
 }
 @media only screen and (max-width: 767px) {
   .workflow__slide-6 {
@@ -10876,7 +10878,7 @@ img {
   width: 8px;
   height: 8px;
   left: 0;
-  top: -54px;
+  top: -4px;
   background-color: var(--black);
   border: 1px solid var(--white);
   border-radius: 100%;
@@ -36133,6 +36135,39 @@ p.strong-txt{
   padding:0
 }
 
+.white-line-4{
+  background:var(--white-4);
+}
+.services-contents.top-level-content .portfolio__service-item:hover p{
+  color:var(--white)
+}
+
+.workflow__slide-6:after {
+    content: "";
+    /* border: 1px solid var(--white); */
+    /* border-radius: 100%; */
+    width: 1px;
+    height: 35px;
+    transition: all .3s;
+    /* animation: 1.5s 1s infinite wcBubble; */
+    position: absolute;
+    top: 0;
+    left: 3px;
+    background: #000;
+    width: 1px;
+}
+
+/* .trendList ul li{
+  margin:
+} */
+ .workflow__area-6 h6.workflow__title-6 svg{
+  display:none;
+ }
+
+ .faq__list-3 .accordion-button{
+  text-align: left;
+ }
+
 @media only screen and (max-width: 1580px) {
   .main-menu-3 > li {
     padding: 0 30px;
@@ -36167,12 +36202,16 @@ p.strong-txt{
   .menuItems:nth-of-type(6) {
     margin-top: 0px;
   }
+  .faq__img img{
+    position:unset !important
+  }
 }
 
 @media only screen and (max-width: 991px) {
   .about__area-3::after {
     opacity: 0.2;
   }
+  
 }
 
 @media only screen and (max-width: 767px) {
@@ -36194,8 +36233,24 @@ p.strong-txt{
   .development__img img{
     position:relative
   }
-  .customWhyChoose .workflow__slide-6 .workflow__title-6{
+  .workflow__area-6 .workflow__slide-6 .workflow__title-6{
     font-size:18px;
     font-weight:500
+  }
+  .workflow__slide-6:after {
+    display:none;
+  }
+  .workflow__area-6 .workflow__slide-6{
+    padding-bottom:25px !important
+  }
+   .workflow__area-6 h6.workflow__title-6 svg{
+    display:inline-block;
+  }
+  .workflow__slide-6{
+    padding-top: 0px;
+    padding-bottom: 0px !important;
+  }
+  .faq__img img{
+    position:unset !important
   }
 }

@@ -37,10 +37,10 @@ export const topData = [
         methodologyHeading:"Our Proven Web Development Methodology",
         methodologyContent:"We follow a systematic and collaborative approach to achieve excellence in every project.",
         methodologyList:[
-            {listHead:"Discovery and Planning", listContent:"We start by knowing your goals and targets, customers, and vision to establish a clear path."},
-            {listHead:"Design and Development", listContent:"Our designers make interfaces interesting and our developers implement them in real life with the help of new technologies."},
-            {listHead:"Testing and Quality Assurance", listContent:"All these aspects are tested as regards to performance, security and responsiveness."},
-            {listHead:"Deployment and Ongoing Support", listContent:"We provide an easy launch and we also continue to offer after sales services to maintain your site in its optimal operation."},
+            {listHead:"Discovery and Planning:", listContent:"We start by knowing your goals and targets, customers, and vision to establish a clear path."},
+            {listHead:"Design and Development:", listContent:"Our designers make interfaces interesting and our developers implement them in real life with the help of new technologies."},
+            {listHead:"Testing and Quality Assurance:", listContent:"All these aspects are tested as regards to performance, security and responsiveness."},
+            {listHead:"Deployment and Ongoing Support:", listContent:"We provide an easy launch and we also continue to offer after sales services to maintain your site in its optimal operation."},
         ],
         specializedServicesImg:specializedImg,
         specializedServicesHeading:"Our Specialized Web Development Services",
@@ -80,76 +80,69 @@ export const topData = [
         description:`<p>At Uniterrene Websoft, we believe that great design is more than just aesthetics, it’s the story your brand tells and the emotions it evokes. In a digital-first world, where customers make decisions in a snap of a finger, our Design and Branding services assist companies to create powerful, identifiable personas to engage, influence, and convert.</p><p>You might be a startup in need of a new look or an established brand in need of a new direction. We design timeless, genuine and brand-specific designs that you will always remember.</p>`,
         topImg:webServicesTopPic,
         latestTrendsHeading:"Recent Trends in Design and Branding",
-        latestTrend:`<p>Design and branding are a rapidly changing industry that lives continuously due to the influence of innovation, technology and audience behaviour. At Uniterrene Websoft, we are well ahead of the curve by incorporating the new trends across the world in each project we undertake.</p><p>The following is the current design environment shaping up:</p>`,
+        latestTrend:`<p>Design and branding are a rapidly changing industry that lives continuously due to the influence of innovation, technology and audience behaviour. At Uniterrene Websoft, we are well ahead of the curve by incorporating the new trends across the world in each project we undertake.</p>`,
         latestTrendList:[
              {
-                title:"Minimalism with Purpose",
-                content:"Straight lines, large typography and systems of easy to use designs that say a lot with less."
+                title:"Minimalism with Purpose:",
+                content:"Straight lines, large typography and systems of easy-to-use designs that say a lot with less."
             },
              {
-                title:"Sustainable Branding",
+                title:"Sustainable Branding:",
                 content:"Responsible color schemes and designs, which show brand responsibility."
             },
              {
-                title:"Motion Graphics and Interactive Design",
-                content:"Providing life to images by use of animations that educate and entertain.."
+                title:"Motion Graphics and Interactive Design:",
+                content:"Providing life to images by use of animations that educate and entertain."
             },
              {
-                title:"Authentic Storytelling",
-                content:"Brands that are emotionally related by visuals based on purpose and personality."
-            },
-             {
-                title:"AI and Data-Driven Creativity",
-                content:"Leveraging data to create an experience that is more customer-centric."
+                title:"AI and Data-Driven Creativity:",
+                content:"Leveraging data to create a more customer-centric experience."
             },
            
         ],
         trendImg:trendImg,
         whyChooseHeading:"Why Are Our Design and Branding Solutions the Best in the Market?",
-        whyChooseContent:`<p>Design and branding are a rapidly changing industry that lives continuously due to the influence of innovation, technology and audience behaviour. At Uniterrene Websoft, we are well ahead of the curve by incorporating the new trends across the world in each project we undertake.</p><p>The following is the current design environment shaping up:</p>`,
-         whyChooseHeading:"",
+        whyChooseContent:`<p>Design and branding are a rapidly changing industry that lives continuously due to the influence of innovation, technology and audience behavior. At Uniterrene Websoft, we are well ahead of the curve by incorporating the new trends across the world in each project we undertake.</p>`,
+        whyChooseHeading:"The following is the current design environment shaping up:",
         whyChooseList:[
-            {title:"Holistic Strategy",content:"We begin by learning your business objectives, target audience and competition."},
-            {title:"Brand Consistency",content:": Your brand should feel consistent, whether it is color schemes or tone of voice, we make everything smooth."},
-            {title:"Creative Excellence", content:"Our design department combines both art and innovation in creating images that are not only functional but also beautiful"},
-            {title:"Result-Oriented Execution", content:"We create purpose-driven designs, involvement, transparency, and development."},
-            {title:"End-to-End Support", content:"From concept to launch, we stay with you at every stage of your brand journey."},
+            {title:"We begin by learning your business objectives, target audience and competition.",content:""},
+            {title:"Your brand should feel consistent, whether it is color schemes or tone of voice; we make everything smooth.",content:""},
+            {title:"Our design department combines both art and innovation in creating images that are not only functional but also beautiful", content:""},
+            {title:"We create purpose-driven designs, involvement, transparency, and development.", content:""},
+            {title:"From concept to launch, we stay with you at every stage of your brand journey.", content:""},
         ],
-        methodologyHeading:"Our Methodology",
+        methodologyHeading:"Our Proven Methodology",
         methodologyContent:"Our methodology blends creativity with clarity, ensuring that every design serves a purpose.",
         methodologyList:[
-            {listHead:"Discovery & Research", listContent:"Our starting point is with your brand vision, values and audience insights."},
-            {listHead:"Concept Development", listContent:"Our design team brainstorms about design concepts that are inline with your strategic objectives."},
-            {listHead:"Design & Execution", listContent:"We make your brand look good through images that are original, engaging, and on point."},
-            {listHead:"Feedback & Refinement", listContent:"We want your help, and your advice will allow us to do everything right."},
-            {listHead:"Delivery & Implementation", listContent:"Digital-to-print, we make sure that your brand goes everywhere."},
+            {listHead:"Discovery & Research:", listContent:"Our starting point is with your brand vision, values and audience insights."},
+            {listHead:"Concept Development:", listContent:"Our design team brainstorms about design concepts that are in line with your strategic objectives."},
+            {listHead:"Design & Execution:", listContent:"We make your brand look good through original images, engaging, and on point."},
+            {listHead:"Feedback & Refinement:", listContent:"We want your help, and your advice will allow us to do everything right."},
+            {listHead:"Delivery & Implementation:", listContent:"Digital-to-print, we make sure that your brand goes everywhere."},
         ],
         specializedServicesImg:specializedImg,
         specializedServicesHeading:"Our Design and Branding Services",
         specializedServicesContentTopPart:"At Uniterrene Websoft, we offer a comprehensive suite of creative solutions to help your brand grow, engage, and succeed.",
-        listHeading:"Our Core Services Include:",
         servicesList:[
              {
                 title:"Web & UI/UX Design",
-                content:""
+                content:"Craft visually stunning, user-centered websites that combine creativity with functionality to deliver exceptional digital experiences."
             },
              {
                 title:"App Design",
-                content:""
+                content:"Design sleek, responsive, and intuitive mobile and web applications that enhance user engagement and performance."
             },
              {
                 title:"Logo & Brand Identity",
-                content:""
+                content:"Build a strong and memorable brand presence with custom logo designs and cohesive brand identity solutions."
             },
              {
-                title:"Social Media Branding",
-                content:""
+                title:"Social Media Ads",
+                content:"Create eye-catching, high-converting ad creatives tailored for every platform to boost visibility and audience connection."
             },
              
         ],
         ServicesContentTopPartHeading:"Ready to Build a Brand That Inspires?",
         specializedServicesContentTopPart:"Partner with Uniterrene Websoft, where creativity meets strategy, and design meets purpose. Let’s create something extraordinary together."
-
-
     }
 ]

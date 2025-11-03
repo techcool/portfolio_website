@@ -5,6 +5,9 @@ import { topData } from "@/data/services/topData";
 import slugify from "@/libs/slugify";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheck, faCircle } from "@fortawesome/free-solid-svg-icons";
+import CommonHeading from "@/components/layouts/Heading/CommonHeading";
+import TitleAnimHeading from "@/components/layouts/Heading/TitleAnimHeading";
+import ScrollSmootherEffect from "@/components/layouts/ScrollSmootherEffect";
 
 export default async function TopServices({ params }) {
   const { slug } = await params;
@@ -19,42 +22,28 @@ export default async function TopServices({ params }) {
       </div>
     );
   }
-
-  //    console.log("Slugified name:", slugify("Design and Branding"));
-  // console.log("Slug from params:", slug);
-
-  //const servicesTree = getAllServicesTree();
-  // const subLinks = navLinks
-  //   .filter((link) => link.submenu)
-  //   .flatMap((link) =>
-  //     link.submenu.flatMap((subLink) => subLink.subServices || [])
-  //   );
-
-  //console.log(subLinks.heading);
-
-  // const subLinkTitle = subLinks
-  //   .filter((head) => head.heading)
-  //   .map((s) => s.heading);
-
-  //console.log(subLinkTitle2);
-
-  //const subLinkSlugs = subLinkTitle.map((slug) => slugify(slug));
-
-  //console.log(subLinkSlugs);
-
   return (
     <>
+      <TitleAnimHeading />
+      <ScrollSmootherEffect />
+
       <div className="services-area top-services pt-16 md:pt-0">
         <div className="container mx-auto px-4 g-0 line pt-110 pb-130">
           <div className="line-3"></div>
           <section className="top-area ">
             <div className="flex items-start justify-between gap-4 md:gap-10 flex-wrap">
               <div className="sec-title-wrapper w-[100%] xl:w-[32%]">
-                <h2 className="sec-title animation__char_come">
-                  {top?.topCategoryName}
-                </h2>
+                <CommonHeading
+                  label={top?.topCategoryName}
+                  tag="h2"
+                  extraClass="sec-title"
+                />
+
                 <div className="mt-5">
-                  <h3 className="text-xl md:text-2xl">{top?.pageTitle}</h3>
+                  
+                  <h3 className="title-anim text-xl md:text-2xl">
+                    {top?.pageTitle}
+                  </h3>
                 </div>
               </div>
               <div className="development__wrapper prose w-[100%] xl:w-[64%]">
@@ -79,13 +68,18 @@ export default async function TopServices({ params }) {
           <section className="development__area top-image mb-10 md:mb-18 lg:mb-20">
             <div className="w-full">
               <div className="development__img">
-                <Image src={top.topImg} alt={top.topCategoryName} />
+                <Image
+                  data-speed="auto"
+                  data-lang="0"
+                  src={top.topImg}
+                  alt={top.topCategoryName}
+                />
               </div>
             </div>
           </section>
           <section className="workflow__area-6 whyChooseUs service__detail customWhyChoose">
             <div className="sec-title-wrapper mb-6">
-              <h2 className="sec-title title-anim">{top?.whyChooseHeading}</h2>
+              <h2 className="title-anim sec-title">{top?.whyChooseHeading}</h2>
             </div>
             <div
               className="prose"
@@ -93,13 +87,13 @@ export default async function TopServices({ params }) {
             />
             <div className="workflow__area-6 mt-6">
               <div className="line-3"></div>
-              <h5 className="text-xl">{top?.whyChooseListHeading}</h5>
+              <h5 className="text-[18px] md:text-xl">{top?.whyChooseListHeading}</h5>
               <div className="workflow__wrapper-6 mt-6">
-                <div className="flex items-start justify-between flex-wrap">
+                <div className="flex flex-wrap gap-y-4">
                   {top.whyChooseList.map((list, indx) => (
-                    <div key={indx} className="w-full md:w-[25%]">
+                    <div key={indx} className="w-full md:w-[25%] pr-4">
                       <div className="workflow__slide-6">
-                        <h6 className="workflow__title-6">{list.title}</h6>
+                        <h6 className="workflow__title-6"><FontAwesomeIcon style={{ fontSize: 10 }} icon={faCircle} /> {list.title}</h6>
                         {list.content && <p>{list.content}</p>}
                       </div>
                     </div>
@@ -130,10 +124,13 @@ export default async function TopServices({ params }) {
                 />
                 {top.latestTrendList ? (
                   <div className="trendList">
-                    <ul>
+                    <ul className="flex flex-col gap-6">
                       {top.latestTrendList.map((trendList, indx) => (
                         <li key={indx}>
-                          <strong>{trendList.title}</strong> {trendList.content}
+                          <FontAwesomeIcon
+                              icon={faCircle}
+                              style={{ fontSize: 10 }}
+                            /> <strong> {trendList.title}</strong> {trendList.content}
                         </li>
                       ))}
                     </ul>
@@ -144,7 +141,7 @@ export default async function TopServices({ params }) {
           </section>
           <section className="methodology mt-12">
             <div className="block-content">
-              <div className="w-full h-[1px] bg-blue-100 mb-10"></div>
+              <div className="w-full h-[1px] white-line-4 mb-10"></div>
               <div className="flex flex-wrap items-start justify-between">
                 <div className="w-full md:w-[42%] lg:w-[34%]">
                   <h2 className="portfolio__detail-title title-anim">
@@ -163,8 +160,13 @@ export default async function TopServices({ params }) {
                       top.methodologyList.map((list, indx) => (
                         <li key={indx}>
                           <div className="flex items-center gap-1 mb-3">
-                            <FontAwesomeIcon icon={faCircle} style={{fontSize:10}} />
-                            <h6 className="ml-2.5 font-bold text-md">{list?.listHead}:</h6>{" "}
+                            <FontAwesomeIcon
+                              icon={faCircle}
+                              style={{ fontSize: 10 }}
+                            />
+                            <h6 className="ml-2.5 font-bold text-md">
+                              {list?.listHead}
+                            </h6>{" "}
                           </div>
                           {list?.listContent}
                         </li>
@@ -172,20 +174,22 @@ export default async function TopServices({ params }) {
                   </ul>
                 </div>
               </div>
-              <div className="w-full h-[1px] bg-blue-100 mt-10"></div>
+              <div className="w-full h-[1px] white-line-4 mt-10"></div>
             </div>
           </section>
           <section className="development__area mt-14 mb-20">
             <div className="w-full">
               <div className="development__img">
                 <Image
+                  data-speed="auto"
+                  data-lang="0"
                   src={top.specializedServicesImg}
                   alt={top.specializedServicesHeading}
                 />
               </div>
             </div>
           </section>
-          <section className="services-contents">
+          <section className="services-contents top-level-content">
             <div className="block-content">
               <div className="flex flex-wrap items-start justify-between">
                 <div className="w-full md:w-[42%] lg:w-[34%]">
@@ -201,11 +205,11 @@ export default async function TopServices({ params }) {
               </div>
             </div>
             <div className="services-list grid grid-col-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-14">
-              {top.listHeading && (
+              {/* {top.listHeading && (
                 <h2 className="portfolio__detail-title title-anim">
                   {top.listHeading}
                 </h2>
-              )}
+              )} */}
               {top.servicesList &&
                 top.servicesList.map((list, indx) => (
                   <div
@@ -219,17 +223,17 @@ export default async function TopServices({ params }) {
                   </div>
                 ))}
             </div>
-            <div className="bottom-content mt-8">
+            {/* <div className="bottom-content mt-8">
               {top.ServicesContentTopPartHeading && (
                 <h5>{top.ServicesContentTopPartHeading}</h5>
               )}
               <p>{top.specializedServicesContentBottomPart}</p>
-            </div>
+            </div> */}
           </section>
-          <section className="mt-12 partner-area">
+          <section className="mt-14 partner-area">
             <div className="row">
               <div className="cta__content">
-                <h2 className="cta__title title-anim">
+                <h2 className="cta__title title-anim" >
                   Partner with Uniterrene Websoft for Your Next Digital Project
                 </h2>
                 <p className="text-center">
