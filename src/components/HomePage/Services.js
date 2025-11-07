@@ -243,7 +243,7 @@ function Services() {
                                 </div>
                               </div>
                             ) : (
-                              <div className="service__item-6 flex flex-col text-white gap-5">
+                              <div className="service__item-6 flex flex-col min-h-[100vh] text-white gap-5">
                                 <h2 className="text-5xl text-black mb-5">
                                   {item.title}
                                 </h2>
