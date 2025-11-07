@@ -59,7 +59,6 @@ const serviceSubmenus = {
     },
   ],
   webDevelopment: [
-   
     {
        heading: "CMS",
        subNavs: [
@@ -135,7 +134,6 @@ const serviceSubmenus = {
         },
       ],
     },
-    
     {
        heading: "Open Source & Enterprise Technologies",
        subNavs: [

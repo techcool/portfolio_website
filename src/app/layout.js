@@ -1,8 +1,8 @@
 // app/layout.js
 import { Kanit } from "next/font/google";
 import "./globals.css";
-//import "@public/swiper-bundle.min.css";
-//import "@public/meanmenu.min.css";
+import "@public/swiper-bundle.min.css";
+import "@public/meanmenu.min.css";
 import "@public/master.css";
 import Script from "next/script";
 import Head from "next/head";
@@ -47,10 +47,11 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <Head>
         {/* Vendor CSS */}
-        <link rel="stylesheet" href="/all.min.css" />
+        {/* <link rel="stylesheet" href="/all.min.css" />
         <link rel="stylesheet" href="/swiper-bundle.min.css" />
         <link rel="stylesheet" href="/progressbar.css" />
         <link rel="stylesheet" href="/meanmenu.min.css" />
+        <link rel="stylesheet" href="@public/" /> */}
       </Head>
       <body className={`${kanit.variable}`}>
         {/* Site-wide components */}

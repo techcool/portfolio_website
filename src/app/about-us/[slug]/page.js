@@ -7,6 +7,7 @@ import React from "react";
 import slugify from "@/libs/slugify";
 import TeamImg from "@/components/aboutPage/TeamImg";
 import SingleTeamHeading from "@/components/aboutPage/SingleTeamHeading";
+import ScrollSmootherEffect from "@/components/layouts/ScrollSmootherEffect";
 
 export async function generateMetadata({params}) {
   const {slug} = await params;
@@ -27,7 +28,7 @@ export default async function TeamDetails({params}) {
 
   return (
     <>
-      
+      <ScrollSmootherEffect/>
       <div className="team__detail-page pt-28">
         <section className="team__detail">
           <div className="container mx-auto px-4 pb-36 ">

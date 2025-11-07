@@ -8,40 +8,13 @@ import {
   faSun,
 } from "@fortawesome/free-solid-svg-icons";
 import menuIcon from "@public/assets/imgs/menu-black.png";
-import Sun from "@/components/icons/Sun";
-import Moon from "@/components/icons/Moon";
+import ModeSwitcher from "./ModeSwitcher";
 
 function HeaderNavIcons() {
   return (
     <>
-      <div className="header__nav-icon-3 ">
-        <div className="mode-type">
-          <button
-            className="search-icon switcherIcon active cursor-pointer"
-            id="light_mode_icon"
-            data-mode="light"
-            title="Light Mode"
-          >
-            {/* <FontAwesomeIcon
-              style={{ color: "black", width: 20 }}
-              icon={faSun}
-            /> */}
-            <Sun/>
-          </button>
-          <button
-            className="search-icon switcherIcon cursor-pointer"
-            id="dark_mode_icon"
-            data-mode="dark"
-            title="Dark Mode"
-          >
-            {/* <FontAwesomeIcon
-                  style={{ color: "white", width: 20 }}
-                  icon={faMoon}
-                /> */}
-            <Moon/>    
-            
-          </button>
-        </div>
+      <div className="header__nav-icon-3">
+        <ModeSwitcher/>
         {/* <button className="search-icon cursor-pointer" id="search_icon">
           <FontAwesomeIcon style={{ width: 20 }} icon={faMagnifyingGlass} />
         </button>
