@@ -10,6 +10,9 @@ import Image from "next/image";
 import gsap from "gsap";
 import { ScrollTrigger, ScrollToPlugin } from "gsap/all";
 import { topData } from "@/data/services/topData";
+import CTA from "@/ui/CTA";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 function Services() {
   const servicesNav = navLinks.find(
@@ -196,23 +199,47 @@ function Services() {
                                 id="service_1"
                               >
                                 <div className="animation__service_page">
-                                <div className="image-tab mb-10">
-                                  <Image
-                                    src={matchingTopData.topImg}
-                                    alt={matchingTopData.topCategoryName}
-                                  />
-                                </div>
+                                  <div className="image-tab mb-10">
+                                    <Image
+                                      src={matchingTopData.topImg}
+                                      alt={matchingTopData.topCategoryName}
+                                    />
+                                  </div>
                                   <h2 className="service__title-6">
                                     {matchingTopData.topCategoryName}
                                   </h2>
-                                <div className="prose" dangerouslySetInnerHTML={{ __html: matchingTopData.description }}/>
-                                <ul>
-                                  {
-                                    matchingTopData.servicesList.map((item,i)=>(
-                                      <li key={i}><Link href={`/services/${matchingTopData.slug}/${slugify(item.title)}`}>+ {item.title}</Link></li>
-                                    ))
-                                  }
-                                </ul>
+                                  <div
+                                    className="prose"
+                                    dangerouslySetInnerHTML={{
+                                      __html: matchingTopData.description,
+                                    }}
+                                  />
+                                  <ul>
+                                    {matchingTopData.servicesList.map(
+                                      (item, i) => (
+                                        <li key={i}>
+                                          <Link
+                                            href={`/services/${
+                                              matchingTopData.slug
+                                            }/${slugify(item.title)}`}
+                                          >
+                                            + {item.title}
+                                          </Link>
+                                        </li>
+                                      )
+                                    )}
+                                  </ul>
+                                  <div className="btn_wrapper">
+                                    <Link
+                                      href={`/services/${slugify(matchingTopData.topCategoryName)}`}
+                                      className="wc-btn-secondary btn-item btn-hover"
+                                    >
+                                      <span></span>Lear More
+                                      <FontAwesomeIcon
+                                        icon={faArrowRight}
+                                      ></FontAwesomeIcon>
+                                    </Link>
+                                  </div>
                                 </div>
                               </div>
                             ) : (
