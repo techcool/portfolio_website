@@ -2,11 +2,13 @@ import ContactForm from '@/components/contactPage/ContactForm'
 import ContactHeading from '@/components/contactPage/ContactHeading'
 import ContactInfo from '@/components/contactPage/ContactInfo'
 import ContactInfoHeading from '@/components/contactPage/ContactInfoHeading'
+import ScrollSmootherEffect from '@/components/layouts/ScrollSmootherEffect'
 import React from 'react'
 
 export default function ContactUs() {
   return (
-    <>
+    <> 
+        <ScrollSmootherEffect/>
         <section className="contact__area-6">
           <div className="container mx-auto px-4 line pt-120 pb-110">
             <span className="line-3"></span>

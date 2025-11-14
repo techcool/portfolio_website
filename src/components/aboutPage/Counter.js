@@ -46,9 +46,36 @@ export default function Counter() {
         stagger: 0.3,
       });
     }
-
-    // 🧹 Cleanup
+    let io;
+    (async () => {
+      if (typeof window === "undefined") return;
+      try {
+        const mod = await import("counterup2");
+        const counterUp = mod.default || mod;
+        const about_cb = (entries) => {
+          entries.forEach((entry) => {
+            const el = entry.target;
+            if (entry.isIntersecting && !el.classList.contains("is-visible")) {
+              counterUp(el, {
+                duration: 1000,
+                delay: 16,
+              });
+              el.classList.add("is-visible");
+            }
+          });
+        };
+        io = new IntersectionObserver(about_cb, { threshold: 1 });
+        const els = document.querySelectorAll(".counter__number");
+        els.forEach((el) => io.observe(el));
+      } catch (err) {
+        // fail silently in prod; log in dev
+        console.warn("counterup init failed:", err);
+      }
+    })();
+   
+    // Cleanup
     return () => {
+       if (io) io.disconnect();
       ScrollTrigger.getAll().forEach((t) => t.kill());
     };
   }, []);

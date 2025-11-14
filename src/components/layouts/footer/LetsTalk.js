@@ -9,20 +9,20 @@ import { usePathname } from "next/navigation";
 
 export default function LetsTalk() {
   const pathname = usePathname();
+ // console.log(pathname);
+  
 
-  useEffect(() => {
-    if (typeof window === "undefined") return;
+useEffect(() => {
+  if (typeof window === "undefined") return;
 
-    // register plugins once (ignore if already registered)
+  const initAnimation = () => {
     try {
       gsap.registerPlugin(ScrollTrigger, SplitText);
     } catch (e) {}
 
-    // make sure target exists
     const el = document.querySelector(".end");
     if (!el) return;
 
-    // initial fade in handled by a simple ScrollTrigger animation
     gsap.set(".end", { opacity: 0 });
     const fade = gsap.to(".end", {
       opacity: 1,
@@ -35,7 +35,6 @@ export default function LetsTalk() {
       },
     });
 
-    // create SplitText and timeline (paused initially)
     const split = new SplitText(".end", { type: "words,chars" });
     const chars = split.chars || [];
 
@@ -101,7 +100,6 @@ export default function LetsTalk() {
         stagger: 0.05,
       });
 
-    // Trigger to start/pause the repeating timeline when the element is in view
     const st = ScrollTrigger.create({
       trigger: ".end",
       start: "bottom 100%-=50px",
@@ -111,21 +109,31 @@ export default function LetsTalk() {
       onLeaveBack: () => tl.pause(0),
     });
 
-    // ensure ScrollTrigger layout is correct
     ScrollTrigger.refresh();
 
-    // cleanup
     return () => {
-      try {
-        st && st.kill();
-        fade && fade.kill();
-        tl && tl.kill();
-        split && split.revert();
-        ScrollTrigger.getAll().forEach((t) => t.kill());
-      } catch (e) {}
+      st && st.kill();
+      fade && fade.kill();
+      tl && tl.kill();
+      split && split.revert();
     };
-    // re-run whenever the pathname changes so animation re-inits on client navigation
-  }, [pathname]);
+  };
+
+  // ✅ If smoother already exists → init immediately
+  if (window.ScrollSmoother && window.ScrollSmoother.get()) {
+    initAnimation();
+  } else {
+    // ✅ Wait for smoother to be ready, then init
+    const handleReady = () => {
+      initAnimation();
+      ScrollTrigger.refresh();
+    };
+    window.addEventListener("smootherReady", handleReady);
+    return () => window.removeEventListener("smootherReady", handleReady);
+  }
+}, [pathname]);
+
+
 
   return (
     <>

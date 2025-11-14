@@ -9,6 +9,7 @@ import slugify from "@/libs/slugify";
 
 import React from "react";
 import ApplicationModalWrapper from "@/components/careerPage/ApplicationModalWrapper";
+import ScrollSmootherEffect from "@/components/layouts/ScrollSmootherEffect";
 
 export async function generateMetadata({ params }) {
   const { slug } = await params;
@@ -32,6 +33,7 @@ export default async function CareerDetails({ params }) {
 
   return (
     <>
+      <ScrollSmootherEffect/>
       <section className="job__detail">
         <div className="container mx-auto px-4 g-0 line pt-120 pb-110">
           <span className="line-3"></span>

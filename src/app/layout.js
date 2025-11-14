@@ -60,9 +60,9 @@ export default function RootLayout({ children }) {
         <Preloader />
         <Header />
         <Offcanvas/>
-        
         <div id="smooth-wrapper">
           <div id="smooth-content">
+        {/* <ScrollSmootherEffect/> */}
             <main>{children}</main>
             <Footer />
           </div>

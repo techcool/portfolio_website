@@ -1,6 +1,7 @@
 import BlogMainHeading from "@/components/blogPage/BlogMainHeading";
 import BlogSingleThumbnail from "@/components/blogPage/BlogSingleThumbnail";
 import RelatedPost from "@/components/blogPage/RelatedPost";
+import ScrollSmootherEffect from "@/components/layouts/ScrollSmootherEffect";
 import { blogData } from "@/data/blogData";
 import slugify from "@/libs/slugify";
 import CTA from "@/ui/CTA";
@@ -30,6 +31,7 @@ export default async function BlogDetails({ params }) {
 
   return (
     <>
+      <ScrollSmootherEffect/>
       <section className="blog__detail">
         <div className="container mx-auto px-4 line pt-140">
           <span className="line-3"></span>

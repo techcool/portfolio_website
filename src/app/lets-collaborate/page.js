@@ -1,4 +1,5 @@
 import CommonHeading from "@/components/layouts/Heading/CommonHeading";
+import ScrollSmootherEffect from "@/components/layouts/ScrollSmootherEffect";
 import CollaborationForm from "@/components/letsCollaboratePage/CollaborationForm";
 import Counter from "@/ui/Counter";
 import React from "react";
@@ -6,6 +7,7 @@ import React from "react";
 export default function LetsCollaborate() {
   return (
     <>
+      <ScrollSmootherEffect/>
       <section className="contact__area-6">
         <div className="container mx-auto px-4 line pt-120 pb-110">
           <span className="line-3"></span>
@@ -23,7 +25,7 @@ export default function LetsCollaborate() {
                 <div className="spacer h-7"></div>
                 <h4 className="text-xl md:text-2xl">Quick Facts</h4>
                 <div className="spacer h-5"></div>
-                <div className="counter__wrapper-3 grid grid-cols-2 gap-8">
+                <div className="counter__wrapper-3 counter_animation grid grid-cols-2 gap-8">
                   <Counter/>
                 </div>
               </div>

@@ -1,4 +1,5 @@
 import BlogPageHeading from "@/components/blogPage/BlogPageHeading";
+import ScrollSmootherEffect from "@/components/layouts/ScrollSmootherEffect";
 import { blogData } from "@/data/blogData";
 import { getAllCategories } from "@/libs/blogHelpers";
 import BlogCard from "@/ui/BlogCard";
@@ -19,6 +20,7 @@ export default function Blog() {
 
   return (
     <>
+    <ScrollSmootherEffect/>
       <section className="blog__area-6 blog__animation">
         <div className="container mx-auto px-4 relative line pt-110 pb-110">
           <span className="line-3"></span>

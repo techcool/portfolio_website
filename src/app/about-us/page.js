@@ -9,10 +9,12 @@ import React from "react";
 
 import Testimonial from "@/components/aboutPage/Testimonial";
 import CTA from "@/ui/CTA";
+import ScrollSmootherEffect from "@/components/layouts/ScrollSmootherEffect";
 
 export default function AboutUs() {
   return (
     <>
+        <ScrollSmootherEffect/>
         <AboutHero /> 
         <Story/>
         <Counter/>

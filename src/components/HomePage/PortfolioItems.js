@@ -6,7 +6,7 @@ import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import Image from "next/image";
 import Link from "next/link";
 import { Swiper } from "swiper";
-import { Navigation, Pagination, EffectFade } from "swiper/modules";
+import { Navigation, Pagination, EffectFade, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -21,11 +21,14 @@ function PortfolioItems() {
 
     if (sliderRef.current) {
       swiperInstance = new Swiper(sliderRef.current, {
-        modules: [Navigation, Pagination, EffectFade],
+        modules: [Navigation, Pagination, EffectFade, Autoplay],
         speed: 1500,
         loop: true,
         effect: "fade",
-        autoplay: false,
+        autoplay: {
+          delay: 5000,
+          disableOnInteraction: false,
+        },
         pagination: {
           el: ".swiper-pagination",
           type: "fraction",

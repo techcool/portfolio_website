@@ -4,10 +4,12 @@ import Image from "next/image";
 import React from "react";
 import FaqAccordion from "../HomePage/FaqAccordion";
 import TitleAnimHeading from "../layouts/Heading/TitleAnimHeading";
+import ScrollSmootherEffect from "../layouts/ScrollSmootherEffect";
 
 export default function BottomServicesTemplate({ bottomService }) {
   return (
     <>
+    <ScrollSmootherEffect/>
       <TitleAnimHeading />
       <div className="services-area bottomServices  pt-16 md:pt-0">
         <div className="container mx-auto px-4 g-0 line pt-110 pb-130">

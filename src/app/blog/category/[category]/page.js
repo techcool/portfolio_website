@@ -1,5 +1,6 @@
 // app/blog/category/[category]/page.js
 import BlogCategoryHeading from "@/components/blogPage/BlogCategoryHeading";
+import ScrollSmootherEffect from "@/components/layouts/ScrollSmootherEffect";
 import { blogData } from "@/data/blogData";
 import slugify from "@/libs/slugify";
 import BlogCard from "@/ui/BlogCard";
@@ -48,6 +49,8 @@ export default async function BlogCategory({ params }) {
   const currentPosts = filteredPosts.slice(0, postsPerPage);
 
   return (
+    <>
+    <ScrollSmootherEffect/>
     <section className="blog__area-6 blog__animation">
       <div className="container mx-auto px-4 relative line pt-110 pb-110">
         <span className="line-3"></span>
@@ -70,5 +73,6 @@ export default async function BlogCategory({ params }) {
         )}
       </div>
     </section>
+    </>
   );
 }

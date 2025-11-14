@@ -1,3 +1,4 @@
+import ScrollSmootherEffect from "@/components/layouts/ScrollSmootherEffect";
 import Gallery from "@/components/portfolioPage/Gallery";
 import Thumb1 from "@/components/portfolioPage/Thumb1";
 import Thumb2 from "@/components/portfolioPage/Thumb2";
@@ -43,6 +44,7 @@ export default async function PortfolioDetails({ params }) {
 
   return (
     <>
+      <ScrollSmootherEffect/>
       <section className="portfolio__detail">
         <div className="portfolio__detail-top">
           <div className="container mx-auto px-4 g-0 line pt-110 pb-130">

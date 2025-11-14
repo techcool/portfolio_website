@@ -1,12 +1,12 @@
 import React from "react";
 import TeamSliderItems from "./TeamSliderItems";
 
-export default function TeamSlider() {
+export default function TeamSlider({teamCursorRef}) {
   return (
     <>
       <div className="swiper team__slider">
         <div className="swiper-wrapper">
-            <TeamSliderItems/>
+            <TeamSliderItems teamCursorRef={teamCursorRef}/>
         </div>
       </div>
     </>

@@ -13,7 +13,7 @@ function HomeAbout() {
     <>
     <TitleAnimHeading/>
     <section className="about__area-3">
-      <div className="bg-gradient-to-tr from-blue-950 to-purple-900">
+      <div className="bg-gradient-to-t from-blue-950 to-purple-900">
         <div className="container mx-auto px-4 pt-36 pb-28">
           <div className="flex flex-wrap items-center -mx-4">
             <div className="w-full md:w-1/2 px-4 mb-8 md:mb-0">

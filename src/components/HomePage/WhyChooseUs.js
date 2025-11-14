@@ -69,15 +69,7 @@ function initHorizontalWorkflow() {
       invalidateOnRefresh: true,
     });
 
-    // If you use SplitText for titles INSIDE these panels, create & keep references here
-    // so you can revert them on cleanup (example commented out):
-    //
-    // const titleEl = section.querySelector('.title-anim');
-    // if (titleEl) {
-    //   const split = new SplitText(titleEl, { type: "lines" });
-    //   // animate split.lines with ScrollTrigger that has containerAnimation: tl as above
-    //   // keep 'split' in an array for cleanup
-    // }
+    
   });
 
   // Ensure ScrollTrigger recalculates when window resizes
@@ -132,8 +124,41 @@ export default function WhyChooseUs() {
         ease: "power3.out",
       });
     });
+
+    let io;
+    (async () => {
+      if (typeof window === "undefined") return;
+      try {
+        const mod = await import("counterup2");
+        const counterUp = mod.default || mod;
+        const about_cb = (entries) => {
+          entries.forEach((entry) => {
+            const el = entry.target;
+            if (entry.isIntersecting && !el.classList.contains("is-visible")) {
+              counterUp(el, {
+                duration: 1000,
+                delay: 16,
+              });
+              el.classList.add("is-visible");
+            }
+          });
+        };
+        io = new IntersectionObserver(about_cb, { threshold: 1 });
+        const els = document.querySelectorAll(".counter__number");
+        els.forEach((el) => io.observe(el));
+      } catch (err) {
+        // fail silently in prod; log in dev
+        console.warn("counterup init failed:", err);
+      }
+    })();
        
-    return () => cleanup && cleanup();
+    return () => {
+      // disconnect observer
+      try {
+        if (io) io.disconnect();
+      } catch (e) {}
+      cleanup && cleanup();
+    };
   }, []);
 
   return (

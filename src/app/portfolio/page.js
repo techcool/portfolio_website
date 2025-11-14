@@ -3,6 +3,7 @@ import PortfolioItems from "@/components/portfolioPage/PortfolioItems";
 import { portfolioData } from "@/data/portfolioData";
 
 import PortfolioHeader from "@/components/portfolioPage/PortfolioHeader";
+import ScrollSmootherEffect from "@/components/layouts/ScrollSmootherEffect";
 
 
 //import React, { useState } from "react";
@@ -18,6 +19,7 @@ export default function Portfolio() {
 
   return (
     <>
+      <ScrollSmootherEffect/>
       <section className="portfolio__area-6">
         <div className="container mx-auto px-4 pt-24 pb-36 relative">
           {/* Decorative line */}

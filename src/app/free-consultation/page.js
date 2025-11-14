@@ -1,11 +1,13 @@
 import ConsultatonForm from "@/components/free-consultation/ConsultatonForm";
 import CommonHeading from "@/components/layouts/Heading/CommonHeading";
+import ScrollSmootherEffect from "@/components/layouts/ScrollSmootherEffect";
 import Counter from "@/ui/Counter";
 import React from "react";
 
 export default function FreeConsultation() {
   return (
     <>
+      <ScrollSmootherEffect/>
       <section className="contact__area-6">
         <div className="container mx-auto px-4 line pt-120 pb-110">
           <span className="line-3"></span>

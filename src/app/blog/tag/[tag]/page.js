@@ -1,3 +1,4 @@
+import ScrollSmootherEffect from "@/components/layouts/ScrollSmootherEffect";
 import { blogData } from "@/data/blogData";
 import { getAllTags } from "@/libs/blogHelpers";
 import slugify from "@/libs/slugify";
@@ -43,6 +44,7 @@ export default function BlogTag({ params }) {
   const uniqueTags = tags.map((tag) => ` ${tag}`).join(",");
   return (
     <>
+      <ScrollSmootherEffect/>
       <section className="blog__area-6 blog__animation">
         <div className="container mx-auto px-4 relative line pt-110 pb-110">
           <span className="line-3"></span>
