@@ -110,45 +110,15 @@ function Services() {
           }
         });
       });
-      //   $(document).on('scroll', function () {
-      //   $('.parent').each(function () {
-      //     if ($(this).position().top <= $(document).scrollTop() && ($(this).position().top + $(this).outerHeight()) > $(document).scrollTop()) {
-      //       var sec_id = $(this).data('secid');
-
-      //       $('.parent li:nth-child(' + sec_id + ')').addClass('active').siblings().removeClass('active');
-      //     }
-      //   });
-      // });
+  
     }
   }, [deviceWidth]);
 
   return (
     <>
-      {/* <section classNameName="service__area-3 pb-150">
-            <div classNameName="container mx-auto px-4">
-            <div classNameName="row">
-                <div classNameName="col-xxl-12">
-                <div classNameName="sec-title-wrapper pt-130 text-anim">
-                    <h2 classNameName="sec-sub-title title-anim">Services</h2>
-                    <h3 classNameName="sec-title title-anim">
-                    Our <br />
-                    Services
-                    </h3>
-                    <p>
-                    Consumers today rely heavily on digital means to research
-                    products. We research a brand of bldend engaging with it,
-                    according to the meanwhile, 51% of consumers say they use
-                    Google to research products before buying.
-                    </p>
-                </div>
-                </div>
-            </div>
-
-            <ServiceItems />
-            </div>
-        </section> */}
+      
       <section className="service__area-6">
-        <div className="container mx-auto px-4 pt-36 pb-28">
+        <div className="container mx-auto px-4 pt-0 md:pt-4 lg:pt-36 pb-28">
           <div className="row inherit-row">
             <div className="col-xxl-12">
               <div className="content-wrapper">
@@ -157,7 +127,8 @@ function Services() {
                     {servicesNav.map((item, i) => (
                       <li key={i} className={i === 0 ? "active" : null}>
                         <Link href={`#${slugify(item.title)}`}>
-                          {item.title}
+                          <Image src={item.icon} alt={item.title} width={64} height={64}/>
+                          <span className="title">{item.title}</span>
                         </Link>
                       </li>
                     ))}
@@ -167,20 +138,7 @@ function Services() {
                 <div className="right-content">
                   <div className="service__items-6">
                     {
-                      // topData ? (
-                      //   topData.map((data,indx)=>(
-                      //     <div key={indx} className="service__item-6 has__service_animation" id="service_1" data-secid="1">
-                      //       <div className="image-tab">
-                      //         <Image src={data.topImg} alt={data.topCategoryName}/>
-                      //       </div>
-                      //       <div className="animation__service_page">
-                      //         <h2 className="service__title-6">{data.topCategoryName}</h2>
-                      //       </div>
-                      //     </div>
-                      //   ))
-                      // )
-                      // :
-                      // <p>Data coming soon</p>
+                   
 
                       servicesNav.map((item, i) => {
                         const matchingTopData = topData.find(

@@ -4,8 +4,8 @@ import { getAllTags } from "@/libs/blogHelpers";
 import slugify from "@/libs/slugify";
 import BlogCard from "@/ui/BlogCard";
 
-export default function TagPagePagination({ params }) {
-  const { tag, page } = params;
+export default async function TagPagePagination({ params }) {
+  const { tag, page } = await params;
   const currentPage = parseInt(page, 10) || 1;
   const postsPerPage = 6;
 

@@ -7,7 +7,7 @@ import BlogCard from "@/ui/BlogCard";
 
 // Dynamic metadata for SEO
 export async function generateMetadata({ params }) {
-  const { category } = params;
+  const { category } =await params;
 
   // Convert slug back to readable text
   const categoryName = category.replace(/-/g, " ");
@@ -35,7 +35,7 @@ export async function generateMetadata({ params }) {
 }
 
 export default async function BlogCategory({ params }) {
-  const { category } = params;
+  const { category } = await params;
   // const posts = blogData.filter(
   //   (post) => slugify(post.category) === category
   // );

@@ -47,6 +47,7 @@ function HomeHero() {
 
         
       </section>
+     
     </>
   );
 }

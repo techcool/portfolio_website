@@ -321,31 +321,37 @@ export const navLinks = [
       {
         title: "Designs & Branding",
         subServices: serviceSubmenus.designBrand,
+        icon: customIcons.branding,
       },
       {
         title: "Web Development",
         subServices: serviceSubmenus.webDevelopment,
-       
+        icon: customIcons.webDevelopement,
       },
       {
         title: "App Development",
         subServices: serviceSubmenus.appDevelopment,
+        icon: customIcons.appDevelopement,
       },
       {
         title: "Digital Marketing",
         subServices: serviceSubmenus.digitalMarketing,
+        icon: customIcons.digitalMarketing,
       },
       {
         title: "Game Development",
         subServices: serviceSubmenus.gameDevelopment,
+        icon: customIcons.gameDevelopment,
       },
       {
         title: "AI Development",
         subServices: serviceSubmenus.aiDevelopment,
+        icon: customIcons.aiDevelopment,
       },
       {
         title: "Cloud & DevOps",
         subServices: serviceSubmenus.cloudDevOps,
+        icon: customIcons.devOps,
       },
     ],
   },

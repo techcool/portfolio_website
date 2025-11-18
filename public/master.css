@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 :root {
-  --primary: #c9f31d;
+  --primary: #f3c31d;
   --secondary: #2c2c2c;
   --black: #000;
   --black-2: #121212;
@@ -8996,18 +8996,18 @@ img {
   }
 }
 .service__area-6 {
-  padding-left: 100px;
+  /* padding-left: 100px; */
   background-color: var(--gray-17);
 }
 @media only screen and (min-width: 1400px) and (max-width: 1919px) {
-  .service__area-6 {
+  /* .service__area-6 {
     padding-left: 70px;
-  }
+  } */
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .service__area-6 {
     padding-top: 100px;
-    padding-left: 88px;
+    /* padding-left: 88px; */
     padding-bottom: 40px;
   }
 }
@@ -9851,8 +9851,13 @@ img {
     padding-bottom: 20px;
   }
 }
-.service__list-6 li.active a, .dark .service__list-6 li.active a {
-  color: #59168b;
+.service__list-6 li.active a {
+  color: #122ea4;
+  
+}
+.dark .service__list-6 li.active a{
+  color:var(--primary)
+  /* filter:invert(1) */
 }
 @media only screen and (max-width: 767px) {
   .service__list-6 li {
@@ -36078,6 +36083,15 @@ textarea::placeholder,
 .form-apply p.msg {
   color: rgba(0, 0, 0, 0.3) !important;
 }
+.dark .contact__form p.msg,
+.dark input::placeholder,
+.dark textarea::placeholder,
+.dark .form-apply p.msg, .dark select {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+.dark select option{
+  color:var(--black-2)
+}
 
 .form-apply p.msg {
   font-size: 16px;
@@ -36191,10 +36205,10 @@ p.strong-txt {
   background-color: var(--black-2);
 }
 
-.dark .portfolio__service-item {
+/* .dark .portfolio__service-item {
   filter:unset
-}
-.dark .portfolio__service-item .ps-title, .dark .portfolio__service-item ul li a, .dark .top-area .title-anim, .dark .trendList ul li, .dark .prose, .dark ul li, .dark .workflow__area-6 h5, .dark .blog__area-6 .sec-title-wrapper h4, .dark .contact__area-6 h3, .dark .blog__area-6 .sec-title-wrapper h4, .dark .contact__area-6 h2, .dark .blog__area-6 .sec-title-wrapper h4, .dark .contact__area-6 h5, .dark .contact__area-6 h4{
+} */
+.dark .portfolio__service-item ul li a, .dark .top-area .title-anim, .dark .trendList ul li, .dark .prose, .dark ul li, .dark .workflow__area-6 h5, .dark .blog__area-6 .sec-title-wrapper h4, .dark .contact__area-6 h3, .dark .blog__area-6 .sec-title-wrapper h4, .dark .contact__area-6 h2, .dark .blog__area-6 .sec-title-wrapper h4, .dark .contact__area-6 h5, .dark .contact__area-6 h4{
   color:var(--white)
 }
 .dark .top-level a{
@@ -36213,7 +36227,18 @@ p.strong-txt {
   background-color: var(--bg-line);
 }
 
-
+.service__list-6 li a{
+  display:flex;
+  gap:10px;
+  align-items:center;
+}
+.service__list-6 li a img{
+  max-width:40px;
+  filter:invert(.8)
+}
+.dark .service__list-6 li a img{
+   filter:unset
+}
 
 
 @media only screen and (max-width: 1580px) {

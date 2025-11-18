@@ -4,16 +4,17 @@ import BlogCard from "@/ui/BlogCard";
 import Filter from "@/ui/Filter";
 import React from "react";
 
-export default function BlogPage({ params }) {
+export default async function BlogPage({ params }) {
+  const resolvedParams = await params;
   const categories = getAllCategories(blogData);
 
-  const page = parseInt(params.page, 10) || 1;
+  const page = parseInt(resolvedParams.page, 10) || 1;
   const postsPerPage = 6;
   const totalPages = Math.ceil(blogData.length / postsPerPage);
 
   const startIndex = (page-1) *postsPerPage;
   const currentPosts = blogData.slice(startIndex, startIndex+postsPerPage) 
-  console.log('startIndex ', startIndex,'and ',  currentPosts, 'page ', page);
+  //console.log('startIndex ', startIndex,'and ',  currentPosts, 'page ', page);
 
   return (
     <>

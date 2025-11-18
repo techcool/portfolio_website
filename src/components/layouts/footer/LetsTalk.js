@@ -6,6 +6,7 @@ import { SplitText } from "gsap/SplitText";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import chroma from "chroma-js";
 import { usePathname } from "next/navigation";
+import ScrollSmootherEffect from "../ScrollSmootherEffect";
 
 export default function LetsTalk() {
   const pathname = usePathname();
@@ -120,8 +121,8 @@ useEffect(() => {
   };
 
   // ✅ If smoother already exists → init immediately
+  initAnimation();
   if (window.ScrollSmoother && window.ScrollSmoother.get()) {
-    initAnimation();
   } else {
     // ✅ Wait for smoother to be ready, then init
     const handleReady = () => {
@@ -137,6 +138,7 @@ useEffect(() => {
 
   return (
     <>
+      {/* <ScrollSmootherEffect/> */}
       <div className="footer__contact-3">
         <a href="/contact-us" className="end">
           Let’s talk

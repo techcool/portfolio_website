@@ -20,7 +20,7 @@ export async function generateMetadata({params}) {
 }
 
 export default async function TeamDetails({params}) {
-    const {slug} = params;
+    const {slug} =await params;
     const teamData = sinleTeamData.find(member => slugify(member.name) === slug);
     if (!teamData) {
       return <p className="text-center text-red-500">Team member not found</p>;

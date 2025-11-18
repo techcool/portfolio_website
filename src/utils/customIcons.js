@@ -30,6 +30,13 @@ const customIcons= {
     games:"/assets/imgs/icon/games.png",
     unity:"/assets/imgs/icon/unity.png",
     ar:"/assets/imgs/icon/ar.png",
+    branding:"/assets/imgs/icon/branding.png",
+    webDevelopement:"/assets/imgs/icon/coding.png",
+    appDevelopement:"/assets/imgs/icon/mobile-development.png",
+    digitalMarketing:"/assets/imgs/icon/digital-marketing.png",
+    gameDevelopment:"/assets/imgs/icon/game-development.png",
+    aiDevelopment:"/assets/imgs/icon/ai-development.png",
+    devOps:"/assets/imgs/icon/devOps.png",
 }
 
 export default customIcons

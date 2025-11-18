@@ -6,7 +6,7 @@ import BlogCard from "@/ui/BlogCard";
 import React from "react";
 
 export async function generateMetadata({ params }) {
-  const { tag } = params;
+  const { tag } = await params;
 
   // Get posts matching the tag
   const tagPosts = blogData.filter((post) =>
@@ -25,8 +25,8 @@ export async function generateMetadata({ params }) {
   };
 }
 
-export default function BlogTag({ params }) {
-  const { tag } = params;
+export default async function BlogTag({ params }) {
+  const { tag } =await params;
   const page = 1;
   const postsPerPage = 6;
 
