@@ -12,7 +12,7 @@ function OffcanvasMenu() {
             <ul className="menu-anim">
               {navLinks.map((links, index) => (
                 <li key={index}>
-                  <Link href={links.link || "#"}>{links.title}</Link>
+                  <Link href={links.link ? `/${links.link}` : "#"}>{links.title}</Link>
                   {links.submenu && <OffcanvasChildMenus submenu={links.submenu}/>} 
                 </li>
               ))}
