@@ -1,5 +1,5 @@
 export const getAllCategories = (data) => {
-  const categories = data.map((post) => post.category);
+  const categories = data.map((post) => post.categories);
   return [...new Set(categories)];
 };
 

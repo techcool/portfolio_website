@@ -28,20 +28,24 @@ export default function BlogCard({
                   <div className="img-box">
                     <Image
                       className="image-box__item"
-                      src={data.imgSrc}
+                      src={data.imageUrl}
                       alt={data.title}
+                      width={1200}
+                          height={600}
                     />
                     <Image
                       className="image-box__item"
-                      src={data.imgSrc}
+                      src={data.imageUrl}
                       alt={data.title}
+                      width={1200}
+                          height={600}
                     />
                   </div>
                 </Link>
               </div>
               <h4 className="blog__meta">
-                <Link href={`/blog/category/${slugify(data.category)}`}>
-                  {data.category}
+                <Link href={`/blog/category/${slugify(data.categories)}`}>
+                  {data.categories}
                 </Link>{" "}
                 . {data.date}
               </h4>

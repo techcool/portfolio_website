@@ -5,8 +5,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import slugify from "@/libs/slugify";
 import Link from "next/link";
 
-export default function Filter({categories}) {
-  
+export default function Filter({categories=[]}) {
+  if (!Array.isArray(categories) || categories.length === 0) return null;
+  const safeCats = categories.filter((c) => c !== null && c !== undefined);
     
   return (
     <>
@@ -16,7 +17,7 @@ export default function Filter({categories}) {
           By Category
           <FontAwesomeIcon icon={faAngleDown}></FontAwesomeIcon>
           <ul className="gap-4 absolute z-2">
-            {categories.map((cat) => (
+            {safeCats.map((cat) => (
               <li key={cat}>
                 <Link
                   href={`/blog/category/${slugify(cat)}`}

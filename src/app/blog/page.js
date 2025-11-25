@@ -1,13 +1,18 @@
 import BlogPageHeading from "@/components/blogPage/BlogPageHeading";
 import ScrollSmootherEffect from "@/components/layouts/ScrollSmootherEffect";
-import { blogData } from "@/data/blogData";
+// import { blogData } from "@/data/blogData";
 import { getAllCategories } from "@/libs/blogHelpers";
 import BlogCard from "@/ui/BlogCard";
 import Filter from "@/ui/Filter";
 import React from "react";
+import { getBlogData } from '@/libs/getBlogData';
+// import slugify from "@/libs/slugify";
 
 export default function Blog() {
+  const blogData = getBlogData();
   const categories = getAllCategories(blogData);
+  // console.log(categories);
+  
 
   const postsPerPage = 6;
   const page = 1;

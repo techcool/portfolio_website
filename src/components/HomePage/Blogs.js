@@ -1,7 +1,9 @@
 import React from "react";
 import BlogListItem from "./BlogListItem";
 
-export default function Blogs() {
+export default function Blogs({blogData}) {
+  //console.log(blogData);
+  
   return (
     <>
       <section className="blog__area-3 pb-36 blog__animation">
@@ -19,7 +21,7 @@ export default function Blogs() {
             </p>
           </div>
 
-          <BlogListItem />
+          <BlogListItem blogData={blogData} />
         </div>
       </section>
     </>

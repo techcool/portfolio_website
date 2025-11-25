@@ -8,9 +8,11 @@ import Services from '@/components/HomePage/Services';
 import Testimonial from '@/components/HomePage/Testimonial';
 import WhyChooseUs from '@/components/HomePage/WhyChooseUs';
 import ScrollSmootherEffect from '@/components/layouts/ScrollSmootherEffect';
+import { getBlogData } from '@/libs/getBlogData';
 
 
 export default function Home() {
+  const blogData = getBlogData();
   return (
     <>
       <ScrollSmootherEffect/>
@@ -22,7 +24,7 @@ export default function Home() {
       <Testimonial />
       <WhyChooseUs />
       <Pricing/>
-      <Blogs />
+      <Blogs blogData={blogData} />
          
     </>
   );
