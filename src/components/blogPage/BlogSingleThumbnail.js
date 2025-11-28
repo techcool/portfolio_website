@@ -34,7 +34,7 @@ function BlogSingleThumbnail({blog}) {
     <>
       <div className="w-full">
         <div className="blog__detail-thumb">
-          <Image src={blog.imgSrc} alt={blog.title} data-speed="0.5" />
+          <Image src={blog.imageUrl} alt={blog.title} data-speed="0.5" width={1200} height={600} />
         </div>
       </div>
     </>

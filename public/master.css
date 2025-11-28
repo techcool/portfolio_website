@@ -15645,6 +15645,9 @@ img {
   text-transform: lowercase;
   text-decoration-line: underline;
 }
+.blog__detail-tags p a:hover{
+  text-decoration: none;
+}
 .blog__related {
   overflow: hidden;
 }
@@ -35967,9 +35970,13 @@ a.black-text {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+  max-height: 36em;
+  overflow-y: auto;
+  overflow-x: unset;
 }
 .filter ul li a {
   transition: all 0.5s ease-in-out;
+  text-transform: capitalize;
 }
 .filter ul li a:hover {
   letter-spacing: 1px;
@@ -36241,6 +36248,10 @@ p.strong-txt {
    filter:unset
 }
 
+.blog__meta span a{
+  text-transform: capitalize;
+}
+
 
 @media only screen and (max-width: 1580px) {
   .main-menu-3 > li {
@@ -36278,6 +36289,12 @@ p.strong-txt {
   }
   .faq__img img {
     position: unset !important;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .filter ul{
+    max-height: 30em;
   }
 }
 

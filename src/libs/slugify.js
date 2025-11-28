@@ -1,4 +1,4 @@
-export default function slugify(title) {
+export default function slugify(title = "") {
   return title
     .toLowerCase()
     .replace(/ /g, "-")       // spaces → hyphens

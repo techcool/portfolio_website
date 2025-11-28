@@ -1,16 +1,34 @@
 import ScrollSmootherEffect from "@/components/layouts/ScrollSmootherEffect";
-import { blogData } from "@/data/blogData";
-import { getAllTags } from "@/libs/blogHelpers";
+// import { blogData } from "@/data/blogData";
+import { getAllCategories, getAllTags, getCategoryCounts } from "@/libs/blogHelpers";
+import { getBlogData } from "@/libs/getBlogData";
 import slugify from "@/libs/slugify";
 import BlogCard from "@/ui/BlogCard";
+import Filter from "@/ui/Filter";
 
 export default async function TagPagePagination({ params }) {
   const { tag, page } = await params;
+  const allBlogData = getBlogData();
+    const blogData = allBlogData.sort(
+      (a, b) => new Date(b.date) - new Date(a.date)
+    );
+  const categories = getAllCategories(blogData);
+  const categoryCounts = getCategoryCounts(blogData);
   const currentPage = parseInt(page, 10) || 1;
-  const postsPerPage = 6;
+  const postsPerPage = 12;
 
-  const filteredPosts = blogData.filter((post) =>
-    post.tags.map((t) => slugify(t)).includes(tag)
+  const filteredPosts = blogData.filter((post) =>{
+     // post.tags.map((t) => slugify(t)).includes(tag)
+      if (!post.tags) return false;
+          
+          // Split categories by pipe and check if any match
+          const cats = post.tags
+            .split("|")
+            .map((c) => c.trim())
+            .map((c) => slugify(c));
+          
+          return cats.includes(tag);
+    }
   );
 
   const totalPages = Math.ceil(filteredPosts.length / postsPerPage);
@@ -20,7 +38,7 @@ export default async function TagPagePagination({ params }) {
     startIndex + postsPerPage
   );
   const tags = getAllTags(currentPosts);
-  const uniqueTags = tags.map((tag) => ` ${tag}`).join(",");
+  const uniqueTags = tags.find((t) => slugify(t)===tag);
   return (
     <>
       <ScrollSmootherEffect/>
@@ -36,6 +54,7 @@ export default async function TagPagePagination({ params }) {
               </div>
             </div>
           </div>
+          <Filter categories={categories}  counts={categoryCounts}/>
           {filteredPosts.length > 0 ? (
             <BlogCard
               posts={currentPosts}

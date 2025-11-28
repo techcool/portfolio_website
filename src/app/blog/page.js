@@ -1,7 +1,7 @@
 import BlogPageHeading from "@/components/blogPage/BlogPageHeading";
 import ScrollSmootherEffect from "@/components/layouts/ScrollSmootherEffect";
 // import { blogData } from "@/data/blogData";
-import { getAllCategories } from "@/libs/blogHelpers";
+import { getAllCategories, getCategoryCounts } from "@/libs/blogHelpers";
 import BlogCard from "@/ui/BlogCard";
 import Filter from "@/ui/Filter";
 import React from "react";
@@ -9,12 +9,14 @@ import { getBlogData } from '@/libs/getBlogData';
 // import slugify from "@/libs/slugify";
 
 export default function Blog() {
-  const blogData = getBlogData();
+  const allBlogData = getBlogData();
+  const blogData = allBlogData.sort((a,b) => new Date(b.date) - new Date(a.date));
   const categories = getAllCategories(blogData);
-  // console.log(categories);
+  const categoryCounts = getCategoryCounts(blogData);
+  //console.log(categories);
   
 
-  const postsPerPage = 6;
+  const postsPerPage = 12;
   const page = 1;
   const totalPages= Math.ceil(blogData.length/postsPerPage)
 
@@ -45,7 +47,7 @@ export default function Blog() {
               </div>
             </div>
           </div>
-          <Filter categories={categories}/>     
+          <Filter categories={categories} counts={categoryCounts}/>     
           <BlogCard posts={currentPosts} currentPage={page} totalPages={totalPages}  />
           
         </div>

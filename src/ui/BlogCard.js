@@ -16,48 +16,65 @@ export default function BlogCard({
       <p className="font-bold text-red-700 text-center">No blog posts found.</p>
     );
   }
-
+  const validPosts = (posts || []).filter((p) => p?.title);
   return (
     <>
       <div className="grid gap-6 md:gap-7 lg:gap-14 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ">
-        {posts.map((data, id) => (
+        {validPosts.map((data, id) => (
           <div className="w-full" key={id}>
             <article className="blog__item">
               <div className="blog__img-wrapper">
-                <Link href={`/blog/${slugify(data.title)}`}>
+                <Link href={`/blog/${slugify(data?.title || "")}`}>
                   <div className="img-box">
                     <Image
                       className="image-box__item"
-                      src={data.imageUrl}
-                      alt={data.title}
+                      src={data?.imageUrl}
+                      alt={data?.title}
                       width={1200}
-                          height={600}
+                      height={600}
                     />
                     <Image
                       className="image-box__item"
-                      src={data.imageUrl}
-                      alt={data.title}
+                      src={data?.imageUrl}
+                      alt={data?.title}
                       width={1200}
-                          height={600}
+                      height={600}
                     />
                   </div>
                 </Link>
               </div>
               <h4 className="blog__meta">
-                <Link href={`/blog/category/${slugify(data.categories)}`}>
-                  {data.categories}
-                </Link>{" "}
-                . {data.date}
+                {data?.categories ? (
+                  <>
+                    {data.categories.split("|").map((cat, idx) => {
+                      const trimmedCat = cat.trim();
+                      return (
+                        <span  key={idx}>
+                          <Link href={`/blog/category/${slugify(trimmedCat)}`}>
+                            {trimmedCat}
+                          </Link>
+                          {idx < data.categories.split("|").length - 1 && ", "}
+                        </span>
+                      );
+                    })}
+                  </>
+                ) : (
+                  "Uncategorized"
+                )}{" "}
+                . <span>{data?.date}</span>
               </h4>
               <h5>
                 <Link
-                  href={`/blog/${slugify(data.title)}`}
+                  href={`/blog/${slugify(data?.title || "")}`}
                   className="blog__title"
                 >
-                  {data.title}
+                  {data?.title}
                 </Link>
               </h5>
-              <Link href={`/blog/${slugify(data.title)}`} className="blog__btn">
+              <Link
+                href={`/blog/${slugify(data?.title)}`}
+                className="blog__btn"
+              >
                 Read More
                 <span>
                   <FontAwesomeIcon icon={faArrowRight}></FontAwesomeIcon>
@@ -85,12 +102,13 @@ export default function BlogCard({
           )}
           {Array.from({ length: totalPages }).map((_, i) => {
             const pageNum = i + 1;
+            
             return (
               <Link
                 key={i}
                 href={pageNum === 1 ? basePath : `${basePath}/page/${pageNum}`}
                 className={`px-4 py-2 rounded ${
-                  pageNum === currentPage
+                  pageNum === Number(currentPage)
                     ? "bg-black text-white"
                     : "bg-gray-200 hover:bg-gray-300"
                 }`}
@@ -102,7 +120,7 @@ export default function BlogCard({
           {/* Next button */}
           {currentPage < totalPages && (
             <Link
-              href={`${basePath}/page/${currentPage + 1}`}
+              href={`${basePath}/page/${Number(currentPage) + 1}`}
               className="px-4 py-2 rounded bg-gray-200 hover:bg-gray-300"
             >
               Next

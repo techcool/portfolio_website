@@ -9,10 +9,10 @@ import Head from "next/head";
 import Cursor from "@/ui/Cursor";
 import Preloader from "@/ui/Preloader";
 import Footer from "@/components/layouts/footer/Footer";
-import ApplicationModal from "@/components/careerPage/ApplicationModal";
+// import ApplicationModal from "@/components/careerPage/ApplicationModal";
 import Header from "@/components/layouts/header/Header";
 import Offcanvas from "@/components/layouts/offcanvas/Offcanvas";
-import ScrollSmootherEffect from "@/components/layouts/ScrollSmootherEffect";
+// import ScrollSmootherEffect from "@/components/layouts/ScrollSmootherEffect";
 
 
 const kanit = Kanit({
