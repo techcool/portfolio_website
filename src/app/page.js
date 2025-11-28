@@ -12,7 +12,9 @@ import { getBlogData } from '@/libs/getBlogData';
 
 
 export default function Home() {
-  const blogData = getBlogData();
+  const allBlogData = getBlogData();
+  const blogData = allBlogData.sort((a,b) => new Date(b.date) - new Date(a.date));
+
   return (
     <>
       <ScrollSmootherEffect/>

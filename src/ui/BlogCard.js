@@ -49,7 +49,7 @@ export default function BlogCard({
                     {data.categories.split("|").map((cat, idx) => {
                       const trimmedCat = cat.trim();
                       return (
-                        <span  key={idx}>
+                        <span key={idx}>
                           <Link href={`/blog/category/${slugify(trimmedCat)}`}>
                             {trimmedCat}
                           </Link>
@@ -100,23 +100,57 @@ export default function BlogCard({
               Prev
             </Link>
           )}
-          {Array.from({ length: totalPages }).map((_, i) => {
-            const pageNum = i + 1;
-            
-            return (
-              <Link
-                key={i}
-                href={pageNum === 1 ? basePath : `${basePath}/page/${pageNum}`}
-                className={`px-4 py-2 rounded ${
-                  pageNum === Number(currentPage)
-                    ? "bg-black text-white"
-                    : "bg-gray-200 hover:bg-gray-300"
-                }`}
-              >
-                {pageNum}
-              </Link>
+          {(() => {
+            const windowSize = 5;
+            const currentPageNum = Number(currentPage);
+
+            let startPage = Math.max(
+              1,
+              currentPageNum - Math.floor(windowSize / 2)
             );
-          })}
+            let endPage = startPage + windowSize - 1;
+
+            if (endPage > totalPages) {
+              endPage = totalPages;
+              startPage = Math.max(1, endPage - windowSize + 1);
+            }
+
+            const pages = [];
+            for (let i = startPage; i <= endPage; i++) {
+              pages.push(i);
+            }
+
+            return (
+              <>
+                {/* Show ellipsis before if not starting at page 1 */}
+                {startPage > 1 && (
+                  <span className="px-4 py-2 text-gray-600">...</span>
+                )}
+
+                {/* Page numbers */}
+                {pages.map((pageNum) => (
+                  <Link
+                    key={pageNum}
+                    href={
+                      pageNum === 1 ? basePath : `${basePath}/page/${pageNum}`
+                    }
+                    className={`px-4 py-2 rounded ${
+                      pageNum === currentPageNum
+                        ? "bg-black text-white"
+                        : "bg-gray-200 hover:bg-gray-300"
+                    }`}
+                  >
+                    {pageNum}
+                  </Link>
+                ))}
+
+                {/* Show ellipsis after if not ending at totalPages */}
+                {endPage < totalPages && (
+                  <span className="px-4 py-2 text-gray-600">...</span>
+                )}
+              </>
+            );
+          })()}
           {/* Next button */}
           {currentPage < totalPages && (
             <Link
