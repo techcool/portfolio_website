@@ -75,7 +75,7 @@ export default function BlogCard({
                 href={`/blog/${slugify(data?.title)}`}
                 className="blog__btn"
               >
-                Read More
+                Read More <span className="sr-only">about {data?.title}</span>
                 <span>
                   <FontAwesomeIcon icon={faArrowRight}></FontAwesomeIcon>
                 </span>

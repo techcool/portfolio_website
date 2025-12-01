@@ -54,7 +54,7 @@ export default function BlogListItem({blogData}) {
                       </Link>
                     </h5>
                     <Link href={`blog/${slugify(blog.title)}`} className="blog__btn">
-                      Read More
+                      Read More <span className="sr-only">about {blog.title}</span>
                       <span>
                         <FontAwesomeIcon icon={faArrowRight} className="ml-2"/>
                       </span>

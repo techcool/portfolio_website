@@ -35934,6 +35934,9 @@ a.black-text {
   align-items: center;
   gap: 3px;
 }
+.customize-megamenu.mega-menu .menuItems .subMenus li a img{
+  width:20px
+}
 .customize-megamenu.mega-menu .menuItems .subMenus li a svg path {
   fill: #ffcc00;
 }
