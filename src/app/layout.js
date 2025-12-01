@@ -46,12 +46,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Head>
-        {/* Vendor CSS */}
-        {/* <link rel="stylesheet" href="/all.min.css" />
-        <link rel="stylesheet" href="/swiper-bundle.min.css" />
-        <link rel="stylesheet" href="/progressbar.css" />
-        <link rel="stylesheet" href="/meanmenu.min.css" />
-        <link rel="stylesheet" href="@public/" /> */}
+       
       </Head>
       <body className={`${kanit.variable}`}>
         {/* Site-wide components */}
@@ -73,13 +68,9 @@ export default function RootLayout({ children }) {
         {/* Load jQuery first */}
         <Script src="/jquery-3.6.0.min.js" strategy="beforeInteractive" />
         <Script src="/jquery-ui.min.js" strategy="beforeInteractive" />
-
-        {/* Vendor scripts (order matters) */}
-        
-        
         <Script src="/vanilla-tilt.js" strategy="afterInteractive" />
-        <Script src="/jquery.meanmenu.min.js"  />
-        <Script src="/offCanvasMenu.js" strategy="afterInteractive"/>
+        <Script src="/jquery.meanmenu.min.js" />
+        <Script src="/offCanvasMenu.js" strategy="lazyOnload"/>
 
       </body>
     </html>
