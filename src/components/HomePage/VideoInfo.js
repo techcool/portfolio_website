@@ -6,6 +6,7 @@ function VideoInfo() {
       <div className="wrapper">
         <div className="video-info">
           <div className="video-intro">
+            <label htmlFor="video_check" className="pointer-events-none absolute opacity-0">Watch Video</label>
             <input id="video_check" type="checkbox" />
             <div className="intro-title">
               <h4 className="video-title">

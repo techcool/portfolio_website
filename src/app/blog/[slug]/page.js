@@ -10,6 +10,14 @@ import CTA from "@/ui/CTA";
 import Link from "next/link";
 import React from "react";
 
+export async function generateStaticParams() {
+  const blogData = getBlogData();
+  
+  return blogData.map((blog) => ({
+    slug: slugify(blog.title),
+  }));
+}
+
 export async function generateMetadata({ params }) {
   const { slug } = await params;
   const allBlogData = getBlogData();
