@@ -9,6 +9,16 @@ import TeamImg from "@/components/aboutPage/TeamImg";
 import SingleTeamHeading from "@/components/aboutPage/SingleTeamHeading";
 import ScrollSmootherEffect from "@/components/layouts/ScrollSmootherEffect";
 
+
+export async function generateStaticParams() {
+  // if sinleTeamData is already an array, don't call it
+  const teamData = Array.isArray(sinleTeamData) ? sinleTeamData : sinleTeamData();
+  
+  return teamData.map((member) => ({
+    slug: slugify(member.name),
+  }));
+}
+
 export async function generateMetadata({params}) {
   const {slug} = await params;
   const teamData = sinleTeamData.find(member => slugify(member.name) === slug);
