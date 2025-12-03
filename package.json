@@ -1,5 +1,5 @@
 {
-  "name": "new_website",
+  "name": "uniterrene",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -17,6 +17,7 @@
     "bootstrap": "^5.3.7",
     "chroma-js": "^3.1.2",
     "counterup2": "^2.0.2",
+    "critical": "^7.2.1",
     "formidable": "^3.5.4",
     "gsap": "^3.13.0",
     "next": "15.4.3",
