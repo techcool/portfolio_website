@@ -1,16 +1,12 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import ServiceItems from "./ServiceItems";
-import CommonHeading from "../layouts/Heading/CommonHeading";
 import { navLinks } from "@/data/navLinks";
-import SubLinks from "@/components/services/SubLinks";
 import slugify from "@/libs/slugify";
 import Link from "next/link";
 import Image from "next/image";
 import gsap from "gsap";
 import { ScrollTrigger, ScrollToPlugin } from "gsap/all";
 import { topData } from "@/data/services/topData";
-import CTA from "@/ui/CTA";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
@@ -110,13 +106,11 @@ function Services() {
           }
         });
       });
-  
     }
   }, [deviceWidth]);
 
   return (
     <>
-      
       <section className="service__area-6">
         <div className="container mx-auto px-4 pt-0 md:pt-4 lg:pt-36 pb-28">
           <div className="row inherit-row">
@@ -127,7 +121,12 @@ function Services() {
                     {servicesNav.map((item, i) => (
                       <li key={i} className={i === 0 ? "active" : null}>
                         <Link href={`#${slugify(item.title)}`}>
-                          <Image src={item.icon} alt={item.title} width={64} height={64}/>
+                          <Image
+                            src={item.icon}
+                            alt={item.title}
+                            width={64}
+                            height={64}
+                          />
                           <span className="title">{item.title}</span>
                         </Link>
                       </li>
@@ -137,85 +136,83 @@ function Services() {
 
                 <div className="right-content">
                   <div className="service__items-6">
-                    {
-                   
-
-                      servicesNav.map((item, i) => {
-                        const matchingTopData = topData.find(
-                          (topItem) => topItem.topCategoryName === item.title
-                        );
-                        return (
-                          <div
-                            key={i}
-                            className="parent"
-                            id={slugify(item.title)}
-                            data-secid={i + 1}
-                          >
-                            {matchingTopData ? (
-                              <div
-                                className="service__item-6 has__service_animation"
-                                id="service_1"
-                              >
-                                <div className="animation__service_page">
-                                  <div className="image-tab mb-10">
-                                    <Image
-                                      src={matchingTopData.topImg}
-                                      alt={matchingTopData.topCategoryName}
-                                    />
-                                  </div>
-                                  <h2 className="service__title-6">
-                                    {matchingTopData.topCategoryName}
-                                  </h2>
-                                  <div
-                                    className="prose"
-                                    dangerouslySetInnerHTML={{
-                                      __html: matchingTopData.description,
-                                    }}
+                    {servicesNav.map((item, i) => {
+                      const matchingTopData = topData.find(
+                        (topItem) => topItem.topCategoryName === item.title
+                      );
+                      return (
+                        <div
+                          key={i}
+                          className="parent"
+                          id={slugify(item.title)}
+                          data-secid={i + 1}
+                        >
+                          {matchingTopData ? (
+                            <div
+                              className="service__item-6 has__service_animation"
+                              id="service_1"
+                            >
+                              <div className="animation__service_page">
+                                <div className="image-tab mb-10">
+                                  <Image
+                                    src={matchingTopData.topImg}
+                                    alt={matchingTopData.topCategoryName}
                                   />
-                                  <ul>
-                                    {matchingTopData.servicesList.map(
-                                      (item, i) => (
-                                        <li key={i}>
-                                          <Link
-                                            href={`/services/${
-                                              matchingTopData.slug
-                                            }/${slugify(item.title)}`}
-                                          >
-                                            + {item.title}
-                                          </Link>
-                                        </li>
-                                      )
-                                    )}
-                                  </ul>
-                                  <div className="btn_wrapper">
-                                    <Link
-                                      href={`/services/${slugify(matchingTopData.topCategoryName)}`}
-                                      className="wc-btn-secondary btn-item btn-hover"
-                                    >
-                                      <span></span>Lear More
-                                      <FontAwesomeIcon
-                                        icon={faArrowRight}
-                                      ></FontAwesomeIcon>
-                                    </Link>
-                                  </div>
+                                </div>
+                                <h2 className="service__title-6">
+                                  {matchingTopData.topCategoryName}
+                                </h2>
+                                <div
+                                  className="prose"
+                                  dangerouslySetInnerHTML={{
+                                    __html: matchingTopData.description,
+                                  }}
+                                />
+                                <ul>
+                                  {matchingTopData.servicesList.map(
+                                    (item, i) => (
+                                      <li key={i}>
+                                        <Link
+                                          href={`/services/${
+                                            matchingTopData.slug
+                                          }/${slugify(item.title)}`}
+                                        >
+                                          + {item.title}
+                                        </Link>
+                                      </li>
+                                    )
+                                  )}
+                                </ul>
+                                <div className="btn_wrapper">
+                                  <Link
+                                    href={`/services/${slugify(
+                                      matchingTopData.topCategoryName
+                                    )}`}
+                                    className="wc-btn-secondary btn-item btn-hover"
+                                  >
+                                    <span></span>Lear More
+                                    <FontAwesomeIcon
+                                      icon={faArrowRight}
+                                    ></FontAwesomeIcon>
+                                  </Link>
                                 </div>
                               </div>
-                            ) : (
-                              <div className="service__item-6 flex flex-col min-h-[100vh] text-white gap-5">
-                                <h2 className="text-5xl text-black mb-5">
-                                  {item.title}
-                                </h2>
-                                <p className="text-xl">
-                                  <span className="text-gray-800">
-                                    Data Coming soon
-                                  </span>
-                                </p>
-                              </div>
-                            )}
-                          </div>
-                        );
-                      })
-                    }
+                            </div>
+                          ) : (
+                            <div className="service__item-6 flex flex-col min-h-[100vh] text-white gap-5">
+                              <h2 className="text-5xl text-black mb-5">
+                                {item.title}
+                              </h2>
+                              <p className="text-xl">
+                                <span className="text-gray-800">
+                                  Data Coming soon
+                                </span>
+                              </p>
+                            </div>
+                          )}
+                        </div>
+                      );
+                    })}
                   </div>
                 </div>
               </div>

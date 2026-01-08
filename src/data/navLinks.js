@@ -27,10 +27,9 @@ import {
   faFlutter,
   faJava,
   faSwift,
-  
 } from "@fortawesome/free-brands-svg-icons";
 // import{
-   
+
 // }
 
 // Service Submenus
@@ -60,8 +59,8 @@ const serviceSubmenus = {
   ],
   webDevelopment: [
     {
-       heading: "CMS",
-       subNavs: [
+      heading: "CMS",
+      subNavs: [
         {
           title: "WordPress",
           icon: faWordpress,
@@ -93,8 +92,8 @@ const serviceSubmenus = {
       ],
     },
     {
-       heading: "Full Stack Development",
-       subNavs: [
+      heading: "Full Stack Development",
+      subNavs: [
         {
           title: "Node.js",
           icon: faNodeJs,
@@ -118,8 +117,8 @@ const serviceSubmenus = {
       ],
     },
     {
-       heading: "eCommerce Development",
-       subNavs: [
+      heading: "eCommerce Development",
+      subNavs: [
         {
           title: "WooCommerce",
           icon: customIcons.woo,
@@ -135,8 +134,8 @@ const serviceSubmenus = {
       ],
     },
     {
-       heading: "Open Source & Enterprise Technologies",
-       subNavs: [
+      heading: "Open Source & Enterprise Technologies",
+      subNavs: [
         {
           title: "Python",
           icon: faPython,
@@ -160,8 +159,8 @@ const serviceSubmenus = {
       ],
     },
     {
-       heading: "PHP Framework",
-       subNavs: [
+      heading: "PHP Framework",
+      subNavs: [
         {
           title: "Laravel",
           icon: faLaravel,
@@ -173,45 +172,41 @@ const serviceSubmenus = {
       ],
     },
   ],
-  appDevelopment:[
+  appDevelopment: [
     {
       heading: "",
-      subNavs:[
+      subNavs: [
         {
-          title: "Hybrid Apps",
+          title: "Hybrid App Development",
           icon: customIcons.hybrid,
         },
         {
-          title: "React Native",
+          title: "React Native Development",
           icon: faReact,
         },
         {
-          title: "Flutter",
+          title: "Flutter Development",
           icon: faFlutter,
         },
         {
-          title: "Kotlin",
-          icon:  customIcons.kotlin,
+          title: "Kotlin and Java Development",
+          icon: customIcons.kotlin,
         },
         {
-          title: "Java",
+          title: "Swift Development",
           icon: faJava,
-        },
-        {
-          title: "Swift",
-          icon: faSwift,
         },
         {
           title: "Progressive Web Apps",
           icon: customIcons.pwa,
         },
-      ]
-    }
+      ],
+    },
   ],
-  digitalMarketing:[
+  digitalMarketing: [
     {
       heading: "",
-      subNavs:[
+      subNavs: [
         {
           title: "SEO",
           icon: customIcons.seo,
@@ -236,13 +231,13 @@ const serviceSubmenus = {
           title: "Email Marketing",
           icon: customIcons.em,
         },
-      ]
-    }
+      ],
+    },
   ],
-  gameDevelopment:[
+  gameDevelopment: [
     {
       heading: "",
-      subNavs:[
+      subNavs: [
         {
           title: "2D & 3D Game Design",
           icon: customIcons.games,
@@ -255,13 +250,13 @@ const serviceSubmenus = {
           title: "AR/VR Game Experinces",
           icon: customIcons.ar,
         },
-      ]
-    }
+      ],
+    },
   ],
-  aiDevelopment:[
+  aiDevelopment: [
     {
       heading: "",
-      subNavs:[
+      subNavs: [
         {
           title: "Chatbot Development",
           icon: customIcons.chatbot,
@@ -282,13 +277,13 @@ const serviceSubmenus = {
           title: "NLP",
           icon: customIcons.nlp,
         },
-      ]
-    }
+      ],
+    },
   ],
-  cloudDevOps:[
+  cloudDevOps: [
     {
       heading: "",
-      subNavs:[
+      subNavs: [
         {
           title: "Cloud Development",
           icon: customIcons.cloud,
@@ -305,10 +300,9 @@ const serviceSubmenus = {
           title: "Serverless Architecture",
           icon: customIcons.architecture,
         },
-        
-      ]
-    }
-  ]
+      ],
+    },
+  ],
 };
 
 // ✅ Main Navigation Links
@@ -316,7 +310,7 @@ export const navLinks = [
   { title: "About Us", link: "about-us" },
   {
     title: "Services",
-    link:"services",
+    link: "services",
     submenu: [
       {
         title: "Designs & Branding",

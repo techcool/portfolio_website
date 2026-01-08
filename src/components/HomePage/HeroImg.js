@@ -6,8 +6,14 @@ function HeroImg() {
   return (
     <>
       <div className="hero3-img-ani">
-        <Image src={imgRef.homeHeroImg} alt="Hero Image" className="hero3-img" width={1000} height={293}/>
-        
+        <Image
+          fetchPriority="high"
+          src={imgRef.homeHeroImg}
+          alt="Hero Image"
+          className="hero3-img"
+          width={1000}
+          height={293}
+        />
       </div>
     </>
   );

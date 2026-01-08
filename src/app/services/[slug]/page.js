@@ -40,7 +40,6 @@ export default async function TopServices({ params }) {
                 />
 
                 <div className="mt-5">
-                  
                   <h3 className="title-anim text-xl md:text-2xl">
                     {top?.pageTitle}
                   </h3>
@@ -87,13 +86,21 @@ export default async function TopServices({ params }) {
             />
             <div className="workflow__area-6 mt-6">
               <div className="line-3"></div>
-              <h5 className="text-[18px] md:text-xl">{top?.whyChooseListHeading}</h5>
+              <h5 className="text-[18px] md:text-xl">
+                {top?.whyChooseListHeading}
+              </h5>
               <div className="workflow__wrapper-6 mt-6">
                 <div className="flex flex-wrap gap-y-4">
                   {top.whyChooseList.map((list, indx) => (
                     <div key={indx} className="w-full md:w-[25%] pr-4">
                       <div className="workflow__slide-6">
-                        <h6 className="workflow__title-6"><FontAwesomeIcon style={{ fontSize: 10 }} icon={faCircle} /> {list.title}</h6>
+                        <h6 className="workflow__title-6">
+                          <FontAwesomeIcon
+                            style={{ fontSize: 10 }}
+                            icon={faCircle}
+                          />{" "}
+                          {list.title}
+                        </h6>
                         {list.content && <p>{list.content}</p>}
                       </div>
                     </div>
@@ -128,9 +135,11 @@ export default async function TopServices({ params }) {
                       {top.latestTrendList.map((trendList, indx) => (
                         <li key={indx}>
                           <FontAwesomeIcon
-                              icon={faCircle}
-                              style={{ fontSize: 10 }}
-                            /> <strong> {trendList.title}</strong> {trendList.content}
+                            icon={faCircle}
+                            style={{ fontSize: 10 }}
+                          />{" "}
+                          <strong> {trendList.title}</strong>{" "}
+                          {trendList.content}
                         </li>
                       ))}
                     </ul>
@@ -233,10 +242,9 @@ export default async function TopServices({ params }) {
           <section className="mt-14 partner-area">
             <div className="row">
               <div className="cta__content">
-                <h2 className="cta__title title-anim" >
-                  Partner with Uniterrene Websoft for Your Next Digital Project
-                </h2>
-                <p className="text-center">
+                <h2 className="cta__title title-anim">{top.lastPartHeading}</h2>
+                {/* <p className="text-center">
+                  {top.specializedServicesContentTopPart}
                   At Uniterrene Websoft, we do not merely create websites, we
                   create digital platforms to success. We are solution-oriented
                   based on a strategy, innovation, and understanding of business
@@ -248,7 +256,13 @@ export default async function TopServices({ params }) {
                     Let’s build your next digital success story, crafted with
                     precision, creativity, and care.
                   </strong>
-                </p>
+                </p> */}
+                <div
+                  className="prose mb-6"
+                  dangerouslySetInnerHTML={{
+                    __html: top.lastPartContent,
+                  }}
+                />
               </div>
             </div>
           </section>
