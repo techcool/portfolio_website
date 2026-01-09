@@ -1,3 +1,5 @@
+// TOP LEVEL IMAGES
+
 import designsBrandingTopImg from "@public/assets/imgs/services/design-branding.jpg";
 import designTrendsImg from "@public/assets/imgs/services/web-design-trend.jpg";
 import designSpecializedImg from "@public/assets/imgs/services/web-design-specialized.jpg";
@@ -16,6 +18,9 @@ import aiDevelopmentSpecializedImg from "@public/assets/imgs/services/ai-special
 import cloudDevelopmentTopImg from "@public/assets/imgs/services/devOps-top.jpg";
 import cloudDevelopmentTrendsImg from "@public/assets/imgs/services/devops-trend.jpg";
 import cloudDevelopmentSpecializedImg from "@public/assets/imgs/services/dev-specialized.jpg";
+import digitalMarketingTopImg from "@public/assets/imgs/services/digital-marketing-top.jpg";
+import digitalMarketingTrendsImg from "@public/assets/imgs/services/digtal-marketing-trend.jpg";
+import digitalMarketingSpecializedImg from "@public/assets/imgs/services/digtal-marketing-specialized.jpg";
 
 export {
   designsBrandingTopImg,
@@ -36,4 +41,38 @@ export {
   cloudDevelopmentTopImg,
   cloudDevelopmentTrendsImg,
   cloudDevelopmentSpecializedImg,
+  digitalMarketingTopImg,
+  digitalMarketingTrendsImg,
+  digitalMarketingSpecializedImg,
+};
+
+// MIDDLE LEVEL IMAGES
+
+import cmsTopImg from "@public/assets/imgs/services/cms-top.jpg";
+import cmsTrendsImg from "@public/assets/imgs/services/cms-trend.jpg";
+import cmsExpertImg from "@public/assets/imgs/services/cms-expert.jpg";
+import cmsFaqImg from "@public/assets/imgs/services/cms-faq.jpg";
+
+export { cmsTopImg, cmsTrendsImg, cmsExpertImg, cmsFaqImg };
+
+// BOTTOM LEVEL IMAGES
+
+import wpTopImg from "@public/assets/imgs/services/wordpress-top.jpg";
+import wpTrendsImg from "@public/assets/imgs/services/wordpress-trend.jpg";
+import wpExpertImg from "@public/assets/imgs/services/wordpress-expert.jpg";
+import wpFaqImg from "@public/assets/imgs/services/wordpress-faq.jpg";
+import uiuxTopImg from "@public/assets/imgs/services/ui-top.jpg";
+import uiuxTrendsImg from "@public/assets/imgs/services/ui-trend.jpg";
+import uiuxExpertImg from "@public/assets/imgs/services/ui-expert.jpg";
+import uiuxFaqImg from "@public/assets/imgs/services/ui-faq.jpg";
+
+export {
+  wpTopImg,
+  wpTrendsImg,
+  wpExpertImg,
+  wpFaqImg,
+  uiuxTopImg,
+  uiuxTrendsImg,
+  uiuxExpertImg,
+  uiuxFaqImg,
 };

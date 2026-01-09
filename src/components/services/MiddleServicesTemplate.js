@@ -27,14 +27,17 @@ export default function MiddleServicesTemplate({ midService, midSlug }) {
           <div className="line-3"></div>
           <section className="top-area ">
             <div className="flex items-start justify-between gap-4 md:gap-10 flex-wrap">
-              <div className="sec-title-wrapper w-[100%] md:w-[32%]">
+              <div className="sec-title-wrapper w-[100%] lg:w-[32%]">
                 <CommonHeading
                   label={midService?.categoryName}
                   tag="h2"
                   extraClass="sec-title"
                 />
+                <h3 className="text-[18px] md:text-xl mt-3 title-gap">
+                  {midService?.pageTitle}
+                </h3>
               </div>
-              <div className="development__wrapper prose w-[100%] md:w-[64%]">
+              <div className="development__wrapper prose w-[100%] lg:w-[64%]">
                 <div
                   className="development__content prose"
                   dangerouslySetInnerHTML={{ __html: midService.description }}

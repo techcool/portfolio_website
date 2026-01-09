@@ -17,6 +17,9 @@ import {
   cloudDevelopmentTopImg,
   cloudDevelopmentTrendsImg,
   cloudDevelopmentSpecializedImg,
+  digitalMarketingTopImg,
+  digitalMarketingTrendsImg,
+  digitalMarketingSpecializedImg,
 } from "./serviceImages";
 
 // import { middleData } from "./middleData";
@@ -619,5 +622,198 @@ export const topData = [
     ],
     lastPartHeading: "Empowering Businesses to Scale with Confidence",
     lastPartContent: `<p>At <strong>Uniterrene Websoft</strong>, we don’t just provide cloud solutions, we enable digital ecosystems that evolve with your business. Our Devops engineers, architects, and developers work together to make sure that your infrastructure is future-proof, scalable, and safe. Driven by an emphasis on innovation, performance, and reliability, we assist organizations to adopt the cloud with ease and expediency and open new vistas in the continuously changing digital age.</p>`,
+  },
+  {
+    id: 6,
+    slug: "cloud--devops",
+    topCategoryName: "Cloud & DevOps",
+    pageTitle:
+      "Get Your Smart Cloud & DevOps Development to Accelerate Digital Transformation",
+    description: `<p>At Uniterrene Websoft, we turn visionary business goals into seamless, automated, and scalable cloud infrastructures. Our mission is to empower businesses with cloud and DevOps solutions that enhance performance, ensure reliability, and enable faster delivery. Whether you need Cloud Development, CI/CD Pipeline Setup, Containerization (Docker, Kubernetes), or Serverless Architecture, our team ensures that your systems are resilient, efficient, and ready for continuous innovation.</p><p>We integrate technology, agility and strategy to engineer environments that can foster collaboration, automation and scalability. All our process components, including infrastructure configuration, and deployment, are to enhance the operational efficiency, decrease downtime, and provide consistent outcomes. Uniterrene Websoft also offers organizations an efficient use of resources, cost-saving, and quicker digital expansion with profound expertise in cloud computing and DevOps engineering.</p>`,
+
+    topImg: cloudDevelopmentTopImg,
+    latestTrendsHeading: "Shaping the Future of Scalable Cloud Ecosystems",
+    latestTrend: `<p>Cloud and DevOps practices help to lead to agility and growth in the modern business. Automation/containerization/Continuous deployment integration has changed the way business is handled and provided by enterprises in terms of digital solutions. These technologies offer to give quicker updates, enhanced use of resources, and uniform functioning of the technology in any environment.</p><p>At Uniterrene Websoft, we align with these global trends by implementing cloud-native tools and automation frameworks. From developing CI/CD pipelines to managing Kubernetes clusters, our approach ensures that your business operates seamlessly across hybrid and multi-cloud environments. Our focus remains on scalability, security, and performance, helping businesses stay competitive and future-ready.</p>`,
+    latestrendList: [],
+    trendImg: cloudDevelopmentTrendsImg,
+    whyChooseHeading:
+      "Why Choose Uniterrene Websoft for Cloud & DevOps Solutions?",
+    whyChooseContent: `<p>We have hit the nail on the head, we are innovative and efficient. We do not only run servers, we develop cloud strategies capable of enabling business change. All the projects that we have deployed are optimized to be scaled properly, fast, and resilient.</p>`,
+    whyChooseListHeading: "We ensure every project delivers:",
+    whyChooseList: [
+      {
+        title: "Constant integration and automatic deployment processes.",
+        content: "",
+      },
+      {
+        title: "Elastic cloud computing and low disruptions.",
+        content: "",
+      },
+      {
+        title: "Increased development and operations coordination.",
+        content: "",
+      },
+      {
+        title:
+          "Safe and certified system architecture including embedded system monitoring and logging.",
+        content: "",
+      },
+    ],
+    methodologyHeading: "Our Cloud-to-Automation Development Process",
+    methodologyContent:
+      "Our process is transparent, strategic, and agile-oriented and so will be deployed and managed smoothly.",
+    methodologyList: [
+      {
+        listHead: "Assessment & Strategy:",
+        listContent:
+          "Determine the objectives, present infrastructure and intended results.",
+      },
+      {
+        listHead: "Architecture Design:",
+        listContent: "Develop scalable and secure cloud designs.",
+      },
+      {
+        listHead: "Development & Automation:",
+        listContent: "Deploy CI/CD pipelines and containers.",
+      },
+
+      {
+        listHead: "Testing & Monitoring:",
+        listContent: "Assure performance, reliability and compliance.",
+      },
+      {
+        listHead: "Deployment & Support:",
+        listContent: "Optimization, updates and proactive maintenance.",
+      },
+    ],
+    specializedServicesImg: cloudDevelopmentSpecializedImg,
+    specializedServicesHeading: "Cloud & DevOps Services That Drive Agility",
+    specializedServicesContentTopPart:
+      "We provide all-inclusive services to make your business grow and develop easily:",
+    servicesList: [
+      {
+        title: "Cloud Development",
+        content:
+          "Build, deploy, and scale applications using top-tier cloud platforms.",
+      },
+
+      {
+        title: "CI/CD Pipeline Setup",
+        content:
+          "Enable faster development cycles through continuous integration and delivery.",
+      },
+      {
+        title: "Containerization (Docker, Kubernetes)",
+        content: "Improve portability and manage workloads efficiently.",
+      },
+      {
+        title: "Serverless Architecture",
+        content:
+          "Deploy applications without managing infrastructure, reducing costs and complexity.",
+      },
+    ],
+    lastPartHeading: "Empowering Businesses to Scale with Confidence",
+    lastPartContent: `<p>At <strong>Uniterrene Websoft</strong>, we don’t just provide cloud solutions, we enable digital ecosystems that evolve with your business. Our Devops engineers, architects, and developers work together to make sure that your infrastructure is future-proof, scalable, and safe. Driven by an emphasis on innovation, performance, and reliability, we assist organizations to adopt the cloud with ease and expediency and open new vistas in the continuously changing digital age.</p>`,
+  },
+  {
+    id: 7,
+    slug: "digital-marketing",
+    topCategoryName: "Digital Marketing",
+    pageTitle:
+      "Driving Growth Through Strategy, Creativity, and Intelligent Digital Marketing Solutions",
+    description: `<p>At Uniterrene Websoft, we help brands grow, engage, and thrive with results-driven digital marketing strategies. We aim to create campaigns that generate awareness, converting audiences, and establishing a meaningful relationship with them. You need to optimise the search positions, increase the social media activity, or sales. We are able to provide you with effectual results supported by the sense of perception and creativity.</p><p>Our team innovates, integrates technology, and analytics to make campaigns inspire people to take action. With the help of state-of-the-art instruments and data-driven insights, we will make sure that each marketing undertaking will contribute value and improve your presence in the digital world.</p>`,
+
+    topImg: digitalMarketingTopImg,
+    latestTrendsHeading:
+      "Navigating the Digital Revolution: The Latest Trends in Marketing",
+    latestTrend: `<p>Digital marketing is still in a state of flux that is influencing the manner in which customers are acquired and held by the brands. The most recent trends are the increase in AI personalization, voice search, interactive contents, and short-form video marketing. Automation and the use of data analytics are another trend being embraced by businesses to develop smarter and more efficient campaigns.</p><p>We incorporate these developments at Uniterrene Websoft in order to provide strategies that will appeal to your audience. Our specialists will make sure that all activities are consistent with your brand objectives, starting with performance monitoring and omnichannel campaigns. We do not follow trends, we make it work for your success.</p>`,
+    latestrendList: [],
+    trendImg: digitalMarketingTrendsImg,
+    whyChooseHeading: "Why Do Smart Businesses Trust Uniterrene Websoft?",
+    whyChooseContent: `<p>Our online marketing applications are unique to their accuracy, creativity, and quantifiable outcomes. We do not think in blanket strategies and each of our campaigns is tailor made, goal-oriented, and action oriented.</p>`,
+    whyChooseListHeading: "We ensure every campaign delivers:",
+    whyChooseList: [
+      {
+        title:
+          "Individuals-level marketing supported by audience intelligence.",
+        content: "",
+      },
+      {
+        title: "Reporting and quantifiable ROI.",
+        content: "",
+      },
+      {
+        title: "Optimization on a regular basis to ensure optimum performance.",
+        content: "",
+      },
+      {
+        title: "Combined branding in all online platforms.",
+        content: "",
+      },
+    ],
+    methodologyHeading: "Our Winning Formula: The Uniterrene Methodology",
+    methodologyContent:
+      "We follow a clear, collaborative, and data-informed approach that ensures every campaign reaches its full potential.",
+    methodologyList: [
+      {
+        listHead: "Research and Strategy:",
+        listContent:
+          "Knowing who you are talking to, who you are competing with and what you need to achieve.",
+      },
+      {
+        listHead: "Campaign Creation:",
+        listContent:
+          "You create content, ad copies, and creatives that are consistent with the message of your brand.",
+      },
+      {
+        listHead: "Implementation and Monitoring:",
+        listContent:
+          "The introduction of campaigns on platforms and real-time monitoring.",
+      },
+
+      {
+        listHead: "Optimizing and Reporting:",
+        listContent: "Efforts to optimize strategies and achieve greater ROI.",
+      },
+    ],
+    specializedServicesImg: digitalMarketingSpecializedImg,
+    specializedServicesHeading:
+      "Digital Marketing Services That Redefine Success",
+    specializedServicesContentTopPart:
+      "Uniterrene Websoft provides a complete suite of digital marketing services designed to expand your reach and maximize conversions.",
+    servicesList: [
+      {
+        title: "SEO",
+        content: "It enhances positions, visibility, and organic traffic.",
+      },
+
+      {
+        title: "SMM (Social Media Marketing)",
+        content:
+          "Establish deeper relationships within social networks with the help of interesting campaigns.",
+      },
+      {
+        title: "SMO (Social Media Optimization",
+        content:
+          "Optimize the brand reputation and interactions with regular content, which is optimized.",
+      },
+      {
+        title: "PPC (Pay-Per-Click Advertising)",
+        content:
+          "Get immediate leads and strategic visibility using cost-effective advertisement strategies.",
+      },
+      {
+        title: "Content Marketing",
+        content:
+          "Provide informational, persuasive and value-based content that converts.",
+      },
+      {
+        title: "Email Marketing",
+        content:
+          "Create a customer relationship and build loyalty by using automated and personalized email campaigns.",
+      },
+    ],
+    lastPartHeading: "Let’s Build Your Digital Success Story Together",
+    lastPartContent: `<p>At <strong>Uniterrene Websoft</strong>, we don’t just create marketing campaigns, we build digital experiences that connect, convert, and grow your business. We make your digital aspirations a quantifiable reality, through tactical wisdom and innovative implementation.</p>`,
   },
 ];
