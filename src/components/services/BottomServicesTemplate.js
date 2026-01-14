@@ -196,21 +196,19 @@ export default function BottomServicesTemplate({ bottomService }) {
                   </h2>
                 </div>
                 <div className="w-full md:w-[58%] lg:w-[68%]">
-                  {bottomService?.trendBenefitListHead && (
-                    <div className="w-full md:w-[42%] lg:w-[32%]">
-                      {bottomService?.trendBenefitContent && (
+                  {bottomService?.trendBenefitContent && (
                         <div
                           className="service__detail-content prose"
                           dangerouslySetInnerHTML={{
-                            __html: bottomService.trendBenefitContent,
+                            __html: bottomService?.trendBenefitContent
                           }}
                         />
-                      )}
-                    </div>
+                    
                   )}
+                  {bottomService.trendBenefitList && (
                   <div className="w-full">
                     <ul className="flex flex-wrap flex-row gap-6 inner-list double-list">
-                      {bottomService.trendBenefitList &&
+                      {
                         bottomService.trendBenefitList.map((list, indx) => (
                           <li key={indx} className="">
                             {/* <FontAwesomeIcon
@@ -227,6 +225,7 @@ export default function BottomServicesTemplate({ bottomService }) {
                         ))}
                     </ul>
                   </div>
+                  )}
                 </div>
               </div>
             </div>
@@ -238,6 +237,7 @@ export default function BottomServicesTemplate({ bottomService }) {
                 <p>{top.specializedServicesContentTopPart}</p>
               </div> */}
           </section>
+          {bottomService.hireHead && (
           <section className="hire-section  mt-14 mb-14 md:mt-30 md:mb-30">
             <div className="w-full h-[1px] white-line-4 mb-10"></div>
             <span className="line-3"></span>
@@ -247,7 +247,7 @@ export default function BottomServicesTemplate({ bottomService }) {
                   <h2 className="portfolio__detail-title title-anim">
                     {bottomService.hireHead}
                   </h2>
-                  {bottomService.hireContent && (
+                  {bottomService.hireListHead && (
                     <div className="mt-6">
                       <p>
                         <strong>{bottomService.hireListHead}</strong>
@@ -269,6 +269,7 @@ export default function BottomServicesTemplate({ bottomService }) {
               </div>
             </div>
           </section>
+          )}
           {bottomService?.whyChooseHead && (
             <section className="whyChoose-section mt-14 mb-14 md:mt-30 md:mb-30">
               <div className="w-full h-[1px] white-line-4 mb-10"></div>

@@ -65,6 +65,38 @@ import uiuxTopImg from "@public/assets/imgs/services/ui-top.jpg";
 import uiuxTrendsImg from "@public/assets/imgs/services/ui-trend.jpg";
 import uiuxExpertImg from "@public/assets/imgs/services/ui-expert.jpg";
 import uiuxFaqImg from "@public/assets/imgs/services/ui-faq.jpg";
+import joomlaTopImg from "@public/assets/imgs/services/joomla-top.jpg";
+import joomlaTrendsImg from "@public/assets/imgs/services/joomla-trend.jpg";
+import joomlaExpertImg from "@public/assets/imgs/services/joomla-expert.jpg";
+import joomlaFaqImg from "@public/assets/imgs/services/joomla-faq.jpg";
+import drupalTopImg from "@public/assets/imgs/services/drupal-top.jpg";
+import drupalTrendsImg from "@public/assets/imgs/services/drupal-trend.jpg";
+import drupalExpertImg from "@public/assets/imgs/services/drupal-expert.jpg";
+import drupalFaqImg from "@public/assets/imgs/services/drupal-faq.jpg";
+import webflowTopImg from "@public/assets/imgs/services/webflow-top.jpg";
+import webflowTrendsImg from "@public/assets/imgs/services/webflow-trend.jpg";
+import webflowExpertImg from "@public/assets/imgs/services/webflow-expert.jpg";
+import webflowFaqImg from "@public/assets/imgs/services/webflow-faq.jpg";
+import wixTopImg from "@public/assets/imgs/services/wix-top.jpg";
+import wixTrendsImg from "@public/assets/imgs/services/wix-trend.jpg";
+import wixExpertImg from "@public/assets/imgs/services/wix-expert.jpg";
+import wixFaqImg from "@public/assets/imgs/services/wix-faq.jpg";
+import squarespaceTopImg from "@public/assets/imgs/services/square-top.jpg";
+import squarespaceTrendsImg from "@public/assets/imgs/services/square-trend.jpg";
+import squarespaceExpertImg from "@public/assets/imgs/services/square-expert.jpg";
+import squarespaceFaqImg from "@public/assets/imgs/services/square-faq.jpg";
+import hubspotTopImg from "@public/assets/imgs/services/hubspot-top.jpg";
+import hubspotTrendsImg from "@public/assets/imgs/services/hubspot-trend.jpg";
+import hubspotExpertImg from "@public/assets/imgs/services/hubspot-expert.jpg";
+import hubspotFaqImg from "@public/assets/imgs/services/hubspot-faq.jpg";
+import woocommerceTopImg from "@public/assets/imgs/services/woo-top.jpg";
+import woocommerceTrendsImg from "@public/assets/imgs/services/woo-trend.jpg";
+import woocommerceExpertImg from "@public/assets/imgs/services/woo-expert.jpg";
+import woocommerceFaqImg from "@public/assets/imgs/services/woo-faq.jpg";
+import magentoTopImg from "@public/assets/imgs/services/magento-top.jpg";
+import magentoTrendsImg from "@public/assets/imgs/services/magento-trend.jpg";
+import magentoExpertImg from "@public/assets/imgs/services/magento-expert.jpg";
+import magentoFaqImg from "@public/assets/imgs/services/magento-faq.jpg";
 
 export {
   wpTopImg,
@@ -75,4 +107,36 @@ export {
   uiuxTrendsImg,
   uiuxExpertImg,
   uiuxFaqImg,
+  joomlaTopImg,
+  joomlaTrendsImg,
+  joomlaExpertImg,
+  joomlaFaqImg,
+  drupalTopImg,
+  drupalTrendsImg,
+  drupalExpertImg,
+  drupalFaqImg,
+  webflowTopImg,
+  webflowTrendsImg,
+  webflowExpertImg,
+  webflowFaqImg,
+  wixTopImg,
+  wixTrendsImg,
+  wixExpertImg,
+  wixFaqImg,
+  squarespaceTopImg,
+  squarespaceTrendsImg,
+  squarespaceExpertImg,
+  squarespaceFaqImg,
+  hubspotTopImg,
+  hubspotTrendsImg,
+  hubspotExpertImg,
+  hubspotFaqImg,
+  woocommerceTopImg,
+  woocommerceTrendsImg,
+  woocommerceExpertImg,
+  woocommerceFaqImg,
+  magentoTopImg,
+  magentoTrendsImg,
+  magentoExpertImg,
+  magentoFaqImg,
 };
