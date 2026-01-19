@@ -43,6 +43,11 @@ import {
   shopifyTrendsImg,
   shopifyExpertImg,
   shopifyFaqImg,
+  CloudComputingTopImg,
+  CloudComputingTrendsImg,
+  CloudComputingExpertImg,
+  CloudComputingFaqImg,
+
 } from "./serviceImages";
 export const bottomData = [
   {
@@ -410,7 +415,7 @@ export const bottomData = [
     topImg: joomlaTopImg,
     typeOfServicesHeading: "Our Joomla Development Expertise",
     typeOfServicesContent:
-      "We are not just a template, we are custom Joomla solutions with a combination of usability and design accuracy and high level of performance. Our Joomla development services entail:",
+      `<p>We are not just a template, we are custom Joomla solutions with a combination of usability and design accuracy and high level of performance. Our Joomla development services entail:</p>`,
     typeOfServicesList: [
       {
         head: "Custom Joomla Development",
@@ -1840,7 +1845,7 @@ export const bottomData = [
     serviceName: "Cake php",
     pageTitle:
       "Build High-Performance Applications with Expert CakePHP Development",
-    description: `<p>At Uniterrene Websoft, we build robust, scalable, and secure applications using the full power of the CakePHP framework. Our goal is to craft fast, structured, and high-quality digital solutions that streamline business operations and enhance user experience. We provide applications which have a consistent performance at any setting due to the robust MVC architecture, security in-built in CakePHP, and its capability to develop fast.</p>`,
+    description: `<p>At <strong>Uniterrene Websoft</strong>, we build robust, scalable, and secure applications using the full power of the <strong>CakePHP framework</strong>. Our goal is to craft fast, structured, and high-quality digital solutions that streamline business operations and enhance user experience. We provide applications which have a consistent performance at any setting due to the robust MVC architecture, security in-built in CakePHP, and its capability to develop fast.</p>`,
     topImg: shopifyTopImg,
     typeOfServicesHeading:
       "Drive Smooth Performance with Accelerated CakePHP Engineering",
@@ -1871,7 +1876,7 @@ export const bottomData = [
       },
       {
         head: "Performance Optimization & Code Refactoring:",
-        list: "Improving existing CakePHP systems through code restructuring, caching strategies, and database optimization.Ongoing assistance to ensure smooth performance.",
+        list: "Improving existing CakePHP systems through code restructuring, caching strategies, and database optimization.",
       },
       {
         head: "Ongoing Maintenance & Security Management:",
@@ -1884,63 +1889,253 @@ export const bottomData = [
 
     typeOfWebsiteHeading: "The Craft Behind High-Performance CakePHP Development",
     typeOfWebsiteContent:
-      "Building scalable CakePHP applications requires deep knowledge of MVC architecture, clean coding practices, and secure system design. At Uniterrene Websoft, our development approach ensures precision and long-term maintainability. ",
+      "Building scalable CakePHP applications requires deep knowledge of MVC architecture, clean coding practices, and secure system design. At <strong>Uniterrene Websoft</strong>, our development approach ensures precision and long-term maintainability.",
     typeOfWebsiteListHead: "We Focus On:",
     expertTeamList: [
       {
         heading: "",
         content:
-          "CakePHP Migration & Upgradation.",
+          "Structured and modular MVC architecture",
       },
       {
         heading: "",
         content:
-          "Add products, manage inventory, and set up secure payment gateways.",
+          "Secure coding and built-in CakePHP security tools",
       },
       {
         heading: "",
-        content: "Create your own store and monitor the sales with strong built-in analytics..",
+        content: "Optimized database queries and ORM workflows",
       },
       {
         heading: "",
         content:
-          "",
+          "High-speed application response",
+      },
+      {
+        heading: "",
+        content:
+          "Clean and scalable codebases",
       },
     ],
     expertImg: shopifyExpertImg,
     trendBenefitHead:
-      "Designed for Every Vision: Types of Shopify Sites We Build",
-    trendBenefitContent: ``,
+      "Industry-Driven CakePHP Development Tailored for Growth",
+    trendBenefitContent: `<p>Good design is a balance between usability, structure and visual clarity. At Uniterrene Websoft, we base our design process on evidence-based design systems and research.</p><br/><h5 class="text-2xl">We Focus On:</h5><ul class="flex flex-wrap flex-row gap-6 inner-list double-list mt-5"><li>Clear user goals and experience mapping</li><li>Consistent brand identity across interfaces</li><li>Accessible and intuitive navigation structures</li><li>Performance-focused layouts and interactions</li><li>Maintainable design systems for long-term growth</li><li>Continuous testing and design improvement</li></ul>`,
     trendBenefitListHead:
-      "We build and optimize Shopify stores across various industries and purposes, including:",
+      "Different industries require unique digital workflows and custom features. We build CakePHP applications that support operational efficiency and digital expansion across sectors.",
     trendBenefitList: [
       {
-        title: "Fashion & Apparel Stores:",
-        list: "Showcase collections with style and simplicity.",
+        title: "E-commerce & Retail",
+        list: "",
       },
       {
-        title: "Health & Beauty Stores:",
-        list: "Customers can trust us because of clean design and safe payment mechanisms.",
+        title: "Fintech & Banking",
+        list: "",
       },
       {
-        title: "Electronics & Gadgets Stores:",
-        list: "Feature-rich designs to handle large inventories.",
+        title: "Healthcare & Life Sciences",
+        list: "",
       },
       {
-        title: "Food & Beverage Sites:",
-        list: "Studio Freshness with convenient ordering.",
+        title: "Education & E-learning",
+        list: "",
       },
       {
-        title: "Home & Lifestyle Stores:",
-        list: "Design engaging shopping experiences in home furnishings and accessories.",
+        title: "Travel & Logistics",
+        list: "",
+      },
+      {
+        title: "Real Estate & Property Management",
+        list: "",
+      },
+      {
+        title: "SaaS & Technology Enterprises",
+        list: "",
       },
     ],
-    hireHead: "E-commerce Evolution: Current Trends and Benefits",
+    hireHead: "The Future of Application Development with CakePHP",
     hireListHead:
-      "Shopify continues to lead the e-commerce revolution with new trends and features such as:",
+      `<P></P>`,
     hireList: [
       {
         title: "",
+        list: "Artificial intelligence to assist customers by giving recommendations on their products.",
+      },
+      {
+        title: "",
+        list: "Mobile first design that guarantees quicker loading and increased interaction.",
+      },
+      {
+        title: "",
+        list: "Multi-channel retailing in the social media, Amazon, and marketplace.",
+      },
+      {
+        title: "",
+        list: "In-built analytics to execute live performance monitoring.",
+      },      
+    ],
+    whyChooseHead: "Why Choose Us as Your CakePHP Development Partner?",
+    whyChooseContent: ``,
+    whyChooseListHead:
+      "Partnering with Uniterrene Websoft means choosing a team that values accuracy, efficiency, and meaningful outcomes. We build CakePHP applications that are scalable, maintainable, and aligned with your long-term goals.",
+    whyChooseList: [
+      {
+        title: "",
+        list: "Custom CakePHP architecture tailored to business needs.",
+      },
+      {
+        title: "",
+        list: "Secure and clean coding practices.",
+      },
+      {
+        title: "",
+        list: "Smooth integrations and deployment.",
+      },
+      {
+        title: "",
+        list: "Continuous monitoring and performance tuning.",
+      },
+      {
+        title: "",
+        list: "Flexible development packages.",
+      } 
+
+    ],
+    faqImg: shopifyFaqImg,
+    faqs: [
+      {
+        title: "Why should I choose CakePHP for my application?",
+        content:
+          "Cakephp has structured coding, inbuilt security and high speed development tools. It assists in minimizing the time of development and provides stable performance.",
+        open: true,
+      },
+      {
+        title: "CanCakePHP integrate with external systems or APIs?",
+        content:
+          "Yes, CakePHP is compatible with the easy integration of APIs, payment systems, third-party services and external data tools.",
+        open: false,
+      },
+      {
+        title: "Do you provide long-term support for CakePHP applications?",
+        content:
+          "Yes, we are providing permanent customization, upgrades, optimization, and safety improvements of any CakePHP projects.",
+        open: false,
+      },     
+    ],
+  },
+  {
+    id: 13,
+    parent: "Cloud & DevOps",
+    slug: "cloud-development",
+    serviceName: "Cloud Development",
+    pageTitle:
+      "Empower Business Agility with Scalable Cloud Development Solutions",
+    description: `<p>At Uniterrene Websoft, we build cloud-powered systems that transform business operations. Our Cloud Development services are designed to provide flexibility, scalability, and speed while helping enterprises unlock the full potential of digital transformation. </p> <p>We specialize in developing safe and to-the-future cloud solutions by innovation, research, intelligent architecture. We strive to make businesses overcome the stagnation of traditional IT requirements and raise operational standards be it modernization, automation, or smarter data management.</p>`,
+    topImg: CloudComputingTopImg,
+    typeOfServicesHeading:
+      "Accelerate Growth with Intelligent Cloud Engineering",
+    typeOfServicesContent:
+      "We do not develop, we create trustworthy digital ecosystems. Your cloud environment is agile, secure, and responsive to the market needs prepared by our team. Our solutions are all performance enhancing, lessening downtime and powering business continuity.",
+    typeOfServicesList: [
+      {
+        head: "Cloud Consulting & Strategy:",
+        list: "Unique recovery plans that allow them to match your business and scalability requirements.",
+      },
+      {
+        head: "Cloud Application Development:",
+        list: "Design, implement, and support secure applications on either AWS, Azure, or Google Cloud.",
+      },
+      {
+        head: "Cloud Migration Services:",
+        list: "Smooth migration of the old systems to new cloud systems without much inconvenience.",
+      },
+      {
+        head: "DevOps & Automation:",
+        list: "Optimized processes with pipeline CI/CD to deploy quicker and with more effectiveness.",
+      },
+      {
+        head: "Cloud Security & Compliance:",
+        list: "End-to-end protection including encryption, access, and periodic audits.",
+      },
+      {
+        head: "Performance Optimization:",
+        list: "Optimize performance through maximizing uptime and resource usage.",
+      },
+    ],
+    trendImg: CloudComputingTrendsImg,
+    howWorkHeading: "",
+    howWorkContent: ``,
+
+    typeOfWebsiteHeading: "The Art and Science Behind Effective Cloud Development",
+    typeOfWebsiteContent:
+      `<p>Development of clouds is not a technological issue, it is more of engineering innovation that will bring success to the business. Uniterrene Websoft is a combination of technical and strategic acumen to produce powerful and quantifiable outcomes.</p>
+      <p>Our projects are directed by well-defined goals, trustworthy structure, and efficacious resource distribution.</p>
+      `,
+    typeOfWebsiteListHead: "We Focus On:",
+    expertTeamList: [
+      {
+        heading: "",
+        content:
+          "Expandable cloud infrastructure and architecture.",
+      },
+      {
+        heading: "",
+        content:
+          "Protective deployment and monitoring.",
+      },
+      {
+        heading: "",
+        content: "Integration and automation based on API.",
+      },
+      {
+        heading: "",
+        content:
+          "Endless processes of delivery and improvement.",
+      },
+      {
+        heading: "",
+        content:
+          "Economy and quality of performance on each level.",
+      },
+    ],
+    expertImg: CloudComputingExpertImg,
+    trendBenefitHead:
+      "Building Cloud Solutions Across Industries",
+    trendBenefitContent: `<p>Our team also comprehends the various needs of the industry and will tailor the cloud solutions to achieve maximum impact. Our reliable cloud ecosystems assist businesses to be more productive, efficient and digitally transformed.</p>`,
+    trendBenefitListHead:
+      "Industries We Serve:",
+    trendBenefitList: [
+      {
+        title: "E-commerce & Retail",
+        list: "",
+      },
+      {
+        title: "Education & E-learning",
+        list: "",
+      },
+      {
+        title: "Healthcare & Life Sciences",
+        list: "",
+      },
+      {
+        title: "Real Estate & Property Management",
+        list: "",
+      },
+      {
+        title: "Travel & Logistics",
+        list: "",
+      },
+      {
+        title: "Financial & Professional Services",
+        list: "",
+      },
+    ],
+    hireHead: "Innovating the Future: Trends Reshaping Cloud Development",
+    hireListHead:
+      "Cloud technology continues to develop with the digital world. Innovation, automation, and intelligence are a part of every project that we undertake to make your business stay future-ready.:",
+    hireList: [
+      {
+        title: "Emerging Trends:",
         list: "Artificial intelligence to assist customers by giving recommendations on their products.",
       },
       {
@@ -1974,36 +2169,36 @@ export const bottomData = [
         list: "Data-driven strategies for conversions.",
       }    
     ],
-    faqImg: shopifyFaqImg,
+    faqImg: CloudComputingFaqImg,
     faqs: [
       {
-        title: "Is Shopify suitable for small businesses?",
+        title: "What is Cloud Development and how does it help my business?",
         content:
-          "Yes, Shopify’s flexible pricing and easy setup make it ideal for small to medium businesses.",
+          "Cloud development is also used to facilitate businesses in creating scalable and cost-effective applications which are efficient, collaboration, and accessible.",
         open: true,
       },
       {
-        title: "Can Uniterrene Websoft customize my Shopify theme?",
+        title: "Which platforms do you work with?",
         content:
-          "Absolutely. Our team creates and develops themes to fit the appearance and objectives of your brand.",
+          "We specialize in AWS, Microsoft Azure, and Google Cloud, tailoring solutions to suit your infrastructure and goals.",
         open: false,
       },
       {
-        title: "How secure is Shopify for online transactions?",
+        title: "How do you ensure data security in the cloud?",
         content:
-          "Shopify has safe payment features like the inclusion of the safe encryption of data and the PCI compliance.",
+          "Encryption, access control, and the ability to adhere to compliance requirements are implemented by us to protect sensitive information.",
         open: false,
       },
       {
-        title: "Can I migrate my existing store to Shopify?",
+        title: "Do you assist with cloud migration?",
         content:
-          " Yes, we will provide you with flawless migration services without losing your information and search results.",
+          " Yes, we offer full-scale migration services with zero data loss and minimal downtime.",
         open: false,
       },
       {
-        title: "Does Shopify support international selling?",
+        title: "How does cloud development support digital transformation?",
         content:
-          " Yes, it allows multiple currencies, payment options, and shipping integrations for global reach.",
+          " It enables companies to revamp the old systems, agility, and scale business operation effectively to enhance business performance and innovation.",
         open: false,
       },
     ],

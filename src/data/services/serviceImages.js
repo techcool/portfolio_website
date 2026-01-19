@@ -101,6 +101,10 @@ import shopifyTopImg from "@public/assets/imgs/services/shopify-top.jpg";
 import shopifyTrendsImg from "@public/assets/imgs/services/shopify-trend.jpg";
 import shopifyExpertImg from "@public/assets/imgs/services/shopify-expert.jpg";
 import shopifyFaqImg from "@public/assets/imgs/services/shopify-faq.jpg";
+import CloudComputingTopImg from "@public/assets/imgs/services/Cloud-computing-top.jpg";
+import CloudComputingTrendsImg from "@public/assets/imgs/services/Cloud-computing-trend.jpg";
+import CloudComputingExpertImg from "@public/assets/imgs/services/Cloud-computing-expert.jpg";
+import CloudComputingFaqImg from "@public/assets/imgs/services/Cloud-computing-faq.jpg";
 
 
 export {
@@ -148,4 +152,8 @@ export {
   shopifyTrendsImg,
   shopifyExpertImg,
   shopifyFaqImg, 
+  CloudComputingTopImg,
+  CloudComputingTrendsImg,
+  CloudComputingExpertImg,
+  CloudComputingFaqImg,
 };

@@ -254,9 +254,15 @@ export default function BottomServicesTemplate({ bottomService }) {
                   </h2>
                   {bottomService.hireListHead && (
                     <div className="mt-6">
-                      <p>
+                      {/* <p>
                         <strong>{bottomService.hireListHead}</strong>
-                      </p>
+                      </p> */}
+                      <div
+                        className="service__detail-content prose"
+                        dangerouslySetInnerHTML={{
+                          __html: bottomService.hireListHead,
+                        }}
+                      />
                     </div>
                   )}
                 </div>
