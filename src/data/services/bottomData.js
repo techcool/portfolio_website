@@ -1483,7 +1483,7 @@ export const bottomData = [
     id: 10,
     parent: "ecommerce-development",
     slug: "magento",
-    serviceName: "Magento",
+    serviceName: "Magento222",
     pageTitle:
       "Transform Your E-commerce Vision into Reality with Powerful Magento Solutions",
     description: `<p>At Uniterrene Websoft, we specialise in the creation of well-built and highly efficient online stores using Magento, one of the most effective e-commerce systems in the world. Our certified Magento developers build flexible, performance-optimized, and secure stores whether you require a custom-built store, migration assistance, or performance optimization which drives growth and improves customer experience.</p>`,
