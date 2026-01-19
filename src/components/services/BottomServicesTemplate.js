@@ -207,6 +207,7 @@ export default function BottomServicesTemplate({ bottomService }) {
                   )}
                   {bottomService.trendBenefitList && (
                   <div className="w-full">
+                    
                     <ul className="flex flex-wrap flex-row gap-6 inner-list double-list">
                       {
                         bottomService.trendBenefitList.map((list, indx) => (

@@ -97,6 +97,10 @@ import magentoTopImg from "@public/assets/imgs/services/magento-top.jpg";
 import magentoTrendsImg from "@public/assets/imgs/services/magento-trend.jpg";
 import magentoExpertImg from "@public/assets/imgs/services/magento-expert.jpg";
 import magentoFaqImg from "@public/assets/imgs/services/magento-faq.jpg";
+import shopifyTopImg from "@public/assets/imgs/services/shopify-top.jpg";
+import shopifyTrendsImg from "@public/assets/imgs/services/shopify-trend.jpg";
+import shopifyExpertImg from "@public/assets/imgs/services/shopify-expert.jpg";
+import shopifyFaqImg from "@public/assets/imgs/services/shopify-faq.jpg";
 
 
 export {
@@ -140,4 +144,8 @@ export {
   magentoTrendsImg,
   magentoExpertImg,
   magentoFaqImg,
+  shopifyTopImg,
+  shopifyTrendsImg,
+  shopifyExpertImg,
+  shopifyFaqImg, 
 };
