@@ -406,7 +406,7 @@ export const bottomData = [
     topImg: joomlaTopImg,
     typeOfServicesHeading: "Our Joomla Development Expertise",
     typeOfServicesContent:
-      "We are not just a template, we are custom Joomla solutions with a combination of usability and design accuracy and high level of performance. Our Joomla development services entail:",
+      `<p>We are not just a template, we are custom Joomla solutions with a combination of usability and design accuracy and high level of performance. Our Joomla development services entail:</p>`,
     typeOfServicesList: [
       {
         head: "Custom Joomla Development",
