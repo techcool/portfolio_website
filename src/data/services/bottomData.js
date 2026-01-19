@@ -1660,4 +1660,174 @@ export const bottomData = [
       },
     ],
   },
+  {
+    id: 11,
+    parent: "ecommerce-development",
+    slug: "shopify",
+    serviceName: "Shopify",
+    pageTitle:
+      "Empower Your E-commerce Journey with Our Shopify Excellence",
+    description: `<p>At Uniterrene Websoft, we specialize in building dynamic, result-driven online stores powered by Shopify. Our professional designers and programmers build beautiful, responsive, and user-friendly online shopping sites that are scalable to meet your needs, regardless of size or scale, and help achieve increased sales and customer retention in the market to increase your market share. We simplify, secure and make e-commerce a success.</p>`,
+    topImg: magentoTopImg,
+    typeOfServicesHeading:
+      "Powering Your Storefront: Our Shopify Services",
+    typeOfServicesContent:
+      "Our solutions are end-to-end Shopify development solutions that enable businesses to start and expand with ease. Each of the projects is designed in a manner that provides aesthetics as well as functionality with ease of management. Our key services include:",
+    typeOfServicesList: [
+      {
+        head: "Shopify Store Setup & Configuration:",
+        list: "Get access to complete store creation, product setup, and configuration.",
+      },
+      {
+        head: "Custom Shopify Theme Design:",
+        list: "We make sure to offer unique and brand-related themes that will stand out to give them a comfortable shopping experience.",
+      },
+      {
+        head: "App Integration & Customization:",
+        list: "Expand the functionality and visibility of your store with our curated app solutions.",
+      },
+      {
+        head: "Shopify SEO Optimization:",
+        list: "Be sure to increase the exposure through search engine friendly systems and search engine optimized materials.",
+      },
+      {
+        head: "Migration to Shopify:",
+        list: "Move your existing store out of other platforms to Shopify.",
+      },
+      {
+        head: "Shopify Maintenance & Support:",
+        list: "Ongoing assistance to ensure smooth performance.",
+      },
+    ],
+    trendImg: magentoTrendsImg,
+    howWorkHeading: "",
+    howWorkContent: ``,
+
+    typeOfWebsiteHeading: "Behind the Checkout: How Shopify Works",
+    typeOfWebsiteContent:
+      "Shopify is a one-stop, cloud-based e-commerce solution, where any person can build, operate, and grow an online shop without any complicated coding. ",
+    typeOfWebsiteListHead: "Here’s how it works:",
+    expertTeamList: [
+      {
+        heading: "",
+        content:
+          "Select a business design and make modifications to it with the help of an editor in Shopify.",
+      },
+      {
+        heading: "",
+        content:
+          "Add products, manage inventory, and set up secure payment gateways.",
+      },
+      {
+        heading: "",
+        content: "Create your own store and monitor the sales with strong built-in analytics..",
+      },
+      {
+        heading: "",
+        content:
+          "",
+      },
+    ],
+    expertImg: magentoExpertImg,
+    trendBenefitHead:
+      "Designed for Every Vision: Types of Shopify Sites We Build",
+    trendBenefitContent: ``,
+    trendBenefitListHead:
+      "We build and optimize Shopify stores across various industries and purposes, including:",
+    trendBenefitList: [
+      {
+        title: "Fashion & Apparel Stores:",
+        list: "Showcase collections with style and simplicity.",
+      },
+      {
+        title: "Health & Beauty Stores:",
+        list: "Customers can trust us because of clean design and safe payment mechanisms.",
+      },
+      {
+        title: "Electronics & Gadgets Stores:",
+        list: "Feature-rich designs to handle large inventories.",
+      },
+      {
+        title: "Food & Beverage Sites:",
+        list: "Studio Freshness with convenient ordering.",
+      },
+      {
+        title: "Home & Lifestyle Stores:",
+        list: "Design engaging shopping experiences in home furnishings and accessories.",
+      },
+    ],
+    hireHead: "E-commerce Evolution: Current Trends and Benefits",
+    hireListHead:
+      "Shopify continues to lead the e-commerce revolution with new trends and features such as:",
+    hireList: [
+      {
+        title: "",
+        list: "Artificial intelligence to assist customers by giving recommendations on their products.",
+      },
+      {
+        title: "",
+        list: "Mobile first design that guarantees quicker loading and increased interaction.",
+      },
+      {
+        title: "",
+        list: "Multi-channel retailing in the social media, Amazon, and marketplace.",
+      },
+      {
+        title: "",
+        list: "In-built analytics to execute live performance monitoring.",
+      },      
+    ],
+    whyChooseHead: "Why Choose Uniterrene Websoft: Your Shopify Partner for Growth",
+    whyChooseContent: ``,
+    whyChooseListHead:
+      "Choosing Uniterrene Websoft means choosing innovation and reliability. We integratively blend creativity and technical skills to develop Shopify stores that make people engage and buy. Our Shopify experts ensure:",
+    whyChooseList: [
+      {
+        title: "",
+        list: "Custom-built stores that reflect your brand identity.",
+      },
+      {
+        title: "",
+        list: "Smooth functionality across all devices.",
+      },
+      {
+        title: "",
+        list: "Data-driven strategies for conversions.",
+      }    
+    ],
+    faqImg: magentoFaqImg,
+    faqs: [
+      {
+        title: "Is Shopify suitable for small businesses?",
+        content:
+          "Yes, Shopify’s flexible pricing and easy setup make it ideal for small to medium businesses.",
+        open: true,
+      },
+      {
+        title: "Can Uniterrene Websoft customize my Shopify theme?",
+        content:
+          "Absolutely. Our team creates and develops themes to fit the appearance and objectives of your brand.",
+        open: false,
+      },
+      {
+        title: "How secure is Shopify for online transactions?",
+        content:
+          "Shopify has safe payment features like the inclusion of the safe encryption of data and the PCI compliance.",
+        open: false,
+      },
+      {
+        title: "Can I migrate my existing store to Shopify?",
+        content:
+          " Yes, we will provide you with flawless migration services without losing your information and search results.",
+        open: false,
+      },
+      {
+        title: "Does Shopify support international selling?",
+        content:
+          " Yes, it allows multiple currencies, payment options, and shipping integrations for global reach.",
+        open: false,
+      },
+    ],
+  },
+
 ];

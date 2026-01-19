@@ -98,6 +98,7 @@ import magentoTrendsImg from "@public/assets/imgs/services/magento-trend.jpg";
 import magentoExpertImg from "@public/assets/imgs/services/magento-expert.jpg";
 import magentoFaqImg from "@public/assets/imgs/services/magento-faq.jpg";
 
+
 export {
   wpTopImg,
   wpTrendsImg,
