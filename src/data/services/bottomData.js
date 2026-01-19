@@ -1554,9 +1554,9 @@ export const bottomData = [
     expertImg: magentoExpertImg,
     trendBenefitHead:
       "Tailored for Every Market: Types of Sites We Build on Magento",
-    trendBenefitContent: `<p>We develop a variety of Magento-based stores suited to different industries and business models:</p>`,
+    trendBenefitContent: ``,
     trendBenefitListHead:
-      "",
+      "We develop a variety of Magento-based stores suited to different industries and business models:",
     trendBenefitList: [
       {
         title: "Enterprise-Level E-commerce Sites:",
@@ -1735,9 +1735,9 @@ export const bottomData = [
     expertImg: shopifyExpertImg,
     trendBenefitHead:
       "Designed for Every Vision: Types of Shopify Sites We Build",
-    trendBenefitContent: `<p>We build and optimize Shopify stores across various industries and purposes, including:</p>`,
+    trendBenefitContent: ``,
     trendBenefitListHead:
-      "",
+      "We build and optimize Shopify stores across various industries and purposes, including:",
     trendBenefitList: [
       {
         title: "Fashion & Apparel Stores:",
@@ -1845,7 +1845,9 @@ export const bottomData = [
     typeOfServicesHeading:
       "Drive Smooth Performance with Accelerated CakePHP Engineering",
     typeOfServicesContent:
-      "We do far more than develop basic PHP applications. We develop optimized, component-based and enterprise-ready CakePHP ecosystems. The superiority in the engineering of our products can help organizations to run faster, more reliable applications and scale without failure. Between MVC-compatible coding and secure database interactions, we make sure that all the modules are made with accuracy.",
+      `<p>We do far more than develop basic PHP applications. We develop optimized, component-based and enterprise-ready CakePHP ecosystems. The superiority in the engineering of our products can help organizations to run faster, more reliable applications and scale without failure. Between MVC-compatible coding and secure database interactions, we make sure that all the modules are made with accuracy.
+      </p>
+      <div class='mt-5'><h5 class="text-[20px] md:text-2xl">What We Deliver: CakePHP Solutions That Transform Digital Operations</h5></div>`,
     typeOfServicesList: [
       {
         head: "CakePHP Consulting & Architecture Planning:",
@@ -1856,35 +1858,39 @@ export const bottomData = [
         list: "Building scalable and feature-rich applications using CakePHP’s MVC framework, ORM, and built-in tools.",
       },
       {
-        head: "App Integration & Customization:",
-        list: "Expand the functionality and visibility of your store with our curated app solutions.",
+        head: "CakePHP Migration & Upgradation:",
+        list: "Modernizing legacy systems by securely migrating them to the latest CakePHP versions for better speed and security.",
       },
       {
-        head: "Shopify SEO Optimization:",
-        list: "Be sure to increase the exposure through search engine friendly systems and search engine optimized materials.",
+        head: "API Development & Integration:",
+        list: "Creating robust REST APIs and integrating third-party services to improve business automation.",
       },
       {
-        head: "Migration to Shopify:",
-        list: "Move your existing store out of other platforms to Shopify.",
+        head: "CakePHP Plugin Development:",
+        list: "Developing custom plugins and extensions for enhanced functionality and smoother workflows.",
       },
       {
-        head: "Shopify Maintenance & Support:",
-        list: "Ongoing assistance to ensure smooth performance.",
+        head: "Performance Optimization & Code Refactoring:",
+        list: "Improving existing CakePHP systems through code restructuring, caching strategies, and database optimization.Ongoing assistance to ensure smooth performance.",
+      },
+      {
+        head: "Ongoing Maintenance & Security Management:",
+        list: "Providing continuous monitoring, upgrades, and security enhancements for long-term application reliability.",
       },
     ],
     trendImg: shopifyTrendsImg,
     howWorkHeading: "",
     howWorkContent: ``,
 
-    typeOfWebsiteHeading: "Behind the Checkout: How Shopify Works",
+    typeOfWebsiteHeading: "The Craft Behind High-Performance CakePHP Development",
     typeOfWebsiteContent:
-      "Shopify is a one-stop, cloud-based e-commerce solution, where any person can build, operate, and grow an online shop without any complicated coding. ",
-    typeOfWebsiteListHead: "Here’s how it works:",
+      "Building scalable CakePHP applications requires deep knowledge of MVC architecture, clean coding practices, and secure system design. At Uniterrene Websoft, our development approach ensures precision and long-term maintainability. ",
+    typeOfWebsiteListHead: "We Focus On:",
     expertTeamList: [
       {
         heading: "",
         content:
-          "Select a business design and make modifications to it with the help of an editor in Shopify.",
+          "CakePHP Migration & Upgradation.",
       },
       {
         heading: "",
@@ -1904,9 +1910,9 @@ export const bottomData = [
     expertImg: shopifyExpertImg,
     trendBenefitHead:
       "Designed for Every Vision: Types of Shopify Sites We Build",
-    trendBenefitContent: `<p>We build and optimize Shopify stores across various industries and purposes, including:</p>`,
+    trendBenefitContent: ``,
     trendBenefitListHead:
-      "",
+      "We build and optimize Shopify stores across various industries and purposes, including:",
     trendBenefitList: [
       {
         title: "Fashion & Apparel Stores:",
