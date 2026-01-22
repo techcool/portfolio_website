@@ -86,7 +86,7 @@ import squarespaceTrendsImg from "@public/assets/imgs/services/square-trend.jpg"
 import squarespaceExpertImg from "@public/assets/imgs/services/square-expert.jpg";
 import squarespaceFaqImg from "@public/assets/imgs/services/square-faq.jpg";
 import hubspotTopImg from "@public/assets/imgs/services/hubspot-top.jpg";
-import hubspotTrendsImg from "@public/assets/imgs/services/hubspot-trend.jpg";
+import hubspotTrendsImg from "@public/assets/imgs/services/hubspot-trend.jpg"; 
 import hubspotExpertImg from "@public/assets/imgs/services/hubspot-expert.jpg";
 import hubspotFaqImg from "@public/assets/imgs/services/hubspot-faq.jpg";
 import woocommerceTopImg from "@public/assets/imgs/services/woo-top.jpg";
@@ -105,7 +105,10 @@ import CloudComputingTopImg from "@public/assets/imgs/services/Cloud-computing-t
 import CloudComputingTrendsImg from "@public/assets/imgs/services/Cloud-computing-trend.jpg";
 import CloudComputingExpertImg from "@public/assets/imgs/services/Cloud-computing-expert.jpg";
 import CloudComputingFaqImg from "@public/assets/imgs/services/Cloud-computing-faq.jpg";
-
+import CiCdTopImg from "@public/assets/imgs/services/CiCd-top.jpg";
+import CiCdTrendsImg from "@public/assets/imgs/services/CiCd-trend.jpg";
+import CiCdExpertImg from "@public/assets/imgs/services/CiCd-expert.jpg";
+import CiCdFaqImg from "@public/assets/imgs/services/CiCd-faq.jpg";
 
 export {
   wpTopImg,
@@ -156,4 +159,8 @@ export {
   CloudComputingTrendsImg,
   CloudComputingExpertImg,
   CloudComputingFaqImg,
+  CiCdTopImg,
+  CiCdTrendsImg,
+  CiCdExpertImg,
+  CiCdFaqImg,
 };

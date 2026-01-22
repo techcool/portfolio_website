@@ -47,6 +47,10 @@ import {
   CloudComputingTrendsImg,
   CloudComputingExpertImg,
   CloudComputingFaqImg,
+  CiCdTopImg,
+  CiCdTrendsImg,
+  CiCdExpertImg,
+  CiCdFaqImg,
 
 } from "./serviceImages";
 export const bottomData = [
@@ -2151,23 +2155,31 @@ export const bottomData = [
         list: "In-built analytics to execute live performance monitoring.",
       },      
     ],
-    whyChooseHead: "Why Choose Uniterrene Websoft: Your Shopify Partner for Growth",
-    whyChooseContent: ``,
+    whyChooseHead: "The Uniterrene Advantage: Your Trusted Cloud Partner",
+    whyChooseContent: `<p>Partnering with Uniterrene Websoft means working with a team that values strategy, innovation, and measurable outcomes. We build cloud systems that empower growth, drive efficiency, and ensure continuity.</p>`,
     whyChooseListHead:
-      "Choosing Uniterrene Websoft means choosing innovation and reliability. We integratively blend creativity and technical skills to develop Shopify stores that make people engage and buy. Our Shopify experts ensure:",
+      "We ensure:",
     whyChooseList: [
       {
         title: "",
-        list: "Custom-built stores that reflect your brand identity.",
+        list: "Tailored cloud strategies for your business goals.",
       },
       {
         title: "",
-        list: "Smooth functionality across all devices.",
+        list: "Secure and scalable architectures.",
       },
       {
         title: "",
-        list: "Data-driven strategies for conversions.",
-      }    
+        list: "Transparent implementation and monitoring.",
+      },
+      {
+        title: "",
+        list: "Ongoing performance optimization.",
+      },
+      {
+        title: "",
+        list: "Flexible packages for startups and enterprises.",
+      }      
     ],
     faqImg: CloudComputingFaqImg,
     faqs: [
@@ -2203,5 +2215,386 @@ export const bottomData = [
       },
     ],
   },
+
+  {
+    id: 14,
+    parent: "Cloud & DevOps",
+    slug: "cicd-pipeline-setup",
+    serviceName: "CI/CD Pipeline Setup",
+    pageTitle:
+      "Enable Faster, Reliable Software Delivery with CI/CD Pipeline Setup",
+    description: `<p>At Uniterrene Websoft, we design and implement robust CI/CD pipeline solutions that help organizations automate build, test, and deployment workflows. Our CI/CD pipeline setup services combine engineering best practices, automation tools, and security-first processes to ensure consistent and reliable software releases. From initial configuration to optimization, we focus on stability, transparency, and scalability across development environments.</p>`,
+    topImg: CiCdTopImg,
+    typeOfServicesHeading:
+      "Accelerate Development Cycles Through Structured CI/CD Pipelines",
+    typeOfServicesContent:
+      "The CI/CD pipelines will be developed to simplify the process of integrating and deploying code and minimize manual processes and errors. Our development process is highly-structured and everything flows seamlessly to production. We assist the teams in improving the speed of release, lessening downtime, and ensuring the quality of code by ensuring consistency between environments and applying automated tests. All the pipes are designed to aid performance, reliability and maintainability.",
+    typeOfServicesList: [
+      {
+        head: "Continuous Integration Setup:",
+        list: "Automating code integration with version control systems, enabling frequent commits, builds, and automated testing.",
+      },
+      {
+        head: "Continuous Delivery & Deployment:",
+        list: "Configuring automated deployment workflows that ensure code is always release-ready across staging and production environments.",
+      },
+      {
+        head: "Build & Test Automation:",
+        list: "Implementing automated build processes and testing frameworks to detect issues early and improve code stability.",
+      },
+      {
+        head: "Infrastructure Integration:",
+        list: "Integrating CI/CD pipelines with cloud platforms, container systems, and infrastructure tools for seamless deployment.",
+      },
+      {
+        head: "Security & Quality Checks:",
+        list: "Embedding security scans, code quality checks, and compliance controls within the pipeline workflow.",
+      },
+      {
+        head: "Monitoring & Optimization Support:",
+        list: "Setting up monitoring and performance insights to continuously improve pipeline efficiency and reliability.",
+      },
+    ],
+    trendImg: CiCdTrendsImg,
+    howWorkHeading: "The Engineering Behind High-Quality CI/CD Pipeline Setup",
+    howWorkContent: `<p>To establish efficient CI/CD pipelines, processes and technical precision are needed. Our engineers come up with pipelines that are automated, controlled and flexible. We are concerned with minimizing risks related to deploying, enhancing traceability, as well as facilitating quicker feedback loops. We facilitate the use of predictable and repeatable releases by the teams through the maintenance of clean workflows and standardized practices.</p>`,
+
+    typeOfWebsiteHeading: "The Art and Science Behind Effective Cloud Development",
+    typeOfWebsiteContent:
+      `<p>Development of clouds is not a technological issue, it is more of engineering innovation that will bring success to the business. Uniterrene Websoft is a combination of technical and strategic acumen to produce powerful and quantifiable outcomes.</p>
+      <p>Our projects are directed by well-defined goals, trustworthy structure, and efficacious resource distribution.</p>
+      `,
+    typeOfWebsiteListHead: "We Focus On:",
+    expertTeamList: [
+      {
+        heading: "",
+        content:
+          "Stable and repeatable deployment workflows",
+      },
+      {
+        heading: "",
+        content:
+          "Automated testing and validation",
+      },
+      {
+        heading: "",
+        content: "Secure and compliant pipeline design",
+      },
+      {
+        heading: "",
+        content:
+          "Environment consistency",
+      },
+      {
+        heading: "",
+        content:
+          "Scalable pipeline architecture",
+      },
+    ],
+    expertImg: CiCdExpertImg,
+    trendBenefitHead:
+      "Tailored CI/CD Pipeline Solutions for Diverse Industries",
+    trendBenefitContent: `<p>The release cycle, compliance and infrastructure needs are specific to different industries. CI/CD pipeline setup services are tailored to fit operational objectives, regulatory requirements, and maturity of development and still be efficient and reliable.</p>`,
+    trendBenefitListHead:
+      "Industries We Serve:",
+    trendBenefitList: [
+      {
+        title: "SaaS & Product Companies",
+        list: "",
+      },
+      {
+        title: "FinTech & Banking Platforms",
+        list: "",
+      },
+      {
+        title: "Healthcare & Compliance-Driven Systems",
+        list: "",
+      },
+      {
+        title: "E-commerce & Retail Solutions",
+        list: "",
+      },
+      {
+        title: "Enterprise Applications",
+        list: "",
+      },
+      {
+        title: "Startups & Scale-ups",
+        list: "",
+      },
+    ],
+    hireHead: "The Future of CI/CD: Trends Shaping Modern DevOps Practices",
+    hireListHead:
+      "CI/CD practices continue to evolve with advancements in cloud infrastructure and automation tools. Our pipeline solutions align with modern DevOps trends while maintaining reliability and control.",
+    hireList: [
+      {
+        title: "Emerging Trends:",
+        list: "",
+      },
+      {
+        title: "",
+        list: "Pipeline as code adoption",
+      },
+      {
+        title: "",
+        list: "Cloud-native CI/CD workflows",
+      },
+      {
+        title: "",
+        list: "Containerized build environments",
+      },     
+      {
+        title: "",
+        list: "Integrated security automation",
+      },  
+      {
+        title: "",
+        list: "Observability-driven deployments",
+      },   
+    ],
+    whyChooseHead: "Why Choose Us as Your CI/CD Pipeline Setup Partner?",
+    whyChooseContent: `<p>Partnering with Uniterrene Websoft means working with a team that prioritizes reliability, clarity, and long-term value. We design CI/CD pipelines that align with technical requirements, operational goals, and future scalability.</p>`,
+    whyChooseListHead:
+      "We Ensure:",
+    whyChooseList: [
+      {
+        title: "",
+        list: "Customized CI/CD strategies",
+      },
+      {
+        title: "",
+        list: "Clear workflow documentation",
+      },
+      {
+        title: "",
+        list: "Automation-first implementation",
+      },
+      {
+        title: "",
+        list: "Consistent performance standards",
+      },
+      {
+        title: "",
+        list: "Flexible engagement models",
+      }      
+    ],
+    faqImg: CiCdFaqImg,
+    faqs: [
+      {
+        title: "What is included in CI/CD pipeline setup services?",
+        content:
+          "We offer pipeline design, tool integration, build and test automation, deployment configuration, and performance optimization.",
+        open: true,
+      },
+      {
+        title: "Can CI/CD pipelines be integrated with existing infrastructure?",
+        content:
+          "Yes, we build pipelines that blend well with the tools, cloud systems and deployment environments that are already available.",
+        open: false,
+      },
+      {
+        title: "Do you support both small teams and large enterprises?",
+        content:
+          "Yes, our CI/CD pipeline solutions can be expanded to meet the needs of a startup environment, growing team environment, and enterprise-level operation.",
+        open: false,
+      },      
+    ],
+  },
+
+  {
+    id: 15,
+    parent: "Cloud & DevOps",
+    slug: "containerization-docker-kubernetes",
+    serviceName: "Containerization Docker Kubernetes",
+    pageTitle:
+      "Empower Digital Infrastructure with Advanced Containerization Solutions",
+    description: `<p>At Uniterrene Websoft, we build strong and scalable containerization ecosystems using Docker, Kubernetes, and modern orchestration frameworks. We are aiming at developing secure, mobile and easily controlled environments that ensure easy deployment of applications and aid in enhancing consistency in operations.</p>
+    <p>Our work is focused on creating container-based workflows to minimize reliance on heavy infrastructure and enabling businesses to run applications in a stable, high-performing and controlled fashion. Under our solutions of containerization organizations gain more agility and rapid releases and deployment to environments without the restrictions of conventional hosting systems.</p>`,
+    topImg: CiCdTopImg,
+    typeOfServicesHeading:
+      "Drive Real-Time Efficiency Through Automated Container Orchestration",
+    typeOfServicesContent:
+      `<p>We do not just containerize applications. We develop completely optimized, adaptive, and reliable container ecosystems. Our engineering professionals help companies to operate microservices, automate scale, stream deployments and ensure consistency between development, testing and production environments.</p>
+      <p>Containerization minimizes operational overheads, decreases release time, and improves the service delivery via automatic coordination and smart allocation of resources.</p>`,
+    typeOfServicesList: [
+      {
+        head: "Containerization Consulting & Strategy:",
+        list: "Guiding businesses toward the right container approach for better reliability, smooth deployment, and consistent performance.",
+      },
+      {
+        head: "Docker-Based Application Containerization:",
+        list: "Packaging applications into lightweight, portable containers that ensure uniformity across all environments.",
+      },
+      {
+        head: "Kubernetes Orchestration & Management:",
+        list: "Building automated Kubernetes architectures for effortless scaling, load balancing, and continuous delivery.",
+      },
+      {
+        head: "Microservices Deployment & Management:",
+        list: "Transforming applications into modular microservices for improved flexibility and independent scaling.",
+      },
+      {
+        head: "CI/CD Automation for Containers:",
+        list: "Integrating pipelines that automate building, testing, and deploying containerized applications.",
+      },
+      {
+        head: "Cloud-Native Container Infrastructure:",
+        list: "Deploying containers across AWS, Azure, Google Cloud, and hybrid environments with full optimization.",
+      },
+      {
+        head: "Container Security & Governance:",
+        list: "Ensuring strong security practices, isolated environments, policy-based controls, and ongoing compliance.",
+      },
+    ],
+    trendImg: CiCdTrendsImg,
+    howWorkHeading: "The Craft Behind High-Performance Container Engineering",
+    howWorkContent: `<p>Creating a resilient container ecosystem requires technical expertise, an understanding of distributed systems, and efficient design.</p>
+    <p>At Uniterrene Websoft, we combine these strengths to build container environments that bring measurable improvements.</p>`,
+
+    typeOfWebsiteHeading: "",
+    typeOfWebsiteContent:
+      ` `,
+    typeOfWebsiteListHead: "We Focus On:",
+    expertTeamList: [
+      {
+        heading: "",
+        content:
+          "Modular and scalable container architecture",
+      },
+      {
+        heading: "",
+        content:
+          "Secure and compliant orchestration workflows",
+      },
+      {
+        heading: "",
+        content: "Optimized resource utilization",
+      },
+      {
+        heading: "",
+        content: "Seamless multi-environment deployment",
+      },
+      {
+        heading: "",
+        content: "High performance under complex workloads",
+      },
+    ],
+    expertImg: CiCdExpertImg,
+    trendBenefitHead:
+      "Industry-Specific Containerization Built for Growth",
+    trendBenefitContent: `<p>Different industries require different deployment workflows.</p>
+    <p>We design container-based systems that streamline operations, enhance reliability, and support rapid digital expansion.</p>`,
+    trendBenefitListHead:
+      "Industries We Serve:",
+    trendBenefitList: [
+      {
+        title: "E-commerce & Retail",
+        list: "",
+      },
+      {
+        title: "Fintech & Banking",
+        list: "",
+      },
+      {
+        title: "Healthcare & Life Sciences",
+        list: "",
+      },
+      {
+        title: "Education & E-learning",
+        list: "",
+      },
+      {
+        title: "Travel & Logistics",
+        list: "",
+      },
+      {
+        title: "Real Estate & Property Management",
+        list: "",
+      },
+      {
+        title: "SaaS & Technology Enterprises",
+        list: "",
+      },
+    ],
+    hireHead: "The Future Is Containerized: Trends Shaping the Next Generation of Cloud Deployment",
+    hireListHead:
+      `<p>Containerization continues to advance with improvements in automation, orchestration, and distributed computing.</p>
+      <p> Our solutions integrate these advancements to help businesses stay ahead.</p>`,
+    hireList: [
+      {
+        title: "Emerging Trends:",
+        list: "",
+      },
+      {
+        title: "",
+        list: "Serverless container orchestration",
+      },
+      {
+        title: "",
+        list: "Multi-cloud container deployments",
+      },
+      {
+        title: "",
+        list: "Zero-downtime rollouts and updates",
+      },     
+      {
+        title: "",
+        list: "AI-powered resource optimization",
+      },  
+      {
+        title: "",
+        list: "Secure supply chain for container image",
+      },   
+    ],
+    whyChooseHead: "Why Choose Us as Your CI/CD Pipeline Setup Partner?",
+    whyChooseContent: `<p>Partnering with Uniterrene Websoft means working with a team that prioritizes reliability, clarity, and long-term value. We design CI/CD pipelines that align with technical requirements, operational goals, and future scalability.</p>`,
+    whyChooseListHead:
+      "We Ensure:",
+    whyChooseList: [
+      {
+        title: "",
+        list: "Customized CI/CD strategies",
+      },
+      {
+        title: "",
+        list: "Clear workflow documentation",
+      },
+      {
+        title: "",
+        list: "Automation-first implementation",
+      },
+      {
+        title: "",
+        list: "Consistent performance standards",
+      },
+      {
+        title: "",
+        list: "Flexible engagement models",
+      }      
+    ],
+    faqImg: CiCdFaqImg,
+    faqs: [
+      {
+        title: "What is included in CI/CD pipeline setup services?",
+        content:
+          "We offer pipeline design, tool integration, build and test automation, deployment configuration, and performance optimization.",
+        open: true,
+      },
+      {
+        title: "Can CI/CD pipelines be integrated with existing infrastructure?",
+        content:
+          "Yes, we build pipelines that blend well with the tools, cloud systems and deployment environments that are already available.",
+        open: false,
+      },
+      {
+        title: "Do you support both small teams and large enterprises?",
+        content:
+          "Yes, our CI/CD pipeline solutions can be expanded to meet the needs of a startup environment, growing team environment, and enterprise-level operation.",
+        open: false,
+      },      
+    ],
+  },
+
+
 
 ];
