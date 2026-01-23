@@ -51,6 +51,10 @@ import {
   CiCdTrendsImg,
   CiCdExpertImg,
   CiCdFaqImg,
+  CakeTopImg,
+  CakeTrendsImg,
+  CakeExpertImg,
+  CakeFaqImg,
 
 } from "./serviceImages";
 export const bottomData = [
@@ -1850,7 +1854,7 @@ export const bottomData = [
     pageTitle:
       "Build High-Performance Applications with Expert CakePHP Development",
     description: `<p>At <strong>Uniterrene Websoft</strong>, we build robust, scalable, and secure applications using the full power of the <strong>CakePHP framework</strong>. Our goal is to craft fast, structured, and high-quality digital solutions that streamline business operations and enhance user experience. We provide applications which have a consistent performance at any setting due to the robust MVC architecture, security in-built in CakePHP, and its capability to develop fast.</p>`,
-    topImg: shopifyTopImg,
+    topImg: CakeTopImg,
     typeOfServicesHeading:
       "Drive Smooth Performance with Accelerated CakePHP Engineering",
     typeOfServicesContent:
@@ -1887,7 +1891,7 @@ export const bottomData = [
         list: "Providing continuous monitoring, upgrades, and security enhancements for long-term application reliability.",
       },
     ],
-    trendImg: shopifyTrendsImg,
+    trendImg: CakeTrendsImg,
     howWorkHeading: "",
     howWorkContent: ``,
 
@@ -1921,7 +1925,7 @@ export const bottomData = [
           "Clean and scalable codebases",
       },
     ],
-    expertImg: shopifyExpertImg,
+    expertImg: CakeExpertImg,
     trendBenefitHead:
       "Industry-Driven CakePHP Development Tailored for Growth",
     trendBenefitContent: `<p>Good design is a balance between usability, structure and visual clarity. At Uniterrene Websoft, we base our design process on evidence-based design systems and research.</p><br/><h5 class="text-2xl">We Focus On:</h5><ul class="flex flex-wrap flex-row gap-6 inner-list double-list mt-5"><li>Clear user goals and experience mapping</li><li>Consistent brand identity across interfaces</li><li>Accessible and intuitive navigation structures</li><li>Performance-focused layouts and interactions</li><li>Maintainable design systems for long-term growth</li><li>Continuous testing and design improvement</li></ul>`,
@@ -2005,7 +2009,7 @@ export const bottomData = [
       } 
 
     ],
-    faqImg: shopifyFaqImg,
+    faqImg: CakeFaqImg,
     faqs: [
       {
         title: "Why should I choose CakePHP for my application?",
@@ -2546,50 +2550,229 @@ export const bottomData = [
         list: "Secure supply chain for container image",
       },   
     ],
-    whyChooseHead: "Why Choose Us as Your CI/CD Pipeline Setup Partner?",
-    whyChooseContent: `<p>Partnering with Uniterrene Websoft means working with a team that prioritizes reliability, clarity, and long-term value. We design CI/CD pipelines that align with technical requirements, operational goals, and future scalability.</p>`,
+    whyChooseHead: "Why Choose Us as Your Containerization Transformation Partner?",
+    whyChooseContent: `<p>At Uniterrene Websoft, a partnership does not only imply working together with a team that is keen on precision, innovation, and long-term value.</p>
+    <p>The systems that we design are containerized, making the operations easier, faster, and able to sustain digital growth.</p>`,
     whyChooseListHead:
       "We Ensure:",
     whyChooseList: [
       {
         title: "",
-        list: "Customized CI/CD strategies",
+        list: "Custom container strategies that match business needs",
       },
       {
         title: "",
-        list: "Clear workflow documentation",
+        list: "Secure and compliant infrastructure planning",
       },
       {
         title: "",
-        list: "Automation-first implementation",
+        list: "Smooth orchestration and deployment workflows",
       },
       {
         title: "",
-        list: "Consistent performance standards",
+        list: "Continuous monitoring and optimization",
       },
       {
         title: "",
-        list: "Flexible engagement models",
+        list: "Scalable solutions for all business sizes",
       }      
     ],
     faqImg: CiCdFaqImg,
     faqs: [
       {
-        title: "What is included in CI/CD pipeline setup services?",
+        title: "What is containerization and how does it benefit my business?",
         content:
-          "We offer pipeline design, tool integration, build and test automation, deployment configuration, and performance optimization.",
+          "Containerization packages applications into isolated units. It improves consistency, reduces deployment issues, and enables faster releases.",
         open: true,
       },
       {
-        title: "Can CI/CD pipelines be integrated with existing infrastructure?",
+        title: "Can Docker and Kubernetes work with existing systems?",
         content:
-          "Yes, we build pipelines that blend well with the tools, cloud systems and deployment environments that are already available.",
+          "Yes, both can integrate with current applications, CI/CD pipelines, cloud environments, and enterprise tools.",
         open: false,
       },
       {
-        title: "Do you support both small teams and large enterprises?",
+        title: "Do you support multi-cloud deployment?",
         content:
-          "Yes, our CI/CD pipeline solutions can be expanded to meet the needs of a startup environment, growing team environment, and enterprise-level operation.",
+          "Yes, we design container ecosystems for AWS, Azure, Google Cloud, and hybrid environments.",
+        open: false,
+      },      
+    ],
+  },
+
+
+  {
+    id: 15,
+    parent: "Cloud & DevOps",
+    slug: "serverless-architecture",
+    serviceName: "Serverless Architecture",
+    pageTitle:
+      "Empower Digital Growth with Seamlessly Scalable Serverless Systems",
+    description: `<p>At Uniterrene Websoft, we build powerful serverless systems that improve scalability, reduce operational load, and enhance application performance. Our expertise lies in designing secure, flexible, and event-driven architectures that support modern digital workflows without the burden of server management. With serverless computing, organizations can achieve higher productivity, cost efficiency, and seamless scalability. Our goal is to help businesses move beyond traditional infrastructure limitations and achieve stronger operational outcomes, whether through automation, instant scalability, or simplified resource management.</p>`,
+    topImg: CiCdTopImg,
+    typeOfServicesHeading:
+      "Drive Real-Time Innovation Through Event-Powered Cloud Architecture",
+    typeOfServicesContent:
+      `<p>We don’t just deploy serverless functions; we create intelligent, adaptive, and resilient serverless ecosystems. Our engineering power allows our businesses to create applications that are automatically scaled, are more responsive, and also run with a high degree of reliability. Serverless systems lessen complexities with servers, minimize time to market, and enhance business continuity through automated expansion and productivity.</p>`,
+    typeOfServicesList: [
+      {
+        head: "Serverless Consulting & Strategy:",
+        list: "Guiding organizations to identify the right serverless approach for performance improvements, cost reduction, and long-term scalability.",
+      },
+      {
+        head: "Serverless Application Development:",
+        list: "Designing and deploying serverless applications using AWS Lambda, Azure Functions, Google Cloud Functions, and leading cloud platforms.",
+      },
+      {
+        head: "API & Microservices Development:",
+        list: "Building modular APIs and microservices driven by event triggers for improved agility.",
+      },
+      {
+        head: "Cloud Workflow Automation:",
+        list: "Automating processes such as data handling, notifications, reporting, and workflow execution to improve overall efficiency.",
+      },      
+    ],
+    trendImg: CiCdTrendsImg,
+    howWorkHeading: "Managed Serverless Infrastructure",
+    howWorkContent: `<p>Full-scale monitoring, optimization, and performance tuning for smooth application operations.</p>`,
+
+    typeOfWebsiteHeading: "Security, Compliance & Governance",
+    typeOfWebsiteContent:
+      `<p>Ensuring strong security standards, monitoring frameworks, and compliance across the serverless environment.</p>`,
+    typeOfWebsiteListHead: "We Focus On:",
+    expertTeamList: [
+      {
+        heading: "",
+        content:
+          "Event-driven, modular workflows",
+      },
+      {
+        heading: "",
+        content:
+          "Secure cloud-first architecture",
+      },
+      {
+        heading: "",
+        content: "Optimized resource allocation",
+      },
+      {
+        heading: "",
+        content: "Real-time performance tracking",
+      },
+      {
+        heading: "",
+        content: "High efficiency under heavy workloads",
+      },
+    ],
+    expertImg: CiCdExpertImg,
+    trendBenefitHead:
+      "Tailored Serverless Ecosystems for Every Industry Landscape",
+    trendBenefitContent: `<p>We have the knowledge of the operational needs of a variety of industries, and create serverless systems that introduce a lot of efficiency. Our solutions assist organizations to remain scalable, productive and digitally progressive.</p>`,
+    trendBenefitListHead:
+      "Industries We Serve:",
+    trendBenefitList: [
+      {
+        title: "E-commerce & Retail",
+        list: "",
+      },
+      {
+        title: "Fintech & Banking",
+        list: "",
+      },
+      {
+        title: "Healthcare & Life Sciences",
+        list: "",
+      },
+      {
+        title: "Education & E-learning",
+        list: "",
+      },
+      {
+        title: "Travel & Logistics",
+        list: "",
+      },
+      {
+        title: "Real Estate & Property Management",
+        list: "",
+      },
+      {
+        title: "SaaS & Technology Enterprises",
+        list: "",
+      },
+    ],
+    hireHead: "The Future Is Serverless: Trends Defining the Next Era of Cloud Computing",
+    hireListHead:
+      `<p>Serverless technology is developing in the progress of automation, cloud intelligences, and distributed computing. We design every solution to include intelligent scaling, performance, and design-driven solutions.</p>`,
+    hireList: [
+      {
+        title: "Emerging Trends:",
+        list: "",
+      },
+      {
+        title: "",
+        list: "Event-driven microservices",
+      },
+      {
+        title: "",
+        list: "Serverless backends and APIs",
+      },
+      {
+        title: "",
+        list: "Real-time data streaming workflows",
+      },     
+      {
+        title: "",
+        list: "AI-powered serverless functions",
+      },  
+      {
+        title: "",
+        list: "Edge computing adoption",
+      },   
+    ],
+    whyChooseHead: "Why Choose Us as Your Serverless Transformation Partner?",
+    whyChooseContent: `<p>Partnering with Uniterrene Websoft means selecting a team committed to innovation, precision, and performance. We develop serverless applications that facilitate operations, enhance expansion, and provide sustainable outcomes.</p>`,
+    whyChooseListHead:
+      "We Ensure:",
+    whyChooseList: [
+      {
+        title: "",
+        list: "Tailored serverless strategies",
+      },
+      {
+        title: "",
+        list: "Secure and compliant architecture",
+      },
+      {
+        title: "",
+        list: "Clear deployment and monitoring",
+      },
+      {
+        title: "",
+        list: "Continuous optimization",
+      },
+      {
+        title: "",
+        list: "Flexible packages for all business sizes",
+      }      
+    ],
+    faqImg: CiCdFaqImg,
+    faqs: [
+      {
+        title: "What is Serverless Architecture and how does it help my business?",
+        content:
+          "It is a serverless cloud model on which applications are executed. It assists in lowering the expenses, scaling, and performance.",
+        open: true,
+      },
+      {
+        title: "Can serverless applications integrate with existing systems?",
+        content:
+          "Yes, serverless functions have the ability to integrate with APIs, data storage, and cloud applications and enterprise platforms to create workflows.",
+        open: false,
+      },
+      {
+        title: "Which platforms do you use for serverless development?",
+        content:
+          "We use AWS, Google Cloud, and Azure as well as other top-tier cloud platforms to fit your business needs.",
         open: false,
       },      
     ],

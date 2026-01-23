@@ -109,6 +109,10 @@ import CiCdTopImg from "@public/assets/imgs/services/CiCd-top.jpg";
 import CiCdTrendsImg from "@public/assets/imgs/services/CiCd-trend.jpg";
 import CiCdExpertImg from "@public/assets/imgs/services/CiCd-expert.jpg";
 import CiCdFaqImg from "@public/assets/imgs/services/CiCd-faq.jpg";
+import CakeTopImg from "@public/assets/imgs/services/Cake-top.jpg";
+import CakeTrendsImg from "@public/assets/imgs/services/Cake-trend.jpg";
+import CakeExpertImg from "@public/assets/imgs/services/Cake-expert.jpg";
+import CakeFaqImg from "@public/assets/imgs/services/Cake-faq.jpg";
 
 export {
   wpTopImg,
@@ -163,4 +167,8 @@ export {
   CiCdTrendsImg,
   CiCdExpertImg,
   CiCdFaqImg,
+  CakeTopImg,
+  CakeTrendsImg,
+  CakeExpertImg,
+  CakeFaqImg,
 };
