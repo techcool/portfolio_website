@@ -55,7 +55,30 @@ import {
   CakeTrendsImg,
   CakeExpertImg,
   CakeFaqImg,
-
+  ContainerizationDockerKubernetesTopImg,
+  ContainerizationDockerKubernetesTrendsImg,
+  ContainerizationDockerKubernetesExpertImg,
+  ContainerizationDockerKubernetesFaqImg,
+  ServerlessArchitectureTopImg,
+  ServerlessArchitectureTrendsImg,
+  ServerlessArchitectureExpertImg,
+  ServerlessArchitectureFaqImg,
+  NodeJsTopImg,
+  NodeJsTrendsImg,
+  NodeJsExpertImg,
+  NodeJsFaqImg,
+  ExpressJsTopImg,
+  ExpressJsTrendsImg,
+  ExpressJsExpertImg,
+  ExpressJsFaqImg,
+  AngularTopImg,
+  AngularTrendsImg,
+  AngularExpertImg,
+  AngularFaqImg,
+  MongoDBTopImg,
+  MongoDBTrendsImg,
+  MongoDBExpertImg,
+  MongoDBFaqImg,
 } from "./serviceImages";
 export const bottomData = [
   {
@@ -2414,7 +2437,7 @@ export const bottomData = [
       "Empower Digital Infrastructure with Advanced Containerization Solutions",
     description: `<p>At Uniterrene Websoft, we build strong and scalable containerization ecosystems using Docker, Kubernetes, and modern orchestration frameworks. We are aiming at developing secure, mobile and easily controlled environments that ensure easy deployment of applications and aid in enhancing consistency in operations.</p>
     <p>Our work is focused on creating container-based workflows to minimize reliance on heavy infrastructure and enabling businesses to run applications in a stable, high-performing and controlled fashion. Under our solutions of containerization organizations gain more agility and rapid releases and deployment to environments without the restrictions of conventional hosting systems.</p>`,
-    topImg: CiCdTopImg,
+    topImg: ContainerizationDockerKubernetesTopImg,
     typeOfServicesHeading:
       "Drive Real-Time Efficiency Through Automated Container Orchestration",
     typeOfServicesContent:
@@ -2450,7 +2473,7 @@ export const bottomData = [
         list: "Ensuring strong security practices, isolated environments, policy-based controls, and ongoing compliance.",
       },
     ],
-    trendImg: CiCdTrendsImg,
+    trendImg: ContainerizationDockerKubernetesTrendsImg,
     howWorkHeading: "The Craft Behind High-Performance Container Engineering",
     howWorkContent: `<p>Creating a resilient container ecosystem requires technical expertise, an understanding of distributed systems, and efficient design.</p>
     <p>At Uniterrene Websoft, we combine these strengths to build container environments that bring measurable improvements.</p>`,
@@ -2483,7 +2506,7 @@ export const bottomData = [
         content: "High performance under complex workloads",
       },
     ],
-    expertImg: CiCdExpertImg,
+    expertImg: ContainerizationDockerKubernetesExpertImg,
     trendBenefitHead:
       "Industry-Specific Containerization Built for Growth",
     trendBenefitContent: `<p>Different industries require different deployment workflows.</p>
@@ -2577,7 +2600,7 @@ export const bottomData = [
         list: "Scalable solutions for all business sizes",
       }      
     ],
-    faqImg: CiCdFaqImg,
+    faqImg: ContainerizationDockerKubernetesFaqImg,
     faqs: [
       {
         title: "What is containerization and how does it benefit my business?",
@@ -2609,7 +2632,7 @@ export const bottomData = [
     pageTitle:
       "Empower Digital Growth with Seamlessly Scalable Serverless Systems",
     description: `<p>At Uniterrene Websoft, we build powerful serverless systems that improve scalability, reduce operational load, and enhance application performance. Our expertise lies in designing secure, flexible, and event-driven architectures that support modern digital workflows without the burden of server management. With serverless computing, organizations can achieve higher productivity, cost efficiency, and seamless scalability. Our goal is to help businesses move beyond traditional infrastructure limitations and achieve stronger operational outcomes, whether through automation, instant scalability, or simplified resource management.</p>`,
-    topImg: CiCdTopImg,
+    topImg: ServerlessArchitectureTopImg,
     typeOfServicesHeading:
       "Drive Real-Time Innovation Through Event-Powered Cloud Architecture",
     typeOfServicesContent:
@@ -2632,7 +2655,7 @@ export const bottomData = [
         list: "Automating processes such as data handling, notifications, reporting, and workflow execution to improve overall efficiency.",
       },      
     ],
-    trendImg: CiCdTrendsImg,
+    trendImg: ServerlessArchitectureTrendsImg,
     howWorkHeading: "Managed Serverless Infrastructure",
     howWorkContent: `<p>Full-scale monitoring, optimization, and performance tuning for smooth application operations.</p>`,
 
@@ -2664,7 +2687,7 @@ export const bottomData = [
         content: "High efficiency under heavy workloads",
       },
     ],
-    expertImg: CiCdExpertImg,
+    expertImg: ServerlessArchitectureExpertImg,
     trendBenefitHead:
       "Tailored Serverless Ecosystems for Every Industry Landscape",
     trendBenefitContent: `<p>We have the knowledge of the operational needs of a variety of industries, and create serverless systems that introduce a lot of efficiency. Our solutions assist organizations to remain scalable, productive and digitally progressive.</p>`,
@@ -2755,7 +2778,7 @@ export const bottomData = [
         list: "Flexible packages for all business sizes",
       }      
     ],
-    faqImg: CiCdFaqImg,
+    faqImg: ServerlessArchitectureFaqImg,
     faqs: [
       {
         title: "What is Serverless Architecture and how does it help my business?",
@@ -2777,6 +2800,685 @@ export const bottomData = [
       },      
     ],
   },
+  {
+    id: 16,
+    parent: "Full Stack Development",
+    slug: "nodejs",
+    serviceName: "Node.Js",
+    pageTitle:
+      "Build High-Performance Applications with Expert Node.js Development",
+    description: `<p>At Uniterrene Websoft, we create powerful, scalable, and event-driven applications using Node.Js, one of the most efficient JavaScript runtimes used worldwide. We focus on delivering lightweight, fast, and flexible digital solutions that support real-time interactions, seamless integrations, and continuous performance.</p>`,
+    topImg: NodeJsTopImg,
+    typeOfServicesHeading:
+      "Accelerate Digital Growth with Real-Time Node.js Engineering",
+    typeOfServicesContent:
+      `<p>We do not just come up with applications. We create full Node.js systems with efficient architecture, powerful APIs, compartmentalized parts, and high workflow. Our team of engineers assists companies to run smooth backend operations, low-latency interactions and to manage concurrent tasks without difficulties.</p>
+      <p>Node.js is known to guarantee shorter development duration, better performances of applications, and enhanced performances with the high-performance of the efficient event-driven architecture.</p>`,
+    typeOfServicesList: [
+      {
+        head: "Node.js Consulting & Strategy:",
+        list: "Guiding businesses toward the right Node.js architecture for improved performance, enhanced flexibility, and better operational consistency.",
+      },
+      {
+        head: "Custom Node.js Application Development:",
+        list: "Building fast, secure, and feature-rich applications tailored to unique business needs, powered by clean, modular JavaScript.",
+      },
+      {
+        head: "API Development & Integration:",
+        list: "Creating scalable REST and GraphQL APIs that support smooth data exchange, automation, and cross-platform communication.",
+      },
+      {
+        head: "Microservices Architecture:",
+        list: "Transforming large applications into independent microservices for better agility, security, and long-term scalability.",
+      },      
+    ],
+    trendImg: NodeJsTrendsImg,
+    howWorkHeading: "Real-Time Application Development",
+    howWorkContent: `<p>Developing chat applications, tracking systems, video streaming platforms, and live dashboards using WebSockets and real-time engines.</p>`,
+
+    typeOfWebsiteHeading: "Node.js Migration & Modernization",
+    typeOfWebsiteContent:
+      `<p>Upgrading legacy applications to Node.js for improved performance, reduced maintenance, and future readiness.</p>`,
+    typeOfWebsiteListHead: "",
+    expertTeamList: [
+      {
+        heading: "Cloud-Native Node.js Deployment",
+        content:
+          "Deploying Node.js applications across AWS, Azure, Google Cloud, and hybrid infrastructures with full optimization.",
+      },
+      {
+        heading: "Node.js Security & Compliance",
+        content:
+          "Implementing strong security practices, token-based authentication, encrypted APIs, and continuous monitoring.",
+      },     
+    ],
+    expertImg: NodeJsExpertImg,
+    trendBenefitHead:
+      "The Engineering Craft Behind High-Performance Node.js Solutions",
+    trendBenefitContent: `<p>The creation of new variables in Node.js demands thorough knowledge of asynchronous applications, effective event loops, and distributed systems. These technical strengths, when combined at Uniterrene Websoft lead to the development of strong systems that can give quantifiable results.</p>`,
+    trendBenefitListHead:
+      "We Focus On:",
+    trendBenefitList: [
+      {
+        title: "",
+        list: "Modular and scalable backend architecture",
+      },
+      {
+        title: "",
+        list: "Clean and maintainable JavaScript code",
+      },
+      {
+        title: "",
+        list: "Secure and compliant data exchange",
+      },
+      {
+        title: "",
+        list: "Optimized request handling and performance",
+      },
+      {
+        title: "",
+        list: "Seamless integration with third-party services",
+      },
+      {
+        title: "",
+        list: "Error-resistant and fault-tolerant systems",
+      },     
+    ],
+    hireHead: "Industry-Specific Node.js Applications Built for Excellence",
+    hireListHead:
+      `<p>Various industries require a different workflow, processing speed, and patterns of integration. Our Node.js applications make operations strong, user experience better, and enable us to scale to digital size fast.</p>`,
+    hireList: [
+      {
+        title: "",
+        list: "E-commerce & Retail",
+      },
+      {
+        title: "",
+        list: "Fintech & Digital Banking",
+      },
+      {
+        title: "",
+        list: "Healthcare & Medical Platforms",
+      },
+      {
+        title: "",
+        list: "Education & E-learning",
+      },     
+      {
+        title: "",
+        list: "Travel & Logistics",
+      },  
+      {
+        title: "",
+        list: "Real Estate & Property Tech",
+      }, 
+      {
+        title: "",
+        list: "SaaS & Technology Enterprises",
+      },   
+    ],
+    whyChooseHead: "The Future Is Node.js: Trends Shaping Modern Application Development",
+    whyChooseContent: `<p>Node.js continues to evolve with strong tooling, community support, and improvements in performance engineering. We integrate emerging advancements to help businesses stay ahead and grow confidently.</p>`,
+    whyChooseListHead:
+      "Emerging Trends:",
+    whyChooseList: [
+      {
+        title: "",
+        list: "Serverless Node.js architecture",
+      },
+      {
+        title: "",
+        list: "AI-enabled backend optimization",
+      },
+      {
+        title: "",
+        list: "Real-time analytics engines",
+      },
+      {
+        title: "",
+        list: "Edge computing deployments",
+      },
+      {
+        title: "",
+        list: "Microservices and container orchestration",
+      },
+      {
+        title: "",
+        list: "API-first development patterns",
+      }      
+    ],
+    faqImg: NodeJsFaqImg,
+    faqs: [
+      {
+        title: "What is Node.js and how does it help in application development?",
+        content:
+          "Node.js is a JavaScript runtime that is employed in the creation of fast and scalable applications. It enables managing numerous requests efficiently, minimizes the time of development, and provides the functionality of real-time.",
+        open: true,
+      },
+      {
+        title: "Can Node.js handle high traffic and large user loads?",
+        content:
+          "Yes, Node.js is high concurrency. Its event based organization enables it to handle the high requests volumes without compromising on the performance.",
+        open: false,
+      },
+      {
+        title: "Do you support cloud deployment for Node.js applications?",
+        content:
+          "Yes, we deploy Node.js solutions across AWS, Azure, Google Cloud, and hybrid environments with full optimization.",
+        open: false,
+      },      
+    ],
+  },
+
+  {
+    id: 17,
+    parent: "Full Stack Development",
+    slug: "expressjs",
+    serviceName: "Express.Js",
+    pageTitle:
+      "Build High-Performance Server-Side Applications with Expert Express.js Development",
+    description: `<p>At Uniterrene Websoft, we develop fast, secure, and scalable backend applications using the flexibility and strength of the Express.js framework. We create applications that offer consistent speed and reliability under any workload, backed by Express.js’s minimal architecture, flexible routing, and robust middleware capabilities.</p>`,
+    topImg: ExpressJsTopImg,
+    typeOfServicesHeading:
+      "Drive Smooth Server Performance with Accelerated Express.js Engineering",
+    typeOfServicesContent:
+      `<p>We go way beyond the configuration of simple servers. We develop powerful, production-ready, and enterprise level Express.js systems. We enable companies to operate digital platforms with optimized routing that enables them to process data within a faster range, requests within an efficient manner, and scale up with minimal effort through the use of a secure API architecture and modular backend logic. Both, in the integration of complex APIs and structuring of multi-layered server logic, each functionality is incorporated with accuracy.</p>`,
+    typeOfServicesList: [
+      {
+        head: "Express.js Consulting & Architecture Planning:",
+        list: "Guiding businesses in choosing the right backend structure, routing patterns, and middleware strategy for long-term reliability and performance.",
+      },
+      {
+        head: "Custom Express.js Application Development:",
+        list: "Building scalable, modular, and high-speed backend systems using Express.js, Node.js, and industry-best coding practices.",
+      },
+      {
+        head: "Migration to Express.js:",
+        list: "Rebuilding or transitioning legacy backends into Express.js for improved speed, maintainability, and modern application support.",
+      },
+      {
+        head: "API Development & Integration:",
+        list: "Developing secure REST APIs, integrating databases, and connecting third-party services to automate and streamline operations.",
+      },      
+    ],
+    trendImg: ExpressJsTrendsImg,
+    howWorkHeading: "Middleware & Plugin Development",
+    howWorkContent: `<p>Creating custom middleware, reusable backend components, and functional modules that enhance system capabilities.</p>`,
+
+    typeOfWebsiteHeading: "Performance Optimization & Code Refactoring",
+    typeOfWebsiteContent:
+      `<p>Improving response time, request handling, caching, and database queries to boost overall backend performance.</p>`,
+    typeOfWebsiteListHead: "",
+    expertTeamList: [
+      {
+        heading: "Ongoing Maintenance & Server Security Management",
+        content:
+          "The development of Express.js applications of enterprise level demands profound knowledge of server architecture, asynchronous processing and scalable backend resources. At Uniterrene Websoft, our development methodology is centered around speed, security, and maintainability.",
+      },         
+    ],
+    expertImg: ExpressJsExpertImg,
+    trendBenefitHead:
+      "",
+    trendBenefitContent: ``,
+    trendBenefitListHead:
+      "We Focus On:",
+    trendBenefitList: [
+      {
+        title: "",
+        list: "Modular and well-structured backend architecture",
+      },
+      {
+        title: "",
+        list: "Secure coding patterns and data protection",
+      },
+      {
+        title: "",
+        list: "Efficient request handling and routing",
+      },
+      {
+        title: "",
+        list: "Stable API performance under dynamic workloads",
+      },
+      {
+        title: "",
+        list: "Clean and scalable server-side codebases",
+      },          
+    ],
+    hireHead: "Industry-Driven Express.js Development Tailored for Growth",
+    hireListHead:
+      `<p>Every industry will require certain capabilities of the backend and data processes. The Express.js development solutions are built to serve the effectiveness of operations, improve the logic on the back, and assist organizations to scale in various fields.</p>`,
+    hireList: [
+      {
+        title: "",
+        list: "E-commerce & Retail",
+      },
+      {
+        title: "",
+        list: "Fintech & Banking",
+      },
+      {
+        title: "",
+        list: "Healthcare & Life Sciences",
+      },
+      {
+        title: "",
+        list: "Education & E-learning",
+      },     
+      {
+        title: "",
+        list: "Travel & Logistics",
+      },  
+      {
+        title: "",
+        list: "Real Estate & Property Management",
+      }, 
+      {
+        title: "",
+        list: "SaaS & Technology Enterprises",
+      },   
+    ],
+    whyChooseHead: "The Future of Server Development with Express.js",
+    whyChooseContent: `<p>Express.js is still under continuous development with better performance utility, better plugin ecosystems, and compatibility with current technologies. We create backend systems in line with these developments to ensure that businesses operate confidently.</p>`,
+    whyChooseListHead:
+      "Emerging Trends:",
+    whyChooseList: [
+      {
+        title: "",
+        list: "API-first architecture",
+      },
+      {
+        title: "",
+        list: "Real-time communication with WebSockets",
+      },
+      {
+        title: "",
+        list: "Cloud-native and microservices-based backends",
+      },
+      {
+        title: "",
+        list: "Scalable serverless deployments",
+      },
+      {
+        title: "",
+        list: "Advanced authentication and authorization patterns",
+      },           
+    ],
+    faqImg: ExpressJsFaqImg,
+    faqs: [
+      {
+        title: "Why is Express.js ideal for backend development?",
+        content:
+          "Express.js is a high-speed request handling, flexible routing and middleware. It minimises the development time and provides stable server-side performance.",
+        open: true,
+      },
+      {
+        title: "Can Express.js integrate with databases or external systems?",
+        content:
+          "Yes, Express.js works smoothly with SQL, NoSQL, REST APIs, GraphQL, cloud services, payment platforms, and third-party tools.",
+        open: false,
+      },
+      {
+        title: "Do you provide long-term support for Express.js applications?",
+        content:
+          "Yes, we offer ongoing optimization, security enhancements, updates, and custom improvements for all Express.js backend systems.",
+        open: false,
+      },      
+    ],
+  },
+  {
+    id: 18,
+    parent: "Full Stack Development",
+    slug: "angular",
+    serviceName: "Angular",
+    pageTitle:
+      "Build Dynamic and Scalable Applications with Expert Angular Development",
+    description: `<p>At Uniterrene Websoft, we build secure, scalable, and dynamic applications using Angular, a powerful TypeScript-based framework trusted worldwide. Our focus is on delivering applications with strong structure, smooth performance, and long-term reliability. With Angular’s component-driven architecture, we create platforms that offer seamless interactions, maintainable code, and consistent user experience.</p>`,
+    topImg: AngularTopImg,
+    typeOfServicesHeading:
+      "Accelerate Growth with Structured and High-Performance Angular Engineering",
+    typeOfServicesContent:
+      `<p>We implement full Angular ecosystems, not front-end interfaces. Our crew develops strong architecture, reusability, clean, user-interfaces, and well-organized business workflows that enable companies to handle large-scale applications without difficulty. Angular has in-built tools that aid in the minimization of development time, enhanced stability of application, and facilitated rapid rendering on all devices.</p>`,
+    typeOfServicesList: [
+      {
+        head: "Angular Consulting & Architecture Planning:",
+        list: "Helping businesses choose the right Angular structure for improved visibility, better stability, and long-term maintainability.",
+      },
+      {
+        head: "Custom Angular Application Development:",
+        list: "Creating fast, secure, and feature-rich applications tailored to business goals using reusable components and clean TypeScript code.",
+      },
+      {
+        head: "API Integration & Front-End Optimization:",
+        list: "Building smooth data communication with REST and GraphQL APIs for automated processes and reliable performance.",
+      },
+      {
+        head: "Enterprise-Grade Angular Platforms:",
+        list: "Designing large-scale dashboards, portals, and business applications with strong security, scalability, and workflow consistency.",
+      },      
+    ],
+    trendImg: AngularTrendsImg,
+    howWorkHeading: "Angular Migration & Modernization",
+    howWorkContent: `<p>Upgrading legacy front-end systems to Angular for better speed, flexible design, and enhanced performance across devices.</p>`,
+
+    typeOfWebsiteHeading: "Progressive Web App (PWA) Development",
+    typeOfWebsiteContent:
+      `<p>Building Angular-based PWAs that offer fast performance, offline access, and app-like experiences.</p>`,
+    typeOfWebsiteListHead: "",
+    expertTeamList: [
+      {
+        heading: "Cloud-Ready Angular Deployment",
+        content:
+          "Deploying Angular applications across AWS, Azure, Google Cloud, and hybrid infrastructures with strong optimization.",
+      },         
+    ],
+    expertImg: AngularExpertImg,
+    trendBenefitHead:
+      "Angular UI/UX and Component Engineering",
+    trendBenefitContent: `<p>Creating clean, modern interfaces with custom components for improved usability and intuitive interactions.</p>`,
+    trendBenefitListHead:
+      "We Focus On:",
+    trendBenefitList: [
+      {
+        title: "",
+        list: "Modular and scalable Angular architecture",
+      },
+      {
+        title: "",
+        list: "Clean and reusable TypeScript components",
+      },
+      {
+        title: "",
+        list: "Secure and efficient API communication",
+      },
+      {
+        title: "",
+        list: "Optimized rendering and performance",
+      },
+      {
+        title: "",
+        list: "Smooth integration with backend systems",
+      },
+      {
+        title: "",
+        list: "Error-resistant and fault-tolerant applications",
+      },            
+    ],
+    hireHead: "Industry-Specific Angular Applications Built for Excellence",
+    hireListHead:
+      `<p>Each industry needs a different workflow, speed, and interface style. Our Angular applications improve operations, enhance usability, and support rapid business expansion.</p>`,
+    hireList: [
+      {
+        title: "",
+        list: "E-commerce & Retail",
+      },
+      {
+        title: "",
+        list: "Fintech & Banking",
+      },
+      {
+        title: "",
+        list: "Healthcare & Life Sciences",
+      },
+      {
+        title: "",
+        list: "Education & E-learning",
+      },     
+      {
+        title: "",
+        list: "Travel & Logistics",
+      },  
+      {
+        title: "",
+        list: "Real Estate & Property Tech",
+      }, 
+      {
+        title: "",
+        list: "SaaS & Technology Enterprises",
+      },   
+    ],
+    whyChooseHead: "The Future Is Angular: Trends Driving Modern Front-End Development",
+    whyChooseContent: `<p>Angular is constantly being enhanced with potent tools, community changes, and sophisticated performance capabilities. We incorporate new practices that enable business to be ready to succeed in the long-term digitally.</p>`,
+    whyChooseListHead:
+      "Emerging Trends:",
+    whyChooseList: [
+      {
+        title: "",
+        list: "Serverless Angular deployment",
+      },
+      {
+        title: "",
+        list: "AI-driven UI optimization",
+      },
+      {
+        title: "",
+        list: "Angular-based micro frontends",
+      },
+      {
+        title: "",
+        list: "Edge-rendered Angular applications",
+      },
+      {
+        title: "",
+        list: "Component-based design systems",
+      },  
+      {
+        title: "",
+        list: "State management using NGXS / NGRX",
+      },         
+    ],
+    faqImg: AngularFaqImg,
+    faqs: [
+      {
+        title: "What makes Angular suitable for large applications?",
+        content:
+          "Angular has well designed structure, reusable components and inbuilt tools that enable it to maintain large applications that are stable and always performing.",
+        open: true,
+      },
+      {
+        title: "Can Angular applications support real-time interfaces?",
+        content:
+          "Yes, APIs and real-time engines are compatible with Angular to create dashboards, live tracking systems, and very interactive user interfaces.",
+        open: false,
+      },
+      {
+        title: "Do you offer cloud deployment for Angular applications?",
+        content:
+          "Yes, we implement Angular apps in AWS, Azure, Google Cloud, and hybrid systems that are optimized to the full extent.",
+        open: false,
+      },      
+    ],
+  },
+
+
+   {
+    id: 19,
+    parent: "Full Stack Development",
+    slug: "mongodb",
+    serviceName: "MongoDB",
+    pageTitle:
+      "Build High-Performance, Scalable Data Systems with Expert MongoDB Development",
+    description: `<p>At Uniterrene Websoft, we develop powerful, flexible, and high-performance database systems using the speed and scalability of MongoDB. Our expertise ensures that businesses operate with optimized data storage, seamless data retrieval, and smart schema designs built for long-term growth. MongoDB enables us to create agile database ecosystems that handle complex data structures, support large applications, and maintain strong reliability across all workloads.</p>`,
+    topImg: MongoDBTopImg,
+    typeOfServicesHeading:
+      "Drive Data Efficiency with Intelligent MongoDB Engineering",
+    typeOfServicesContent:
+      `<p>We do not just establish databases. We develop entire MongoDB-powered infrastructures to support dynamic applications with rapid processing, secure data model and contemporary integrations. Our developmental mode assists organizations in handling structured, semi-structured, and unstructured data easily, which enables quick access, better performance, and flexibility at a greater level.</p>
+      <p>In creating optimized schemas, to leverage distributed clusters, data query optimization, at either layer, everything is created with accuracy.</p>`,
+    typeOfServicesList: [
+      {
+        head: "MongoDB Consulting & Architectural Planning:",
+        list: "Helping businesses choose the right database structure, indexing techniques, and cluster configuration for long-term performance.",
+      },
+      {
+        head: "Custom MongoDB Application Development:",
+        list: "Building high-speed, schema-flexible, and scalable applications paired with Node.js, Express.js, or other leading frameworks.",
+      },
+      {
+        head: "Migration to MongoDB:",
+        list: "Shifting legacy databases to MongoDB for stronger performance, easier scaling, and modern data capabilities.",
+      },
+      {
+        head: "API & Data Integration:",
+        list: "Integrating MongoDB with APIs, microservices, cloud platforms, and enterprise systems for seamless data flow.",
+      },
+      {
+        head: "Performance Optimization & Query Tuning:",
+        list: "Improving data retrieval speed, indexing strategies, caching, and sharding for maximum database efficiency.",
+      }, 
+      {
+        head: "MongoDB Atlas & Cloud Deployment:",
+        list: "Deploying and managing cloud-based MongoDB clusters with secure and scalable configurations.",
+      },
+      {
+        head: "Ongoing Monitoring & Security:",
+        list: "Offering consistent updates, security practices, backups, and database maintenance for smooth performance.",
+      },       
+    ],
+    trendImg: MongoDBTrendsImg,
+    howWorkHeading: "The Craft Behind High-Performance MongoDB Development",
+    howWorkContent: `<p>It takes knowledge in document modeling, indexing strategies and distributed database architecture to build a strong MongoDB environment. The whole strategy at Uniterrene Websoft revolves around performance at high speeds, high security levels, and long-term maintenance.</p>`,
+
+    typeOfWebsiteHeading: "We Focus On:",
+    typeOfWebsiteContent:
+      ``,
+    typeOfWebsiteListHead: "",
+    expertTeamList: [
+      {
+        heading: "",
+        content:
+          "Structured and optimized document schema design",
+      },   
+      {
+        heading: "",
+        content:
+          "Secure database management and access control",
+      },
+      {
+        heading: "",
+        content:
+          "Intelligent indexing and fast query execution",
+      },
+      {
+        heading: "",
+        content:
+          "Smart clustering and sharding strategies",
+      },  
+      {
+        heading: "",
+        content:
+          "Real-time data operations and high-volume processing",
+      },     
+    ],
+    expertImg: MongoDBExpertImg,
+    trendBenefitHead:
+      "Industry-Driven MongoDB Development Tailored for Growth",
+    trendBenefitContent: `<p>All industries process data in different ways. We build MongoDB solutions that satisfy the demands of the operations and help businesses to scale their platforms with a sense of security.</p>`,
+    trendBenefitListHead:
+      "Industries We Serve:",
+    trendBenefitList: [
+      {
+        title: "",
+        list: "E-commerce & Retail",
+      },
+      {
+        title: "",
+        list: "Fintech & Banking",
+      },
+      {
+        title: "",
+        list: "Healthcare & Life Sciences",
+      },
+      {
+        title: "",
+        list: "Education & E-learning",
+      },
+      {
+        title: "",
+        list: "Travel & Logistics",
+      },
+      {
+        title: "",
+        list: "Real Estate & Property Management",
+      }, 
+      {
+        title: "",
+        list: "SaaS & Technology Enterprises",
+      },              
+    ],
+    hireHead: "The Future of Data Engineering with MongoDB",
+    hireListHead:
+      `<p>MongoDB continues to grow with stronger automation, powerful cloud support, and advanced developer tools. Our solutions incorporate these advancements so businesses always stay ahead.</p>`,
+    hireList: [
+      {
+        title: "Emerging Trends:",
+        list: "AI-ready NoSQL data structures",
+      },
+      {
+        title: "",
+        list: "Real-time analytics and event-based data models",
+      },
+      {
+        title: "",
+        list: "Cloud-native MongoDB Atlas deployments",
+      },
+      {
+        title: "",
+        list: "Microservices-based data architecture",
+      },     
+      {
+        title: "",
+        list: "Automated indexing and intelligent scaling",
+      },          
+    ],
+    whyChooseHead: "Why Choose Us as Your MongoDB Development Partner?",
+    whyChooseContent: `<p>Collaboration with Uniterrene Websoft implies combining efforts in a team that is interested in performance, stability, and secure engineering. Our MongoDB applications are aimed to deliver a steady output and sustain digital expansion.</p>`,
+    whyChooseListHead:
+      "We Ensure:",
+    whyChooseList: [
+      {
+        title: "",
+        list: "Custom MongoDB architecture designed for your needs",
+      },
+      {
+        title: "",
+        list: "Secure and clean development practices",
+      },
+      {
+        title: "",
+        list: "Smooth database migrations and integrations",
+      },
+      {
+        title: "",
+        list: "Continuous monitoring and optimization",
+      },
+      {
+        title: "",
+        list: "Scalable solutions for businesses of all sizes",
+      },              
+    ],
+    faqImg: MongoDBFaqImg,
+    faqs: [
+      {
+        title: "Why is MongoDB preferred for scalable applications?",
+        content:
+          "MongoDB has the ability to scale horizontally as well as a flexible structure of documents. It enables the smooth management of data in business even with the increasing workloads.",
+        open: true,
+      },
+      {
+        title: "Can MongoDB integrate with existing platforms and services?",
+        content:
+          "Yes, MongoDB is compatible with APIs, microservices, cloud infrastructure, analytics, and business applications.",
+        open: false,
+      },
+      {
+        title: "Do you offer long-term support for MongoDB systems?",
+        content:
+          "Yes, we maintain continuous monitoring, query optimization, security upgrades, backups, upgrades on all databases based on MongoDB.",
+        open: false,
+      },      
+    ],
+  },
+
 
 
 

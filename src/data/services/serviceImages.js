@@ -113,6 +113,30 @@ import CakeTopImg from "@public/assets/imgs/services/Cake-top.jpg";
 import CakeTrendsImg from "@public/assets/imgs/services/Cake-trend.jpg";
 import CakeExpertImg from "@public/assets/imgs/services/Cake-expert.jpg";
 import CakeFaqImg from "@public/assets/imgs/services/Cake-faq.jpg";
+import ContainerizationDockerKubernetesTopImg from "@public/assets/imgs/services/containerization-docker-kubernetes-top.jpg";
+import ContainerizationDockerKubernetesTrendsImg from "@public/assets/imgs/services/containerization-docker-kubernetes-trend.jpg";
+import ContainerizationDockerKubernetesExpertImg from "@public/assets/imgs/services/containerization-docker-kubernetes-expert.jpg";
+import ContainerizationDockerKubernetesFaqImg from "@public/assets/imgs/services/containerization-docker-kubernetes-faq.jpg";
+import ServerlessArchitectureTopImg from "@public/assets/imgs/services/serverless-architecture-top.jpg";
+import ServerlessArchitectureTrendsImg from "@public/assets/imgs/services/serverless-architecture-trend.jpg";
+import ServerlessArchitectureExpertImg from "@public/assets/imgs/services/serverless-architecture-expert.jpg";
+import ServerlessArchitectureFaqImg from "@public/assets/imgs/services/serverless-architecture-faq.jpg";
+import NodeJsTopImg from "@public/assets/imgs/services/nodeJs-top.jpg";
+import NodeJsTrendsImg from "@public/assets/imgs/services/nodeJs-trend.jpg";
+import NodeJsExpertImg from "@public/assets/imgs/services/nodeJs-expert.jpg";
+import NodeJsFaqImg from "@public/assets/imgs/services/nodeJs-faq.jpg";
+import ExpressJsTopImg from "@public/assets/imgs/services/expressjs-top.jpg";
+import ExpressJsTrendsImg from "@public/assets/imgs/services/expressjs-trend.jpg";
+import ExpressJsExpertImg from "@public/assets/imgs/services/expressjs-expert.jpg";
+import ExpressJsFaqImg from "@public/assets/imgs/services/expressjs-faq.jpg";
+import AngularTopImg from "@public/assets/imgs/services/angular-top.jpg";
+import AngularTrendsImg from "@public/assets/imgs/services/angular-trend.jpg";
+import AngularExpertImg from "@public/assets/imgs/services/angular-expert.jpg";
+import AngularFaqImg from "@public/assets/imgs/services/angular-faq.jpg";
+import MongoDBTopImg from "@public/assets/imgs/services/MongoDB-top.jpg";
+import MongoDBTrendsImg from "@public/assets/imgs/services/MongoDB-trend.jpg";
+import MongoDBExpertImg from "@public/assets/imgs/services/MongoDB-expert.jpg";
+import MongoDBFaqImg from "@public/assets/imgs/services/MongoDB-faq.jpg";
 
 export {
   wpTopImg,
@@ -171,4 +195,28 @@ export {
   CakeTrendsImg,
   CakeExpertImg,
   CakeFaqImg,
+  ContainerizationDockerKubernetesTopImg,
+  ContainerizationDockerKubernetesTrendsImg,
+  ContainerizationDockerKubernetesExpertImg,
+  ContainerizationDockerKubernetesFaqImg,
+  ServerlessArchitectureTopImg,
+  ServerlessArchitectureTrendsImg,
+  ServerlessArchitectureExpertImg,
+  ServerlessArchitectureFaqImg,
+  NodeJsTopImg,
+  NodeJsTrendsImg,
+  NodeJsExpertImg,
+  NodeJsFaqImg,
+  ExpressJsTopImg,
+  ExpressJsTrendsImg,
+  ExpressJsExpertImg,
+  ExpressJsFaqImg,
+  AngularTopImg,
+  AngularTrendsImg,
+  AngularExpertImg,
+  AngularFaqImg,
+  MongoDBTopImg,
+  MongoDBTrendsImg,
+  MongoDBExpertImg,
+  MongoDBFaqImg,
 };
