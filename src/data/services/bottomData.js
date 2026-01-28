@@ -79,6 +79,14 @@ import {
   MongoDBTrendsImg,
   MongoDBExpertImg,
   MongoDBFaqImg,
+  ReactJSTopImg,
+  ReactJSTrendsImg,
+  ReactJSExpertImg,
+  ReactJSFaqImg,
+  CSharpTopImg,
+  CSharpTrendsImg,
+  CSharpExpertImg,
+  CSharpFaqImg, 
 } from "./serviceImages";
 export const bottomData = [
   {
@@ -3474,6 +3482,597 @@ export const bottomData = [
         title: "Do you offer long-term support for MongoDB systems?",
         content:
           "Yes, we maintain continuous monitoring, query optimization, security upgrades, backups, upgrades on all databases based on MongoDB.",
+        open: false,
+      },      
+    ],
+  },
+
+
+  
+   {
+    id: 20,
+    parent: "Full Stack Development",
+    slug: "reactjs",
+    serviceName: "ReactJs",
+    pageTitle:
+      "Build High-Performance Interfaces with Expert React.js Development",
+    description: `<p>At Uniterrene Websoft, we create fast, scalable, and highly interactive front-end applications using the full strength of the React.js library. Our focus is on delivering structured, component-driven, and future-ready solutions that enhance user experience and support business growth. We build interfaces that maintain seamless performance under any environment, backed by React's virtual DOM, reusable components, and robust state-management capabilities.</p>`,
+    topImg: ReactJSTopImg,
+    typeOfServicesHeading:
+      "Drive Smooth User Experiences with Accelerated React.js Engineering",
+    typeOfServicesContent:
+      `<p>We not only pass by interface layouts. We create production-grade, 
+      advanced and enterprise level React.js ecosystems. We enable companies to run digital platforms, 
+      which are faster to load, instantly responsive, and can scale with grace using optimized rendering, 
+      modular bespoke components and optimized state workflows. 
+      Regardless of the integration of APIs or the development of complicated logic in the UI, 
+      we make every feature precise.</p>`,
+    typeOfServicesList: [
+      {
+        head: "React.js Consulting & Architecture Planning:",
+        list: "Helping businesses choose the right component structure, UI patterns, and state-management strategy to ensure long-term stability and performance.",
+      },
+      {
+        head: "Custom React.js Application Development:",
+        list: "Crafting scalable, reusable, and interactive front-end systems using React.js, JSX, hooks, and component-based architecture.",
+      },
+      {
+        head: "Migration to React.js:",
+        list: "Modernizing legacy interfaces by rebuilding or transitioning them into React.js for better speed, usability, and maintainability.",
+      },
+      {
+        head: "API Development & Integration:",
+        list: "Building seamless connections between your front-end and backend through optimized REST or GraphQL integrations.",
+      },
+      {
+        head: "React.js Plugin & Component Development:",
+        list: "Creating tailored components, UI widgets, and plugins to enhance functionality and improve user flows.",
+      }, 
+      {
+        head: "Performance Optimization & Code Refactoring:",
+        list: "Improving load times and responsiveness through lazy loading, code splitting, caching, and clean refactoring.",
+      },
+      {
+        head: "Ongoing Maintenance & UI Security Management:",
+        list: "Offering continuous updates, monitoring, and front-end security measures to ensure consistent system reliability.",
+      },       
+    ],
+    trendImg: ReactJSTrendsImg,
+    howWorkHeading: "The Craft Behind High-Performance React.js Development",
+    howWorkContent: `<p>Enterprise-level React.js application development requires a strong understanding of component design, performance rendering, and compositional UI design. We are using the strategy of development based on speed, usability, and scalability at Uniterrene Websoft.</p>`,
+
+    typeOfWebsiteHeading: "We Focus On:",
+    typeOfWebsiteContent:
+      ``,
+    typeOfWebsiteListHead: "",
+    expertTeamList: [
+      {
+        heading: "",
+        content:
+          "Modular and reusable component structures",
+      },   
+      {
+        heading: "",
+        content:
+          "Secure and optimized front-end coding",
+      },
+      {
+        heading: "",
+        content:
+          "Efficient virtual DOM rendering",
+      },
+      {
+        heading: "",
+        content:
+          "Robust state management (Redux, Zustand, Context API)",
+      },  
+      {
+        heading: "",
+        content:
+          "Clean and maintainable codebases",
+      },     
+    ],
+    expertImg: ReactJSExpertImg,
+    trendBenefitHead:
+      "Industry-Driven React.js Development Tailored for Growth",
+    trendBenefitContent: `<p>Each industry would demand specific interface capabilities and processes. Our React.js software development solutions are aimed to optimize the business, work better, and help achieve digital growth in various industries.</p>`,
+    trendBenefitListHead:
+      "Industries We Serve:",
+    trendBenefitList: [
+      {
+        title: "",
+        list: "E-commerce & Retail",
+      },
+      {
+        title: "",
+        list: "Fintech & Banking",
+      },
+      {
+        title: "",
+        list: "Healthcare & Life Sciences",
+      },
+      {
+        title: "",
+        list: "Education & E-learning",
+      },
+      {
+        title: "",
+        list: "Travel & Logistics",
+      },
+      {
+        title: "",
+        list: "Real Estate & Property Management",
+      }, 
+      {
+        title: "",
+        list: "SaaS & Technology Enterprises",
+      },              
+    ],
+    hireHead: "The Future of Application Development with React.js",
+    hireListHead:
+      `<p>React.js is being updated with more performance tools, an enhanced way of rendering as well as more robust ecosystem integrations. We build applications that stay aligned with these advancements to help businesses remain ahead of their competitors.</p>`,
+    hireList: [
+      {
+        title: "Emerging Trends:",
+        list: "Component-driven UI ecosystems",
+      },
+      {
+        title: "",
+        list: "Real-time data interactions",
+      },
+      {
+        title: "",
+        list: "Server-side rendering (SSR) and static site generation",
+      },
+      {
+        title: "",
+        list: "Progressive Web App (PWA) development",
+      },     
+      {
+        title: "",
+        list: "Advanced state-management patterns",
+      },          
+    ],
+    whyChooseHead: "Why Choose Us as Your React.js Development Partner?",
+    whyChooseContent: `<p>When collaborating with Uniterrene Websoft, one can select a team that is more focused on accuracy, stability, and contemporary engineering. We build React.js applications that evolve with your goals and maintain superior performance throughout their lifecycle.</p>`,
+    whyChooseListHead:
+      "We Ensure:",
+    whyChooseList: [
+      {
+        title: "",
+        list: "Custom React.js architecture tailored to your business",
+      },
+      {
+        title: "",
+        list: "Clean and secure front-end coding practices",
+      },
+      {
+        title: "",
+        list: "Smooth backend integrations and deployments",
+      },
+      {
+        title: "",
+        list: "Continuous UI monitoring and performance improvements",
+      },
+      {
+        title: "",
+        list: "Flexible, scalable, and business-friendly development plans",
+      },              
+    ],
+    faqImg: ReactJSFaqImg,
+    faqs: [
+      {
+        title: "Why is React.js suitable for building modern applications?",
+        content:
+          "React.js offers reusable components, fast rendering, and structured coding. It helps reduce development time while maintaining high-quality performance.",
+        open: true,
+      },
+      {
+        title: "Can React.js integrate with APIs or backend systems?",
+        content:
+          "Yes, React.js integrates smoothly with REST APIs, GraphQL, third-party platforms, and any modern backend technology for dynamic data handling.",
+        open: false,
+      },
+      {
+        title: "Do you offer long-term support for React.js projects?",
+        content:
+          "Yes, we make constant upgrades, code optimization, and security enhancement, and tailor-made improvements on any React.js apps.",
+        open: false,
+      },      
+    ],
+  },
+   
+   {
+    id: 21,
+    parent: "Open-source--enterprise-technologies",
+    slug: "c",
+    serviceName: "C#",
+    pageTitle:
+      "Build Intelligent, High-Performance Applications with Expert C# Engineering",
+    description: `<p>At Uniterrene Websoft, we develop robust, scalable, and secure applications using the versatility and power of C#. C# allows us to create enterprise-ready solutions that handle complex operations, support diverse platforms, and deliver consistent functionality for long-term digital growth.</p>`,
+    topImg: CSharpTopImg,
+    typeOfServicesHeading:
+      "Drive Application Efficiency with Intelligent C# Engineering",
+    typeOfServicesContent:
+      `<p>We do far more than write code. We create entire C#-based ecosystems that are focused on precision,
+       speed and reliability. Our engineering solution assists institutions to ease the processes, 
+       improve the stability of their applications and facilitate changing needs with a lot of ease. 
+       Backend logic to cross-platform development all the components are designed with the thought of detail, 
+       high security and forward looking engineering.</p>`,
+    typeOfServicesList: [
+      {
+        head: "C# Consulting & Architecture Planning:",
+        list: "Helping businesses choose the right architecture, frameworks, and development patterns for long-term system reliability.",
+      },
+      {
+        head: "Custom C# Application Development:",
+        list: "Building scalable, secure, and high-performance applications using .NET, ASP.NET Core, and modern development practices.",
+      },
+      {
+        head: "Migration to C# / .NET:",
+        list: "Transforming legacy systems into efficient, maintainable C# applications suitable for growing digital operations.",
+      },
+      {
+        head: "API & System Integration:",
+        list: "Developing secure APIs and connecting applications with external services, databases, and enterprise tools.",
+      },
+      {
+        head: "Performance Optimization & Code Refactoring:",
+        list: "Enhancing system speed, memory efficiency, response time, and overall reliability.",
+      }, 
+      {
+        head: "Cross-Platform Development with .NET:",
+        list: "Creating applications that run smoothly across Windows, Linux, macOS, and cloud environments.",
+      },
+      {
+        head: "Ongoing Support, Monitoring & Security:",
+        list: "Providing continuous updates, debugging, system protection, and application lifecycle management.",
+      },       
+    ],
+    trendImg: CSharpTrendsImg,
+    howWorkHeading: "The Craft Behind High-Performance C# Development",
+    howWorkContent: `<p>Development of enterprise-level C# systems need extensive experience in object-oriented programming, best coding practices, and scalability. Development strategy in Uniterrene Websoft is aimed at speed, dependability and sustainability.</p>`,
+
+    typeOfWebsiteHeading: "We Focus On:",
+    typeOfWebsiteContent:
+      ``,
+    typeOfWebsiteListHead: "",
+    expertTeamList: [
+      {
+        heading: "",
+        content:
+          "Structured and modular application architecture",
+      },   
+      {
+        heading: "",
+        content:
+          "Secure coding standards and data protection",
+      },
+      {
+        heading: "",
+        content:
+          "Efficient API communication and backend logic",
+      },
+      {
+        heading: "",
+        content:
+          "Smooth scalability under dynamic workloads",
+      },  
+      {
+        heading: "",
+        content:
+          "Clean and maintainable C# codebases",
+      },  
+      {
+        heading: "",
+        content:
+          "Optimized system performance and low latency",
+      },    
+    ],
+    expertImg: CSharpExpertImg,
+    trendBenefitHead:
+      "Industry-Driven C# Development Tailored for Growth",
+    trendBenefitContent: `<p>The needs of operations in each industry are different. C# development solutions are designed to allow efficient workflow, high system performance and a steady digital growth.</p>`,
+    trendBenefitListHead:
+      "Industries We Serve:",
+    trendBenefitList: [
+      {
+        title: "",
+        list: "E-commerce & Retail",
+      },
+      {
+        title: "",
+        list: "Fintech & Banking",
+      },
+      {
+        title: "",
+        list: "Healthcare & Life Sciences",
+      },
+      {
+        title: "",
+        list: "Education & E-learning",
+      },
+      {
+        title: "",
+        list: "Travel & Logistics",
+      },
+      {
+        title: "",
+        list: "Real Estate & Property Management",
+      }, 
+      {
+        title: "",
+        list: "SaaS & Technology Enterprises",
+      },              
+    ],
+    hireHead: "The Future of Application Engineering with C#",
+    hireListHead:
+      `<p>C# is continually being enhanced with new frameworks, integration with the clouds, and mighty automation tools. Our solutions take advantage of such developments to make sure that businesses remain on top.</p>`,
+    hireList: [
+      {
+        title: "Emerging Trends:",
+        list: "Cloud-native .NET development",
+      },
+      {
+        title: "",
+        list: "Microservices architecture with .NET Core",
+      },
+      {
+        title: "",
+        list: "Cross-platform enterprise systems",
+      },
+      {
+        title: "",
+        list: "Real-time application performance monitoring",
+      },     
+      {
+        title: "",
+        list: "AI-powered and automation-driven integrations",
+      },          
+    ],
+    whyChooseHead: "Why Choose Us as Your C# Development Partner?",
+    whyChooseContent: `<p>Collaborating with Uniterrene Websoft implies collaboration with a company aiming at quality, safety, and sustainability. We develop C# applications that work together with your strategic objectives and make sure that the system is very stable and user friendly.</p>`,
+    whyChooseListHead:
+      "We Ensure:",
+    whyChooseList: [
+      {
+        title: "",
+        list: "Custom C# architecture designed for your business",
+      },
+      {
+        title: "",
+        list: "Clean, maintainable, and secure code",
+      },
+      {
+        title: "",
+        list: "Smooth integration with databases and external services",
+      },
+      {
+        title: "",
+        list: "Continuous monitoring and improvement",
+      },
+      {
+        title: "",
+        list: "Scalable development models for businesses of all sizes",
+      },              
+    ],
+    faqImg: CSharpFaqImg,
+    faqs: [
+      {
+        title: "Why is C# a preferred choice for enterprise-grade applications?",
+        content:
+          "C# has a high level of performance, effective structure, and easy integration options. It helps organizations to have efficient and stable systems when the operations are growing.",
+        open: true,
+      },
+      {
+        title: "Can C# integrate with third-party tools and platforms?",
+        content:
+          "Yes, C# can be connected and applauded with APIs, databases, cloud applications, CRM applications, payment gateways, and enterprise applications.",
+        open: false,
+      },
+      {
+        title: "Do you provide long-term support for C# applications?",
+        content:
+          "Yes, we offer continuous monitoring, updates, optimization, security enhancements, and system improvements for all C# applications.",
+        open: false,
+      },      
+    ],
+  },
+
+
+  {
+    id: 22,
+    parent: "Open-source--enterprise-technologies",
+    slug: "net",
+    serviceName: "Net",
+    pageTitle:
+      "Drive Efficiency, Stability, and Growth with Modern .NET Development",
+    description: `<p>At Uniterrene Websoft, we engineer powerful, stable, and future-focused digital solutions using the full strength of Microsoft’s .NET ecosystem. With .NET, we build applications that deliver exceptional performance, seamless cross-platform support, strong security, and the flexibility needed to evolve with business demands.</p>`,
+    topImg: CSharpTopImg,
+    typeOfServicesHeading:
+      "Empower Business Growth with Intelligent .NET Engineering",
+    typeOfServicesContent:
+      `<p>We do not just come up with applications but rather design entire 
+      .NET-powered ecosystems that are designed to be precise, to be efficient, 
+      and to be long term reliable. The engineering direction we are taking aims at making operations easy, 
+      make the applications have stability and be able to be adapted to the dynamic nature of the business. 
+      From backend frameworks to cloud-native deployments, each layer is designed with accuracy, protection, 
+      and innovation.</p>`,
+    typeOfServicesList: [
+      {
+        head: ".NET Consulting & Architecture Strategy:",
+        list: "Guiding businesses to choose the right architecture, frameworks, and development patterns for long-lasting performance.",
+      },
+      {
+        head: "Custom .NET Application Development:",
+        list: "Creating high-performing, secure, and scalable applications using ASP.NET Core, .NET 7+, microservices, and modern enterprise standards.",
+      },
+      {
+        head: "Migration to .NET:",
+        list: "Modernizing legacy systems and upgrading outdated platforms into efficient, maintainable .NET applications.",
+      },
+      {
+        head: "API Development & System Integration:",
+        list: "Developing secure APIs and integrating .NET applications with cloud platforms, databases, ERP systems, CRMs, and third-party services.",
+      },
+      {
+        head: "Performance Optimization & Refactoring:",
+        list: "Improving speed, memory handling, code quality, and system throughput.",
+      }, 
+      {
+        head: "Cross-Platform & Cloud-Native Development:",
+        list: "Building applications that run on Windows, Linux, macOS, and cloud environments such as Azure and AWS.",
+      },
+      {
+        head: "Monitoring, Support & Security:",
+        list: "Delivering long-term system care through updates, performance checks, patches, and continuous application lifecycle management.",
+      },       
+    ],
+    trendImg: CSharpTrendsImg,
+    howWorkHeading: "The Craft Behind High-Performance .NET Engineering",
+    howWorkContent: `<p>Development of enterprise grade .NET needs good architectural design, performance tuning and modular engineering skills. Our Uniterrene Websoft is founded on a development process that is based on speed, reliability, and sustainability.</p>`,
+
+    typeOfWebsiteHeading: "We Focus On:",
+    typeOfWebsiteContent:
+      ``,
+    typeOfWebsiteListHead: "",
+    expertTeamList: [
+      {
+        heading: "",
+        content:
+          "Clean, structured, and modular architecture",
+      },   
+      {
+        heading: "",
+        content:
+          "High-level security and safe coding practices",
+      },
+      {
+        heading: "",
+        content:
+          "Efficient backend workflows and strong API communication",
+      },
+      {
+        heading: "",
+        content:
+          "Scalable system design for growing workloads",
+      },  
+      {
+        heading: "",
+        content:
+          "Maintainable codebases with long-term clarity",
+      },  
+      {
+        heading: "",
+        content:
+          "Optimized performance for real-time operations",
+      },    
+    ],
+    expertImg: CSharpExpertImg,
+    trendBenefitHead:
+      "Industry-Ready .NET Solutions Designed for Growth",
+    trendBenefitContent: `<p>All industries work in different ways and with the.NET; these diverse requirements can be easily met. We develop .NET applications that are practical in terms of resource use, better user experience, and long-term digital development.</p>`,
+    trendBenefitListHead:
+      "Industries We Serve:",
+    trendBenefitList: [
+      {
+        title: "",
+        list: "E-commerce & Retail",
+      },
+      {
+        title: "",
+        list: "Fintech & Banking",
+      },
+      {
+        title: "",
+        list: "Healthcare & Life Sciences",
+      },
+      {
+        title: "",
+        list: "Education & E-learning",
+      },
+      {
+        title: "",
+        list: "Travel & Logistics",
+      },
+      {
+        title: "",
+        list: "Real Estate & Property Tech",
+      }, 
+      {
+        title: "",
+        list: "Real Estate & Property Tech",
+      },              
+    ],
+    hireHead: "The Future of Software Engineering with .NET",
+    hireListHead:
+      `<p>The .NET ecosystem is undergoing constant development of new automation features, improved cloud capabilities, and improved frameworks. This is because our strategy of development keeps businesses ahead of the curve.</p>`,
+    hireList: [
+      {
+        title: "Emerging Trends:",
+        list: "Cloud-native .NET and Azure-based development",
+      },
+      {
+        title: "",
+        list: "Microservices architecture using .NET Core",
+      },
+      {
+        title: "",
+        list: "Cross-platform enterprise applications",
+      },
+      {
+        title: "",
+        list: "AI-driven integrations and automation toolsg",
+      },     
+      {
+        title: "",
+        list: "Intelligent monitoring and real-time diagnostics",
+      },          
+    ],
+    whyChooseHead: "Why Choose Uniterrene Websoft as Your .NET Development Partner?",
+    whyChooseContent: `<p>Working with Uniterrene Websoft would imply working with a team that is devoted to accuracy, security, and system perfection in the long term. Our.NET applications match your business objectives and generate digital ecosystems which are dependable, effective and expandable.</p>`,
+    whyChooseListHead:
+      "We Ensure:",
+    whyChooseList: [
+      {
+        title: "",
+        list: "Custom .NET architecture built for your operations",
+      },
+      {
+        title: "",
+        list: "Secure, clean, and maintainable code",
+      },
+      {
+        title: "",
+        list: "Smooth integration across platforms and databases",
+      },
+      {
+        title: "",
+        list: "Continuous optimization and monitoring",
+      },
+      {
+        title: "",
+        list: "Scalable models suitable for all business sizes",
+      },              
+    ],
+    faqImg: CSharpFaqImg,
+    faqs: [
+      {
+        title: "Why is .NET a preferred framework for enterprise applications?",
+        content:
+          ".NET has a good architecture, good performance and security is high and can be used in applications experiencing consistency and long term stability as workload grows.",
+        open: true,
+      },
+      {
+        title: "Can .NET integrate with databases, cloud platforms, or third-party services?",
+        content:
+          "Yes, APIs, SQL and NoSQL databases, cloud environments, CRM, ERPs, payment tools, and enterprise systems can be integrated with the help of .NET.",
+        open: false,
+      },
+      {
+        title: "Do you provide long-term support for .NET applications?",
+        content:
+          "Yes. We present round-the-clock monitoring, upgrade, performance optimization and management of the application lifecycle to all systems based on the .NET.",
         open: false,
       },      
     ],

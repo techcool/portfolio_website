@@ -137,6 +137,14 @@ import MongoDBTopImg from "@public/assets/imgs/services/MongoDB-top.jpg";
 import MongoDBTrendsImg from "@public/assets/imgs/services/MongoDB-trend.jpg";
 import MongoDBExpertImg from "@public/assets/imgs/services/MongoDB-expert.jpg";
 import MongoDBFaqImg from "@public/assets/imgs/services/MongoDB-faq.jpg";
+import ReactJSTopImg from "@public/assets/imgs/services/ReactJS-top.jpg";
+import ReactJSTrendsImg from "@public/assets/imgs/services/ReactJS-trend.jpg";
+import ReactJSExpertImg from "@public/assets/imgs/services/ReactJS-expert.jpg";
+import ReactJSFaqImg from "@public/assets/imgs/services/ReactJS-faq.jpg";
+import CSharpTopImg from "@public/assets/imgs/services/CSharp-top.jpg";
+import CSharpTrendsImg from "@public/assets/imgs/services/CSharp-trend.jpg";
+import CSharpExpertImg from "@public/assets/imgs/services/CSharp-expert.jpg";
+import CSharpFaqImg from "@public/assets/imgs/services/CSharp-faq.jpg";
 
 export {
   wpTopImg,
@@ -219,4 +227,12 @@ export {
   MongoDBTrendsImg,
   MongoDBExpertImg,
   MongoDBFaqImg,
+  ReactJSTopImg,
+  ReactJSTrendsImg,
+  ReactJSExpertImg,
+  ReactJSFaqImg,
+  CSharpTopImg,
+  CSharpTrendsImg,
+  CSharpExpertImg,
+  CSharpFaqImg,  
 };
