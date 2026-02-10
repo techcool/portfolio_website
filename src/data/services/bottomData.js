@@ -87,6 +87,22 @@ import {
   CSharpTrendsImg,
   CSharpExpertImg,
   CSharpFaqImg, 
+  DOTNetTopImg,
+  DOTNetTrendsImg,
+  DOTNetExpertImg,
+  DOTNetFaqImg,
+  AppDesignTopImg,
+  AppDesignTrendsImg,
+  AppDesignExpertImg,
+  AppDesignFaqImg,
+  LogoBrandTopImg,
+  LogoBrandTrendsImg,
+  LogoBrandExpertImg,
+  LogoBrandFaqImg,
+  SocialMediaAdsTopImg,
+  SocialMediaAdsTrendsImg,
+  SocialMediaAdsExpertImg,
+  SocialMediaAdsFaqImg,
 } from "./serviceImages";
 export const bottomData = [
   {
@@ -1959,64 +1975,51 @@ export const bottomData = [
     expertImg: CakeExpertImg,
     trendBenefitHead:
       "Industry-Driven CakePHP Development Tailored for Growth",
-    trendBenefitContent: `<p>Good design is a balance between usability, structure and visual clarity. At Uniterrene Websoft, we base our design process on evidence-based design systems and research.</p><br/><h5 class="text-2xl">We Focus On:</h5><ul class="flex flex-wrap flex-row gap-6 inner-list double-list mt-5"><li>Clear user goals and experience mapping</li><li>Consistent brand identity across interfaces</li><li>Accessible and intuitive navigation structures</li><li>Performance-focused layouts and interactions</li><li>Maintainable design systems for long-term growth</li><li>Continuous testing and design improvement</li></ul>`,
+    trendBenefitContent: `<p>Different industries require unique digital workflows and custom features. We build CakePHP applications that support operational efficiency and digital expansion across sectors.</p><br/><h5 class="text-2xl">Industries We Serve:</h5><ul class="flex flex-wrap flex-row gap-6 inner-list double-list mt-5"><li>E-commerce & Retail</li><li>Fintech & Banking</li><li>Healthcare & Life Sciences</li><li>Education & E-learning</li><li>Travel & Logistics</li><li>Real Estate & Property Management</li><li>SaaS & Technology Enterprises</li></ul> `,
     trendBenefitListHead:
-      "Different industries require unique digital workflows and custom features. We build CakePHP applications that support operational efficiency and digital expansion across sectors.",
+      "",
     trendBenefitList: [
-      {
-        title: "E-commerce & Retail",
+     /* {
+        title: "",
         list: "",
-      },
-      {
-        title: "Fintech & Banking",
-        list: "",
-      },
-      {
-        title: "Healthcare & Life Sciences",
-        list: "",
-      },
-      {
-        title: "Education & E-learning",
-        list: "",
-      },
-      {
-        title: "Travel & Logistics",
-        list: "",
-      },
-      {
-        title: "Real Estate & Property Management",
-        list: "",
-      },
-      {
-        title: "SaaS & Technology Enterprises",
-        list: "",
-      },
+      },*/
+      
     ],
     hireHead: "The Future of Application Development with CakePHP",
     hireListHead:
-      `<P></P>`,
+      `<P>CakePHP is furthering and developing with better tools, performances and more integration abilities. Our applications are built around these innovations to get-ahead of business processes.</P>`,
     hireList: [
       {
-        title: "",
-        list: "Artificial intelligence to assist customers by giving recommendations on their products.",
+        title: "Emerging Trends:",
+        list: "",
       },
       {
         title: "",
-        list: "Mobile first design that guarantees quicker loading and increased interaction.",
+        list: "Structured MVC workflows",
       },
       {
         title: "",
-        list: "Multi-channel retailing in the social media, Amazon, and marketplace.",
+        list: "Advanced ORM-based database management",
       },
       {
         title: "",
-        list: "In-built analytics to execute live performance monitoring.",
-      },      
+        list: "Rapid application prototyping",
+      },
+      {
+        title: "",
+        list: "Secure authentication and authorization",
+      },
+      {
+        title: "",
+        list: "API-first architecture adoption",
+      },
+            
+
     ],
     whyChooseHead: "Why Choose Us as Your CakePHP Development Partner?",
-    whyChooseContent: ``,
+    whyChooseContent: `<p>Partnering with Uniterrene Websoft means choosing a team that values accuracy, efficiency, and meaningful outcomes. We build CakePHP applications that are scalable, maintainable, and aligned with your long-term goals.</p>`,
     whyChooseListHead:
-      "Partnering with Uniterrene Websoft means choosing a team that values accuracy, efficiency, and meaningful outcomes. We build CakePHP applications that are scalable, maintainable, and aligned with your long-term goals.",
+      "We Ensure:",
     whyChooseList: [
       {
         title: "",
@@ -3888,7 +3891,7 @@ export const bottomData = [
     pageTitle:
       "Drive Efficiency, Stability, and Growth with Modern .NET Development",
     description: `<p>At Uniterrene Websoft, we engineer powerful, stable, and future-focused digital solutions using the full strength of Microsoft’s .NET ecosystem. With .NET, we build applications that deliver exceptional performance, seamless cross-platform support, strong security, and the flexibility needed to evolve with business demands.</p>`,
-    topImg: CSharpTopImg,
+    topImg: DOTNetTopImg,
     typeOfServicesHeading:
       "Empower Business Growth with Intelligent .NET Engineering",
     typeOfServicesContent:
@@ -3928,7 +3931,7 @@ export const bottomData = [
         list: "Delivering long-term system care through updates, performance checks, patches, and continuous application lifecycle management.",
       },       
     ],
-    trendImg: CSharpTrendsImg,
+    trendImg: DOTNetTrendsImg,
     howWorkHeading: "The Craft Behind High-Performance .NET Engineering",
     howWorkContent: `<p>Development of enterprise grade .NET needs good architectural design, performance tuning and modular engineering skills. Our Uniterrene Websoft is founded on a development process that is based on speed, reliability, and sustainability.</p>`,
 
@@ -3968,7 +3971,7 @@ export const bottomData = [
           "Optimized performance for real-time operations",
       },    
     ],
-    expertImg: CSharpExpertImg,
+    expertImg: DOTNetExpertImg,
     trendBenefitHead:
       "Industry-Ready .NET Solutions Designed for Growth",
     trendBenefitContent: `<p>All industries work in different ways and with the.NET; these diverse requirements can be easily met. We develop .NET applications that are practical in terms of resource use, better user experience, and long-term digital development.</p>`,
@@ -4001,7 +4004,7 @@ export const bottomData = [
       }, 
       {
         title: "",
-        list: "Real Estate & Property Tech",
+        list: "SaaS & Technology Enterprises",
       },              
     ],
     hireHead: "The Future of Software Engineering with .NET",
@@ -4055,7 +4058,7 @@ export const bottomData = [
         list: "Scalable models suitable for all business sizes",
       },              
     ],
-    faqImg: CSharpFaqImg,
+    faqImg: DOTNetFaqImg,
     faqs: [
       {
         title: "Why is .NET a preferred framework for enterprise applications?",
@@ -4077,6 +4080,611 @@ export const bottomData = [
       },      
     ],
   },
+
+
+  {
+    id: 23,
+    parent: "Designs & Branding",
+    slug: "app-design",
+    serviceName: "App Design",
+    pageTitle:
+      "Drive User Adoption, Engagement, and Retention with Strategic App Design",
+    description: `<p>At <strong>Uniterrene Websoft</strong>, we craft user-focused and performance-driven app design solutions that help businesses deliver intuitive, engaging, and scalable digital experiences. Every design decision is made to enhance interaction, improve retention, and support measurable business growth.</p>`,
+    topImg: AppDesignTopImg,
+    typeOfServicesHeading:
+      "Build High-Impact App Experiences with User-Centric Design",
+    typeOfServicesContent:
+      `<p>Our strategies in app design are mindful and aim at usability and clarity as well as effective device interconnection. 
+      In terms of user journeys, interface consistency and interaction flow, all the elements are created so that the user can understand, 
+      trust and like your application.</p> 
+      <p>Our strategies will help you have an app that remains within the user expectations and meets the business objectives with design logic consistency,
+       accessibility and performance conscious layouts. </p>
+      `,
+    typeOfServicesList: [
+      {
+        head: "App Design Strategy and Planning:",
+        list: "Knowledge of business objectives, intended users and intended usage to establish a clear and scalable design roadmap.",
+      },
+      {
+        head: "UI Design (User Interface):",
+        list: "Designing clean, modern, and visually consistent interfaces that enhance usability and brand recognition.",
+      },
+      {
+        head: "UX Design (User Experience):",
+        list: "Creating intuitive user flows, navigation structures, and interaction patterns for smooth and engaging experiences.",
+      },
+      {
+        head: "Wireframing and Prototyping:",
+        list: "Developing low- and high-fidelity wireframes and interactive prototypes to validate ideas before development.",
+      },
+      {
+        head: "Platform-Specific Design:",
+        list: "Designing apps for iOS, Android, and cross-platform environments while following platform design guidelines.",
+      },  
+      {
+        head: "Usability Testing and Refinement:",
+        list: "Testing designs with real user behavior insights and refining interfaces for better engagement and clarity.",
+      },            
+    ],
+    trendImg: AppDesignTrendsImg,
+    howWorkHeading: "The Strategy Behind High-Performing App Design",
+    howWorkContent: `<p>Good app design incorporates the psychology of users, visual simplicity and operating framework. The Uniterrene Websoft designs are premised on research, usability studies, and scalable design models.</p>`,
+
+    typeOfWebsiteHeading: "We Focus On:",
+    typeOfWebsiteContent:
+      ``,
+    typeOfWebsiteListHead: "",
+    expertTeamList: [
+      {
+        heading: "",
+        content:
+          "Clear user journeys and interaction goals",
+      },   
+      {
+        heading: "",
+        content:
+          "Consistent visual language and branding",
+      },
+      {
+        heading: "",
+        content:
+          "Accessibility and ease of use",
+      },
+      {
+        heading: "",
+        content:
+          "Performance-focused layouts",
+      },  
+      {
+        heading: "",
+        content:
+          "Scalable design systems",
+      },  
+      {
+        heading: "",
+        content:
+          "Continuous improvement through feedback",
+      },    
+    ],
+    expertImg: AppDesignExpertImg,
+    trendBenefitHead:
+      "Industry-Focused App Design Solutions",
+    trendBenefitContent: `<p>The user experience required in different industries is different. We tailor our app design solutions to industry specific user behavior, compliance requirements and engagement patterns.</p>`,
+    trendBenefitListHead:
+      "Industries We Serve:",
+    trendBenefitList: [
+      {
+        title: "",
+        list: "Technology and SaaS",
+      },
+      {
+        title: "",
+        list: "E-commerce and Retail",
+      },
+      {
+        title: "",
+        list: "Healthcare and Wellness",
+      },
+      {
+        title: "",
+        list: "Education and E-learning",
+      },
+      {
+        title: "",
+        list: "Finance and Professional Services",
+      },      
+      {
+        title: "",
+        list: "Real Estate and Infrastructure",
+      },  
+      {
+        title: "",
+        list: "Startups and Enterprises",
+      },              
+    ],
+    hireHead: "The Future of App Design",
+    hireListHead:
+      `<p>The user expectations, capabilities of the devices, and changes in the interactions are still driving the design of apps. Our design solutions contribute to making the brands remain flexible without losing usability or visuality.</p>`,
+    hireList: [
+      {
+        title: "Emerging Trends:",
+        list: "Minimal and intuitive interfaces",
+      },
+      {
+        title: "",
+        list: "Micro-interactions and motion design",
+      },
+      {
+        title: "",
+        list: "Accessibility-first design approach",
+      },
+      {
+        title: "",
+        list: "AI-assisted personalization",
+      },     
+      {
+        title: "",
+        list: "Scalable design systems",
+      }, 
+      {
+        title: "",
+        list: "Strong focus on user retention",
+      },         
+    ],
+    whyChooseHead: "Why Choose Uniterrene Websoft for App Design?",
+    whyChooseContent: `<p>By collaborating with Uniterrene Websoft, one will collaborate with a team that places importance on being clear, easy to use, and to develop over time. Our applications are based on designed solutions that are research-oriented, well-organized and targeted to provide valuable user experiences that are not complex and confusing.</p>`,
+    whyChooseListHead:
+      "We Ensure:",
+    whyChooseList: [
+      {
+        title: "",
+        list: "Custom app design aligned with business goals",
+      },
+      {
+        title: "",
+        list: "User-centric UI and UX design approach",
+      },
+      {
+        title: "",
+        list: "Platform-compliant design standards",
+      },
+      {
+        title: "",
+        list: "Transparent design process and collaboration",
+      },
+      {
+        title: "",
+        list: "Scalable designs for future growth",
+      }, 
+      {
+        title: "",
+        list: "Proven methods for sustained user engagement",
+      },              
+    ],
+    faqImg: AppDesignFaqImg,
+    faqs: [
+      {
+        title: "Why is app design important for business success?",
+        content:
+          "The design of apps has a direct effect on user experience, interaction, retention and trust. A designed application allows people to communicate with minimal difficulties and makes the long-run adoption higher.",
+        open: true,
+      },
+      {
+        title: "Do you design apps for both iOS and Android?",
+        content:
+          "Yes. We design applications for iOS, Android, and cross-platform environments while following platform-specific design guidelines.",
+        open: false,
+      },
+      {
+        title: "Do you refine designs after initial delivery?",
+        content:
+          "Yes. Our design testing and feedback is carried out through usability testing to produce continuous improvement and best user experience.",
+        open: false,
+      },      
+    ],
+  },
+
+
+  
+  {
+    id: 24,
+    parent: "Designs & Branding",
+    slug: "logo--brand-identity",
+    serviceName: "Logo Brand Identity",
+    pageTitle:
+      "Shape Recognition, Trust, and Growth with Strategic Logo and Brand Identity",
+    description: `<p>At <strong>Uniterrene Websoft</strong>, we create distinctive, consistent, and future-ready logo and brand identity systems that help businesses communicate with clarity and confidence. A strong brand identity is not only visual appeal; it is a structured expression of values, purpose, and credibility. Our branding solutions are designed to ensure recognition, consistency, and long-term relevance across all customer touchpoints.</p>`,
+    topImg: LogoBrandTopImg,
+    typeOfServicesHeading:
+      "Build Strong Brand Foundations with Intelligent Identity Design",
+    typeOfServicesContent:
+      `<p>We do not just create logos, we create comprehensive brand identity frameworks that are specific, coherent and expandable. 
+      Our strategy will be to develop visual systems that ensure that there is clarity across platforms and channels of communication.</p>
+      <p>The design of logos, color systems, and typography are all designed with precision, balanced, and useability. 
+      The outcome is a brand identity which helps in marketing, digital communication and business growth without compromising the consistency.</p>
+      `,
+    typeOfServicesList: [
+      {
+        head: "Brand Discovery and Strategy:",
+        list: "Understanding business values, audience expectations, and market positioning to guide identity creation.",
+      },
+      {
+        head: "Custom Logo Design:",
+        list: "Creating original, meaningful, and versatile logos that represent brand intent and remain relevant over time.",
+      },
+      {
+        head: "Visual Identity Systems:",
+        list: "Developing color palettes, typography, icon styles, and graphic rules for consistent brand presentation.",
+      },
+      {
+        head: "Brand Guidelines and Documentation:",
+        list: "Providing clear usage rules to maintain uniformity across digital, print, and marketing assets.",
+      },
+      {
+        head: "Brand Refresh and Rebranding:",
+        list: "Modernizing existing identities while preserving brand equity and recognition.",
+      },  
+      {
+        head: "Digital and Print Brand Assets:",
+        list: "Designing identity-ready assets for websites, social platforms, presentations, and offline materials.",
+      },            
+    ],
+    trendImg: LogoBrandTrendsImg,
+    howWorkHeading: "The Craft Behind Effective Brand Identity Design",
+    howWorkContent: `<p>Good brand identity demands logical thinking, aesthetic and strategic cohesion. At Uniterrene Websoft, clarity, consistency, and adaptability are the main pillars that guide our branding process.</p>`,
+
+    typeOfWebsiteHeading: "We Focus On:",
+    typeOfWebsiteContent:
+      ``,
+    typeOfWebsiteListHead: "",
+    expertTeamList: [
+      {
+        heading: "",
+        content:
+          "Clean and meaningful visual design",
+      },   
+      {
+        heading: "",
+        content:
+          "Consistent brand communication across platforms",
+      },
+      {
+        heading: "",
+        content:
+          "Scalable identity systems for growing businesses",
+      },
+      {
+        heading: "",
+        content:
+          "Balanced use of color, typography, and form",
+      },  
+      {
+        heading: "",
+        content:
+          "Long-term usability without frequent redesigns",
+      },  
+      {
+        heading: "",
+        content:
+          "Alignment between brand visuals and business goals",
+      },    
+    ],
+    expertImg: LogoBrandExpertImg,
+    trendBenefitHead:
+      "Industry-Ready Branding Solutions Designed for Impact",
+    trendBenefitContent: `<p>Different market segments need varying brand expressions. Our brand name and logo solutions are developed according to the industry expectations but with individuality and conciseness.</p>`,
+    trendBenefitListHead:
+      "Industries We Serve:",
+    trendBenefitList: [
+      {
+        title: "",
+        list: "Technology and SaaS",
+      },
+      {
+        title: "",
+        list: "E-commerce and Retail",
+      },
+      {
+        title: "",
+        list: "Healthcare and Wellness",
+      },
+      {
+        title: "",
+        list: "Education and Training",
+      },
+      {
+        title: "",
+        list: "Finance and Professional Services",
+      },      
+      {
+        title: "",
+        list: "Real Estate and Infrastructure",
+      },  
+      {
+        title: "",
+        list: "Startups and Enterprises",
+      },              
+    ],
+    hireHead: "The Future of Branding and Visual Identity",
+    hireListHead:
+      `<p>The process of brand identity is in the process of changing in line with the digital platform, audience behavior and the global markets. The business with the help of our branding strategy would be ready to make changes but maintain its high level of recognition.</p>`,
+    hireList: [
+      {
+        title: "Emerging Trends:",
+        list: "Flexible logo systems for digital platforms",
+      },
+      {
+        title: "",
+        list: "Minimal and functional visual identities",
+      },
+      {
+        title: "",
+        list: "Scalable branding for multi-channel use",
+      },
+      {
+        title: "",
+        list: "Strong focus on brand consistency",
+      },     
+      {
+        title: "",
+        list: "Identity systems designed for long-term relevance",
+      },             
+    ],
+    whyChooseHead: "Why Choose Uniterrene Websoft for Logo and Brand Identity?",
+    whyChooseContent: `<p>Collaboration with Uniterrene Websoft implies cooperation with the team with an emphasis on structure, clarity, and brand strength in the long term. 
+    The solutions of our logo and brand identity also ensure that the business is supported to improve, but at the same time, the logo has a visual consistency and is easily recognized.</p>`,
+    whyChooseListHead:
+      "We Ensure:",
+    whyChooseList: [
+      {
+        title: "",
+        list: "Custom brand identity aligned with business vision",
+      },
+      {
+        title: "",
+        list: "Original, meaningful, and scalable logo design",
+      },
+      {
+        title: "",
+        list: "Consistent visual systems across all channels",
+      },
+      {
+        title: "",
+        list: "Clear brand guidelines for long-term use",
+      },
+      {
+        title: "",
+        list: "Identity solutions suitable for startups and enterprises",
+      }, 
+      {
+        title: "",
+        list: "Strategic design decisions backed by research",
+      },              
+    ],
+    faqImg: LogoBrandFaqImg,
+    faqs: [
+      {
+        title: "Why is brand identity important for business growth?",
+        content:
+          "The brand identity achieves recognition, credibility and consistency that aid businesses to communicate effectively and stand out in competitive markets.",
+        open: true,
+      },
+      {
+        title: "Can a logo be used across digital and print platforms?",
+        content:
+          "Yes, professionally crafted logos are developed to work on the same basis on websites, social media, print-wise, and presentations.",
+        open: false,
+      },
+      {
+        title: "Do you support rebranding and brand refresh projects?",
+        content:
+          "Yes. We assist companies in rebranding or refining the current brand and retain continuity and familiarity to the audience.",
+        open: false,
+      },      
+    ],
+  },
+
+
+
+  {
+    id: 25,
+    parent: "Designs & Branding",
+    slug: "social-media-ads",
+    serviceName: "Social Media Ads",
+    pageTitle:
+      "Drive Visibility, Engagement, and Growth with Strategic Social Media Advertising",
+    description: `<p>At Uniterrene Websoft, we design data-driven and performance-focused social media advertising campaigns that help brands reach the right audience, build trust, and convert attention into measurable business growth. Our social media ads are not just creative visuals, they are structured marketing systems aligned with business goals, audience intent, and platform algorithms.</p>`,
+    topImg: SocialMediaAdsTopImg,
+    typeOfServicesHeading:
+      "Build High-Impact Social Media Campaigns with Precision Targeting",
+    typeOfServicesContent:
+      `<p>We do not simply place advertisements, we develop conducive social media advertising strategies that aim at reaching, engaging and converting. 
+      All the campaigns will have clarity, relevancy to the platform, and tracking of performance.</p>
+      <p>Our strategy will make sure your advertisements reach the correct individuals at the correct moment, regularly, and to the fullest extent, 
+      no matter the audience segmentation to the creative message or optimization.</p>
+      `,
+    typeOfServicesList: [
+      {
+        head: "Campaign Strategy and Planning:",
+        list: "Knowing business goals, target markets, and platform movement with the view of creating goal-focused advertisement campaigns.",
+      },
+      {
+        head: "Creative Ad Design:",
+        list: "Designing compelling visuals, ad copies, and formats optimized for engagement and platform performance.",
+      },
+      {
+        head: "Audience Targeting and Segmentation:",
+        list: "Reaching high-intent users using interest-based, behavioral, geographic, and custom audience targeting.",
+      },
+      {
+        head: "Platform-Specific Advertising:",
+        list: "Running ads across Facebook, Instagram, LinkedIn, Twitter (X), and other relevant platforms.",
+      },
+      {
+        head: "Conversion and Lead Generation Ads:",
+        list: "Creating campaigns focused on inquiries, sign-ups, downloads, and direct sales.",
+      },  
+      {
+        head: "Campaign Monitoring and Optimization:",
+        list: "Continuous performance analysis, A/B testing, and budget optimization for improved ROI.",
+      },            
+    ],
+    trendImg: SocialMediaAdsTrendsImg,
+    howWorkHeading: "The Strategy Behind High-Performing Social Media Ads",
+    howWorkContent: `<p>Social media advertising involves data, artistic and strategic fit. At Uniterrene Websoft, we base our campaigns on the insight of performance and the scalable architecture.</p>`,
+
+    typeOfWebsiteHeading: "We Focus On:",
+    typeOfWebsiteContent:
+      ``,
+    typeOfWebsiteListHead: "",
+    expertTeamList: [
+      {
+        heading: "",
+        content:
+          "Clear campaign objectives and KPIs",
+      },   
+      {
+        heading: "",
+        content:
+          "Platform-optimized creatives and messaging",
+      },
+      {
+        heading: "",
+        content:
+          "Consistent brand communication",
+      },
+      {
+        heading: "",
+        content:
+          "Conversion-focused ad formats",
+      },  
+      {
+        heading: "",
+        content:
+          "Budget efficiency and ROI tracking",
+      },  
+      {
+        heading: "",
+        content:
+          "Continuous testing and improvement",
+      },    
+    ],
+    expertImg: SocialMediaAdsExpertImg,
+    trendBenefitHead:
+      "Industry-Focused Social Media Advertising Solutions",
+    trendBenefitContent: `<p>The various industries require various messaging and targeting. The ad policies of our social media are tailored to the industry behavior without confusing the brand.</p>`,
+    trendBenefitListHead:
+      "Industries We Serve:",
+    trendBenefitList: [
+      {
+        title: "",
+        list: "Technology and SaaS",
+      },
+      {
+        title: "",
+        list: "E-commerce and Retail",
+      },
+      {
+        title: "",
+        list: "Healthcare and Wellness",
+      },
+      {
+        title: "",
+        list: "Education and Training",
+      },
+      {
+        title: "",
+        list: "Finance and Professional Services",
+      },      
+      {
+        title: "",
+        list: "Real Estate and Infrastructure",
+      },  
+      {
+        title: "",
+        list: "Startups and Enterprises",
+      },              
+    ],
+    hireHead: "The Future of Social Media Advertising",
+    hireListHead:
+      `<p>Social media advertising is evolving with changing algorithms, audience behavior, and content consumption patterns. Our strategies ensure your brand stays adaptable while maintaining performance and consistency.</p>`,
+    hireList: [
+      {
+        title: "Emerging Trends:",
+        list: "Performance-driven short-form ads",
+      },
+      {
+        title: "",
+        list: "Creative-first storytelling",
+      },
+      {
+        title: "",
+        list: "AI-assisted audience targeting",
+      },
+      {
+        title: "",
+        list: "Scalable multi-platform campaigns",
+      },     
+      {
+        title: "",
+        list: "Strong focus on brand recall and engagement",
+      },             
+    ],
+    whyChooseHead: "Why Choose Uniterrene Websoft for Social Media Advertising?",
+    whyChooseContent: `<p>Collaborating with Uniterrene Websoft is collaborating with a team whose strategies, performance, and long-term growth are strategic. 
+    Our social media advertising is structured to grow with your business without obscuring, beating around the bush, and will always have clear, 
+    consistent, and quantifiable outcomes.</p>`,
+    whyChooseListHead:
+      "We Ensure:",
+    whyChooseList: [
+      {
+        title: "",
+        list: "Custom ad strategies aligned with business goals",
+      },
+      {
+        title: "",
+        list: "Platform-specific creative and targeting",
+      },
+      {
+        title: "",
+        list: "Data-backed optimization decisions",
+      },
+      {
+        title: "",
+        list: "Transparent performance reporting",
+      },
+      {
+        title: "",
+        list: "Scalable campaigns for growing businesses",
+      }, 
+      {
+        title: "",
+        list: "Proven methods for sustained ad performance",
+      },              
+    ],
+    faqImg: SocialMediaAdsFaqImg,
+    faqs: [
+      {
+        title: "How do social media ads help business growth?",
+        content:
+          "Social media advertisements are more visible, targeted, generate leads, and contribute to sustainable growth of the brand by means of quantifiable campaigns.",
+        open: true,
+      },
+      {
+        title: "Which platforms do you run social media ads on?",
+        content:
+          "We operate campaigns on Facebook, Instagram, LinkedIn, and Twitter (X) among others depending on your audience and goals.",
+        open: false,
+      },
+      {
+        title: "Do you optimize campaigns after launch?",
+        content:
+          "Yes. Ads are continuously monitored, tested and optimized to achieve better performance and lower costs and maximize ROI.",
+        open: false,
+      },      
+    ],
+  },
+
 
 
 

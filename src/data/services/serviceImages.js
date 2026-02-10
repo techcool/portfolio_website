@@ -145,6 +145,22 @@ import CSharpTopImg from "@public/assets/imgs/services/CSharp-top.jpg";
 import CSharpTrendsImg from "@public/assets/imgs/services/CSharp-trend.jpg";
 import CSharpExpertImg from "@public/assets/imgs/services/CSharp-expert.jpg";
 import CSharpFaqImg from "@public/assets/imgs/services/CSharp-faq.jpg";
+import DOTNetTopImg from "@public/assets/imgs/services/DOTNet-top.jpg";
+import DOTNetTrendsImg from "@public/assets/imgs/services/DOTNet-trend.jpg";
+import DOTNetExpertImg from "@public/assets/imgs/services/DOTNet-expert.jpg";
+import DOTNetFaqImg from "@public/assets/imgs/services/DOTNet-faq.jpg";
+import AppDesignTopImg from "@public/assets/imgs/services/app-design-top.jpg";
+import AppDesignTrendsImg from "@public/assets/imgs/services/app-design-trend.jpg";
+import AppDesignExpertImg from "@public/assets/imgs/services/app-design-expert.jpg";
+import AppDesignFaqImg from "@public/assets/imgs/services/app-design-faq.jpg";
+import LogoBrandTopImg from "@public/assets/imgs/services/LogoBrand-top.jpg";
+import LogoBrandTrendsImg from "@public/assets/imgs/services/LogoBrand-trend.jpg";
+import LogoBrandExpertImg from "@public/assets/imgs/services/LogoBrand-expert.jpg";
+import LogoBrandFaqImg from "@public/assets/imgs/services/LogoBrand-faq.jpg";
+import SocialMediaAdsTopImg from "@public/assets/imgs/services/Social-Media-Ads-top.jpg";
+import SocialMediaAdsTrendsImg from "@public/assets/imgs/services/Social-Media-Ads-trend.jpg";
+import SocialMediaAdsExpertImg from "@public/assets/imgs/services/Social-Media-Ads-expert.jpg";
+import SocialMediaAdsFaqImg from "@public/assets/imgs/services/Social-Media-Ads-faq.jpg";
 
 export {
   wpTopImg,
@@ -235,4 +251,20 @@ export {
   CSharpTrendsImg,
   CSharpExpertImg,
   CSharpFaqImg,  
+  DOTNetTopImg,
+  DOTNetTrendsImg,
+  DOTNetExpertImg,
+  DOTNetFaqImg,
+  AppDesignTopImg,
+  AppDesignTrendsImg,
+  AppDesignExpertImg,
+  AppDesignFaqImg,
+  LogoBrandTopImg,
+  LogoBrandTrendsImg,
+  LogoBrandExpertImg,
+  LogoBrandFaqImg,
+  SocialMediaAdsTopImg,
+  SocialMediaAdsTrendsImg,
+  SocialMediaAdsExpertImg,
+  SocialMediaAdsFaqImg,
 };
