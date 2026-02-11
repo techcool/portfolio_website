@@ -161,6 +161,26 @@ import SocialMediaAdsTopImg from "@public/assets/imgs/services/Social-Media-Ads-
 import SocialMediaAdsTrendsImg from "@public/assets/imgs/services/Social-Media-Ads-trend.jpg";
 import SocialMediaAdsExpertImg from "@public/assets/imgs/services/Social-Media-Ads-expert.jpg";
 import SocialMediaAdsFaqImg from "@public/assets/imgs/services/Social-Media-Ads-faq.jpg";
+import SeoTopImg from "@public/assets/imgs/services/seo-top.jpg";
+import SeoTrendsImg from "@public/assets/imgs/services/seo-trend.jpg";
+import SeoExpertImg from "@public/assets/imgs/services/seo-expert.jpg";
+import SeoFaqImg from "@public/assets/imgs/services/seo-faq.jpg";
+import SmmTopImg from "@public/assets/imgs/services/smm-top.jpg";
+import SmmTrendsImg from "@public/assets/imgs/services/smm-trend.jpg";
+import SmmExpertImg from "@public/assets/imgs/services/smm-expert.jpg";
+import SmmFaqImg from "@public/assets/imgs/services/smm-faq.jpg";
+import PPCTopImg from "@public/assets/imgs/services/ppc-top.jpg";
+import PPCTrendsImg from "@public/assets/imgs/services/ppc-trend.jpg";
+import PPCExpertImg from "@public/assets/imgs/services/ppc-expert.jpg";
+import PPCFaqImg from "@public/assets/imgs/services/ppc-faq.jpg";
+import ContentMarketingTopImg from "@public/assets/imgs/services/content-marketing-top.jpg";
+import ContentMarketingTrendsImg from "@public/assets/imgs/services/content-marketing-trend.jpg";
+import ContentMarketingExpertImg from "@public/assets/imgs/services/content-marketing-expert.jpg";
+import ContentMarketingFaqImg from "@public/assets/imgs/services/content-marketing-faq.jpg";
+import EmailMarketingTopImg from "@public/assets/imgs/services/email-marketing-top.jpg";
+import EmailMarketingTrendsImg from "@public/assets/imgs/services/email-marketing-trend.jpg";
+import EmailMarketingExpertImg from "@public/assets/imgs/services/email-marketing-expert.jpg";
+import EmailMarketingFaqImg from "@public/assets/imgs/services/email-marketing-faq.jpg";  
 
 export {
   wpTopImg,
@@ -267,4 +287,24 @@ export {
   SocialMediaAdsTrendsImg,
   SocialMediaAdsExpertImg,
   SocialMediaAdsFaqImg,
+  SeoTopImg,
+  SeoTrendsImg,
+  SeoExpertImg,
+  SeoFaqImg,
+  SmmTopImg,
+  SmmTrendsImg,
+  SmmExpertImg,
+  SmmFaqImg,
+  PPCTopImg,
+  PPCTrendsImg,
+  PPCExpertImg,
+  PPCFaqImg,
+  ContentMarketingTopImg,
+  ContentMarketingTrendsImg,
+  ContentMarketingExpertImg,
+  ContentMarketingFaqImg,
+  EmailMarketingTopImg,
+  EmailMarketingTrendsImg,
+  EmailMarketingExpertImg,
+  EmailMarketingFaqImg,
 };

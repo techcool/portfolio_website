@@ -103,6 +103,26 @@ import {
   SocialMediaAdsTrendsImg,
   SocialMediaAdsExpertImg,
   SocialMediaAdsFaqImg,
+  SeoTopImg,
+  SeoTrendsImg,
+  SeoExpertImg,
+  SeoFaqImg,
+  SmmTopImg,
+  SmmTrendsImg,
+  SmmExpertImg,
+  SmmFaqImg,
+  PPCTopImg,
+  PPCTrendsImg,
+  PPCExpertImg,
+  PPCFaqImg,
+  ContentMarketingTopImg,
+  ContentMarketingTrendsImg,
+  ContentMarketingExpertImg,
+  ContentMarketingFaqImg,
+  EmailMarketingTopImg,
+  EmailMarketingTrendsImg,
+  EmailMarketingExpertImg,
+  EmailMarketingFaqImg,
 } from "./serviceImages";
 export const bottomData = [
   {
@@ -4684,6 +4704,990 @@ export const bottomData = [
       },      
     ],
   },
+
+
+
+  
+  {
+    id: 26,
+    parent: "Digital Marketing",
+    slug: "seo",
+    serviceName: "SEO",
+    pageTitle:
+      "Power Your Brand Visibility with Strategic, Scalable, and Data-Driven SEO Solutions",
+    description: `<p>At Uniterrene Websoft, we create search engine optimization that will make your brand stand out in the crowd and rule search engines. We do not just do rankings, but we are interested in creating real business growth in terms of increased visibility, improved engagement, and enhanced conversions. Launching your new site or optimizing your current one, our professional SEO team will provide the solutions that will be up to date with your needs and the search intentions of your audience.</p>`,
+    topImg: SeoTopImg,
+    typeOfServicesHeading:
+      "Crafting Digital Authority: Our SEO Services.",
+    typeOfServicesContent:
+      `<p>Our end-to-end SEO services are aimed at delivering your business a sustainable growth and an online presence.</p>
+      <p><strong>Our key offerings include:</strong></p>
+      `,
+    typeOfServicesList: [
+      {
+        head: "Website SEO Audit & Strategy Development:",
+        list: "Optimize each aspect of the meta tags to the content structure to enhance visibility.",
+      },
+      {
+        head: "On-Page Optimization:",
+        list: "Gain authority with clean and quality backlinks.",
+      },
+      {
+        head: "Off-Page SEO & Link Building:",
+        list: "Streamline the speed of the site, indexing, and crawling to ensure a smooth search engine experience.",
+      },
+      {
+        head: "Technical SEO:",
+        list: "Optimize site speed, indexing, and crawlability for a seamless search engine experience.",
+      },
+      {
+        head: "Local SEO:",
+        list: "Boost your presence in local searches and attract nearby customers.",
+      },  
+      {
+        head: "E-commerce SEO:",
+        list: "Optimize online shops to enhance their visibility, product search and purchase.",
+      },            
+    ],
+    trendImg: SeoTrendsImg,
+    howWorkHeading: "The Science Behind Smarter Rankings: How SEO Works",
+    howWorkContent: `<p>Search Engine Optimization refers to the art and science of enhancing the visibility of a site on the organic search results. At Uniterrene Websoft, we will not only help you rank higher, but also better, with the help of analytics, creativity and technology.</p>`,
+
+    typeOfWebsiteHeading: "We focus on:",
+    typeOfWebsiteContent:
+      ``,
+    typeOfWebsiteListHead: "",
+    expertTeamList: [
+      {
+        heading: "",
+        content:
+          "Search intent based and competition based keyword research.",
+      },   
+      {
+        heading: "",
+        content:
+          "Relevance and engagement content optimization.",
+      },
+      {
+        heading: "",
+        content:
+          "Website design and internal connection to enhance crawling efficiency.",
+      },
+      {
+        heading: "",
+        content:
+          "More technical adjustments of speed and mobile readiness.",
+      },  
+      {
+        heading: "",
+        content:
+          "Frequent performance monitoring and strategy improvement.",
+      },        
+    ],
+    expertImg: SeoExpertImg,
+    trendBenefitHead:
+      "Designed for All: Industries We Serve",
+    trendBenefitContent: `<p>Our SEO expertise spans multiple sectors, helping both emerging brands and global enterprises strengthen their online footprint.</p>`,
+    trendBenefitListHead:
+      "",
+    trendBenefitList: [
+      {
+        title: "",
+        list: "E-commerce & Retail",
+      },
+      {
+        title: "",
+        list: "Education & E-learning",
+      },
+      {
+        title: "",
+        list: "Healthcare & Wellness",
+      },
+      {
+        title: "",
+        list: "Real Estate",
+      },
+      {
+        title: "",
+        list: "Travel & Hospitality",
+      },      
+      {
+        title: "",
+        list: "Corporate & Professional Services",
+      },                    
+    ],
+    hireHead: "SEO in Action: Current Trends and Benefits",
+    hireListHead:
+      `<p>Search algorithms evolve constantly, and so do we. Our SEO solutions integrate the latest strategies and technologies to keep you ahead.</p>`,
+    hireList: [
+      {
+        title: "",
+        list: "Voice Search and AI-driven SEO optimization",
+      },
+      {
+        title: "",
+        list: "Core Web Vitals and mobile-first indexing",
+      },
+      {
+        title: "",
+        list: "Data-led keyword targeting and personalization",
+      },
+      {
+        title: "",
+        list: "Enhanced E-E-A-T (Experience, Expertise, Authority, Trust) optimization",
+      },     
+      {
+        title: "",
+        list: "Integrated content marketing and SEO synergy",
+      },             
+    ],
+    whyChooseHead: "Why Choose Uniterrene Websoft: The SEO Advantage",
+    whyChooseContent: `<p>When collaborating with Uniterrene Websoft, it is a group that is creative and precise at the same time. 
+    Our services are aimed at ensuring long-term outcomes that would help in your business development.</p>`,
+    whyChooseListHead:
+      "We ensure:",
+    whyChooseList: [
+      {
+        title: "",
+        list: "Customized strategies for every business niche.",
+      },
+      {
+        title: "",
+        list: "Transparent reporting and data-backed insights.",
+      },
+      {
+        title: "",
+        list: "White-hat SEO techniques for sustainable success.",
+      },
+      {
+        title: "",
+        list: "Experienced SEO professionals dedicated to your goals.",
+      },
+      {
+        title: "",
+        list: "Post-deployment optimization and performance tracking.",
+      },                   
+    ],
+    faqImg: SeoFaqImg,
+    faqs: [
+      {
+        title: "How long does it take to see SEO results?",
+        content:
+          "Generally, noticeable improvements appear within 3 to 6 months, depending on competition and site condition.",
+        open: true,
+      },
+      {
+        title: "Do you provide keyword research and content planning?",
+        content:
+          "Yes, our SEO team conducts thorough research of the keywords and assists to make a content plan based on the business objectives.",
+        open: false,
+      },
+      {
+        title: "Can SEO improve website conversions?",
+        content:
+          "Absolutely. Good SEO increases user experience, which attracts qualified visitors with high chances of conversion.",
+        open: false,
+      },
+      {
+        title: "Is SEO suitable for small businesses?",
+        content:
+          " Yes, SEO is necessary to every business, it aids the business in the playing field of internet visibility.",
+        open: false,
+      }, 
+      {
+        title: "Do you offer ongoing SEO maintenance?",
+        content:
+          "Yes, we have permanent tracking, reporting, and optimization of long-term growth.",
+        open: false,
+      },       
+    ],
+  },
+
+
+ 
+  
+  {
+    id: 27,
+    parent: "Digital Marketing",
+    slug: "smm",
+    serviceName: "SMM",
+    pageTitle:
+      "Turn Engagement into Impact with Social Media Marketing",
+    description: `<p>At <strong>Uniterrene Websoft</strong>, we transform social platforms into growth engines for your brand. We make social platforms your engine to grow your brand at Uniterrene Websoft. Social Media Marketing (SMM) services will be aimed at creating a genuine relationship, motivate discussions, and achieve quantifiable outcomes.</p> 
+<p>We design our strategies to improve the presence and impact of your brand by smart targeting, imagination, and performance-based implementation. Our SMM solutions transform social interaction into tangible business results whether you are trying to create awareness, generate leads or build community trust.</p>`,
+    topImg: SmmTopImg,
+    typeOfServicesHeading:
+      "Amplify Brand Growth with Strategic Social Media Campaigns",
+    typeOfServicesContent:
+      `<p>It is our view that social media is not all about being seen but it is about engagement. 
+      Your brand message will be delivered to the right people, at the right moment through our team of creatives who will ignite a reaction of engagement, credibility and loyalty.</p>
+      <p><strong>Our Core Services Include:</strong></p>
+      `,
+    typeOfServicesList: [
+      {
+        head: "Social Media Strategy & Planning:",
+        list: "Custom roadmaps based on your business objectives and audience behaviour.",
+      },
+      {
+        head: "Content Creation & Design:",
+        list: "Content that is visually appealing, brand-oriented, and is created to spur action.",
+      },
+      {
+        head: "Social Media Management:",
+        list: "Posting frequently, interacting with the community and keeping track of reputation.",
+      },
+      {
+        head: "Paid Social Advertising:",
+        list: "Data-driven campaigns across Facebook, Instagram, LinkedIn, and more to drive leads and conversions.",
+      },
+      {
+        head: "Analytics & Performance Tracking:",
+        list: "Real-time insights to refine strategy and maximize ROI.",
+      },                  
+    ],
+    trendImg: SmmTrendsImg,
+    howWorkHeading: "The Art and Science Behind Effective Social Media Marketing",
+    howWorkContent: `<p>Effective social media marketing is a combination of creativity, psychology and analytics. 
+    We merge narrative and data intelligence to get impactful results at Uniterrene Websoft. Our campaigns are always goal-focused, audience-specific and are maximally engaging.</p>`,
+
+    typeOfWebsiteHeading: "We Focus On:",
+    typeOfWebsiteContent:
+      ``,
+    typeOfWebsiteListHead: "",
+    expertTeamList: [
+      {
+        heading: "",
+        content:
+          "Deep audience research and segmentation.",
+      },   
+      {
+        heading: "",
+        content:
+          "Platform-specific content and tone.",
+      },
+      {
+        heading: "",
+        content:
+          "Consistent brand identity across all channels.",
+      },
+      {
+        heading: "",
+        content:
+          "Real-time engagement and feedback monitoring.",
+      },  
+      {
+        heading: "",
+        content:
+          "Continuous optimization based on analytics.",
+      },        
+    ],
+    expertImg: SmmExpertImg,
+    trendBenefitHead:
+      "Empowering Every Industry Through Social Presence",
+    trendBenefitContent: `<p>Our team is knowledgeable of the intricacies of every industry and, as a result, is able to create content and campaigns that actually 
+    connect with your target audience. Through local businesses, to large-scale organizations, we plan social strategies that evoke trust and make decisions.</p>`,
+    trendBenefitListHead:
+      "Industries We Serve:",
+    trendBenefitList: [
+      {
+        title: "",
+        list: "E-commerce & Retail",
+      },
+      {
+        title: "",
+        list: "Education & E-learning",
+      },
+      {
+        title: "",
+        list: "Healthcare & Wellness",
+      },
+      {
+        title: "",
+        list: "Real Estate",
+      },
+      {
+        title: "",
+        list: "Travel & Hospitality",
+      },      
+      {
+        title: "",
+        list: "Corporate & Professional Services",
+      },                    
+    ],
+    hireHead: "Trends Transforming Social Media Marketing",
+    hireListHead:
+      `<p>The social environment is in a continuous process of change and we guarantee your brand is also changing. 
+      Our professionals blend innovation and creativity to make your brand stay on the top of the trend.</p>`,
+    hireList: [
+      {
+        title: "Emerging Trends:",
+        list: "AI-driven content creation and engagement insights.",
+      },
+      {
+        title: "",
+        list: "Short-form video dominance (Reels, Shorts, TikToks).",
+      },
+      {
+        title: "",
+        list: "Social commerce and shoppable content.",
+      },
+      {
+        title: "",
+        list: "Influencer and micro-influencer collaborations.",
+      },     
+      {
+        title: "",
+        list: "Data-led personalization and predictive audience targeting.",
+      },             
+    ],
+    whyChooseHead: "The Uniterrene Advantage: Driving Conversations that Convert",
+    whyChooseContent: `<p>Making a partnership with Uniterrene Websoft implies having to work with a team that is inspired by innovation, planning, and results. 
+    We are not only targeting campaigns to get likes but also create loyalty and influence.</p>`,
+    whyChooseListHead:
+      "We Ensure:",
+    whyChooseList: [
+      {
+        title: "",
+        list: "Authentic audience engagement and storytelling.",
+      },
+      {
+        title: "",
+        list: "Consistent branding across all social platforms.",
+      },
+      {
+        title: "",
+        list: "Transparent performance reporting.",
+      },
+      {
+        title: "",
+        list: "Scalable solutions tailored for startups and enterprises alike.",
+      },                        
+    ],
+    faqImg: SmmFaqImg,
+    faqs: [
+      {
+        title: "What is Social Media Marketing (SMM)?",
+        content:
+          "Social Media Marketing means advertising your brand and products on such platforms as Facebook, Instagram, LinkedIn, and X to make more people interested and make more conversions.",
+        open: true,
+      },
+      {
+        title: "How can SMM help my business?",
+        content:
+          "It enhances brand recognition, relationship creation, web traffic, and quality leads.",
+        open: false,
+      },
+      {
+        title: "Which platforms do you manage?",
+        content:
+          "We handle Facebook, Instagram, LinkedIn, X (Twitter), YouTube, Pinterest, and TikTok.",
+        open: false,
+      },
+      {
+        title: "How do you measure campaign success?",
+        content:
+          "We track engagement, reach, traffic, leads, and conversions to ensure measurable results.",
+        open: false,
+      }, 
+      {
+        title: "How often should I post on social media?",
+        content:
+          "The frequency of posting should also be based on your objectives and strategy to use the platform, but frequent updates keep your audience active and keep you visible.",
+        open: false,
+      },       
+    ],
+  },
+
+
+
+  
+  {
+    id: 28,
+    parent: "Digital Marketing",
+    slug: "ppc",
+    serviceName: "PPC",
+    pageTitle:
+      "Drive Targeted Results with Strategic, Scalable, and ROI-Focused Pay-Per-Click Solutions",
+    description: `<p>At <strong>Uniterrene Websoft</strong>, we turn every click into an opportunity. 
+    Our Pay-per-Click (PPC) advertising solution is created to enable your brand to find the appropriate audience in the appropriate place and time, 
+    which provides immediate visibility and quantifiable business development. Our specialists design campaigns that are accurate, creative and effective, 
+    through keyword targeting, conversion monitoring, and more. 
+    We assist in maximizing ROI through data-driven advertisement campaigns whether creating a new product or scaling an existing one.</p>`,
+    topImg: PPCTopImg,
+    typeOfServicesHeading:
+      "Accelerate Growth with Performance-Driven PPC Services",
+    typeOfServicesContent:
+      `<p>We have constructed our PPC solutions to provide efficient, targeted, and long-term outcomes. 
+      We do not only control the advertisements, we also streamline all the details of your campaign so that it is highly effective.</p>
+      <p><strong>Our key offerings include:</strong></p>
+      `,
+    typeOfServicesList: [
+      {
+        head: "PPC Strategy & Planning:",
+        list: "Strategies and plans based on data to target your business aims and audience.",
+      },
+      {
+        head: "Google Ads Management:",
+        list: "Feature at the top of search traffic and get lead-generating interests immediately.",
+      },
+      {
+        head: "Social Media Advertising:",
+        list: "Get conversions on Facebook, Instagram, LinkedIn, and YouTube with thoughtful and effective ad campaigns.",
+      },
+      {
+        head: "Remarketing Campaigns:",
+        list: "Restart the contact with interested users and refer them back to your brand.",
+      },
+      {
+        head: "E-commerce PPC:",
+        list: "Increase the visibility of a product and sell online with optimized shopping campaigns.",
+      },   
+      {
+        head: "Performance Monitoring & Optimization:",
+        list: "Monitor KPIs and keep on optimizing campaigns to raise ROI.",
+      },                
+    ],
+    trendImg: PPCTrendsImg,
+    howWorkHeading: "The Science of Smart Advertising: How PPC Works",
+    howWorkContent: `<p>Pay-Per-Click model enables businesses to show ads to the people that are in the market looking at similar 
+    services or products and only pay when a user clicks. Uniterrene Websoft is a blend of analytics, audience insight and creative 
+    precision that will make sure your ad spend results in a measurable value.</p>`,
+
+    typeOfWebsiteHeading: "We focus on:",
+    typeOfWebsiteContent:
+      ``,
+    typeOfWebsiteListHead: "",
+    expertTeamList: [
+      {
+        heading: "",
+        content:
+          "Advanced keyword research and targeting strategies.",
+      },   
+      {
+        heading: "",
+        content:
+          "Compelling ad copywriting and design.",
+      },
+      {
+        heading: "",
+        content:
+          "Conversion-focused landing pages.",
+      },
+      {
+        heading: "",
+        content:
+          "Smart bidding strategies for cost efficiency.",
+      },  
+      {
+        heading: "",
+        content:
+          "Real-time tracking and continuous optimization.",
+      },        
+    ],
+    expertImg: PPCExpertImg,
+    trendBenefitHead:
+      "Designed for All: Industries We Serve",
+    trendBenefitContent: `<p>Our PPC expertise caters to diverse industries, empowering brands to achieve measurable growth and visibility.</p>`,
+    trendBenefitListHead:
+      "",
+    trendBenefitList: [
+      {
+        title: "",
+        list: "E-commerce & Retail",
+      },
+      {
+        title: "",
+        list: "Education & E-learning",
+      },
+      {
+        title: "",
+        list: "Healthcare & Wellness",
+      },
+      {
+        title: "",
+        list: "Real Estate",
+      },
+      {
+        title: "",
+        list: "Travel & Hospitality",
+      },      
+      {
+        title: "",
+        list: "Corporate & Professional Services",
+      },                    
+    ],
+    hireHead: "PPC in Action: Current Trends and Benefits",
+    hireListHead:
+      `<p>We are digitalizing at a rapid rate and so is digital advertising. We will use a combination of innovation and 
+      analytics in our strategies that will sustain your campaigns into the future.</p>`,
+    hireList: [
+      {
+        title: "Emerging Trends:",
+        list: "AI-powered bidding and audience targeting.",
+      },
+      {
+        title: "",
+        list: "Video and interactive ad formats.",
+      },
+      {
+        title: "",
+        list: "Cross-platform campaign integration.",
+      },
+      {
+        title: "",
+        list: "Voice and mobile-first PPC optimization.",
+      },                 
+    ],
+    whyChooseHead: "Why Choose Uniterrene Websoft: The PPC Edge",
+    whyChooseContent: `<p>Partnering with <strong>Uniterrene Websoft</strong> means collaborating with a performance-focused team dedicated to maximizing your advertising investment.</p>`,
+    whyChooseListHead:
+      "We ensure:",
+    whyChooseList: [
+      {
+        title: "",
+        list: "Real-time brand exposure and creation of leads.",
+      },
+      {
+        title: "",
+        list: "Increase in the conversion rates with accuracy in targeting.",
+      },
+      {
+        title: "",
+        list: "Real-time performance monitoring.",
+      },
+      {
+        title: "",
+        list: "Higher ROI through decision-supported by data.",
+      },   
+      {
+        title: "",
+        list: "Campaigns in any budget size.",
+      },                      
+    ],
+    faqImg: PPCFaqImg,
+    faqs: [
+      {
+        title: "How quickly can PPC deliver results?",
+        content:
+          "PPC can start driving traffic and leads within days of campaign launch.",
+        open: true,
+      },
+      {
+        title: "Do you handle multiple ad platforms?",
+        content:
+          "Yes, we manage campaigns across Google, Bing, Facebook, Instagram, and LinkedIn.",
+        open: false,
+      },
+      {
+        title: "Can PPC work for small businesses?",
+        content:
+          "Absolutely. PPC offers scalable solutions suitable for every budget size.",
+        open: false,
+      },
+      {
+        title: "Do you optimize landing pages?",
+        content:
+          "Yes, we create and optimize landing pages with increased conversion rates.",
+        open: false,
+      }, 
+      {
+        title: "Will I receive reports on campaign performance?",
+        content:
+          "Yes, we do have in-depth analytics and monthly performance reports.",
+        open: false,
+      },       
+    ],
+  },
+
+
+  
+  
+  {
+    id: 28,
+    parent: "Digital Marketing",
+    slug: "content-marketing",
+    serviceName: "Content Marketing",
+    pageTitle:
+      "Turn Every Word into a Powerful Growth Tool with Content Marketing",
+    description: `<p>At <strong>Uniterrene Websoft</strong>, we create content that converts. We have designed our Content Marketing services to appeal, 
+    entertain, and keep your target customers, as well as present them with powerful storytelling and distribution. 
+    All words, pictures and posts that we create support your brand objectives to generate exposure, power and prolonged interaction.</p>
+    <p>We develop content that will unite audiences to your brand purpose through research-based strategies, implementation, and innovative storytelling. 
+    It is our mission to transform communication into real business outcomes whether it is through creating awareness, developing leads or retention.</p>
+    `,
+    topImg: ContentMarketingTopImg,
+    typeOfServicesHeading:
+      "Fuel Business Growth with Strategic, Insightful Content",
+    typeOfServicesContent:
+      `<p>We do not write, we create discussions that trigger believability and response. We will make sure our messages will be received by the appropriate audience, 
+      create credibility, and cause meaningful behavior that will result in conversion and loyalty.</p>
+      `,
+    typeOfServicesList: [
+      {
+        head: "Content Strategy & Planning:",
+        list: "Customized approaches that match your objectives and the behavior of your audience.",
+      },
+      {
+        head: "SEO Content Writing:",
+        list: "Keyword-optimized blogs, web pages and articles that are aimed at increasing the rankings and visibility.",
+      },
+      {
+        head: "Social Media Content:",
+        list: "Engaging posts and visuals that strengthen your online community.",
+      },
+      {
+        head: "Copywriting & Ad Content:",
+        list: "Conversion based, persuasive messages that result in sales and brand recognition.",
+      },
+      {
+        head: "Content Audits & Performance Tracking:",
+        list: "An in-depth look to better your strategy and ROI.",
+      },                        
+    ],
+    trendImg: ContentMarketingTrendsImg,
+    howWorkHeading: "The Art and Science Behind Effective Content Marketing",
+    howWorkContent: `<p>Content marketing is a mixture of creativity and analytics. It is not merely a matter of the generation of words, 
+    it is a matter of generating impact. Uniterrene Websoft is a company that combines creativity, behavioural knowledge and technology to provide quantifiable growth.</p>
+    <p>This is done by making sure that all the content is purposeful, supported by audience knowledge, and distributed effectively through the appropriate channels.</p>
+    `,
+
+    typeOfWebsiteHeading: "We Focus On:",
+    typeOfWebsiteContent:
+      ``,
+    typeOfWebsiteListHead: "",
+    expertTeamList: [
+      {
+        heading: "",
+        content:
+          "Data-driven audience research and segmentation.",
+      },   
+      {
+        heading: "",
+        content:
+          "High-quality storytelling that captures attention.",
+      },
+      {
+        heading: "",
+        content:
+          "SEO-optimized, mobile-responsive content.",
+      },
+      {
+        heading: "",
+        content:
+          "Consistent publishing for sustained engagement.",
+      },  
+      {
+        heading: "",
+        content:
+          "Continuous analysis and improvement based on results.",
+      },        
+    ],
+    expertImg: ContentMarketingExpertImg,
+    trendBenefitHead:
+      "Building Connections Across Every Industry",
+    trendBenefitContent: `<p>Our team can know the specifics of various markets, and your content should appeal to the appropriate audience. 
+    Our industry-specific strategies help to create trust, develop awareness, and make people act.</p>`,
+    trendBenefitListHead:
+      "",
+    trendBenefitList: [
+      {
+        title: "Industries We Serve",
+        list: "E-commerce & Retail",
+      },
+      {
+        title: "",
+        list: "Education & E-learning",
+      },
+      {
+        title: "",
+        list: "Healthcare & Wellness",
+      },
+      {
+        title: "",
+        list: "Real Estate",
+      },
+      {
+        title: "",
+        list: "Travel & Hospitality",
+      },      
+      {
+        title: "",
+        list: "Corporate & Professional Services",
+      },                    
+    ],
+    hireHead: "Innovating Communication: Trends Shaping Content Marketing",
+    hireListHead:
+      `<p>The digital landscape evolves continuously, and so does our strategy. We merge creativity with innovation to ensure your brand stays ahead.</p>`,
+    hireList: [
+      {
+        title: "Emerging Trends:",
+        list: "AI-assisted content creation and optimization.",
+      },
+      {
+        title: "",
+        list: "Voice search-friendly and interactive content.",
+      },
+      {
+        title: "",
+        list: "Cross-channel storytelling and omnichannel engagement.",
+      },
+      {
+        title: "",
+        list: "Data-driven personalization and predictive analytics.",
+      },                 
+    ],
+    whyChooseHead: "The Uniterrene Advantage: Your Partner in Powerful Storytelling",
+    whyChooseContent: `<p>Collaborating with Uniterrene Websoft implies working with a team that is interested in strategy, creativity, and quantifiable results. 
+    Our content is designed to speak, influence and convert.</p>`,
+    whyChooseListHead:
+      "We ensure:",
+    whyChooseList: [
+      {
+        title: "",
+        list: "One on one messaging to your target audience.",
+      },
+      {
+        title: "",
+        list: "Convincing and attractive content materials.",
+      },
+      {
+        title: "",
+        list: "Regular publications and intelligent automation.",
+      },
+      {
+        title: "",
+        list: "Open disclosure of performance.",
+      },   
+      {
+        title: "",
+        list: "Packages that are scalable to start ups and enterprises.",
+      },                      
+    ],
+    faqImg: ContentMarketingFaqImg,
+    faqs: [
+      {
+        title: "How does content marketing help my business?",
+        content:
+          "It builds brand awareness, drives traffic, and boosts conversions through engaging, valuable content.",
+        open: true,
+      },
+      {
+        title: "What type of content do you create?",
+        content:
+          "We create blogs, web copy, social media posts, and ad content tailored to your brand goals.",
+        open: false,
+      },
+      {
+        title: "How do you measure success?",
+        content:
+          "By tracking engagement, traffic, leads, and conversions to ensure consistent growth.",
+        open: false,
+      },             
+    ],
+  },
+
+
+
+    
+  
+  {
+    id: 29,
+    parent: "Digital Marketing",
+    slug: "email-marketing",
+    serviceName: "Email Marketing",
+    pageTitle:
+      "Turn Every Inbox into an Opportunity for Growth with Email Marketing",
+    description: `<p>At <strong>Uniterrene Websoft</strong>, we make every email count. Our <strong>Email Marketing</strong> services are crafted to deliver your message to the right audience, 
+    at the right time, for maximum impact. Every campaign is designed to increase visibility, conversions, and long-term engagement.</p>
+    <p>Through strategic storytelling, precise targeting, and automation, we create experiences that connect. 
+    Whether launching new campaigns, nurturing leads, or scaling retention efforts, we help you transform communication into measurable business success.</p>    
+    `,
+    topImg: EmailMarketingTopImg,
+    typeOfServicesHeading:
+      "Fuel Business Growth with Data-Driven Email Campaigns",
+    typeOfServicesContent:
+      `<p>We do not simply send emails but develop relationships with people. 
+      We work towards ensuring that we convey the right message to the right individual and the long-term brand relationships that lead to conversion and loyalty.</p>
+      `,
+    typeOfServicesList: [
+      {
+        head: "Strategic Campaign Planning:",
+        list: "Custom email tactics to your values and behavior of your audience.",
+      },
+      {
+        head: "Automation & Drip Sequences:",
+        list: "Smart processes to service customers through their experience.",
+      },
+      {
+        head: "Engaging Newsletters:",
+        list: "Build trust and brand recall through insightful and valuable updates.",
+      },
+      {
+        head: "E-commerce Email Campaigns:",
+        list: "Recovery of carts and repeat purchases through personalized recommendations.",
+      },
+      {
+        head: "Performance Analytics:",
+        list: "Monitor engagement, maximize campaigns, and maximize ROI.",
+      },                        
+    ],
+    trendImg: EmailMarketingTrendsImg,
+    howWorkHeading: "The Art and Science Behind Effective Email Marketing",
+    howWorkContent: `<p>Email marketing is not communication, it is action precision. 
+    It incorporates innovation, behavioral acumen, and technology to reach audiences and achievement of quantifiable outcomes..</p>
+    <p>We achieve this at Uniterrene Websoft by ensuring each email is made effective through the combination of analytical precision and creative narrations.</p>
+    `,
+
+    typeOfWebsiteHeading: "We focus on:",
+    typeOfWebsiteContent:
+      ``,
+    typeOfWebsiteListHead: "",
+    expertTeamList: [
+      {
+        heading: "",
+        content:
+          "Intelligent audience profiling and targeting.",
+      },   
+      {
+        heading: "",
+        content:
+          "Designs and high converting content.",
+      },
+      {
+        heading: "",
+        content:
+          "Responsive templates optimized to mobile.",
+      },
+      {
+        heading: "",
+        content:
+          "Robotized delivery to ensure constant participation.",
+      },  
+      {
+        heading: "",
+        content:
+          "Constant monitoring and performance improvement.",
+      },        
+    ],
+    expertImg: EmailMarketingExpertImg,
+    trendBenefitHead:
+      "Building Connections Across Every Industry",
+    trendBenefitContent: `<p>We are skilled across a variety of industries and make sure that every campaign appeals to a certain audience. 
+    Our strategies to various industries are custom made in order to realize a quantifiable growth and brand loyalty.</p>`,
+    trendBenefitListHead:
+      "",
+    trendBenefitList: [
+      {
+        title: "",
+        list: "E-commerce & Retail",
+      },
+      {
+        title: "",
+        list: "Education & E-learning",
+      },
+      {
+        title: "",
+        list: "Healthcare & Wellness",
+      },
+      {
+        title: "",
+        list: "Real Estate",
+      },
+      {
+        title: "",
+        list: "Travel & Hospitality",
+      },      
+      {
+        title: "",
+        list: "Corporate & Professional Services",
+      },                    
+    ],
+    hireHead: "Innovating Communication: Trends Shaping Email Marketing",
+    hireListHead:
+      `<p>Digital communication is changing and we are changing with it. Our plans are a combination of data and innovation to ensure your brand is the first to follow.</p>`,
+    hireList: [
+      {
+        title: "Emerging Trends:",
+        list: "AI-powered personalization for smarter engagement.",
+      },
+      {
+        title: "",
+        list: "Interactive and video-rich email content.",
+      },
+      {
+        title: "",
+        list: "Integrated cross-channel campaign experiences.",
+      },
+      {
+        title: "",
+        list: "Mobile-first and voice-optimized designs.",
+      },                 
+    ],
+    whyChooseHead: "The Uniterrene Advantage: Your Partner in Powerful Email Campaigns",
+    whyChooseContent: `<p>Collaborating with <strong>Uniterrene Websoft</strong> means working with a team that’s passionate about precision, 
+    creativity, and measurable growth. We craft campaigns that speak, connect, and convert.</p>`,
+    whyChooseListHead:
+      "We ensure:",
+    whyChooseList: [
+      {
+        title: "",
+        list: "Tailored messaging that matches your audience’s behavior.",
+      },
+      {
+        title: "",
+        list: "Eye-catching designs and persuasive content.",
+      },
+      {
+        title: "",
+        list: "Seamless automation and smart segmentation.",
+      },
+      {
+        title: "",
+        list: "Transparent performance tracking.",
+      },   
+      {
+        title: "",
+        list: "Flexible packages for all business scales.",
+      },                      
+    ],
+    faqImg: EmailMarketingFaqImg,
+    faqs: [
+      {
+        title: "How soon can I see results from email marketing?",
+        content:
+          "Depending on the size of the audience, segmentation and the type of campaign, results can start in days of launch.",
+        open: true,
+      },
+      {
+        title: "Do you design customized email templates?",
+        content:
+          "Yes, we do build receptive, brand motivated email templates that are mobile device compatible.",
+        open: false,
+      },
+      {
+        title: "Is email marketing effective for small businesses?",
+        content:
+          "Absolutely. It is cheap, scalable and very effective to both big and small firms.",
+        open: false,
+      }, 
+      {
+        title: "Do you handle automation and audience segmentation?",
+        content:
+          "Yes, we manage complete workflows and segmented campaigns to boost engagement and conversions.",
+        open: false,
+      },  
+      {
+        title: "Will I get reports on campaign performance?",
+        content:
+          "Yes, we offer a detailed performance report which contains open rates, clicks, conversion and ROI analysis.",
+        open: false,
+      },                     
+    ],
+  },
+
+
+
+
 
 
 
