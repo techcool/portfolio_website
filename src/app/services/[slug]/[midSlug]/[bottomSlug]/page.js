@@ -37,6 +37,8 @@ export async function generateStaticParams() {
 
 export default async function BottomServices({ params }) {
   const { bottomSlug } = await params;
+  console.log(bottomSlug);
+  
 
   const bottomService = bottomData.find(
     (item) => slugify(item.slug || item.serviceName) === bottomSlug

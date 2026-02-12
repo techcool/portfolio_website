@@ -1481,7 +1481,7 @@ export const bottomData = [
   },
   {
     id: 10,
-    parent: "ecommerce-development",
+    parent: "Ecommerce Development",
     slug: "magento",
     serviceName: "Magento",
     pageTitle:
@@ -1660,4 +1660,5 @@ export const bottomData = [
       },
     ],
   },
+  
 ];
