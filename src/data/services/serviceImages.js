@@ -180,7 +180,11 @@ import ContentMarketingFaqImg from "@public/assets/imgs/services/content-marketi
 import EmailMarketingTopImg from "@public/assets/imgs/services/email-marketing-top.jpg";
 import EmailMarketingTrendsImg from "@public/assets/imgs/services/email-marketing-trend.jpg";
 import EmailMarketingExpertImg from "@public/assets/imgs/services/email-marketing-expert.jpg";
-import EmailMarketingFaqImg from "@public/assets/imgs/services/email-marketing-faq.jpg";  
+import EmailMarketingFaqImg from "@public/assets/imgs/services/email-marketing-faq.jpg"; 
+import ChatbotTopImg from "@public/assets/imgs/services/chatbot-top.jpg";
+import ChatbotTrendsImg from "@public/assets/imgs/services/chatbot-trend.jpg";
+import ChatbotExpertImg from "@public/assets/imgs/services/chatbot-expert.jpg";
+import ChatbotFaqImg from "@public/assets/imgs/services/chatbot-faq.jpg";  
 
 export {
   wpTopImg,
@@ -307,4 +311,9 @@ export {
   EmailMarketingTrendsImg,
   EmailMarketingExpertImg,
   EmailMarketingFaqImg,
+  ChatbotTopImg,
+  ChatbotTrendsImg,
+  ChatbotExpertImg,
+  ChatbotFaqImg,
+  
 };
