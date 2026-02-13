@@ -127,6 +127,23 @@ import {
   ChatbotTrendsImg,
   ChatbotExpertImg,
   ChatbotFaqImg,
+  MachineLearningTopImg,
+  MachineLearningTrendsImg,
+  MachineLearningExpertImg,
+  MachineLearningFaqImg,  
+  DeepLearningTopImg,
+  DeepLearningTrendsImg,
+  DeepLearningExpertImg,
+  DeepLearningFaqImg,
+  NLPTopImg,
+  NLPTrendsImg,
+  NLPExpertImg,
+  NLPFaqImg,
+  SMOTopImg,
+  SMOTrendsImg,
+  SMOExpertImg,
+  SMOFaqImg,
+
 } from "./serviceImages";
 export const bottomData = [
   {
@@ -5896,17 +5913,17 @@ export const bottomData = [
     pageTitle:
       "Accelerate Business Intelligence with Advanced Machine Learning Solutions",
     description: `<p>At Uniterrene Websoft, we build intelligent machine learning systems that elevate decision-making, 
-    streamline operations, and unlock scalable digital innovation. We are the experts in creating secure, adaptive, and 
-    insight-driven ML models to address real issues and optimize the workflow and efficiency.</p>      
+    streamline operations, and unlock scalable digital innovation. We are the experts in creating secure, adaptive, 
+    and insight-driven ML models to address real issues and optimize the workflow and efficiency.</p>      
     `,
-    topImg: ChatbotTopImg,
+    topImg: MachineLearningTopImg,
     typeOfServicesHeading:
       "Transform Operations with Predictive, Automated, and Insight-Driven ML Architecture",
     typeOfServicesContent:
-      `<p>Our algorithms are not simply put into practice, but rather we are building intelligent, self-learning and context-aware ML ecosystems. 
-      Our engineering skill allows companies to create applications that process data in real-time and learn patterns and deliver meaningful insights with great responsibility. 
-      Machine learning will decrease the amount of manual decision-making, operational error, 
-      and enhance business continuity by providing insights or accurate forecasts through automation.</p>
+      `<p>Our algorithms are not simply put into practice, but rather we are building intelligent, self-learning and context-aware ML ecosystems.
+       Our engineering skill allows companies to create applications that process data in real-time and learn patterns and deliver meaningful insights with great responsibility. 
+       Machine learning will decrease the amount of manual decision-making, operational error, 
+       and enhance business continuity by providing insights or accurate forecasts through automation.</p>
       <p><strong>What We Deliver: Machine Learning Solutions Built for Real-World Impact:</strong></p>
       `,
     typeOfServicesList: [
@@ -5923,22 +5940,26 @@ export const bottomData = [
         list: "Cleaning, transforming, and structuring data to ensure accurate and high-quality ML output.",
       },
       {
-        head: "Omnichannel Chatbot Integration:",
-        list: "Seamless integration with CRM, ERP, marketing tools, and customer support platforms to unify communication across channels.",
+        head: "AI-Powered Automation:",
+        list: "Designing automated reporting, recommendation, approvals and real time decision making systems.",
       },
+      {
+        head: "Deep Learning Solutions:",
+        list: "Creating neural networks systems to analyze images, recognize speech, identify patterns among others.",
+      }, 
       {
         head: "MLOps & Managed ML Infrastructure:",
         list: "Full lifecycle monitoring, automation, optimization, and continuous model improvement.",
-      }, 
+      },  
       {
         head: "Security, Governance & Compliance:",
         list: "Providing a high level of data governance, data pipeline security and regulatory compliance of ML workflows.",
-      },                                    
+      },                                   
     ],
-    trendImg: ChatbotTrendsImg,
-    howWorkHeading: "The Art and Science Behind Effective Chatbot Development",
-    howWorkContent: `<p>The construction of a smart chatbot is an operational and a tactical undertaking. 
-    In Uniterrene Websoft, we integrate the language knowledge, engineering accuracy, and user behaviour to provide effective results.</p>
+    trendImg: MachineLearningTrendsImg,
+    howWorkHeading: "The Craft Behind High-Performance ML Engineering",
+    howWorkContent: `<p>Building a reliable ML ecosystem requires strategic planning, strong data foundations, and robust engineering.</p>
+    <p>We integrate extensive technical mastery with user-oriented design to provide ML ecosystems that yield quantifiable results.</p>
     `,
 
     typeOfWebsiteHeading: "We Focus On:",
@@ -5949,36 +5970,636 @@ export const bottomData = [
       {
         heading: "",
         content:
-          "Dynamically extensible conversation.",
+          "Clean and structured datasets.",
       },   
       {
         heading: "",
         content:
-          "Secure application and monitoring.",
+          "Ethical and explainable AI.",
       },
       {
         heading: "",
         content:
-          "NLP-based meaning and situational reactions.",
+          "Optimized model training.",
       },
       {
         heading: "",
         content:
-          "Constant training and repetitive upgrading.",
+          "Real-time inference systems.",
       },  
       {
         heading: "",
         content:
-          "Efficiency and precision on all levels.",
+          "High performance under complex workloads.",
       },        
     ],
-    expertImg: ChatbotExpertImg,
+    expertImg: MachineLearningExpertImg,
     trendBenefitHead:
-      "Building Chatbot Solutions Across Industries",
-    trendBenefitContent: `<p>Our team realizes the specific communication requirements of various industries and creates chatbots 
-    that can be used to the fullest and work most efficiently. Our smart chatbot systems assist firms to remain productive, responsive, and digitally-aligned.</p>`,
+      "Tailored Machine Learning Solutions for Every Industry",
+    trendBenefitContent: `<p>Our team is aware of the operational requirements of various industries and develops ML systems that reinforced productivity and growth.</p>
+    <p>Our solutions enable organizations to remain competitive, scalable and digital.</p>`,
     trendBenefitListHead:
       "Industries We Serve:",
+    trendBenefitList: [
+      {
+        title: "",
+        list: "E-commerce & Retail",
+      },
+      {
+        title: "",
+        list: "Fintech & Banking",
+      },
+      {
+        title: "",
+        list: "Healthcare & Life Sciences",
+      },
+      {
+        title: "",
+        list: "Education & E-learning",
+      },
+      {
+        title: "",
+        list: "Travel & Logistics",
+      },      
+      {
+        title: "",
+        list: "Real Estate & Property Services",
+      },  
+      {
+        title: "",
+        list: "SaaS & Technology Platforms",
+      },                   
+    ],
+    hireHead: "The Future Is Intelligent: Trends Shaping the Next Era of Machine Learning",
+    hireListHead:
+      `<p>Machine learning continues to evolve with automation, predictive analytics, and generative AI. Every solution we build includes intelligent scaling, high accuracy, and performance-focused workflows.</p>`,
+    hireList: [
+      {
+        title: "Emerging Trends:",
+        list: "Real-time predictive analytics.",
+      },
+      {
+        title: "",
+        list: "Generative AI and automated content creation.",
+      },
+      {
+        title: "",
+        list: "Intelligent personalization engines.",
+      },
+      {
+        title: "",
+        list: "AI-driven security systems.",
+      },    
+      {
+        title: "",
+        list: "Edge-based ML processing.",
+      },              
+    ],
+    whyChooseHead: "Why Choose Us as Your Machine Learning Transformation Partner?",
+    whyChooseContent: `<p>By collaborating with Uniterrene Websoft, one will select a team focused on accuracy, development, and effectiveness.</p>
+    <p>Our ML solutions simplify the processes, facilitate business expansions, and generate sustainability and digital value in the long term.</p>`,
+    whyChooseListHead:
+      "We Ensure:",
+    whyChooseList: [
+      {
+        title: "",
+        list: "Tailored ML strategies.",
+      },
+      {
+        title: "",
+        list: "Transparent processes and training cycles.",
+      },
+      {
+        title: "",
+        list: "Ethical and secure AI practices.",
+      },
+      {
+        title: "",
+        list: "End-to-end deployment and monitoring.",
+      },   
+      {
+        title: "",
+        list: "Flexible engagement models for all business sizes.",
+      },                      
+    ],
+    faqImg: MachineLearningFaqImg,
+    faqs: [
+      {
+        title: "What is Machine Learning and how does it help my business?",
+        content:
+          "Machine learning empowers systems to learn and make correct predictions enhancing automation, decision-making and operational efficiency.",
+        open: true,
+      },
+      {
+        title: "Can ML models integrate with my existing software?",
+        content:
+          "Yes, ML models have the ability to interoperate with databases, CRM software, cloud applications and enterprise systems to create automated workflows.",
+        open: false,
+      },
+      {
+        title: "How long does it take to build an ML solution?",
+        content:
+          "Timelines vary based on data complexity and project needs, but we ensure structured phases data preparation, model creation, testing, and deployment.",
+        open: false,
+      },                             
+    ],
+  },
+
+ 
+    
+  {
+    id: 31,
+    parent: "AI Development",
+    slug: "deep-learning-models",
+    serviceName: "Deep Learning Models",
+    pageTitle:
+      "Advanced Deep Learning Model Development Solutions",
+    description: `<p>At Uniterrene Websoft, we build cutting-edge deep learning models that help businesses harness 
+    the full potential of intelligent systems. We are the experts in developing AI solutions that are scalable, accurate and perform well, 
+    comprehend patterns, predict, and automate the processes of making decisions which are very complex. 
+    We are also highly skilled in neural networks, data engineering, and computational modeling and we assist organizations to upgrade their digital systems, 
+    be it through automation, predictive power, or smart analytics.</p>      
+    `,
+    topImg: DeepLearningTopImg,
+    typeOfServicesHeading:
+      "Optimize Outcomes with Intelligent Deep Learning Architectures",
+    typeOfServicesContent:
+      `<p>We are not merely model makers, but we are systems that are adaptive, data driven and are made to grow as your business grows. 
+      Your deep learning solutions can respond with elegant precision to large datasets, detect patterns and trends, and predict using our engineering power. 
+      These smart systems decrease manual work, enhance predictive skills, and reinforce the uniformity of decisions made by business activities.</p>
+      <p><strong>Our Core Services Include:</strong></p>
+      `,
+    typeOfServicesList: [
+      {
+        head: "Deep Learning Consulting & Framework Design:",
+        list: "Specified plans that enable companies to pinpoint an appropriate model structure, data necessities, and combination strategy to effect powerful AI implementation.",
+      },
+      {
+        head: "Neural Network Development:",
+        list: "Design and deployment of high-performance models including CNNs, RNNs, LSTMs, GANs, and Transformer-based architectures for diverse applications.",
+      },
+      {
+        head: "Automated Data Processing Pipelines:",
+        list: "Creation of end-to-end data workflows that cleanse, structure, and optimize datasets for reliable deep learning performance.",
+      },
+      {
+        head: "AI System Integration:",
+        list: "Uninterrupted connections between deep learning models and enterprise applications, analytics, mobile applications, and automatic systems.",
+      },
+      {
+        head: "Model Training & Optimization:",
+        list: "Ongoing improvement on data retraining, hyperparameter optimization, monitoring behavior, and accuracy.",
+      }, 
+      {
+        head: "Maintenance & Ongoing Support:",
+        list: "Regular updates, performance checks, and feature expansions to ensure the model remains aligned with your evolving business goals.",
+      },        
+                                        
+    ],
+    trendImg: DeepLearningTrendsImg,
+    howWorkHeading: "The Science Behind Effective Deep Learning Solutions",
+    howWorkContent: `<p>The creation of sophisticated deep learning is both a strategy and precision. 
+    At Uniterrene Websoft, we integrate computational intelligence, algorithmic accuracy and real world understanding to provide systems which work consistently.</p>
+    `,
+
+    typeOfWebsiteHeading: "We Focus On:",
+    typeOfWebsiteContent:
+      ``,
+    typeOfWebsiteListHead: "",
+    expertTeamList: [
+      {
+        heading: "",
+        content:
+          "Scalable neural network architectures",
+      },   
+      {
+        heading: "",
+        content:
+          "Secure model deployment and monitoring.",
+      },
+      {
+        heading: "",
+        content:
+          "Context-aware pattern recognition.",
+      },
+      {
+        heading: "",
+        content:
+          "Continuous improvement and iterative training.",
+      },  
+      {
+        heading: "",
+        content:
+          "High accuracy across varied datasets.",
+      },        
+    ],
+    expertImg: DeepLearningExpertImg,
+    trendBenefitHead:
+      "Deep Learning Solutions Across Industries",
+    trendBenefitContent: `<p>We are aware of the data issues in other industries and develop models that meet specific industries. 
+    Our smart AI provides businesses with the ability to be efficient, predictive and digitally empowered.</p>`,
+    trendBenefitListHead:
+      "Industries We Serve:",
+    trendBenefitList: [
+      {
+        title: "",
+        list: "Healthcare & Diagnostics",
+      },
+      {
+        title: "",
+        list: "Finance & Risk Analysis",
+      },
+      {
+        title: "",
+        list: "E-commerce & Retail",
+      },
+      {
+        title: "",
+        list: "Manufacturing & Robotics",
+      },
+      {
+        title: "",
+        list: "Education & E-learning",
+      },      
+      {
+        title: "",
+        list: "Real Estate & Property Insights",
+      },  
+      {
+        title: "",
+        list: "Travel & Logistics",
+      },                   
+    ],
+    hireHead: "Innovating the Future: Trends Shaping Deep Learning Technology",
+    hireListHead:
+      `<p>Deep learning continues to evolve as new breakthroughs emerge in AI research. Every solution we design incorporates advanced algorithms, predictive logic, and user-centric intelligence to keep organizations future-ready.</p>`,
+    hireList: [
+      {
+        title: "Emerging Trends:",
+        list: "Deep learning models using Transformer architectures.",
+      },
+      {
+        title: "",
+        list: "Vision-based AI systems for recognition and detection.",
+      },
+      {
+        title: "",
+        list: "Generative models for content and design automation.",
+      },       
+      {
+        title: "",
+        list: "Emotion-aware AI for enhanced human-machine interaction.",
+      },              
+    ],
+    whyChooseHead: "Your Trusted Deep Learning Technology Partner",
+    whyChooseContent: `<p>Partnering with Uniterrene Websoft means working with a team committed to innovation, precision, and measurable outcomes. 
+    We design intelligent models that enhance operations, support strategic planning, and enable smarter digital ecosystems.</p>`,
+    whyChooseListHead:
+      "We Ensure:",
+    whyChooseList: [
+      {
+        title: "",
+        list: "Tailored deep learning frameworks for unique business needs.",
+      },
+      {
+        title: "",
+        list: "Secure and compliant deployment.",
+      },
+      {
+        title: "",
+        list: "Transparent performance monitoring.",
+      },
+      {
+        title: "",
+        list: "Continuous model upgrades and enhancements.",
+      },   
+      {
+        title: "",
+        list: "Flexible solutions for startups, SMEs, and enterprises.",
+      },                      
+    ],
+    faqImg: DeepLearningFaqImg,
+    faqs: [
+      {
+        title: "What are Deep Learning Models and how can they help my business?",
+        content:
+          "Deep learning models are models that make use of large data sets to identify patterns, automate decisions, and enhance predictions, which assists the business to operate more effectively and precisely.",
+        open: true,
+      },
+      {
+        title: "Do you build custom neural network models?",
+        content:
+          "Yes, we are creating and training high-performance neural networks with certain business objectives, such as vision models, predictive systems, and natural language models.",
+        open: false,
+      },
+      {
+        title: "Can deep learning solutions integrate with our existing systems?",
+        content:
+          "Absolutely. We combine models and enterprise software, analytics, mobile applications, and automated platforms to support end-to-end workflows.",
+        open: false,
+      }, 
+      {
+        title: "Do you provide ongoing model training and updates?",
+        content:
+          "Yes, we optimize performance by training, assessing and refining performance continuously to get the same degree of accuracy with time.",
+        open: false,
+      },                            
+    ],
+  },
+
+
+
+
+
+
+
+  {
+    id: 32,
+    parent: "AI Development",
+    slug: "nlp",
+    serviceName: "NLP",
+    pageTitle:
+      "Empower Digital Intelligence with Advanced NLP Solutions",
+    description: `<p>At Uniterrene Websoft, we develop intelligent NLP systems that understand language, extract meaning, 
+    and transform unstructured data into actionable insights. We have a background of creating context-aware, 
+    secure and scalable NLP models that do not need the oversight of complex linguistic workflows to serve the digital operations of the present day world. </p> 
+    <p>We want to assist businesses to overcome the constraints of text processing and attain smarter results by having language understanding, 
+    automated interpretation, and text analysis in real-time.</p>     
+    `,
+    topImg: NLPTopImg,
+    typeOfServicesHeading:
+      "Drive Real-Time Understanding Through Intelligent Language Systems",
+    typeOfServicesContent:
+      `<p>We do not just generate NLP models but rather we design adaptive, intuitive, and high-performing NLP ecosystems. 
+      Our solutions enable businesses to analyze conversations, decode sentiment, respond to text automatically and provide personalized user experiences with more accuracy. 
+      The NLP systems simplify the process of data interpretation, minimise operational delays, and increase the performance of services by creating automated linguistic processes.</p>
+      <p><strong>What We Deliver: NLP Solutions That Transform Processes</strong></p>
+      `,
+    typeOfServicesList: [
+      {
+        head: "NLP Consulting & Strategy:",
+        list: "Guiding organizations in identifying the right NLP techniques for improved efficiency, automated workflows, and enhanced user experiences.",
+      },
+      {
+        head: "Custom NLP Model Development:",
+        list: "Building tailored NLP models using machine learning, deep learning, and industry-leading AI frameworks.",
+      },
+      {
+        head: "Chatbot & Virtual Assistant Development:",
+        list: "Creating intelligent conversational systems with natural, human-like responses for smoother customer engagement.",
+      },
+      {
+        head: "Text Analytics & Data Processing:",
+        list: "Extracting insights from documents, emails, reviews, feedback, and large text datasets to support business decisions.",
+      },
+      {
+        head: "Sentiment Analysis & Opinion Mining:",
+        list: "Analyzing customer sentiment to help brands understand emotions, behavior, and market perception.",
+      }, 
+      {
+        head: "NLP Automation for Workflows:",
+        list: "Automating document handling, text categorization, keyword extraction, and report generation.",
+      }, 
+      {
+        head: "AI Content Understanding & Classification:",
+        list: "Building smart systems that classify, summarize, and interpret content in real time.",
+      },        
+                                        
+    ],
+    trendImg: NLPTrendsImg,
+    howWorkHeading: "The Craft Behind High-Performance NLP Engineering",
+    howWorkContent: `<p>The creation of an intelligent NLP system needs linguistic expertise, technical engineering, and design, based on the user. 
+    As a team, we have integrated these strengths in order to achieve NLP environments that have practical results that are measurable.</p>
+    `,
+
+    typeOfWebsiteHeading: "We Focus On:",
+    typeOfWebsiteContent:
+      ``,
+    typeOfWebsiteListHead: "",
+    expertTeamList: [
+      {
+        heading: "",
+        content:
+          "Context-aware NLP models.",
+      },   
+      {
+        heading: "",
+        content:
+          "Secure and scalable AI architecture.",
+      },
+      {
+        heading: "",
+        content:
+          "Optimized text processing workflows.",
+      },
+      {
+        heading: "",
+        content:
+          "Real-time data interpretation.",
+      },  
+      {
+        heading: "",
+        content:
+          "High efficiency under heavy text volume.",
+      },        
+    ],
+    expertImg: NLPExpertImg,
+    trendBenefitHead:
+      "Tailored NLP Solutions for Every Industry Landscape",
+    trendBenefitContent: `<p>We are aware of the communication demands of different sectors and develop NLP-based systems that make the processes easier and more productive. 
+    Our solutions assist organizations to be efficient, nimble, and digital ready.</p>`,
+    trendBenefitListHead:
+      "Industries We Serve:",
+    trendBenefitList: [
+      {
+        title: "",
+        list: "E-commerce & Retail",
+      },
+      {
+        title: "",
+        list: "Fintech & Banking",
+      },
+      {
+        title: "",
+        list: "Healthcare & Life Sciences",
+      },
+      {
+        title: "",
+        list: "Education & E-learning",
+      },
+      {
+        title: "",
+        list: "Travel & Logistics",
+      },      
+      {
+        title: "",
+        list: "Real Estate & Property Management",
+      },  
+      {
+        title: "",
+        list: "SaaS & Technology Enterprises",
+      },                   
+    ],
+    hireHead: "The Future Is NLP: Trends Defining the Next Stage of AI Language Understanding",
+    hireListHead:
+      `<p>NLP continues to evolve with advancements in automation, machine reasoning, and real-time linguistic processing. 
+      Our solutions integrate these innovations to deliver smarter, more capable systems.</p>`,
+    hireList: [
+      {
+        title: "Emerging Trends:",
+        list: "Generative AI-driven text workflows.",
+      },
+      {
+        title: "",
+        list: "Multilingual language systems.",
+      },
+      {
+        title: "",
+        list: "Real-time voice-to-text engines.",
+      },       
+      {
+        title: "",
+        list: "Emotion and intent interpretation.",
+      },  
+      {
+        title: "",
+        list: "Document intelligence with automation.",
+      },             
+    ],
+    whyChooseHead: "Why Choose Us as Your NLP Transformation Partner?",
+    whyChooseContent: `<p>Partnering with Uniterrene Websoft means choosing a team focused on precision, intelligence, and long-term digital growth. 
+    We build NLP systems that elevate operations, strengthen engagement, and support continuous improvement.</p>`,
+    whyChooseListHead:
+      "We Ensure:",
+    whyChooseList: [
+      {
+        title: "",
+        list: "Customized NLP strategies.",
+      },
+      {
+        title: "",
+        list: "Secure and compliant AI processes.",
+      },
+      {
+        title: "",
+        list: "Transparent model training and deployment.",
+      },
+      {
+        title: "",
+        list: "Continuous refinement and optimization.",
+      },   
+      {
+        title: "",
+        list: "Flexible solutions for all business scales.",
+      },                      
+    ],
+    faqImg: NLPFaqImg,
+    faqs: [
+      {
+        title: "What is NLP and how does it help my business?",
+        content:
+          "NLP enables systems to understand and analyze human language. It helps businesses automate communication, interpret customer feedback, and process large volumes of text with ease.",
+        open: true,
+      },
+      {
+        title: "Can NLP integrate with existing platforms and tools?",
+        content:
+          "Yes, NLP systems can integrate with CRM platforms, chat systems, data tools, apps, and enterprise dashboards to support seamless workflows.",
+        open: false,
+      },
+      {
+        title: "Which technologies do you use for NLP development?",
+        content:
+          "We use leading AI and cloud platforms including AWS, Google Cloud, Azure, and advanced AI frameworks to create models suited to your business needs.",
+        open: false,
+      }, 
+                                 
+    ],
+  },
+
+
+
+  {
+    id: 33,
+    parent: "Digital Marketing",
+    slug: "smo",
+    serviceName: "SMO",
+    pageTitle:
+      "Power Your Digital Engagement with Strategic, Scalable, and Impactful SMO Solutions",
+    description: `<p>At <strong>Uniterrene Websoft</strong>, we believe in the power of social media to shape conversations, build relationships, and grow brands. Our <strong>Social Media Optimization (SMO)</strong> services go beyond likes and shares, we help you build a strong, meaningful, and data-driven social presence that attracts, engages, and retains your audience. Whether you are launching a new brand or strengthening an existing one, our expert SMO team designs campaigns that reflect your voice and amplify your visibility across all major platforms. </p>         
+    `,
+    topImg: SMOTopImg,
+    typeOfServicesHeading:
+      "Crafting Connections That Matter: Our SMO Services",
+    typeOfServicesContent:
+      `<p>Our SMO services offer a complete package, which will position your brand well in the social arena and guarantee frequent interactions with your audience.</p>
+      <p><strong>Our key offerings include:</strong></p>
+      `,
+    typeOfServicesList: [
+      {
+        head: "Social Media Strategy & Planning:",
+        list: "Data-driven roadmaps tailored to your brand’s audience and goals.",
+      },
+      {
+        head: "Content Creation & Management:",
+        list: "Engaging visuals, videos, and posts that reflect your brand identity.",
+      },
+      {
+        head: "Social Media Profile Optimization:",
+        list: "Enhancing bios, visuals, and keywords for maximum visibility.",
+      },
+      {
+        head: "Community Building & Engagement:",
+        list: "Developing real-time interactions that foster brand loyalty.",
+      },
+      {
+        head: "Social Media Advertising:",
+        list: "Targeted campaigns for measurable growth and higher ROI.",
+      }, 
+      {
+        head: "Analytics & Performance Tracking:",
+        list: "Real-time monitoring and reporting to refine strategies continuously.",
+      },        
+                                        
+    ],
+    trendImg: SMOTrendsImg,
+    howWorkHeading: "The Science of Social Success: How SMO Works",
+    howWorkContent: `<p>Social Media Optimization helps improve your presence on social media by doing strategic management and optimization of your social media profiles.
+     We also match creativity with analytics in Uniterrene Websoft so that your social channels can be more effective and reach more people.</p>
+    `,
+
+    typeOfWebsiteHeading: "We focus on:",
+    typeOfWebsiteContent:
+      ``,
+    typeOfWebsiteListHead: "",
+    expertTeamList: [
+      {
+        heading: "",
+        content:
+          "Consistent brand messaging across all platforms.",
+      },   
+      {
+        heading: "",
+        content:
+          "Platform-specific content strategies for Facebook, Instagram, LinkedIn, X (Twitter), and YouTube.",
+      },
+      {
+        heading: "",
+        content:
+          "User behavior-based optimization of timing, frequency and engagement.",
+      },
+      {
+        heading: "",
+        content:
+          "Using insights to build valuable interactions with customers.",
+      },           
+    ],
+    expertImg: SMOExpertImg,
+    trendBenefitHead:
+      "Designed for All: Industries We Serve",
+    trendBenefitContent: `<p>Our SMO services apply across diverse industries and audiences, enabling the brands to develop in a natural manner online.</p>`,
+    trendBenefitListHead:
+      "",
     trendBenefitList: [
       {
         title: "",
@@ -5990,11 +6611,11 @@ export const bottomData = [
       },
       {
         title: "",
-        list: "Healthcare & Life Sciences",
+        list: "Healthcare & Wellness",
       },
       {
         title: "",
-        list: "Real Estate & Property Management",
+        list: "Real Estate",
       },
       {
         title: "",
@@ -6002,92 +6623,93 @@ export const bottomData = [
       },      
       {
         title: "",
-        list: "Banking, Finance & Professional Services",
-      },                    
+        list: "Corporate & Professional Services",
+      },                          
     ],
-    hireHead: "Innovating the Future: Trends Reshaping Chatbot Development",
+    hireHead: "SMO in Action: Current Trends and Benefits",
     hireListHead:
-      `<p>Chatbot technology continues to evolve with advancements in AI and automation.  Every project we deliver incorporates intelligence, predictive understanding, and user-centric design to help brands stay future-ready.</p>`,
+      `<p>Social media develops fast and we develop fast. We have strategies that bring on board the new social and content trends, and ensure that the audience is well engaged.</p>`,
     hireList: [
       {
         title: "Emerging Trends:",
-        list: "AI-driven conversational agents with deep learning capabilities.",
+        list: "The domination of the short-form video and interactive narration.",
       },
       {
         title: "",
-        list: "Voice-enabled chatbot systems.",
+        list: "User-generated content and influencer collaboration.",
       },
       {
         title: "",
-        list: "Predictive and emotion-aware chatbots.",
-      },
+        list: "Artificial intelligence-based content scheduling and listening.",
+      },       
       {
         title: "",
-        list: "Hyper-personalized communication engines.",
-      },                 
+        list: "Social commerce and shoppable post integration.",
+      },                     
     ],
-    whyChooseHead: "Your Trusted Chatbot Development Partner",
-    whyChooseContent: `<p>Partnering with Uniterrene Websoft means working with a team that values strategy, innovation, and performance. 
-    We create chatbot systems that increase customer relations, automate business processes, and promote steady business development.</p>`,
+    whyChooseHead: "Why Choose Uniterrene Websoft: The SMO Edge",
+    whyChooseContent: `<p>Collaborating with Uniterrene Websoft implies accessing an innovative and problem-solving team,
+     which is also interested in the success of your brand in the online social environment.</p>`,
     whyChooseListHead:
       "We ensure:",
     whyChooseList: [
       {
         title: "",
-        list: "Chatbot strategies targeted to specific business requirements.",
+        list: "Personalized social strategies in line with business objectives.",
       },
       {
         title: "",
-        list: "Safety development architecture.",
+        list: "Maximum reach platform optimization.",
       },
       {
         title: "",
-        list: "Open deployment and monitoring.",
+        list: "Open performance reporting and analytics.",
       },
       {
         title: "",
-        list: "On-going improvement training and performance.",
+        list: "Imaginative narration that develops society.",
       },   
       {
         title: "",
-        list: "Variable packages to startups, SMEs, and enterprises.",
+        list: "Specialized personnel that run your brand reputation.",
       },                      
     ],
-    faqImg: ChatbotFaqImg,
+    faqImg: SMOFaqImg,
     faqs: [
       {
-        title: "What is Chatbot Development and how does it help my business?",
+        title: "What platforms do you optimize for SMO?",
         content:
-          "The development of chatbots helps businesses to automate their activities during customer interaction, enhance promptness of their response, or minimize human workload, and offer real-time services through the digital medium.",
+          "We control and maximize such large platforms as Facebook, Instagram, LinkedIn, X, and YouTube.",
         open: true,
       },
       {
-        title: "Do you build AI-powered chatbots?",
+        title: "Can SMO help increase website traffic?",
         content:
-          "Yes, we do chatbots based on NLP and machine learning that can comprehend user intent, give contextual replies and train in real-time.",
+          "Yes, SMO gets quality traffic to your website with a regular flow of interactions and focused content.",
         open: false,
       },
       {
-        title: "Can chatbots be integrated with our existing systems?",
+        title: "Is SMO suitable for small and local businesses?",
         content:
-          "Absolutely. We combine chatbots with CRM, ERP, ticketing systems, marketing tools, websites, mobile applications, and social platforms to have a single communication system.",
+          "Absolutely. It assists small brands to get noticed and create trust within the community at a low cost.",
         open: false,
       }, 
-      {
-        title: "Do you offer multi-language chatbot development?",
+       {
+        title: "Do you create social media content as well?",
         content:
-          "Yes, we can train our chatbots to serve more than one language in order to serve both the regional and global communication requirements.",
+          "Yes, our creative team designs platform-specific content tailored to your audience.",
         open: false,
-      },                       
+      }, 
+       {
+        title: "How do you measure SMO success?",
+        content:
+          " We track engagement, reach, clicks, and conversions to measure and improve results.",
+        open: false,
+      }, 
+   
+                                 
     ],
   },
-
-
-
-
-
-
-
 
 
 ];

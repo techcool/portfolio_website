@@ -185,6 +185,23 @@ import ChatbotTopImg from "@public/assets/imgs/services/chatbot-top.jpg";
 import ChatbotTrendsImg from "@public/assets/imgs/services/chatbot-trend.jpg";
 import ChatbotExpertImg from "@public/assets/imgs/services/chatbot-expert.jpg";
 import ChatbotFaqImg from "@public/assets/imgs/services/chatbot-faq.jpg";  
+import MachineLearningTopImg from "@public/assets/imgs/services/machine-learning-top.jpg";
+import MachineLearningTrendsImg from "@public/assets/imgs/services/machine-learning-trend.jpg";
+import MachineLearningExpertImg from "@public/assets/imgs/services/machine-learning-expert.jpg";
+import MachineLearningFaqImg from "@public/assets/imgs/services/machine-learning-faq.jpg";  
+import DeepLearningTopImg from "@public/assets/imgs/services/deep-learning-top.jpg";
+import DeepLearningTrendsImg from "@public/assets/imgs/services/deep-learning-trend.jpg";
+import DeepLearningExpertImg from "@public/assets/imgs/services/deep-learning-expert.jpg";
+import DeepLearningFaqImg from "@public/assets/imgs/services/deep-learning-faq.jpg"; 
+import NLPTopImg from "@public/assets/imgs/services/nlp-top.jpg";
+import NLPTrendsImg from "@public/assets/imgs/services/nlp-trend.jpg";
+import NLPExpertImg from "@public/assets/imgs/services/nlp-expert.jpg";
+import NLPFaqImg from "@public/assets/imgs/services/nlp-faq.jpg"; 
+import SMOTopImg from "@public/assets/imgs/services/smo-top.jpg";
+import SMOTrendsImg from "@public/assets/imgs/services/smo-trend.jpg";
+import SMOExpertImg from "@public/assets/imgs/services/smo-expert.jpg";
+import SMOFaqImg from "@public/assets/imgs/services/smo-faq.jpg"; 
+
 
 export {
   wpTopImg,
@@ -315,5 +332,21 @@ export {
   ChatbotTrendsImg,
   ChatbotExpertImg,
   ChatbotFaqImg,
-  
+  MachineLearningTopImg,
+  MachineLearningTrendsImg,
+  MachineLearningExpertImg,
+  MachineLearningFaqImg,
+  DeepLearningTopImg,
+  DeepLearningTrendsImg,
+  DeepLearningExpertImg,
+  DeepLearningFaqImg,
+  NLPTopImg,
+  NLPTrendsImg,
+  NLPExpertImg,
+  NLPFaqImg,  
+  SMOTopImg,
+  SMOTrendsImg,
+  SMOExpertImg,
+  SMOFaqImg,
+
 };
