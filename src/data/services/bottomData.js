@@ -39,6 +39,111 @@ import {
   magentoTrendsImg,
   magentoExpertImg,
   magentoFaqImg,
+  shopifyTopImg,
+  shopifyTrendsImg,
+  shopifyExpertImg,
+  shopifyFaqImg,
+  CloudComputingTopImg,
+  CloudComputingTrendsImg,
+  CloudComputingExpertImg,
+  CloudComputingFaqImg,
+  CiCdTopImg,
+  CiCdTrendsImg,
+  CiCdExpertImg,
+  CiCdFaqImg,
+  CakeTopImg,
+  CakeTrendsImg,
+  CakeExpertImg,
+  CakeFaqImg,
+  ContainerizationDockerKubernetesTopImg,
+  ContainerizationDockerKubernetesTrendsImg,
+  ContainerizationDockerKubernetesExpertImg,
+  ContainerizationDockerKubernetesFaqImg,
+  ServerlessArchitectureTopImg,
+  ServerlessArchitectureTrendsImg,
+  ServerlessArchitectureExpertImg,
+  ServerlessArchitectureFaqImg,
+  NodeJsTopImg,
+  NodeJsTrendsImg,
+  NodeJsExpertImg,
+  NodeJsFaqImg,
+  ExpressJsTopImg,
+  ExpressJsTrendsImg,
+  ExpressJsExpertImg,
+  ExpressJsFaqImg,
+  AngularTopImg,
+  AngularTrendsImg,
+  AngularExpertImg,
+  AngularFaqImg,
+  MongoDBTopImg,
+  MongoDBTrendsImg,
+  MongoDBExpertImg,
+  MongoDBFaqImg,
+  ReactJSTopImg,
+  ReactJSTrendsImg,
+  ReactJSExpertImg,
+  ReactJSFaqImg,
+  CSharpTopImg,
+  CSharpTrendsImg,
+  CSharpExpertImg,
+  CSharpFaqImg, 
+  DOTNetTopImg,
+  DOTNetTrendsImg,
+  DOTNetExpertImg,
+  DOTNetFaqImg,
+  AppDesignTopImg,
+  AppDesignTrendsImg,
+  AppDesignExpertImg,
+  AppDesignFaqImg,
+  LogoBrandTopImg,
+  LogoBrandTrendsImg,
+  LogoBrandExpertImg,
+  LogoBrandFaqImg,
+  SocialMediaAdsTopImg,
+  SocialMediaAdsTrendsImg,
+  SocialMediaAdsExpertImg,
+  SocialMediaAdsFaqImg,
+  SeoTopImg,
+  SeoTrendsImg,
+  SeoExpertImg,
+  SeoFaqImg,
+  SmmTopImg,
+  SmmTrendsImg,
+  SmmExpertImg,
+  SmmFaqImg,
+  PPCTopImg,
+  PPCTrendsImg,
+  PPCExpertImg,
+  PPCFaqImg,
+  ContentMarketingTopImg,
+  ContentMarketingTrendsImg,
+  ContentMarketingExpertImg,
+  ContentMarketingFaqImg,
+  EmailMarketingTopImg,
+  EmailMarketingTrendsImg,
+  EmailMarketingExpertImg,
+  EmailMarketingFaqImg,
+  ChatbotTopImg,
+  ChatbotTrendsImg,
+  ChatbotExpertImg,
+  ChatbotFaqImg,
+  MachineLearningTopImg,
+  MachineLearningTrendsImg,
+  MachineLearningExpertImg,
+  MachineLearningFaqImg,  
+  DeepLearningTopImg,
+  DeepLearningTrendsImg,
+  DeepLearningExpertImg,
+  DeepLearningFaqImg,
+  NLPTopImg,
+  NLPTrendsImg,
+  NLPExpertImg,
+  NLPFaqImg,
+  SMOTopImg,
+  SMOTrendsImg,
+  SMOExpertImg,
+  SMOFaqImg,
+
 } from "./serviceImages";
 export const bottomData = [
   {
@@ -1481,7 +1586,7 @@ export const bottomData = [
   },
   {
     id: 10,
-    parent: "Ecommerce Development",
+    parent: "ecommerce-development",
     slug: "magento",
     serviceName: "Magento",
     pageTitle:
@@ -1660,5 +1765,4951 @@ export const bottomData = [
       },
     ],
   },
+  {
+    id: 11,
+    parent: "ecommerce-development",
+    slug: "shopify",
+    serviceName: "Shopify",
+    pageTitle:
+      "Empower Your E-commerce Journey with Our Shopify Excellence",
+    description: `<p>At Uniterrene Websoft, we specialize in building dynamic, result-driven online stores powered by Shopify. Our professional designers and programmers build beautiful, responsive, and user-friendly online shopping sites that are scalable to meet your needs, regardless of size or scale, and help achieve increased sales and customer retention in the market to increase your market share. We simplify, secure and make e-commerce a success.</p>`,
+    topImg: shopifyTopImg,
+    typeOfServicesHeading:
+      "Powering Your Storefront: Our Shopify Services",
+    typeOfServicesContent:
+      "Our solutions are end-to-end Shopify development solutions that enable businesses to start and expand with ease. Each of the projects is designed in a manner that provides aesthetics as well as functionality with ease of management. Our key services include:",
+    typeOfServicesList: [
+      {
+        head: "Shopify Store Setup & Configuration:",
+        list: "Get access to complete store creation, product setup, and configuration.",
+      },
+      {
+        head: "Custom Shopify Theme Design:",
+        list: "We make sure to offer unique and brand-related themes that will stand out to give them a comfortable shopping experience.",
+      },
+      {
+        head: "App Integration & Customization:",
+        list: "Expand the functionality and visibility of your store with our curated app solutions.",
+      },
+      {
+        head: "Shopify SEO Optimization:",
+        list: "Be sure to increase the exposure through search engine friendly systems and search engine optimized materials.",
+      },
+      {
+        head: "Migration to Shopify:",
+        list: "Move your existing store out of other platforms to Shopify.",
+      },
+      {
+        head: "Shopify Maintenance & Support:",
+        list: "Ongoing assistance to ensure smooth performance.",
+      },
+    ],
+    trendImg: shopifyTrendsImg,
+    howWorkHeading: "",
+    howWorkContent: ``,
+
+    typeOfWebsiteHeading: "Behind the Checkout: How Shopify Works",
+    typeOfWebsiteContent:
+      "Shopify is a one-stop, cloud-based e-commerce solution, where any person can build, operate, and grow an online shop without any complicated coding. ",
+    typeOfWebsiteListHead: "Here’s how it works:",
+    expertTeamList: [
+      {
+        heading: "",
+        content:
+          "Select a business design and make modifications to it with the help of an editor in Shopify.",
+      },
+      {
+        heading: "",
+        content:
+          "Add products, manage inventory, and set up secure payment gateways.",
+      },
+      {
+        heading: "",
+        content: "Create your own store and monitor the sales with strong built-in analytics..",
+      },
+      {
+        heading: "",
+        content:
+          "",
+      },
+    ],
+    expertImg: shopifyExpertImg,
+    trendBenefitHead:
+      "Designed for Every Vision: Types of Shopify Sites We Build",
+    trendBenefitContent: ``,
+    trendBenefitListHead:
+      "We build and optimize Shopify stores across various industries and purposes, including:",
+    trendBenefitList: [
+      {
+        title: "Fashion & Apparel Stores:",
+        list: "Showcase collections with style and simplicity.",
+      },
+      {
+        title: "Health & Beauty Stores:",
+        list: "Customers can trust us because of clean design and safe payment mechanisms.",
+      },
+      {
+        title: "Electronics & Gadgets Stores:",
+        list: "Feature-rich designs to handle large inventories.",
+      },
+      {
+        title: "Food & Beverage Sites:",
+        list: "Studio Freshness with convenient ordering.",
+      },
+      {
+        title: "Home & Lifestyle Stores:",
+        list: "Design engaging shopping experiences in home furnishings and accessories.",
+      },
+    ],
+    hireHead: "E-commerce Evolution: Current Trends and Benefits",
+    hireListHead:
+      "Shopify continues to lead the e-commerce revolution with new trends and features such as:",
+    hireList: [
+      {
+        title: "",
+        list: "Artificial intelligence to assist customers by giving recommendations on their products.",
+      },
+      {
+        title: "",
+        list: "Mobile first design that guarantees quicker loading and increased interaction.",
+      },
+      {
+        title: "",
+        list: "Multi-channel retailing in the social media, Amazon, and marketplace.",
+      },
+      {
+        title: "",
+        list: "In-built analytics to execute live performance monitoring.",
+      },      
+    ],
+    whyChooseHead: "Why Choose Uniterrene Websoft: Your Shopify Partner for Growth",
+    whyChooseContent: ``,
+    whyChooseListHead:
+      "Choosing Uniterrene Websoft means choosing innovation and reliability. We integratively blend creativity and technical skills to develop Shopify stores that make people engage and buy. Our Shopify experts ensure:",
+    whyChooseList: [
+      {
+        title: "",
+        list: "Custom-built stores that reflect your brand identity.",
+      },
+      {
+        title: "",
+        list: "Smooth functionality across all devices.",
+      },
+      {
+        title: "",
+        list: "Data-driven strategies for conversions.",
+      }    
+    ],
+    faqImg: shopifyFaqImg,
+    faqs: [
+      {
+        title: "Is Shopify suitable for small businesses?",
+        content:
+          "Yes, Shopify’s flexible pricing and easy setup make it ideal for small to medium businesses.",
+        open: true,
+      },
+      {
+        title: "Can Uniterrene Websoft customize my Shopify theme?",
+        content:
+          "Absolutely. Our team creates and develops themes to fit the appearance and objectives of your brand.",
+        open: false,
+      },
+      {
+        title: "How secure is Shopify for online transactions?",
+        content:
+          "Shopify has safe payment features like the inclusion of the safe encryption of data and the PCI compliance.",
+        open: false,
+      },
+      {
+        title: "Can I migrate my existing store to Shopify?",
+        content:
+          " Yes, we will provide you with flawless migration services without losing your information and search results.",
+        open: false,
+      },
+      {
+        title: "Does Shopify support international selling?",
+        content:
+          " Yes, it allows multiple currencies, payment options, and shipping integrations for global reach.",
+        open: false,
+      },
+    ],
+  },
+  {
+    id: 12,
+    parent: "php-framework",
+    slug: "cake-php",
+    serviceName: "Cake php",
+    pageTitle:
+      "Build High-Performance Applications with Expert CakePHP Development",
+    description: `<p>At <strong>Uniterrene Websoft</strong>, we build robust, scalable, and secure applications using the full power of the <strong>CakePHP framework</strong>. Our goal is to craft fast, structured, and high-quality digital solutions that streamline business operations and enhance user experience. We provide applications which have a consistent performance at any setting due to the robust MVC architecture, security in-built in CakePHP, and its capability to develop fast.</p>`,
+    topImg: CakeTopImg,
+    typeOfServicesHeading:
+      "Drive Smooth Performance with Accelerated CakePHP Engineering",
+    typeOfServicesContent:
+      `<p>We do far more than develop basic PHP applications. We develop optimized, component-based and enterprise-ready CakePHP ecosystems. The superiority in the engineering of our products can help organizations to run faster, more reliable applications and scale without failure. Between MVC-compatible coding and secure database interactions, we make sure that all the modules are made with accuracy.
+      </p>
+      <div class='mt-5'><h5 class="text-[20px] md:text-2xl">What We Deliver: CakePHP Solutions That Transform Digital Operations</h5></div>`,
+    typeOfServicesList: [
+      {
+        head: "CakePHP Consulting & Architecture Planning:",
+        list: "Helping businesses choose the right CakePHP structure for improved performance, flexibility, and long-term stability.",
+      },
+      {
+        head: "Custom CakePHP Application Development:",
+        list: "Building scalable and feature-rich applications using CakePHP’s MVC framework, ORM, and built-in tools.",
+      },
+      {
+        head: "CakePHP Migration & Upgradation:",
+        list: "Modernizing legacy systems by securely migrating them to the latest CakePHP versions for better speed and security.",
+      },
+      {
+        head: "API Development & Integration:",
+        list: "Creating robust REST APIs and integrating third-party services to improve business automation.",
+      },
+      {
+        head: "CakePHP Plugin Development:",
+        list: "Developing custom plugins and extensions for enhanced functionality and smoother workflows.",
+      },
+      {
+        head: "Performance Optimization & Code Refactoring:",
+        list: "Improving existing CakePHP systems through code restructuring, caching strategies, and database optimization.",
+      },
+      {
+        head: "Ongoing Maintenance & Security Management:",
+        list: "Providing continuous monitoring, upgrades, and security enhancements for long-term application reliability.",
+      },
+    ],
+    trendImg: CakeTrendsImg,
+    howWorkHeading: "",
+    howWorkContent: ``,
+
+    typeOfWebsiteHeading: "The Craft Behind High-Performance CakePHP Development",
+    typeOfWebsiteContent:
+      "Building scalable CakePHP applications requires deep knowledge of MVC architecture, clean coding practices, and secure system design. At <strong>Uniterrene Websoft</strong>, our development approach ensures precision and long-term maintainability.",
+    typeOfWebsiteListHead: "We Focus On:",
+    expertTeamList: [
+      {
+        heading: "",
+        content:
+          "Structured and modular MVC architecture",
+      },
+      {
+        heading: "",
+        content:
+          "Secure coding and built-in CakePHP security tools",
+      },
+      {
+        heading: "",
+        content: "Optimized database queries and ORM workflows",
+      },
+      {
+        heading: "",
+        content:
+          "High-speed application response",
+      },
+      {
+        heading: "",
+        content:
+          "Clean and scalable codebases",
+      },
+    ],
+    expertImg: CakeExpertImg,
+    trendBenefitHead:
+      "Industry-Driven CakePHP Development Tailored for Growth",
+    trendBenefitContent: `<p>Different industries require unique digital workflows and custom features. We build CakePHP applications that support operational efficiency and digital expansion across sectors.</p><br/><h5 class="text-2xl">Industries We Serve:</h5><ul class="flex flex-wrap flex-row gap-6 inner-list double-list mt-5"><li>E-commerce & Retail</li><li>Fintech & Banking</li><li>Healthcare & Life Sciences</li><li>Education & E-learning</li><li>Travel & Logistics</li><li>Real Estate & Property Management</li><li>SaaS & Technology Enterprises</li></ul> `,
+    trendBenefitListHead:
+      "",
+    trendBenefitList: [
+     /* {
+        title: "",
+        list: "",
+      },*/
+      
+    ],
+    hireHead: "The Future of Application Development with CakePHP",
+    hireListHead:
+      `<P>CakePHP is furthering and developing with better tools, performances and more integration abilities. Our applications are built around these innovations to get-ahead of business processes.</P>`,
+    hireList: [
+      {
+        title: "Emerging Trends:",
+        list: "",
+      },
+      {
+        title: "",
+        list: "Structured MVC workflows",
+      },
+      {
+        title: "",
+        list: "Advanced ORM-based database management",
+      },
+      {
+        title: "",
+        list: "Rapid application prototyping",
+      },
+      {
+        title: "",
+        list: "Secure authentication and authorization",
+      },
+      {
+        title: "",
+        list: "API-first architecture adoption",
+      },
+            
+
+    ],
+    whyChooseHead: "Why Choose Us as Your CakePHP Development Partner?",
+    whyChooseContent: `<p>Partnering with Uniterrene Websoft means choosing a team that values accuracy, efficiency, and meaningful outcomes. We build CakePHP applications that are scalable, maintainable, and aligned with your long-term goals.</p>`,
+    whyChooseListHead:
+      "We Ensure:",
+    whyChooseList: [
+      {
+        title: "",
+        list: "Custom CakePHP architecture tailored to business needs.",
+      },
+      {
+        title: "",
+        list: "Secure and clean coding practices.",
+      },
+      {
+        title: "",
+        list: "Smooth integrations and deployment.",
+      },
+      {
+        title: "",
+        list: "Continuous monitoring and performance tuning.",
+      },
+      {
+        title: "",
+        list: "Flexible development packages.",
+      } 
+
+    ],
+    faqImg: CakeFaqImg,
+    faqs: [
+      {
+        title: "Why should I choose CakePHP for my application?",
+        content:
+          "Cakephp has structured coding, inbuilt security and high speed development tools. It assists in minimizing the time of development and provides stable performance.",
+        open: true,
+      },
+      {
+        title: "CanCakePHP integrate with external systems or APIs?",
+        content:
+          "Yes, CakePHP is compatible with the easy integration of APIs, payment systems, third-party services and external data tools.",
+        open: false,
+      },
+      {
+        title: "Do you provide long-term support for CakePHP applications?",
+        content:
+          "Yes, we are providing permanent customization, upgrades, optimization, and safety improvements of any CakePHP projects.",
+        open: false,
+      },     
+    ],
+  },
+  {
+    id: 13,
+    parent: "Cloud & DevOps",
+    slug: "cloud-development",
+    serviceName: "Cloud Development",
+    pageTitle:
+      "Empower Business Agility with Scalable Cloud Development Solutions",
+    description: `<p>At Uniterrene Websoft, we build cloud-powered systems that transform business operations. Our Cloud Development services are designed to provide flexibility, scalability, and speed while helping enterprises unlock the full potential of digital transformation. </p> <p>We specialize in developing safe and to-the-future cloud solutions by innovation, research, intelligent architecture. We strive to make businesses overcome the stagnation of traditional IT requirements and raise operational standards be it modernization, automation, or smarter data management.</p>`,
+    topImg: CloudComputingTopImg,
+    typeOfServicesHeading:
+      "Accelerate Growth with Intelligent Cloud Engineering",
+    typeOfServicesContent:
+      "We do not develop, we create trustworthy digital ecosystems. Your cloud environment is agile, secure, and responsive to the market needs prepared by our team. Our solutions are all performance enhancing, lessening downtime and powering business continuity.",
+    typeOfServicesList: [
+      {
+        head: "Cloud Consulting & Strategy:",
+        list: "Unique recovery plans that allow them to match your business and scalability requirements.",
+      },
+      {
+        head: "Cloud Application Development:",
+        list: "Design, implement, and support secure applications on either AWS, Azure, or Google Cloud.",
+      },
+      {
+        head: "Cloud Migration Services:",
+        list: "Smooth migration of the old systems to new cloud systems without much inconvenience.",
+      },
+      {
+        head: "DevOps & Automation:",
+        list: "Optimized processes with pipeline CI/CD to deploy quicker and with more effectiveness.",
+      },
+      {
+        head: "Cloud Security & Compliance:",
+        list: "End-to-end protection including encryption, access, and periodic audits.",
+      },
+      {
+        head: "Performance Optimization:",
+        list: "Optimize performance through maximizing uptime and resource usage.",
+      },
+    ],
+    trendImg: CloudComputingTrendsImg,
+    howWorkHeading: "",
+    howWorkContent: ``,
+
+    typeOfWebsiteHeading: "The Art and Science Behind Effective Cloud Development",
+    typeOfWebsiteContent:
+      `<p>Development of clouds is not a technological issue, it is more of engineering innovation that will bring success to the business. Uniterrene Websoft is a combination of technical and strategic acumen to produce powerful and quantifiable outcomes.</p>
+      <p>Our projects are directed by well-defined goals, trustworthy structure, and efficacious resource distribution.</p>
+      `,
+    typeOfWebsiteListHead: "We Focus On:",
+    expertTeamList: [
+      {
+        heading: "",
+        content:
+          "Expandable cloud infrastructure and architecture.",
+      },
+      {
+        heading: "",
+        content:
+          "Protective deployment and monitoring.",
+      },
+      {
+        heading: "",
+        content: "Integration and automation based on API.",
+      },
+      {
+        heading: "",
+        content:
+          "Endless processes of delivery and improvement.",
+      },
+      {
+        heading: "",
+        content:
+          "Economy and quality of performance on each level.",
+      },
+    ],
+    expertImg: CloudComputingExpertImg,
+    trendBenefitHead:
+      "Building Cloud Solutions Across Industries",
+    trendBenefitContent: `<p>Our team also comprehends the various needs of the industry and will tailor the cloud solutions to achieve maximum impact. Our reliable cloud ecosystems assist businesses to be more productive, efficient and digitally transformed.</p>`,
+    trendBenefitListHead:
+      "Industries We Serve:",
+    trendBenefitList: [
+      {
+        title: "E-commerce & Retail",
+        list: "",
+      },
+      {
+        title: "Education & E-learning",
+        list: "",
+      },
+      {
+        title: "Healthcare & Life Sciences",
+        list: "",
+      },
+      {
+        title: "Real Estate & Property Management",
+        list: "",
+      },
+      {
+        title: "Travel & Logistics",
+        list: "",
+      },
+      {
+        title: "Financial & Professional Services",
+        list: "",
+      },
+    ],
+    hireHead: "Innovating the Future: Trends Reshaping Cloud Development",
+    hireListHead:
+      "Cloud technology continues to develop with the digital world. Innovation, automation, and intelligence are a part of every project that we undertake to make your business stay future-ready.:",
+    hireList: [
+      {
+        title: "Emerging Trends:",
+        list: "Artificial intelligence to assist customers by giving recommendations on their products.",
+      },
+      {
+        title: "",
+        list: "Mobile first design that guarantees quicker loading and increased interaction.",
+      },
+      {
+        title: "",
+        list: "Multi-channel retailing in the social media, Amazon, and marketplace.",
+      },
+      {
+        title: "",
+        list: "In-built analytics to execute live performance monitoring.",
+      },      
+    ],
+    whyChooseHead: "The Uniterrene Advantage: Your Trusted Cloud Partner",
+    whyChooseContent: `<p>Partnering with Uniterrene Websoft means working with a team that values strategy, innovation, and measurable outcomes. We build cloud systems that empower growth, drive efficiency, and ensure continuity.</p>`,
+    whyChooseListHead:
+      "We ensure:",
+    whyChooseList: [
+      {
+        title: "",
+        list: "Tailored cloud strategies for your business goals.",
+      },
+      {
+        title: "",
+        list: "Secure and scalable architectures.",
+      },
+      {
+        title: "",
+        list: "Transparent implementation and monitoring.",
+      },
+      {
+        title: "",
+        list: "Ongoing performance optimization.",
+      },
+      {
+        title: "",
+        list: "Flexible packages for startups and enterprises.",
+      }      
+    ],
+    faqImg: CloudComputingFaqImg,
+    faqs: [
+      {
+        title: "What is Cloud Development and how does it help my business?",
+        content:
+          "Cloud development is also used to facilitate businesses in creating scalable and cost-effective applications which are efficient, collaboration, and accessible.",
+        open: true,
+      },
+      {
+        title: "Which platforms do you work with?",
+        content:
+          "We specialize in AWS, Microsoft Azure, and Google Cloud, tailoring solutions to suit your infrastructure and goals.",
+        open: false,
+      },
+      {
+        title: "How do you ensure data security in the cloud?",
+        content:
+          "Encryption, access control, and the ability to adhere to compliance requirements are implemented by us to protect sensitive information.",
+        open: false,
+      },
+      {
+        title: "Do you assist with cloud migration?",
+        content:
+          " Yes, we offer full-scale migration services with zero data loss and minimal downtime.",
+        open: false,
+      },
+      {
+        title: "How does cloud development support digital transformation?",
+        content:
+          " It enables companies to revamp the old systems, agility, and scale business operation effectively to enhance business performance and innovation.",
+        open: false,
+      },
+    ],
+  },
+
+  {
+    id: 14,
+    parent: "Cloud & DevOps",
+    slug: "cicd-pipeline-setup",
+    serviceName: "CI/CD Pipeline Setup",
+    pageTitle:
+      "Enable Faster, Reliable Software Delivery with CI/CD Pipeline Setup",
+    description: `<p>At Uniterrene Websoft, we design and implement robust CI/CD pipeline solutions that help organizations automate build, test, and deployment workflows. Our CI/CD pipeline setup services combine engineering best practices, automation tools, and security-first processes to ensure consistent and reliable software releases. From initial configuration to optimization, we focus on stability, transparency, and scalability across development environments.</p>`,
+    topImg: CiCdTopImg,
+    typeOfServicesHeading:
+      "Accelerate Development Cycles Through Structured CI/CD Pipelines",
+    typeOfServicesContent:
+      "The CI/CD pipelines will be developed to simplify the process of integrating and deploying code and minimize manual processes and errors. Our development process is highly-structured and everything flows seamlessly to production. We assist the teams in improving the speed of release, lessening downtime, and ensuring the quality of code by ensuring consistency between environments and applying automated tests. All the pipes are designed to aid performance, reliability and maintainability.",
+    typeOfServicesList: [
+      {
+        head: "Continuous Integration Setup:",
+        list: "Automating code integration with version control systems, enabling frequent commits, builds, and automated testing.",
+      },
+      {
+        head: "Continuous Delivery & Deployment:",
+        list: "Configuring automated deployment workflows that ensure code is always release-ready across staging and production environments.",
+      },
+      {
+        head: "Build & Test Automation:",
+        list: "Implementing automated build processes and testing frameworks to detect issues early and improve code stability.",
+      },
+      {
+        head: "Infrastructure Integration:",
+        list: "Integrating CI/CD pipelines with cloud platforms, container systems, and infrastructure tools for seamless deployment.",
+      },
+      {
+        head: "Security & Quality Checks:",
+        list: "Embedding security scans, code quality checks, and compliance controls within the pipeline workflow.",
+      },
+      {
+        head: "Monitoring & Optimization Support:",
+        list: "Setting up monitoring and performance insights to continuously improve pipeline efficiency and reliability.",
+      },
+    ],
+    trendImg: CiCdTrendsImg,
+    howWorkHeading: "The Engineering Behind High-Quality CI/CD Pipeline Setup",
+    howWorkContent: `<p>To establish efficient CI/CD pipelines, processes and technical precision are needed. Our engineers come up with pipelines that are automated, controlled and flexible. We are concerned with minimizing risks related to deploying, enhancing traceability, as well as facilitating quicker feedback loops. We facilitate the use of predictable and repeatable releases by the teams through the maintenance of clean workflows and standardized practices.</p>`,
+
+    typeOfWebsiteHeading: "The Art and Science Behind Effective Cloud Development",
+    typeOfWebsiteContent:
+      `<p>Development of clouds is not a technological issue, it is more of engineering innovation that will bring success to the business. Uniterrene Websoft is a combination of technical and strategic acumen to produce powerful and quantifiable outcomes.</p>
+      <p>Our projects are directed by well-defined goals, trustworthy structure, and efficacious resource distribution.</p>
+      `,
+    typeOfWebsiteListHead: "We Focus On:",
+    expertTeamList: [
+      {
+        heading: "",
+        content:
+          "Stable and repeatable deployment workflows",
+      },
+      {
+        heading: "",
+        content:
+          "Automated testing and validation",
+      },
+      {
+        heading: "",
+        content: "Secure and compliant pipeline design",
+      },
+      {
+        heading: "",
+        content:
+          "Environment consistency",
+      },
+      {
+        heading: "",
+        content:
+          "Scalable pipeline architecture",
+      },
+    ],
+    expertImg: CiCdExpertImg,
+    trendBenefitHead:
+      "Tailored CI/CD Pipeline Solutions for Diverse Industries",
+    trendBenefitContent: `<p>The release cycle, compliance and infrastructure needs are specific to different industries. CI/CD pipeline setup services are tailored to fit operational objectives, regulatory requirements, and maturity of development and still be efficient and reliable.</p>`,
+    trendBenefitListHead:
+      "Industries We Serve:",
+    trendBenefitList: [
+      {
+        title: "SaaS & Product Companies",
+        list: "",
+      },
+      {
+        title: "FinTech & Banking Platforms",
+        list: "",
+      },
+      {
+        title: "Healthcare & Compliance-Driven Systems",
+        list: "",
+      },
+      {
+        title: "E-commerce & Retail Solutions",
+        list: "",
+      },
+      {
+        title: "Enterprise Applications",
+        list: "",
+      },
+      {
+        title: "Startups & Scale-ups",
+        list: "",
+      },
+    ],
+    hireHead: "The Future of CI/CD: Trends Shaping Modern DevOps Practices",
+    hireListHead:
+      "CI/CD practices continue to evolve with advancements in cloud infrastructure and automation tools. Our pipeline solutions align with modern DevOps trends while maintaining reliability and control.",
+    hireList: [
+      {
+        title: "Emerging Trends:",
+        list: "",
+      },
+      {
+        title: "",
+        list: "Pipeline as code adoption",
+      },
+      {
+        title: "",
+        list: "Cloud-native CI/CD workflows",
+      },
+      {
+        title: "",
+        list: "Containerized build environments",
+      },     
+      {
+        title: "",
+        list: "Integrated security automation",
+      },  
+      {
+        title: "",
+        list: "Observability-driven deployments",
+      },   
+    ],
+    whyChooseHead: "Why Choose Us as Your CI/CD Pipeline Setup Partner?",
+    whyChooseContent: `<p>Partnering with Uniterrene Websoft means working with a team that prioritizes reliability, clarity, and long-term value. We design CI/CD pipelines that align with technical requirements, operational goals, and future scalability.</p>`,
+    whyChooseListHead:
+      "We Ensure:",
+    whyChooseList: [
+      {
+        title: "",
+        list: "Customized CI/CD strategies",
+      },
+      {
+        title: "",
+        list: "Clear workflow documentation",
+      },
+      {
+        title: "",
+        list: "Automation-first implementation",
+      },
+      {
+        title: "",
+        list: "Consistent performance standards",
+      },
+      {
+        title: "",
+        list: "Flexible engagement models",
+      }      
+    ],
+    faqImg: CiCdFaqImg,
+    faqs: [
+      {
+        title: "What is included in CI/CD pipeline setup services?",
+        content:
+          "We offer pipeline design, tool integration, build and test automation, deployment configuration, and performance optimization.",
+        open: true,
+      },
+      {
+        title: "Can CI/CD pipelines be integrated with existing infrastructure?",
+        content:
+          "Yes, we build pipelines that blend well with the tools, cloud systems and deployment environments that are already available.",
+        open: false,
+      },
+      {
+        title: "Do you support both small teams and large enterprises?",
+        content:
+          "Yes, our CI/CD pipeline solutions can be expanded to meet the needs of a startup environment, growing team environment, and enterprise-level operation.",
+        open: false,
+      },      
+    ],
+  },
+
+  {
+    id: 15,
+    parent: "Cloud & DevOps",
+    slug: "containerization-docker-kubernetes",
+    serviceName: "Containerization Docker Kubernetes",
+    pageTitle:
+      "Empower Digital Infrastructure with Advanced Containerization Solutions",
+    description: `<p>At Uniterrene Websoft, we build strong and scalable containerization ecosystems using Docker, Kubernetes, and modern orchestration frameworks. We are aiming at developing secure, mobile and easily controlled environments that ensure easy deployment of applications and aid in enhancing consistency in operations.</p>
+    <p>Our work is focused on creating container-based workflows to minimize reliance on heavy infrastructure and enabling businesses to run applications in a stable, high-performing and controlled fashion. Under our solutions of containerization organizations gain more agility and rapid releases and deployment to environments without the restrictions of conventional hosting systems.</p>`,
+    topImg: ContainerizationDockerKubernetesTopImg,
+    typeOfServicesHeading:
+      "Drive Real-Time Efficiency Through Automated Container Orchestration",
+    typeOfServicesContent:
+      `<p>We do not just containerize applications. We develop completely optimized, adaptive, and reliable container ecosystems. Our engineering professionals help companies to operate microservices, automate scale, stream deployments and ensure consistency between development, testing and production environments.</p>
+      <p>Containerization minimizes operational overheads, decreases release time, and improves the service delivery via automatic coordination and smart allocation of resources.</p>`,
+    typeOfServicesList: [
+      {
+        head: "Containerization Consulting & Strategy:",
+        list: "Guiding businesses toward the right container approach for better reliability, smooth deployment, and consistent performance.",
+      },
+      {
+        head: "Docker-Based Application Containerization:",
+        list: "Packaging applications into lightweight, portable containers that ensure uniformity across all environments.",
+      },
+      {
+        head: "Kubernetes Orchestration & Management:",
+        list: "Building automated Kubernetes architectures for effortless scaling, load balancing, and continuous delivery.",
+      },
+      {
+        head: "Microservices Deployment & Management:",
+        list: "Transforming applications into modular microservices for improved flexibility and independent scaling.",
+      },
+      {
+        head: "CI/CD Automation for Containers:",
+        list: "Integrating pipelines that automate building, testing, and deploying containerized applications.",
+      },
+      {
+        head: "Cloud-Native Container Infrastructure:",
+        list: "Deploying containers across AWS, Azure, Google Cloud, and hybrid environments with full optimization.",
+      },
+      {
+        head: "Container Security & Governance:",
+        list: "Ensuring strong security practices, isolated environments, policy-based controls, and ongoing compliance.",
+      },
+    ],
+    trendImg: ContainerizationDockerKubernetesTrendsImg,
+    howWorkHeading: "The Craft Behind High-Performance Container Engineering",
+    howWorkContent: `<p>Creating a resilient container ecosystem requires technical expertise, an understanding of distributed systems, and efficient design.</p>
+    <p>At Uniterrene Websoft, we combine these strengths to build container environments that bring measurable improvements.</p>`,
+
+    typeOfWebsiteHeading: "",
+    typeOfWebsiteContent:
+      ` `,
+    typeOfWebsiteListHead: "We Focus On:",
+    expertTeamList: [
+      {
+        heading: "",
+        content:
+          "Modular and scalable container architecture",
+      },
+      {
+        heading: "",
+        content:
+          "Secure and compliant orchestration workflows",
+      },
+      {
+        heading: "",
+        content: "Optimized resource utilization",
+      },
+      {
+        heading: "",
+        content: "Seamless multi-environment deployment",
+      },
+      {
+        heading: "",
+        content: "High performance under complex workloads",
+      },
+    ],
+    expertImg: ContainerizationDockerKubernetesExpertImg,
+    trendBenefitHead:
+      "Industry-Specific Containerization Built for Growth",
+    trendBenefitContent: `<p>Different industries require different deployment workflows.</p>
+    <p>We design container-based systems that streamline operations, enhance reliability, and support rapid digital expansion.</p>`,
+    trendBenefitListHead:
+      "Industries We Serve:",
+    trendBenefitList: [
+      {
+        title: "E-commerce & Retail",
+        list: "",
+      },
+      {
+        title: "Fintech & Banking",
+        list: "",
+      },
+      {
+        title: "Healthcare & Life Sciences",
+        list: "",
+      },
+      {
+        title: "Education & E-learning",
+        list: "",
+      },
+      {
+        title: "Travel & Logistics",
+        list: "",
+      },
+      {
+        title: "Real Estate & Property Management",
+        list: "",
+      },
+      {
+        title: "SaaS & Technology Enterprises",
+        list: "",
+      },
+    ],
+    hireHead: "The Future Is Containerized: Trends Shaping the Next Generation of Cloud Deployment",
+    hireListHead:
+      `<p>Containerization continues to advance with improvements in automation, orchestration, and distributed computing.</p>
+      <p> Our solutions integrate these advancements to help businesses stay ahead.</p>`,
+    hireList: [
+      {
+        title: "Emerging Trends:",
+        list: "",
+      },
+      {
+        title: "",
+        list: "Serverless container orchestration",
+      },
+      {
+        title: "",
+        list: "Multi-cloud container deployments",
+      },
+      {
+        title: "",
+        list: "Zero-downtime rollouts and updates",
+      },     
+      {
+        title: "",
+        list: "AI-powered resource optimization",
+      },  
+      {
+        title: "",
+        list: "Secure supply chain for container image",
+      },   
+    ],
+    whyChooseHead: "Why Choose Us as Your Containerization Transformation Partner?",
+    whyChooseContent: `<p>At Uniterrene Websoft, a partnership does not only imply working together with a team that is keen on precision, innovation, and long-term value.</p>
+    <p>The systems that we design are containerized, making the operations easier, faster, and able to sustain digital growth.</p>`,
+    whyChooseListHead:
+      "We Ensure:",
+    whyChooseList: [
+      {
+        title: "",
+        list: "Custom container strategies that match business needs",
+      },
+      {
+        title: "",
+        list: "Secure and compliant infrastructure planning",
+      },
+      {
+        title: "",
+        list: "Smooth orchestration and deployment workflows",
+      },
+      {
+        title: "",
+        list: "Continuous monitoring and optimization",
+      },
+      {
+        title: "",
+        list: "Scalable solutions for all business sizes",
+      }      
+    ],
+    faqImg: ContainerizationDockerKubernetesFaqImg,
+    faqs: [
+      {
+        title: "What is containerization and how does it benefit my business?",
+        content:
+          "Containerization packages applications into isolated units. It improves consistency, reduces deployment issues, and enables faster releases.",
+        open: true,
+      },
+      {
+        title: "Can Docker and Kubernetes work with existing systems?",
+        content:
+          "Yes, both can integrate with current applications, CI/CD pipelines, cloud environments, and enterprise tools.",
+        open: false,
+      },
+      {
+        title: "Do you support multi-cloud deployment?",
+        content:
+          "Yes, we design container ecosystems for AWS, Azure, Google Cloud, and hybrid environments.",
+        open: false,
+      },      
+    ],
+  },
+
+
+  {
+    id: 15,
+    parent: "Cloud & DevOps",
+    slug: "serverless-architecture",
+    serviceName: "Serverless Architecture",
+    pageTitle:
+      "Empower Digital Growth with Seamlessly Scalable Serverless Systems",
+    description: `<p>At Uniterrene Websoft, we build powerful serverless systems that improve scalability, reduce operational load, and enhance application performance. Our expertise lies in designing secure, flexible, and event-driven architectures that support modern digital workflows without the burden of server management. With serverless computing, organizations can achieve higher productivity, cost efficiency, and seamless scalability. Our goal is to help businesses move beyond traditional infrastructure limitations and achieve stronger operational outcomes, whether through automation, instant scalability, or simplified resource management.</p>`,
+    topImg: ServerlessArchitectureTopImg,
+    typeOfServicesHeading:
+      "Drive Real-Time Innovation Through Event-Powered Cloud Architecture",
+    typeOfServicesContent:
+      `<p>We don’t just deploy serverless functions; we create intelligent, adaptive, and resilient serverless ecosystems. Our engineering power allows our businesses to create applications that are automatically scaled, are more responsive, and also run with a high degree of reliability. Serverless systems lessen complexities with servers, minimize time to market, and enhance business continuity through automated expansion and productivity.</p>`,
+    typeOfServicesList: [
+      {
+        head: "Serverless Consulting & Strategy:",
+        list: "Guiding organizations to identify the right serverless approach for performance improvements, cost reduction, and long-term scalability.",
+      },
+      {
+        head: "Serverless Application Development:",
+        list: "Designing and deploying serverless applications using AWS Lambda, Azure Functions, Google Cloud Functions, and leading cloud platforms.",
+      },
+      {
+        head: "API & Microservices Development:",
+        list: "Building modular APIs and microservices driven by event triggers for improved agility.",
+      },
+      {
+        head: "Cloud Workflow Automation:",
+        list: "Automating processes such as data handling, notifications, reporting, and workflow execution to improve overall efficiency.",
+      },      
+    ],
+    trendImg: ServerlessArchitectureTrendsImg,
+    howWorkHeading: "Managed Serverless Infrastructure",
+    howWorkContent: `<p>Full-scale monitoring, optimization, and performance tuning for smooth application operations.</p>`,
+
+    typeOfWebsiteHeading: "Security, Compliance & Governance",
+    typeOfWebsiteContent:
+      `<p>Ensuring strong security standards, monitoring frameworks, and compliance across the serverless environment.</p>`,
+    typeOfWebsiteListHead: "We Focus On:",
+    expertTeamList: [
+      {
+        heading: "",
+        content:
+          "Event-driven, modular workflows",
+      },
+      {
+        heading: "",
+        content:
+          "Secure cloud-first architecture",
+      },
+      {
+        heading: "",
+        content: "Optimized resource allocation",
+      },
+      {
+        heading: "",
+        content: "Real-time performance tracking",
+      },
+      {
+        heading: "",
+        content: "High efficiency under heavy workloads",
+      },
+    ],
+    expertImg: ServerlessArchitectureExpertImg,
+    trendBenefitHead:
+      "Tailored Serverless Ecosystems for Every Industry Landscape",
+    trendBenefitContent: `<p>We have the knowledge of the operational needs of a variety of industries, and create serverless systems that introduce a lot of efficiency. Our solutions assist organizations to remain scalable, productive and digitally progressive.</p>`,
+    trendBenefitListHead:
+      "Industries We Serve:",
+    trendBenefitList: [
+      {
+        title: "E-commerce & Retail",
+        list: "",
+      },
+      {
+        title: "Fintech & Banking",
+        list: "",
+      },
+      {
+        title: "Healthcare & Life Sciences",
+        list: "",
+      },
+      {
+        title: "Education & E-learning",
+        list: "",
+      },
+      {
+        title: "Travel & Logistics",
+        list: "",
+      },
+      {
+        title: "Real Estate & Property Management",
+        list: "",
+      },
+      {
+        title: "SaaS & Technology Enterprises",
+        list: "",
+      },
+    ],
+    hireHead: "The Future Is Serverless: Trends Defining the Next Era of Cloud Computing",
+    hireListHead:
+      `<p>Serverless technology is developing in the progress of automation, cloud intelligences, and distributed computing. We design every solution to include intelligent scaling, performance, and design-driven solutions.</p>`,
+    hireList: [
+      {
+        title: "Emerging Trends:",
+        list: "",
+      },
+      {
+        title: "",
+        list: "Event-driven microservices",
+      },
+      {
+        title: "",
+        list: "Serverless backends and APIs",
+      },
+      {
+        title: "",
+        list: "Real-time data streaming workflows",
+      },     
+      {
+        title: "",
+        list: "AI-powered serverless functions",
+      },  
+      {
+        title: "",
+        list: "Edge computing adoption",
+      },   
+    ],
+    whyChooseHead: "Why Choose Us as Your Serverless Transformation Partner?",
+    whyChooseContent: `<p>Partnering with Uniterrene Websoft means selecting a team committed to innovation, precision, and performance. We develop serverless applications that facilitate operations, enhance expansion, and provide sustainable outcomes.</p>`,
+    whyChooseListHead:
+      "We Ensure:",
+    whyChooseList: [
+      {
+        title: "",
+        list: "Tailored serverless strategies",
+      },
+      {
+        title: "",
+        list: "Secure and compliant architecture",
+      },
+      {
+        title: "",
+        list: "Clear deployment and monitoring",
+      },
+      {
+        title: "",
+        list: "Continuous optimization",
+      },
+      {
+        title: "",
+        list: "Flexible packages for all business sizes",
+      }      
+    ],
+    faqImg: ServerlessArchitectureFaqImg,
+    faqs: [
+      {
+        title: "What is Serverless Architecture and how does it help my business?",
+        content:
+          "It is a serverless cloud model on which applications are executed. It assists in lowering the expenses, scaling, and performance.",
+        open: true,
+      },
+      {
+        title: "Can serverless applications integrate with existing systems?",
+        content:
+          "Yes, serverless functions have the ability to integrate with APIs, data storage, and cloud applications and enterprise platforms to create workflows.",
+        open: false,
+      },
+      {
+        title: "Which platforms do you use for serverless development?",
+        content:
+          "We use AWS, Google Cloud, and Azure as well as other top-tier cloud platforms to fit your business needs.",
+        open: false,
+      },      
+    ],
+  },
+  {
+    id: 16,
+    parent: "Full Stack Development",
+    slug: "nodejs",
+    serviceName: "Node.Js",
+    pageTitle:
+      "Build High-Performance Applications with Expert Node.js Development",
+    description: `<p>At Uniterrene Websoft, we create powerful, scalable, and event-driven applications using Node.Js, one of the most efficient JavaScript runtimes used worldwide. We focus on delivering lightweight, fast, and flexible digital solutions that support real-time interactions, seamless integrations, and continuous performance.</p>`,
+    topImg: NodeJsTopImg,
+    typeOfServicesHeading:
+      "Accelerate Digital Growth with Real-Time Node.js Engineering",
+    typeOfServicesContent:
+      `<p>We do not just come up with applications. We create full Node.js systems with efficient architecture, powerful APIs, compartmentalized parts, and high workflow. Our team of engineers assists companies to run smooth backend operations, low-latency interactions and to manage concurrent tasks without difficulties.</p>
+      <p>Node.js is known to guarantee shorter development duration, better performances of applications, and enhanced performances with the high-performance of the efficient event-driven architecture.</p>`,
+    typeOfServicesList: [
+      {
+        head: "Node.js Consulting & Strategy:",
+        list: "Guiding businesses toward the right Node.js architecture for improved performance, enhanced flexibility, and better operational consistency.",
+      },
+      {
+        head: "Custom Node.js Application Development:",
+        list: "Building fast, secure, and feature-rich applications tailored to unique business needs, powered by clean, modular JavaScript.",
+      },
+      {
+        head: "API Development & Integration:",
+        list: "Creating scalable REST and GraphQL APIs that support smooth data exchange, automation, and cross-platform communication.",
+      },
+      {
+        head: "Microservices Architecture:",
+        list: "Transforming large applications into independent microservices for better agility, security, and long-term scalability.",
+      },      
+    ],
+    trendImg: NodeJsTrendsImg,
+    howWorkHeading: "Real-Time Application Development",
+    howWorkContent: `<p>Developing chat applications, tracking systems, video streaming platforms, and live dashboards using WebSockets and real-time engines.</p>`,
+
+    typeOfWebsiteHeading: "Node.js Migration & Modernization",
+    typeOfWebsiteContent:
+      `<p>Upgrading legacy applications to Node.js for improved performance, reduced maintenance, and future readiness.</p>`,
+    typeOfWebsiteListHead: "",
+    expertTeamList: [
+      {
+        heading: "Cloud-Native Node.js Deployment",
+        content:
+          "Deploying Node.js applications across AWS, Azure, Google Cloud, and hybrid infrastructures with full optimization.",
+      },
+      {
+        heading: "Node.js Security & Compliance",
+        content:
+          "Implementing strong security practices, token-based authentication, encrypted APIs, and continuous monitoring.",
+      },     
+    ],
+    expertImg: NodeJsExpertImg,
+    trendBenefitHead:
+      "The Engineering Craft Behind High-Performance Node.js Solutions",
+    trendBenefitContent: `<p>The creation of new variables in Node.js demands thorough knowledge of asynchronous applications, effective event loops, and distributed systems. These technical strengths, when combined at Uniterrene Websoft lead to the development of strong systems that can give quantifiable results.</p>`,
+    trendBenefitListHead:
+      "We Focus On:",
+    trendBenefitList: [
+      {
+        title: "",
+        list: "Modular and scalable backend architecture",
+      },
+      {
+        title: "",
+        list: "Clean and maintainable JavaScript code",
+      },
+      {
+        title: "",
+        list: "Secure and compliant data exchange",
+      },
+      {
+        title: "",
+        list: "Optimized request handling and performance",
+      },
+      {
+        title: "",
+        list: "Seamless integration with third-party services",
+      },
+      {
+        title: "",
+        list: "Error-resistant and fault-tolerant systems",
+      },     
+    ],
+    hireHead: "Industry-Specific Node.js Applications Built for Excellence",
+    hireListHead:
+      `<p>Various industries require a different workflow, processing speed, and patterns of integration. Our Node.js applications make operations strong, user experience better, and enable us to scale to digital size fast.</p>`,
+    hireList: [
+      {
+        title: "",
+        list: "E-commerce & Retail",
+      },
+      {
+        title: "",
+        list: "Fintech & Digital Banking",
+      },
+      {
+        title: "",
+        list: "Healthcare & Medical Platforms",
+      },
+      {
+        title: "",
+        list: "Education & E-learning",
+      },     
+      {
+        title: "",
+        list: "Travel & Logistics",
+      },  
+      {
+        title: "",
+        list: "Real Estate & Property Tech",
+      }, 
+      {
+        title: "",
+        list: "SaaS & Technology Enterprises",
+      },   
+    ],
+    whyChooseHead: "The Future Is Node.js: Trends Shaping Modern Application Development",
+    whyChooseContent: `<p>Node.js continues to evolve with strong tooling, community support, and improvements in performance engineering. We integrate emerging advancements to help businesses stay ahead and grow confidently.</p>`,
+    whyChooseListHead:
+      "Emerging Trends:",
+    whyChooseList: [
+      {
+        title: "",
+        list: "Serverless Node.js architecture",
+      },
+      {
+        title: "",
+        list: "AI-enabled backend optimization",
+      },
+      {
+        title: "",
+        list: "Real-time analytics engines",
+      },
+      {
+        title: "",
+        list: "Edge computing deployments",
+      },
+      {
+        title: "",
+        list: "Microservices and container orchestration",
+      },
+      {
+        title: "",
+        list: "API-first development patterns",
+      }      
+    ],
+    faqImg: NodeJsFaqImg,
+    faqs: [
+      {
+        title: "What is Node.js and how does it help in application development?",
+        content:
+          "Node.js is a JavaScript runtime that is employed in the creation of fast and scalable applications. It enables managing numerous requests efficiently, minimizes the time of development, and provides the functionality of real-time.",
+        open: true,
+      },
+      {
+        title: "Can Node.js handle high traffic and large user loads?",
+        content:
+          "Yes, Node.js is high concurrency. Its event based organization enables it to handle the high requests volumes without compromising on the performance.",
+        open: false,
+      },
+      {
+        title: "Do you support cloud deployment for Node.js applications?",
+        content:
+          "Yes, we deploy Node.js solutions across AWS, Azure, Google Cloud, and hybrid environments with full optimization.",
+        open: false,
+      },      
+    ],
+  },
+
+  {
+    id: 17,
+    parent: "Full Stack Development",
+    slug: "expressjs",
+    serviceName: "Express.Js",
+    pageTitle:
+      "Build High-Performance Server-Side Applications with Expert Express.js Development",
+    description: `<p>At Uniterrene Websoft, we develop fast, secure, and scalable backend applications using the flexibility and strength of the Express.js framework. We create applications that offer consistent speed and reliability under any workload, backed by Express.js’s minimal architecture, flexible routing, and robust middleware capabilities.</p>`,
+    topImg: ExpressJsTopImg,
+    typeOfServicesHeading:
+      "Drive Smooth Server Performance with Accelerated Express.js Engineering",
+    typeOfServicesContent:
+      `<p>We go way beyond the configuration of simple servers. We develop powerful, production-ready, and enterprise level Express.js systems. We enable companies to operate digital platforms with optimized routing that enables them to process data within a faster range, requests within an efficient manner, and scale up with minimal effort through the use of a secure API architecture and modular backend logic. Both, in the integration of complex APIs and structuring of multi-layered server logic, each functionality is incorporated with accuracy.</p>`,
+    typeOfServicesList: [
+      {
+        head: "Express.js Consulting & Architecture Planning:",
+        list: "Guiding businesses in choosing the right backend structure, routing patterns, and middleware strategy for long-term reliability and performance.",
+      },
+      {
+        head: "Custom Express.js Application Development:",
+        list: "Building scalable, modular, and high-speed backend systems using Express.js, Node.js, and industry-best coding practices.",
+      },
+      {
+        head: "Migration to Express.js:",
+        list: "Rebuilding or transitioning legacy backends into Express.js for improved speed, maintainability, and modern application support.",
+      },
+      {
+        head: "API Development & Integration:",
+        list: "Developing secure REST APIs, integrating databases, and connecting third-party services to automate and streamline operations.",
+      },      
+    ],
+    trendImg: ExpressJsTrendsImg,
+    howWorkHeading: "Middleware & Plugin Development",
+    howWorkContent: `<p>Creating custom middleware, reusable backend components, and functional modules that enhance system capabilities.</p>`,
+
+    typeOfWebsiteHeading: "Performance Optimization & Code Refactoring",
+    typeOfWebsiteContent:
+      `<p>Improving response time, request handling, caching, and database queries to boost overall backend performance.</p>`,
+    typeOfWebsiteListHead: "",
+    expertTeamList: [
+      {
+        heading: "Ongoing Maintenance & Server Security Management",
+        content:
+          "The development of Express.js applications of enterprise level demands profound knowledge of server architecture, asynchronous processing and scalable backend resources. At Uniterrene Websoft, our development methodology is centered around speed, security, and maintainability.",
+      },         
+    ],
+    expertImg: ExpressJsExpertImg,
+    trendBenefitHead:
+      "",
+    trendBenefitContent: ``,
+    trendBenefitListHead:
+      "We Focus On:",
+    trendBenefitList: [
+      {
+        title: "",
+        list: "Modular and well-structured backend architecture",
+      },
+      {
+        title: "",
+        list: "Secure coding patterns and data protection",
+      },
+      {
+        title: "",
+        list: "Efficient request handling and routing",
+      },
+      {
+        title: "",
+        list: "Stable API performance under dynamic workloads",
+      },
+      {
+        title: "",
+        list: "Clean and scalable server-side codebases",
+      },          
+    ],
+    hireHead: "Industry-Driven Express.js Development Tailored for Growth",
+    hireListHead:
+      `<p>Every industry will require certain capabilities of the backend and data processes. The Express.js development solutions are built to serve the effectiveness of operations, improve the logic on the back, and assist organizations to scale in various fields.</p>`,
+    hireList: [
+      {
+        title: "",
+        list: "E-commerce & Retail",
+      },
+      {
+        title: "",
+        list: "Fintech & Banking",
+      },
+      {
+        title: "",
+        list: "Healthcare & Life Sciences",
+      },
+      {
+        title: "",
+        list: "Education & E-learning",
+      },     
+      {
+        title: "",
+        list: "Travel & Logistics",
+      },  
+      {
+        title: "",
+        list: "Real Estate & Property Management",
+      }, 
+      {
+        title: "",
+        list: "SaaS & Technology Enterprises",
+      },   
+    ],
+    whyChooseHead: "The Future of Server Development with Express.js",
+    whyChooseContent: `<p>Express.js is still under continuous development with better performance utility, better plugin ecosystems, and compatibility with current technologies. We create backend systems in line with these developments to ensure that businesses operate confidently.</p>`,
+    whyChooseListHead:
+      "Emerging Trends:",
+    whyChooseList: [
+      {
+        title: "",
+        list: "API-first architecture",
+      },
+      {
+        title: "",
+        list: "Real-time communication with WebSockets",
+      },
+      {
+        title: "",
+        list: "Cloud-native and microservices-based backends",
+      },
+      {
+        title: "",
+        list: "Scalable serverless deployments",
+      },
+      {
+        title: "",
+        list: "Advanced authentication and authorization patterns",
+      },           
+    ],
+    faqImg: ExpressJsFaqImg,
+    faqs: [
+      {
+        title: "Why is Express.js ideal for backend development?",
+        content:
+          "Express.js is a high-speed request handling, flexible routing and middleware. It minimises the development time and provides stable server-side performance.",
+        open: true,
+      },
+      {
+        title: "Can Express.js integrate with databases or external systems?",
+        content:
+          "Yes, Express.js works smoothly with SQL, NoSQL, REST APIs, GraphQL, cloud services, payment platforms, and third-party tools.",
+        open: false,
+      },
+      {
+        title: "Do you provide long-term support for Express.js applications?",
+        content:
+          "Yes, we offer ongoing optimization, security enhancements, updates, and custom improvements for all Express.js backend systems.",
+        open: false,
+      },      
+    ],
+  },
+  {
+    id: 18,
+    parent: "Full Stack Development",
+    slug: "angular",
+    serviceName: "Angular",
+    pageTitle:
+      "Build Dynamic and Scalable Applications with Expert Angular Development",
+    description: `<p>At Uniterrene Websoft, we build secure, scalable, and dynamic applications using Angular, a powerful TypeScript-based framework trusted worldwide. Our focus is on delivering applications with strong structure, smooth performance, and long-term reliability. With Angular’s component-driven architecture, we create platforms that offer seamless interactions, maintainable code, and consistent user experience.</p>`,
+    topImg: AngularTopImg,
+    typeOfServicesHeading:
+      "Accelerate Growth with Structured and High-Performance Angular Engineering",
+    typeOfServicesContent:
+      `<p>We implement full Angular ecosystems, not front-end interfaces. Our crew develops strong architecture, reusability, clean, user-interfaces, and well-organized business workflows that enable companies to handle large-scale applications without difficulty. Angular has in-built tools that aid in the minimization of development time, enhanced stability of application, and facilitated rapid rendering on all devices.</p>`,
+    typeOfServicesList: [
+      {
+        head: "Angular Consulting & Architecture Planning:",
+        list: "Helping businesses choose the right Angular structure for improved visibility, better stability, and long-term maintainability.",
+      },
+      {
+        head: "Custom Angular Application Development:",
+        list: "Creating fast, secure, and feature-rich applications tailored to business goals using reusable components and clean TypeScript code.",
+      },
+      {
+        head: "API Integration & Front-End Optimization:",
+        list: "Building smooth data communication with REST and GraphQL APIs for automated processes and reliable performance.",
+      },
+      {
+        head: "Enterprise-Grade Angular Platforms:",
+        list: "Designing large-scale dashboards, portals, and business applications with strong security, scalability, and workflow consistency.",
+      },      
+    ],
+    trendImg: AngularTrendsImg,
+    howWorkHeading: "Angular Migration & Modernization",
+    howWorkContent: `<p>Upgrading legacy front-end systems to Angular for better speed, flexible design, and enhanced performance across devices.</p>`,
+
+    typeOfWebsiteHeading: "Progressive Web App (PWA) Development",
+    typeOfWebsiteContent:
+      `<p>Building Angular-based PWAs that offer fast performance, offline access, and app-like experiences.</p>`,
+    typeOfWebsiteListHead: "",
+    expertTeamList: [
+      {
+        heading: "Cloud-Ready Angular Deployment",
+        content:
+          "Deploying Angular applications across AWS, Azure, Google Cloud, and hybrid infrastructures with strong optimization.",
+      },         
+    ],
+    expertImg: AngularExpertImg,
+    trendBenefitHead:
+      "Angular UI/UX and Component Engineering",
+    trendBenefitContent: `<p>Creating clean, modern interfaces with custom components for improved usability and intuitive interactions.</p>`,
+    trendBenefitListHead:
+      "We Focus On:",
+    trendBenefitList: [
+      {
+        title: "",
+        list: "Modular and scalable Angular architecture",
+      },
+      {
+        title: "",
+        list: "Clean and reusable TypeScript components",
+      },
+      {
+        title: "",
+        list: "Secure and efficient API communication",
+      },
+      {
+        title: "",
+        list: "Optimized rendering and performance",
+      },
+      {
+        title: "",
+        list: "Smooth integration with backend systems",
+      },
+      {
+        title: "",
+        list: "Error-resistant and fault-tolerant applications",
+      },            
+    ],
+    hireHead: "Industry-Specific Angular Applications Built for Excellence",
+    hireListHead:
+      `<p>Each industry needs a different workflow, speed, and interface style. Our Angular applications improve operations, enhance usability, and support rapid business expansion.</p>`,
+    hireList: [
+      {
+        title: "",
+        list: "E-commerce & Retail",
+      },
+      {
+        title: "",
+        list: "Fintech & Banking",
+      },
+      {
+        title: "",
+        list: "Healthcare & Life Sciences",
+      },
+      {
+        title: "",
+        list: "Education & E-learning",
+      },     
+      {
+        title: "",
+        list: "Travel & Logistics",
+      },  
+      {
+        title: "",
+        list: "Real Estate & Property Tech",
+      }, 
+      {
+        title: "",
+        list: "SaaS & Technology Enterprises",
+      },   
+    ],
+    whyChooseHead: "The Future Is Angular: Trends Driving Modern Front-End Development",
+    whyChooseContent: `<p>Angular is constantly being enhanced with potent tools, community changes, and sophisticated performance capabilities. We incorporate new practices that enable business to be ready to succeed in the long-term digitally.</p>`,
+    whyChooseListHead:
+      "Emerging Trends:",
+    whyChooseList: [
+      {
+        title: "",
+        list: "Serverless Angular deployment",
+      },
+      {
+        title: "",
+        list: "AI-driven UI optimization",
+      },
+      {
+        title: "",
+        list: "Angular-based micro frontends",
+      },
+      {
+        title: "",
+        list: "Edge-rendered Angular applications",
+      },
+      {
+        title: "",
+        list: "Component-based design systems",
+      },  
+      {
+        title: "",
+        list: "State management using NGXS / NGRX",
+      },         
+    ],
+    faqImg: AngularFaqImg,
+    faqs: [
+      {
+        title: "What makes Angular suitable for large applications?",
+        content:
+          "Angular has well designed structure, reusable components and inbuilt tools that enable it to maintain large applications that are stable and always performing.",
+        open: true,
+      },
+      {
+        title: "Can Angular applications support real-time interfaces?",
+        content:
+          "Yes, APIs and real-time engines are compatible with Angular to create dashboards, live tracking systems, and very interactive user interfaces.",
+        open: false,
+      },
+      {
+        title: "Do you offer cloud deployment for Angular applications?",
+        content:
+          "Yes, we implement Angular apps in AWS, Azure, Google Cloud, and hybrid systems that are optimized to the full extent.",
+        open: false,
+      },      
+    ],
+  },
+
+
+   {
+    id: 19,
+    parent: "Full Stack Development",
+    slug: "mongodb",
+    serviceName: "MongoDB",
+    pageTitle:
+      "Build High-Performance, Scalable Data Systems with Expert MongoDB Development",
+    description: `<p>At Uniterrene Websoft, we develop powerful, flexible, and high-performance database systems using the speed and scalability of MongoDB. Our expertise ensures that businesses operate with optimized data storage, seamless data retrieval, and smart schema designs built for long-term growth. MongoDB enables us to create agile database ecosystems that handle complex data structures, support large applications, and maintain strong reliability across all workloads.</p>`,
+    topImg: MongoDBTopImg,
+    typeOfServicesHeading:
+      "Drive Data Efficiency with Intelligent MongoDB Engineering",
+    typeOfServicesContent:
+      `<p>We do not just establish databases. We develop entire MongoDB-powered infrastructures to support dynamic applications with rapid processing, secure data model and contemporary integrations. Our developmental mode assists organizations in handling structured, semi-structured, and unstructured data easily, which enables quick access, better performance, and flexibility at a greater level.</p>
+      <p>In creating optimized schemas, to leverage distributed clusters, data query optimization, at either layer, everything is created with accuracy.</p>`,
+    typeOfServicesList: [
+      {
+        head: "MongoDB Consulting & Architectural Planning:",
+        list: "Helping businesses choose the right database structure, indexing techniques, and cluster configuration for long-term performance.",
+      },
+      {
+        head: "Custom MongoDB Application Development:",
+        list: "Building high-speed, schema-flexible, and scalable applications paired with Node.js, Express.js, or other leading frameworks.",
+      },
+      {
+        head: "Migration to MongoDB:",
+        list: "Shifting legacy databases to MongoDB for stronger performance, easier scaling, and modern data capabilities.",
+      },
+      {
+        head: "API & Data Integration:",
+        list: "Integrating MongoDB with APIs, microservices, cloud platforms, and enterprise systems for seamless data flow.",
+      },
+      {
+        head: "Performance Optimization & Query Tuning:",
+        list: "Improving data retrieval speed, indexing strategies, caching, and sharding for maximum database efficiency.",
+      }, 
+      {
+        head: "MongoDB Atlas & Cloud Deployment:",
+        list: "Deploying and managing cloud-based MongoDB clusters with secure and scalable configurations.",
+      },
+      {
+        head: "Ongoing Monitoring & Security:",
+        list: "Offering consistent updates, security practices, backups, and database maintenance for smooth performance.",
+      },       
+    ],
+    trendImg: MongoDBTrendsImg,
+    howWorkHeading: "The Craft Behind High-Performance MongoDB Development",
+    howWorkContent: `<p>It takes knowledge in document modeling, indexing strategies and distributed database architecture to build a strong MongoDB environment. The whole strategy at Uniterrene Websoft revolves around performance at high speeds, high security levels, and long-term maintenance.</p>`,
+
+    typeOfWebsiteHeading: "We Focus On:",
+    typeOfWebsiteContent:
+      ``,
+    typeOfWebsiteListHead: "",
+    expertTeamList: [
+      {
+        heading: "",
+        content:
+          "Structured and optimized document schema design",
+      },   
+      {
+        heading: "",
+        content:
+          "Secure database management and access control",
+      },
+      {
+        heading: "",
+        content:
+          "Intelligent indexing and fast query execution",
+      },
+      {
+        heading: "",
+        content:
+          "Smart clustering and sharding strategies",
+      },  
+      {
+        heading: "",
+        content:
+          "Real-time data operations and high-volume processing",
+      },     
+    ],
+    expertImg: MongoDBExpertImg,
+    trendBenefitHead:
+      "Industry-Driven MongoDB Development Tailored for Growth",
+    trendBenefitContent: `<p>All industries process data in different ways. We build MongoDB solutions that satisfy the demands of the operations and help businesses to scale their platforms with a sense of security.</p>`,
+    trendBenefitListHead:
+      "Industries We Serve:",
+    trendBenefitList: [
+      {
+        title: "",
+        list: "E-commerce & Retail",
+      },
+      {
+        title: "",
+        list: "Fintech & Banking",
+      },
+      {
+        title: "",
+        list: "Healthcare & Life Sciences",
+      },
+      {
+        title: "",
+        list: "Education & E-learning",
+      },
+      {
+        title: "",
+        list: "Travel & Logistics",
+      },
+      {
+        title: "",
+        list: "Real Estate & Property Management",
+      }, 
+      {
+        title: "",
+        list: "SaaS & Technology Enterprises",
+      },              
+    ],
+    hireHead: "The Future of Data Engineering with MongoDB",
+    hireListHead:
+      `<p>MongoDB continues to grow with stronger automation, powerful cloud support, and advanced developer tools. Our solutions incorporate these advancements so businesses always stay ahead.</p>`,
+    hireList: [
+      {
+        title: "Emerging Trends:",
+        list: "AI-ready NoSQL data structures",
+      },
+      {
+        title: "",
+        list: "Real-time analytics and event-based data models",
+      },
+      {
+        title: "",
+        list: "Cloud-native MongoDB Atlas deployments",
+      },
+      {
+        title: "",
+        list: "Microservices-based data architecture",
+      },     
+      {
+        title: "",
+        list: "Automated indexing and intelligent scaling",
+      },          
+    ],
+    whyChooseHead: "Why Choose Us as Your MongoDB Development Partner?",
+    whyChooseContent: `<p>Collaboration with Uniterrene Websoft implies combining efforts in a team that is interested in performance, stability, and secure engineering. Our MongoDB applications are aimed to deliver a steady output and sustain digital expansion.</p>`,
+    whyChooseListHead:
+      "We Ensure:",
+    whyChooseList: [
+      {
+        title: "",
+        list: "Custom MongoDB architecture designed for your needs",
+      },
+      {
+        title: "",
+        list: "Secure and clean development practices",
+      },
+      {
+        title: "",
+        list: "Smooth database migrations and integrations",
+      },
+      {
+        title: "",
+        list: "Continuous monitoring and optimization",
+      },
+      {
+        title: "",
+        list: "Scalable solutions for businesses of all sizes",
+      },              
+    ],
+    faqImg: MongoDBFaqImg,
+    faqs: [
+      {
+        title: "Why is MongoDB preferred for scalable applications?",
+        content:
+          "MongoDB has the ability to scale horizontally as well as a flexible structure of documents. It enables the smooth management of data in business even with the increasing workloads.",
+        open: true,
+      },
+      {
+        title: "Can MongoDB integrate with existing platforms and services?",
+        content:
+          "Yes, MongoDB is compatible with APIs, microservices, cloud infrastructure, analytics, and business applications.",
+        open: false,
+      },
+      {
+        title: "Do you offer long-term support for MongoDB systems?",
+        content:
+          "Yes, we maintain continuous monitoring, query optimization, security upgrades, backups, upgrades on all databases based on MongoDB.",
+        open: false,
+      },      
+    ],
+  },
+
+
   
+   {
+    id: 20,
+    parent: "Full Stack Development",
+    slug: "reactjs",
+    serviceName: "ReactJs",
+    pageTitle:
+      "Build High-Performance Interfaces with Expert React.js Development",
+    description: `<p>At Uniterrene Websoft, we create fast, scalable, and highly interactive front-end applications using the full strength of the React.js library. Our focus is on delivering structured, component-driven, and future-ready solutions that enhance user experience and support business growth. We build interfaces that maintain seamless performance under any environment, backed by React's virtual DOM, reusable components, and robust state-management capabilities.</p>`,
+    topImg: ReactJSTopImg,
+    typeOfServicesHeading:
+      "Drive Smooth User Experiences with Accelerated React.js Engineering",
+    typeOfServicesContent:
+      `<p>We not only pass by interface layouts. We create production-grade, 
+      advanced and enterprise level React.js ecosystems. We enable companies to run digital platforms, 
+      which are faster to load, instantly responsive, and can scale with grace using optimized rendering, 
+      modular bespoke components and optimized state workflows. 
+      Regardless of the integration of APIs or the development of complicated logic in the UI, 
+      we make every feature precise.</p>`,
+    typeOfServicesList: [
+      {
+        head: "React.js Consulting & Architecture Planning:",
+        list: "Helping businesses choose the right component structure, UI patterns, and state-management strategy to ensure long-term stability and performance.",
+      },
+      {
+        head: "Custom React.js Application Development:",
+        list: "Crafting scalable, reusable, and interactive front-end systems using React.js, JSX, hooks, and component-based architecture.",
+      },
+      {
+        head: "Migration to React.js:",
+        list: "Modernizing legacy interfaces by rebuilding or transitioning them into React.js for better speed, usability, and maintainability.",
+      },
+      {
+        head: "API Development & Integration:",
+        list: "Building seamless connections between your front-end and backend through optimized REST or GraphQL integrations.",
+      },
+      {
+        head: "React.js Plugin & Component Development:",
+        list: "Creating tailored components, UI widgets, and plugins to enhance functionality and improve user flows.",
+      }, 
+      {
+        head: "Performance Optimization & Code Refactoring:",
+        list: "Improving load times and responsiveness through lazy loading, code splitting, caching, and clean refactoring.",
+      },
+      {
+        head: "Ongoing Maintenance & UI Security Management:",
+        list: "Offering continuous updates, monitoring, and front-end security measures to ensure consistent system reliability.",
+      },       
+    ],
+    trendImg: ReactJSTrendsImg,
+    howWorkHeading: "The Craft Behind High-Performance React.js Development",
+    howWorkContent: `<p>Enterprise-level React.js application development requires a strong understanding of component design, performance rendering, and compositional UI design. We are using the strategy of development based on speed, usability, and scalability at Uniterrene Websoft.</p>`,
+
+    typeOfWebsiteHeading: "We Focus On:",
+    typeOfWebsiteContent:
+      ``,
+    typeOfWebsiteListHead: "",
+    expertTeamList: [
+      {
+        heading: "",
+        content:
+          "Modular and reusable component structures",
+      },   
+      {
+        heading: "",
+        content:
+          "Secure and optimized front-end coding",
+      },
+      {
+        heading: "",
+        content:
+          "Efficient virtual DOM rendering",
+      },
+      {
+        heading: "",
+        content:
+          "Robust state management (Redux, Zustand, Context API)",
+      },  
+      {
+        heading: "",
+        content:
+          "Clean and maintainable codebases",
+      },     
+    ],
+    expertImg: ReactJSExpertImg,
+    trendBenefitHead:
+      "Industry-Driven React.js Development Tailored for Growth",
+    trendBenefitContent: `<p>Each industry would demand specific interface capabilities and processes. Our React.js software development solutions are aimed to optimize the business, work better, and help achieve digital growth in various industries.</p>`,
+    trendBenefitListHead:
+      "Industries We Serve:",
+    trendBenefitList: [
+      {
+        title: "",
+        list: "E-commerce & Retail",
+      },
+      {
+        title: "",
+        list: "Fintech & Banking",
+      },
+      {
+        title: "",
+        list: "Healthcare & Life Sciences",
+      },
+      {
+        title: "",
+        list: "Education & E-learning",
+      },
+      {
+        title: "",
+        list: "Travel & Logistics",
+      },
+      {
+        title: "",
+        list: "Real Estate & Property Management",
+      }, 
+      {
+        title: "",
+        list: "SaaS & Technology Enterprises",
+      },              
+    ],
+    hireHead: "The Future of Application Development with React.js",
+    hireListHead:
+      `<p>React.js is being updated with more performance tools, an enhanced way of rendering as well as more robust ecosystem integrations. We build applications that stay aligned with these advancements to help businesses remain ahead of their competitors.</p>`,
+    hireList: [
+      {
+        title: "Emerging Trends:",
+        list: "Component-driven UI ecosystems",
+      },
+      {
+        title: "",
+        list: "Real-time data interactions",
+      },
+      {
+        title: "",
+        list: "Server-side rendering (SSR) and static site generation",
+      },
+      {
+        title: "",
+        list: "Progressive Web App (PWA) development",
+      },     
+      {
+        title: "",
+        list: "Advanced state-management patterns",
+      },          
+    ],
+    whyChooseHead: "Why Choose Us as Your React.js Development Partner?",
+    whyChooseContent: `<p>When collaborating with Uniterrene Websoft, one can select a team that is more focused on accuracy, stability, and contemporary engineering. We build React.js applications that evolve with your goals and maintain superior performance throughout their lifecycle.</p>`,
+    whyChooseListHead:
+      "We Ensure:",
+    whyChooseList: [
+      {
+        title: "",
+        list: "Custom React.js architecture tailored to your business",
+      },
+      {
+        title: "",
+        list: "Clean and secure front-end coding practices",
+      },
+      {
+        title: "",
+        list: "Smooth backend integrations and deployments",
+      },
+      {
+        title: "",
+        list: "Continuous UI monitoring and performance improvements",
+      },
+      {
+        title: "",
+        list: "Flexible, scalable, and business-friendly development plans",
+      },              
+    ],
+    faqImg: ReactJSFaqImg,
+    faqs: [
+      {
+        title: "Why is React.js suitable for building modern applications?",
+        content:
+          "React.js offers reusable components, fast rendering, and structured coding. It helps reduce development time while maintaining high-quality performance.",
+        open: true,
+      },
+      {
+        title: "Can React.js integrate with APIs or backend systems?",
+        content:
+          "Yes, React.js integrates smoothly with REST APIs, GraphQL, third-party platforms, and any modern backend technology for dynamic data handling.",
+        open: false,
+      },
+      {
+        title: "Do you offer long-term support for React.js projects?",
+        content:
+          "Yes, we make constant upgrades, code optimization, and security enhancement, and tailor-made improvements on any React.js apps.",
+        open: false,
+      },      
+    ],
+  },
+   
+   {
+    id: 21,
+    parent: "Open-source--enterprise-technologies",
+    slug: "c",
+    serviceName: "C#",
+    pageTitle:
+      "Build Intelligent, High-Performance Applications with Expert C# Engineering",
+    description: `<p>At Uniterrene Websoft, we develop robust, scalable, and secure applications using the versatility and power of C#. C# allows us to create enterprise-ready solutions that handle complex operations, support diverse platforms, and deliver consistent functionality for long-term digital growth.</p>`,
+    topImg: CSharpTopImg,
+    typeOfServicesHeading:
+      "Drive Application Efficiency with Intelligent C# Engineering",
+    typeOfServicesContent:
+      `<p>We do far more than write code. We create entire C#-based ecosystems that are focused on precision,
+       speed and reliability. Our engineering solution assists institutions to ease the processes, 
+       improve the stability of their applications and facilitate changing needs with a lot of ease. 
+       Backend logic to cross-platform development all the components are designed with the thought of detail, 
+       high security and forward looking engineering.</p>`,
+    typeOfServicesList: [
+      {
+        head: "C# Consulting & Architecture Planning:",
+        list: "Helping businesses choose the right architecture, frameworks, and development patterns for long-term system reliability.",
+      },
+      {
+        head: "Custom C# Application Development:",
+        list: "Building scalable, secure, and high-performance applications using .NET, ASP.NET Core, and modern development practices.",
+      },
+      {
+        head: "Migration to C# / .NET:",
+        list: "Transforming legacy systems into efficient, maintainable C# applications suitable for growing digital operations.",
+      },
+      {
+        head: "API & System Integration:",
+        list: "Developing secure APIs and connecting applications with external services, databases, and enterprise tools.",
+      },
+      {
+        head: "Performance Optimization & Code Refactoring:",
+        list: "Enhancing system speed, memory efficiency, response time, and overall reliability.",
+      }, 
+      {
+        head: "Cross-Platform Development with .NET:",
+        list: "Creating applications that run smoothly across Windows, Linux, macOS, and cloud environments.",
+      },
+      {
+        head: "Ongoing Support, Monitoring & Security:",
+        list: "Providing continuous updates, debugging, system protection, and application lifecycle management.",
+      },       
+    ],
+    trendImg: CSharpTrendsImg,
+    howWorkHeading: "The Craft Behind High-Performance C# Development",
+    howWorkContent: `<p>Development of enterprise-level C# systems need extensive experience in object-oriented programming, best coding practices, and scalability. Development strategy in Uniterrene Websoft is aimed at speed, dependability and sustainability.</p>`,
+
+    typeOfWebsiteHeading: "We Focus On:",
+    typeOfWebsiteContent:
+      ``,
+    typeOfWebsiteListHead: "",
+    expertTeamList: [
+      {
+        heading: "",
+        content:
+          "Structured and modular application architecture",
+      },   
+      {
+        heading: "",
+        content:
+          "Secure coding standards and data protection",
+      },
+      {
+        heading: "",
+        content:
+          "Efficient API communication and backend logic",
+      },
+      {
+        heading: "",
+        content:
+          "Smooth scalability under dynamic workloads",
+      },  
+      {
+        heading: "",
+        content:
+          "Clean and maintainable C# codebases",
+      },  
+      {
+        heading: "",
+        content:
+          "Optimized system performance and low latency",
+      },    
+    ],
+    expertImg: CSharpExpertImg,
+    trendBenefitHead:
+      "Industry-Driven C# Development Tailored for Growth",
+    trendBenefitContent: `<p>The needs of operations in each industry are different. C# development solutions are designed to allow efficient workflow, high system performance and a steady digital growth.</p>`,
+    trendBenefitListHead:
+      "Industries We Serve:",
+    trendBenefitList: [
+      {
+        title: "",
+        list: "E-commerce & Retail",
+      },
+      {
+        title: "",
+        list: "Fintech & Banking",
+      },
+      {
+        title: "",
+        list: "Healthcare & Life Sciences",
+      },
+      {
+        title: "",
+        list: "Education & E-learning",
+      },
+      {
+        title: "",
+        list: "Travel & Logistics",
+      },
+      {
+        title: "",
+        list: "Real Estate & Property Management",
+      }, 
+      {
+        title: "",
+        list: "SaaS & Technology Enterprises",
+      },              
+    ],
+    hireHead: "The Future of Application Engineering with C#",
+    hireListHead:
+      `<p>C# is continually being enhanced with new frameworks, integration with the clouds, and mighty automation tools. Our solutions take advantage of such developments to make sure that businesses remain on top.</p>`,
+    hireList: [
+      {
+        title: "Emerging Trends:",
+        list: "Cloud-native .NET development",
+      },
+      {
+        title: "",
+        list: "Microservices architecture with .NET Core",
+      },
+      {
+        title: "",
+        list: "Cross-platform enterprise systems",
+      },
+      {
+        title: "",
+        list: "Real-time application performance monitoring",
+      },     
+      {
+        title: "",
+        list: "AI-powered and automation-driven integrations",
+      },          
+    ],
+    whyChooseHead: "Why Choose Us as Your C# Development Partner?",
+    whyChooseContent: `<p>Collaborating with Uniterrene Websoft implies collaboration with a company aiming at quality, safety, and sustainability. We develop C# applications that work together with your strategic objectives and make sure that the system is very stable and user friendly.</p>`,
+    whyChooseListHead:
+      "We Ensure:",
+    whyChooseList: [
+      {
+        title: "",
+        list: "Custom C# architecture designed for your business",
+      },
+      {
+        title: "",
+        list: "Clean, maintainable, and secure code",
+      },
+      {
+        title: "",
+        list: "Smooth integration with databases and external services",
+      },
+      {
+        title: "",
+        list: "Continuous monitoring and improvement",
+      },
+      {
+        title: "",
+        list: "Scalable development models for businesses of all sizes",
+      },              
+    ],
+    faqImg: CSharpFaqImg,
+    faqs: [
+      {
+        title: "Why is C# a preferred choice for enterprise-grade applications?",
+        content:
+          "C# has a high level of performance, effective structure, and easy integration options. It helps organizations to have efficient and stable systems when the operations are growing.",
+        open: true,
+      },
+      {
+        title: "Can C# integrate with third-party tools and platforms?",
+        content:
+          "Yes, C# can be connected and applauded with APIs, databases, cloud applications, CRM applications, payment gateways, and enterprise applications.",
+        open: false,
+      },
+      {
+        title: "Do you provide long-term support for C# applications?",
+        content:
+          "Yes, we offer continuous monitoring, updates, optimization, security enhancements, and system improvements for all C# applications.",
+        open: false,
+      },      
+    ],
+  },
+
+
+  {
+    id: 22,
+    parent: "Open-source--enterprise-technologies",
+    slug: "net",
+    serviceName: "Net",
+    pageTitle:
+      "Drive Efficiency, Stability, and Growth with Modern .NET Development",
+    description: `<p>At Uniterrene Websoft, we engineer powerful, stable, and future-focused digital solutions using the full strength of Microsoft’s .NET ecosystem. With .NET, we build applications that deliver exceptional performance, seamless cross-platform support, strong security, and the flexibility needed to evolve with business demands.</p>`,
+    topImg: DOTNetTopImg,
+    typeOfServicesHeading:
+      "Empower Business Growth with Intelligent .NET Engineering",
+    typeOfServicesContent:
+      `<p>We do not just come up with applications but rather design entire 
+      .NET-powered ecosystems that are designed to be precise, to be efficient, 
+      and to be long term reliable. The engineering direction we are taking aims at making operations easy, 
+      make the applications have stability and be able to be adapted to the dynamic nature of the business. 
+      From backend frameworks to cloud-native deployments, each layer is designed with accuracy, protection, 
+      and innovation.</p>`,
+    typeOfServicesList: [
+      {
+        head: ".NET Consulting & Architecture Strategy:",
+        list: "Guiding businesses to choose the right architecture, frameworks, and development patterns for long-lasting performance.",
+      },
+      {
+        head: "Custom .NET Application Development:",
+        list: "Creating high-performing, secure, and scalable applications using ASP.NET Core, .NET 7+, microservices, and modern enterprise standards.",
+      },
+      {
+        head: "Migration to .NET:",
+        list: "Modernizing legacy systems and upgrading outdated platforms into efficient, maintainable .NET applications.",
+      },
+      {
+        head: "API Development & System Integration:",
+        list: "Developing secure APIs and integrating .NET applications with cloud platforms, databases, ERP systems, CRMs, and third-party services.",
+      },
+      {
+        head: "Performance Optimization & Refactoring:",
+        list: "Improving speed, memory handling, code quality, and system throughput.",
+      }, 
+      {
+        head: "Cross-Platform & Cloud-Native Development:",
+        list: "Building applications that run on Windows, Linux, macOS, and cloud environments such as Azure and AWS.",
+      },
+      {
+        head: "Monitoring, Support & Security:",
+        list: "Delivering long-term system care through updates, performance checks, patches, and continuous application lifecycle management.",
+      },       
+    ],
+    trendImg: DOTNetTrendsImg,
+    howWorkHeading: "The Craft Behind High-Performance .NET Engineering",
+    howWorkContent: `<p>Development of enterprise grade .NET needs good architectural design, performance tuning and modular engineering skills. Our Uniterrene Websoft is founded on a development process that is based on speed, reliability, and sustainability.</p>`,
+
+    typeOfWebsiteHeading: "We Focus On:",
+    typeOfWebsiteContent:
+      ``,
+    typeOfWebsiteListHead: "",
+    expertTeamList: [
+      {
+        heading: "",
+        content:
+          "Clean, structured, and modular architecture",
+      },   
+      {
+        heading: "",
+        content:
+          "High-level security and safe coding practices",
+      },
+      {
+        heading: "",
+        content:
+          "Efficient backend workflows and strong API communication",
+      },
+      {
+        heading: "",
+        content:
+          "Scalable system design for growing workloads",
+      },  
+      {
+        heading: "",
+        content:
+          "Maintainable codebases with long-term clarity",
+      },  
+      {
+        heading: "",
+        content:
+          "Optimized performance for real-time operations",
+      },    
+    ],
+    expertImg: DOTNetExpertImg,
+    trendBenefitHead:
+      "Industry-Ready .NET Solutions Designed for Growth",
+    trendBenefitContent: `<p>All industries work in different ways and with the.NET; these diverse requirements can be easily met. We develop .NET applications that are practical in terms of resource use, better user experience, and long-term digital development.</p>`,
+    trendBenefitListHead:
+      "Industries We Serve:",
+    trendBenefitList: [
+      {
+        title: "",
+        list: "E-commerce & Retail",
+      },
+      {
+        title: "",
+        list: "Fintech & Banking",
+      },
+      {
+        title: "",
+        list: "Healthcare & Life Sciences",
+      },
+      {
+        title: "",
+        list: "Education & E-learning",
+      },
+      {
+        title: "",
+        list: "Travel & Logistics",
+      },
+      {
+        title: "",
+        list: "Real Estate & Property Tech",
+      }, 
+      {
+        title: "",
+        list: "SaaS & Technology Enterprises",
+      },              
+    ],
+    hireHead: "The Future of Software Engineering with .NET",
+    hireListHead:
+      `<p>The .NET ecosystem is undergoing constant development of new automation features, improved cloud capabilities, and improved frameworks. This is because our strategy of development keeps businesses ahead of the curve.</p>`,
+    hireList: [
+      {
+        title: "Emerging Trends:",
+        list: "Cloud-native .NET and Azure-based development",
+      },
+      {
+        title: "",
+        list: "Microservices architecture using .NET Core",
+      },
+      {
+        title: "",
+        list: "Cross-platform enterprise applications",
+      },
+      {
+        title: "",
+        list: "AI-driven integrations and automation toolsg",
+      },     
+      {
+        title: "",
+        list: "Intelligent monitoring and real-time diagnostics",
+      },          
+    ],
+    whyChooseHead: "Why Choose Uniterrene Websoft as Your .NET Development Partner?",
+    whyChooseContent: `<p>Working with Uniterrene Websoft would imply working with a team that is devoted to accuracy, security, and system perfection in the long term. Our.NET applications match your business objectives and generate digital ecosystems which are dependable, effective and expandable.</p>`,
+    whyChooseListHead:
+      "We Ensure:",
+    whyChooseList: [
+      {
+        title: "",
+        list: "Custom .NET architecture built for your operations",
+      },
+      {
+        title: "",
+        list: "Secure, clean, and maintainable code",
+      },
+      {
+        title: "",
+        list: "Smooth integration across platforms and databases",
+      },
+      {
+        title: "",
+        list: "Continuous optimization and monitoring",
+      },
+      {
+        title: "",
+        list: "Scalable models suitable for all business sizes",
+      },              
+    ],
+    faqImg: DOTNetFaqImg,
+    faqs: [
+      {
+        title: "Why is .NET a preferred framework for enterprise applications?",
+        content:
+          ".NET has a good architecture, good performance and security is high and can be used in applications experiencing consistency and long term stability as workload grows.",
+        open: true,
+      },
+      {
+        title: "Can .NET integrate with databases, cloud platforms, or third-party services?",
+        content:
+          "Yes, APIs, SQL and NoSQL databases, cloud environments, CRM, ERPs, payment tools, and enterprise systems can be integrated with the help of .NET.",
+        open: false,
+      },
+      {
+        title: "Do you provide long-term support for .NET applications?",
+        content:
+          "Yes. We present round-the-clock monitoring, upgrade, performance optimization and management of the application lifecycle to all systems based on the .NET.",
+        open: false,
+      },      
+    ],
+  },
+
+
+  {
+    id: 23,
+    parent: "Designs & Branding",
+    slug: "app-design",
+    serviceName: "App Design",
+    pageTitle:
+      "Drive User Adoption, Engagement, and Retention with Strategic App Design",
+    description: `<p>At <strong>Uniterrene Websoft</strong>, we craft user-focused and performance-driven app design solutions that help businesses deliver intuitive, engaging, and scalable digital experiences. Every design decision is made to enhance interaction, improve retention, and support measurable business growth.</p>`,
+    topImg: AppDesignTopImg,
+    typeOfServicesHeading:
+      "Build High-Impact App Experiences with User-Centric Design",
+    typeOfServicesContent:
+      `<p>Our strategies in app design are mindful and aim at usability and clarity as well as effective device interconnection. 
+      In terms of user journeys, interface consistency and interaction flow, all the elements are created so that the user can understand, 
+      trust and like your application.</p> 
+      <p>Our strategies will help you have an app that remains within the user expectations and meets the business objectives with design logic consistency,
+       accessibility and performance conscious layouts. </p>
+      `,
+    typeOfServicesList: [
+      {
+        head: "App Design Strategy and Planning:",
+        list: "Knowledge of business objectives, intended users and intended usage to establish a clear and scalable design roadmap.",
+      },
+      {
+        head: "UI Design (User Interface):",
+        list: "Designing clean, modern, and visually consistent interfaces that enhance usability and brand recognition.",
+      },
+      {
+        head: "UX Design (User Experience):",
+        list: "Creating intuitive user flows, navigation structures, and interaction patterns for smooth and engaging experiences.",
+      },
+      {
+        head: "Wireframing and Prototyping:",
+        list: "Developing low- and high-fidelity wireframes and interactive prototypes to validate ideas before development.",
+      },
+      {
+        head: "Platform-Specific Design:",
+        list: "Designing apps for iOS, Android, and cross-platform environments while following platform design guidelines.",
+      },  
+      {
+        head: "Usability Testing and Refinement:",
+        list: "Testing designs with real user behavior insights and refining interfaces for better engagement and clarity.",
+      },            
+    ],
+    trendImg: AppDesignTrendsImg,
+    howWorkHeading: "The Strategy Behind High-Performing App Design",
+    howWorkContent: `<p>Good app design incorporates the psychology of users, visual simplicity and operating framework. The Uniterrene Websoft designs are premised on research, usability studies, and scalable design models.</p>`,
+
+    typeOfWebsiteHeading: "We Focus On:",
+    typeOfWebsiteContent:
+      ``,
+    typeOfWebsiteListHead: "",
+    expertTeamList: [
+      {
+        heading: "",
+        content:
+          "Clear user journeys and interaction goals",
+      },   
+      {
+        heading: "",
+        content:
+          "Consistent visual language and branding",
+      },
+      {
+        heading: "",
+        content:
+          "Accessibility and ease of use",
+      },
+      {
+        heading: "",
+        content:
+          "Performance-focused layouts",
+      },  
+      {
+        heading: "",
+        content:
+          "Scalable design systems",
+      },  
+      {
+        heading: "",
+        content:
+          "Continuous improvement through feedback",
+      },    
+    ],
+    expertImg: AppDesignExpertImg,
+    trendBenefitHead:
+      "Industry-Focused App Design Solutions",
+    trendBenefitContent: `<p>The user experience required in different industries is different. We tailor our app design solutions to industry specific user behavior, compliance requirements and engagement patterns.</p>`,
+    trendBenefitListHead:
+      "Industries We Serve:",
+    trendBenefitList: [
+      {
+        title: "",
+        list: "Technology and SaaS",
+      },
+      {
+        title: "",
+        list: "E-commerce and Retail",
+      },
+      {
+        title: "",
+        list: "Healthcare and Wellness",
+      },
+      {
+        title: "",
+        list: "Education and E-learning",
+      },
+      {
+        title: "",
+        list: "Finance and Professional Services",
+      },      
+      {
+        title: "",
+        list: "Real Estate and Infrastructure",
+      },  
+      {
+        title: "",
+        list: "Startups and Enterprises",
+      },              
+    ],
+    hireHead: "The Future of App Design",
+    hireListHead:
+      `<p>The user expectations, capabilities of the devices, and changes in the interactions are still driving the design of apps. Our design solutions contribute to making the brands remain flexible without losing usability or visuality.</p>`,
+    hireList: [
+      {
+        title: "Emerging Trends:",
+        list: "Minimal and intuitive interfaces",
+      },
+      {
+        title: "",
+        list: "Micro-interactions and motion design",
+      },
+      {
+        title: "",
+        list: "Accessibility-first design approach",
+      },
+      {
+        title: "",
+        list: "AI-assisted personalization",
+      },     
+      {
+        title: "",
+        list: "Scalable design systems",
+      }, 
+      {
+        title: "",
+        list: "Strong focus on user retention",
+      },         
+    ],
+    whyChooseHead: "Why Choose Uniterrene Websoft for App Design?",
+    whyChooseContent: `<p>By collaborating with Uniterrene Websoft, one will collaborate with a team that places importance on being clear, easy to use, and to develop over time. Our applications are based on designed solutions that are research-oriented, well-organized and targeted to provide valuable user experiences that are not complex and confusing.</p>`,
+    whyChooseListHead:
+      "We Ensure:",
+    whyChooseList: [
+      {
+        title: "",
+        list: "Custom app design aligned with business goals",
+      },
+      {
+        title: "",
+        list: "User-centric UI and UX design approach",
+      },
+      {
+        title: "",
+        list: "Platform-compliant design standards",
+      },
+      {
+        title: "",
+        list: "Transparent design process and collaboration",
+      },
+      {
+        title: "",
+        list: "Scalable designs for future growth",
+      }, 
+      {
+        title: "",
+        list: "Proven methods for sustained user engagement",
+      },              
+    ],
+    faqImg: AppDesignFaqImg,
+    faqs: [
+      {
+        title: "Why is app design important for business success?",
+        content:
+          "The design of apps has a direct effect on user experience, interaction, retention and trust. A designed application allows people to communicate with minimal difficulties and makes the long-run adoption higher.",
+        open: true,
+      },
+      {
+        title: "Do you design apps for both iOS and Android?",
+        content:
+          "Yes. We design applications for iOS, Android, and cross-platform environments while following platform-specific design guidelines.",
+        open: false,
+      },
+      {
+        title: "Do you refine designs after initial delivery?",
+        content:
+          "Yes. Our design testing and feedback is carried out through usability testing to produce continuous improvement and best user experience.",
+        open: false,
+      },      
+    ],
+  },
+
+
+  
+  {
+    id: 24,
+    parent: "Designs & Branding",
+    slug: "logo--brand-identity",
+    serviceName: "Logo Brand Identity",
+    pageTitle:
+      "Shape Recognition, Trust, and Growth with Strategic Logo and Brand Identity",
+    description: `<p>At <strong>Uniterrene Websoft</strong>, we create distinctive, consistent, and future-ready logo and brand identity systems that help businesses communicate with clarity and confidence. A strong brand identity is not only visual appeal; it is a structured expression of values, purpose, and credibility. Our branding solutions are designed to ensure recognition, consistency, and long-term relevance across all customer touchpoints.</p>`,
+    topImg: LogoBrandTopImg,
+    typeOfServicesHeading:
+      "Build Strong Brand Foundations with Intelligent Identity Design",
+    typeOfServicesContent:
+      `<p>We do not just create logos, we create comprehensive brand identity frameworks that are specific, coherent and expandable. 
+      Our strategy will be to develop visual systems that ensure that there is clarity across platforms and channels of communication.</p>
+      <p>The design of logos, color systems, and typography are all designed with precision, balanced, and useability. 
+      The outcome is a brand identity which helps in marketing, digital communication and business growth without compromising the consistency.</p>
+      `,
+    typeOfServicesList: [
+      {
+        head: "Brand Discovery and Strategy:",
+        list: "Understanding business values, audience expectations, and market positioning to guide identity creation.",
+      },
+      {
+        head: "Custom Logo Design:",
+        list: "Creating original, meaningful, and versatile logos that represent brand intent and remain relevant over time.",
+      },
+      {
+        head: "Visual Identity Systems:",
+        list: "Developing color palettes, typography, icon styles, and graphic rules for consistent brand presentation.",
+      },
+      {
+        head: "Brand Guidelines and Documentation:",
+        list: "Providing clear usage rules to maintain uniformity across digital, print, and marketing assets.",
+      },
+      {
+        head: "Brand Refresh and Rebranding:",
+        list: "Modernizing existing identities while preserving brand equity and recognition.",
+      },  
+      {
+        head: "Digital and Print Brand Assets:",
+        list: "Designing identity-ready assets for websites, social platforms, presentations, and offline materials.",
+      },            
+    ],
+    trendImg: LogoBrandTrendsImg,
+    howWorkHeading: "The Craft Behind Effective Brand Identity Design",
+    howWorkContent: `<p>Good brand identity demands logical thinking, aesthetic and strategic cohesion. At Uniterrene Websoft, clarity, consistency, and adaptability are the main pillars that guide our branding process.</p>`,
+
+    typeOfWebsiteHeading: "We Focus On:",
+    typeOfWebsiteContent:
+      ``,
+    typeOfWebsiteListHead: "",
+    expertTeamList: [
+      {
+        heading: "",
+        content:
+          "Clean and meaningful visual design",
+      },   
+      {
+        heading: "",
+        content:
+          "Consistent brand communication across platforms",
+      },
+      {
+        heading: "",
+        content:
+          "Scalable identity systems for growing businesses",
+      },
+      {
+        heading: "",
+        content:
+          "Balanced use of color, typography, and form",
+      },  
+      {
+        heading: "",
+        content:
+          "Long-term usability without frequent redesigns",
+      },  
+      {
+        heading: "",
+        content:
+          "Alignment between brand visuals and business goals",
+      },    
+    ],
+    expertImg: LogoBrandExpertImg,
+    trendBenefitHead:
+      "Industry-Ready Branding Solutions Designed for Impact",
+    trendBenefitContent: `<p>Different market segments need varying brand expressions. Our brand name and logo solutions are developed according to the industry expectations but with individuality and conciseness.</p>`,
+    trendBenefitListHead:
+      "Industries We Serve:",
+    trendBenefitList: [
+      {
+        title: "",
+        list: "Technology and SaaS",
+      },
+      {
+        title: "",
+        list: "E-commerce and Retail",
+      },
+      {
+        title: "",
+        list: "Healthcare and Wellness",
+      },
+      {
+        title: "",
+        list: "Education and Training",
+      },
+      {
+        title: "",
+        list: "Finance and Professional Services",
+      },      
+      {
+        title: "",
+        list: "Real Estate and Infrastructure",
+      },  
+      {
+        title: "",
+        list: "Startups and Enterprises",
+      },              
+    ],
+    hireHead: "The Future of Branding and Visual Identity",
+    hireListHead:
+      `<p>The process of brand identity is in the process of changing in line with the digital platform, audience behavior and the global markets. The business with the help of our branding strategy would be ready to make changes but maintain its high level of recognition.</p>`,
+    hireList: [
+      {
+        title: "Emerging Trends:",
+        list: "Flexible logo systems for digital platforms",
+      },
+      {
+        title: "",
+        list: "Minimal and functional visual identities",
+      },
+      {
+        title: "",
+        list: "Scalable branding for multi-channel use",
+      },
+      {
+        title: "",
+        list: "Strong focus on brand consistency",
+      },     
+      {
+        title: "",
+        list: "Identity systems designed for long-term relevance",
+      },             
+    ],
+    whyChooseHead: "Why Choose Uniterrene Websoft for Logo and Brand Identity?",
+    whyChooseContent: `<p>Collaboration with Uniterrene Websoft implies cooperation with the team with an emphasis on structure, clarity, and brand strength in the long term. 
+    The solutions of our logo and brand identity also ensure that the business is supported to improve, but at the same time, the logo has a visual consistency and is easily recognized.</p>`,
+    whyChooseListHead:
+      "We Ensure:",
+    whyChooseList: [
+      {
+        title: "",
+        list: "Custom brand identity aligned with business vision",
+      },
+      {
+        title: "",
+        list: "Original, meaningful, and scalable logo design",
+      },
+      {
+        title: "",
+        list: "Consistent visual systems across all channels",
+      },
+      {
+        title: "",
+        list: "Clear brand guidelines for long-term use",
+      },
+      {
+        title: "",
+        list: "Identity solutions suitable for startups and enterprises",
+      }, 
+      {
+        title: "",
+        list: "Strategic design decisions backed by research",
+      },              
+    ],
+    faqImg: LogoBrandFaqImg,
+    faqs: [
+      {
+        title: "Why is brand identity important for business growth?",
+        content:
+          "The brand identity achieves recognition, credibility and consistency that aid businesses to communicate effectively and stand out in competitive markets.",
+        open: true,
+      },
+      {
+        title: "Can a logo be used across digital and print platforms?",
+        content:
+          "Yes, professionally crafted logos are developed to work on the same basis on websites, social media, print-wise, and presentations.",
+        open: false,
+      },
+      {
+        title: "Do you support rebranding and brand refresh projects?",
+        content:
+          "Yes. We assist companies in rebranding or refining the current brand and retain continuity and familiarity to the audience.",
+        open: false,
+      },      
+    ],
+  },
+
+
+
+  {
+    id: 25,
+    parent: "Designs & Branding",
+    slug: "social-media-ads",
+    serviceName: "Social Media Ads",
+    pageTitle:
+      "Drive Visibility, Engagement, and Growth with Strategic Social Media Advertising",
+    description: `<p>At Uniterrene Websoft, we design data-driven and performance-focused social media advertising campaigns that help brands reach the right audience, build trust, and convert attention into measurable business growth. Our social media ads are not just creative visuals, they are structured marketing systems aligned with business goals, audience intent, and platform algorithms.</p>`,
+    topImg: SocialMediaAdsTopImg,
+    typeOfServicesHeading:
+      "Build High-Impact Social Media Campaigns with Precision Targeting",
+    typeOfServicesContent:
+      `<p>We do not simply place advertisements, we develop conducive social media advertising strategies that aim at reaching, engaging and converting. 
+      All the campaigns will have clarity, relevancy to the platform, and tracking of performance.</p>
+      <p>Our strategy will make sure your advertisements reach the correct individuals at the correct moment, regularly, and to the fullest extent, 
+      no matter the audience segmentation to the creative message or optimization.</p>
+      `,
+    typeOfServicesList: [
+      {
+        head: "Campaign Strategy and Planning:",
+        list: "Knowing business goals, target markets, and platform movement with the view of creating goal-focused advertisement campaigns.",
+      },
+      {
+        head: "Creative Ad Design:",
+        list: "Designing compelling visuals, ad copies, and formats optimized for engagement and platform performance.",
+      },
+      {
+        head: "Audience Targeting and Segmentation:",
+        list: "Reaching high-intent users using interest-based, behavioral, geographic, and custom audience targeting.",
+      },
+      {
+        head: "Platform-Specific Advertising:",
+        list: "Running ads across Facebook, Instagram, LinkedIn, Twitter (X), and other relevant platforms.",
+      },
+      {
+        head: "Conversion and Lead Generation Ads:",
+        list: "Creating campaigns focused on inquiries, sign-ups, downloads, and direct sales.",
+      },  
+      {
+        head: "Campaign Monitoring and Optimization:",
+        list: "Continuous performance analysis, A/B testing, and budget optimization for improved ROI.",
+      },            
+    ],
+    trendImg: SocialMediaAdsTrendsImg,
+    howWorkHeading: "The Strategy Behind High-Performing Social Media Ads",
+    howWorkContent: `<p>Social media advertising involves data, artistic and strategic fit. At Uniterrene Websoft, we base our campaigns on the insight of performance and the scalable architecture.</p>`,
+
+    typeOfWebsiteHeading: "We Focus On:",
+    typeOfWebsiteContent:
+      ``,
+    typeOfWebsiteListHead: "",
+    expertTeamList: [
+      {
+        heading: "",
+        content:
+          "Clear campaign objectives and KPIs",
+      },   
+      {
+        heading: "",
+        content:
+          "Platform-optimized creatives and messaging",
+      },
+      {
+        heading: "",
+        content:
+          "Consistent brand communication",
+      },
+      {
+        heading: "",
+        content:
+          "Conversion-focused ad formats",
+      },  
+      {
+        heading: "",
+        content:
+          "Budget efficiency and ROI tracking",
+      },  
+      {
+        heading: "",
+        content:
+          "Continuous testing and improvement",
+      },    
+    ],
+    expertImg: SocialMediaAdsExpertImg,
+    trendBenefitHead:
+      "Industry-Focused Social Media Advertising Solutions",
+    trendBenefitContent: `<p>The various industries require various messaging and targeting. The ad policies of our social media are tailored to the industry behavior without confusing the brand.</p>`,
+    trendBenefitListHead:
+      "Industries We Serve:",
+    trendBenefitList: [
+      {
+        title: "",
+        list: "Technology and SaaS",
+      },
+      {
+        title: "",
+        list: "E-commerce and Retail",
+      },
+      {
+        title: "",
+        list: "Healthcare and Wellness",
+      },
+      {
+        title: "",
+        list: "Education and Training",
+      },
+      {
+        title: "",
+        list: "Finance and Professional Services",
+      },      
+      {
+        title: "",
+        list: "Real Estate and Infrastructure",
+      },  
+      {
+        title: "",
+        list: "Startups and Enterprises",
+      },              
+    ],
+    hireHead: "The Future of Social Media Advertising",
+    hireListHead:
+      `<p>Social media advertising is evolving with changing algorithms, audience behavior, and content consumption patterns. Our strategies ensure your brand stays adaptable while maintaining performance and consistency.</p>`,
+    hireList: [
+      {
+        title: "Emerging Trends:",
+        list: "Performance-driven short-form ads",
+      },
+      {
+        title: "",
+        list: "Creative-first storytelling",
+      },
+      {
+        title: "",
+        list: "AI-assisted audience targeting",
+      },
+      {
+        title: "",
+        list: "Scalable multi-platform campaigns",
+      },     
+      {
+        title: "",
+        list: "Strong focus on brand recall and engagement",
+      },             
+    ],
+    whyChooseHead: "Why Choose Uniterrene Websoft for Social Media Advertising?",
+    whyChooseContent: `<p>Collaborating with Uniterrene Websoft is collaborating with a team whose strategies, performance, and long-term growth are strategic. 
+    Our social media advertising is structured to grow with your business without obscuring, beating around the bush, and will always have clear, 
+    consistent, and quantifiable outcomes.</p>`,
+    whyChooseListHead:
+      "We Ensure:",
+    whyChooseList: [
+      {
+        title: "",
+        list: "Custom ad strategies aligned with business goals",
+      },
+      {
+        title: "",
+        list: "Platform-specific creative and targeting",
+      },
+      {
+        title: "",
+        list: "Data-backed optimization decisions",
+      },
+      {
+        title: "",
+        list: "Transparent performance reporting",
+      },
+      {
+        title: "",
+        list: "Scalable campaigns for growing businesses",
+      }, 
+      {
+        title: "",
+        list: "Proven methods for sustained ad performance",
+      },              
+    ],
+    faqImg: SocialMediaAdsFaqImg,
+    faqs: [
+      {
+        title: "How do social media ads help business growth?",
+        content:
+          "Social media advertisements are more visible, targeted, generate leads, and contribute to sustainable growth of the brand by means of quantifiable campaigns.",
+        open: true,
+      },
+      {
+        title: "Which platforms do you run social media ads on?",
+        content:
+          "We operate campaigns on Facebook, Instagram, LinkedIn, and Twitter (X) among others depending on your audience and goals.",
+        open: false,
+      },
+      {
+        title: "Do you optimize campaigns after launch?",
+        content:
+          "Yes. Ads are continuously monitored, tested and optimized to achieve better performance and lower costs and maximize ROI.",
+        open: false,
+      },      
+    ],
+  },
+
+
+
+  
+  {
+    id: 26,
+    parent: "Digital Marketing",
+    slug: "seo",
+    serviceName: "SEO",
+    pageTitle:
+      "Power Your Brand Visibility with Strategic, Scalable, and Data-Driven SEO Solutions",
+    description: `<p>At Uniterrene Websoft, we create search engine optimization that will make your brand stand out in the crowd and rule search engines. We do not just do rankings, but we are interested in creating real business growth in terms of increased visibility, improved engagement, and enhanced conversions. Launching your new site or optimizing your current one, our professional SEO team will provide the solutions that will be up to date with your needs and the search intentions of your audience.</p>`,
+    topImg: SeoTopImg,
+    typeOfServicesHeading:
+      "Crafting Digital Authority: Our SEO Services.",
+    typeOfServicesContent:
+      `<p>Our end-to-end SEO services are aimed at delivering your business a sustainable growth and an online presence.</p>
+      <p><strong>Our key offerings include:</strong></p>
+      `,
+    typeOfServicesList: [
+      {
+        head: "Website SEO Audit & Strategy Development:",
+        list: "Optimize each aspect of the meta tags to the content structure to enhance visibility.",
+      },
+      {
+        head: "On-Page Optimization:",
+        list: "Gain authority with clean and quality backlinks.",
+      },
+      {
+        head: "Off-Page SEO & Link Building:",
+        list: "Streamline the speed of the site, indexing, and crawling to ensure a smooth search engine experience.",
+      },
+      {
+        head: "Technical SEO:",
+        list: "Optimize site speed, indexing, and crawlability for a seamless search engine experience.",
+      },
+      {
+        head: "Local SEO:",
+        list: "Boost your presence in local searches and attract nearby customers.",
+      },  
+      {
+        head: "E-commerce SEO:",
+        list: "Optimize online shops to enhance their visibility, product search and purchase.",
+      },            
+    ],
+    trendImg: SeoTrendsImg,
+    howWorkHeading: "The Science Behind Smarter Rankings: How SEO Works",
+    howWorkContent: `<p>Search Engine Optimization refers to the art and science of enhancing the visibility of a site on the organic search results. At Uniterrene Websoft, we will not only help you rank higher, but also better, with the help of analytics, creativity and technology.</p>`,
+
+    typeOfWebsiteHeading: "We focus on:",
+    typeOfWebsiteContent:
+      ``,
+    typeOfWebsiteListHead: "",
+    expertTeamList: [
+      {
+        heading: "",
+        content:
+          "Search intent based and competition based keyword research.",
+      },   
+      {
+        heading: "",
+        content:
+          "Relevance and engagement content optimization.",
+      },
+      {
+        heading: "",
+        content:
+          "Website design and internal connection to enhance crawling efficiency.",
+      },
+      {
+        heading: "",
+        content:
+          "More technical adjustments of speed and mobile readiness.",
+      },  
+      {
+        heading: "",
+        content:
+          "Frequent performance monitoring and strategy improvement.",
+      },        
+    ],
+    expertImg: SeoExpertImg,
+    trendBenefitHead:
+      "Designed for All: Industries We Serve",
+    trendBenefitContent: `<p>Our SEO expertise spans multiple sectors, helping both emerging brands and global enterprises strengthen their online footprint.</p>`,
+    trendBenefitListHead:
+      "",
+    trendBenefitList: [
+      {
+        title: "",
+        list: "E-commerce & Retail",
+      },
+      {
+        title: "",
+        list: "Education & E-learning",
+      },
+      {
+        title: "",
+        list: "Healthcare & Wellness",
+      },
+      {
+        title: "",
+        list: "Real Estate",
+      },
+      {
+        title: "",
+        list: "Travel & Hospitality",
+      },      
+      {
+        title: "",
+        list: "Corporate & Professional Services",
+      },                    
+    ],
+    hireHead: "SEO in Action: Current Trends and Benefits",
+    hireListHead:
+      `<p>Search algorithms evolve constantly, and so do we. Our SEO solutions integrate the latest strategies and technologies to keep you ahead.</p>`,
+    hireList: [
+      {
+        title: "",
+        list: "Voice Search and AI-driven SEO optimization",
+      },
+      {
+        title: "",
+        list: "Core Web Vitals and mobile-first indexing",
+      },
+      {
+        title: "",
+        list: "Data-led keyword targeting and personalization",
+      },
+      {
+        title: "",
+        list: "Enhanced E-E-A-T (Experience, Expertise, Authority, Trust) optimization",
+      },     
+      {
+        title: "",
+        list: "Integrated content marketing and SEO synergy",
+      },             
+    ],
+    whyChooseHead: "Why Choose Uniterrene Websoft: The SEO Advantage",
+    whyChooseContent: `<p>When collaborating with Uniterrene Websoft, it is a group that is creative and precise at the same time. 
+    Our services are aimed at ensuring long-term outcomes that would help in your business development.</p>`,
+    whyChooseListHead:
+      "We ensure:",
+    whyChooseList: [
+      {
+        title: "",
+        list: "Customized strategies for every business niche.",
+      },
+      {
+        title: "",
+        list: "Transparent reporting and data-backed insights.",
+      },
+      {
+        title: "",
+        list: "White-hat SEO techniques for sustainable success.",
+      },
+      {
+        title: "",
+        list: "Experienced SEO professionals dedicated to your goals.",
+      },
+      {
+        title: "",
+        list: "Post-deployment optimization and performance tracking.",
+      },                   
+    ],
+    faqImg: SeoFaqImg,
+    faqs: [
+      {
+        title: "How long does it take to see SEO results?",
+        content:
+          "Generally, noticeable improvements appear within 3 to 6 months, depending on competition and site condition.",
+        open: true,
+      },
+      {
+        title: "Do you provide keyword research and content planning?",
+        content:
+          "Yes, our SEO team conducts thorough research of the keywords and assists to make a content plan based on the business objectives.",
+        open: false,
+      },
+      {
+        title: "Can SEO improve website conversions?",
+        content:
+          "Absolutely. Good SEO increases user experience, which attracts qualified visitors with high chances of conversion.",
+        open: false,
+      },
+      {
+        title: "Is SEO suitable for small businesses?",
+        content:
+          " Yes, SEO is necessary to every business, it aids the business in the playing field of internet visibility.",
+        open: false,
+      }, 
+      {
+        title: "Do you offer ongoing SEO maintenance?",
+        content:
+          "Yes, we have permanent tracking, reporting, and optimization of long-term growth.",
+        open: false,
+      },       
+    ],
+  },
+
+
+ 
+  
+  {
+    id: 27,
+    parent: "Digital Marketing",
+    slug: "smm",
+    serviceName: "SMM",
+    pageTitle:
+      "Turn Engagement into Impact with Social Media Marketing",
+    description: `<p>At <strong>Uniterrene Websoft</strong>, we transform social platforms into growth engines for your brand. We make social platforms your engine to grow your brand at Uniterrene Websoft. Social Media Marketing (SMM) services will be aimed at creating a genuine relationship, motivate discussions, and achieve quantifiable outcomes.</p> 
+<p>We design our strategies to improve the presence and impact of your brand by smart targeting, imagination, and performance-based implementation. Our SMM solutions transform social interaction into tangible business results whether you are trying to create awareness, generate leads or build community trust.</p>`,
+    topImg: SmmTopImg,
+    typeOfServicesHeading:
+      "Amplify Brand Growth with Strategic Social Media Campaigns",
+    typeOfServicesContent:
+      `<p>It is our view that social media is not all about being seen but it is about engagement. 
+      Your brand message will be delivered to the right people, at the right moment through our team of creatives who will ignite a reaction of engagement, credibility and loyalty.</p>
+      <p><strong>Our Core Services Include:</strong></p>
+      `,
+    typeOfServicesList: [
+      {
+        head: "Social Media Strategy & Planning:",
+        list: "Custom roadmaps based on your business objectives and audience behaviour.",
+      },
+      {
+        head: "Content Creation & Design:",
+        list: "Content that is visually appealing, brand-oriented, and is created to spur action.",
+      },
+      {
+        head: "Social Media Management:",
+        list: "Posting frequently, interacting with the community and keeping track of reputation.",
+      },
+      {
+        head: "Paid Social Advertising:",
+        list: "Data-driven campaigns across Facebook, Instagram, LinkedIn, and more to drive leads and conversions.",
+      },
+      {
+        head: "Analytics & Performance Tracking:",
+        list: "Real-time insights to refine strategy and maximize ROI.",
+      },                  
+    ],
+    trendImg: SmmTrendsImg,
+    howWorkHeading: "The Art and Science Behind Effective Social Media Marketing",
+    howWorkContent: `<p>Effective social media marketing is a combination of creativity, psychology and analytics. 
+    We merge narrative and data intelligence to get impactful results at Uniterrene Websoft. Our campaigns are always goal-focused, audience-specific and are maximally engaging.</p>`,
+
+    typeOfWebsiteHeading: "We Focus On:",
+    typeOfWebsiteContent:
+      ``,
+    typeOfWebsiteListHead: "",
+    expertTeamList: [
+      {
+        heading: "",
+        content:
+          "Deep audience research and segmentation.",
+      },   
+      {
+        heading: "",
+        content:
+          "Platform-specific content and tone.",
+      },
+      {
+        heading: "",
+        content:
+          "Consistent brand identity across all channels.",
+      },
+      {
+        heading: "",
+        content:
+          "Real-time engagement and feedback monitoring.",
+      },  
+      {
+        heading: "",
+        content:
+          "Continuous optimization based on analytics.",
+      },        
+    ],
+    expertImg: SmmExpertImg,
+    trendBenefitHead:
+      "Empowering Every Industry Through Social Presence",
+    trendBenefitContent: `<p>Our team is knowledgeable of the intricacies of every industry and, as a result, is able to create content and campaigns that actually 
+    connect with your target audience. Through local businesses, to large-scale organizations, we plan social strategies that evoke trust and make decisions.</p>`,
+    trendBenefitListHead:
+      "Industries We Serve:",
+    trendBenefitList: [
+      {
+        title: "",
+        list: "E-commerce & Retail",
+      },
+      {
+        title: "",
+        list: "Education & E-learning",
+      },
+      {
+        title: "",
+        list: "Healthcare & Wellness",
+      },
+      {
+        title: "",
+        list: "Real Estate",
+      },
+      {
+        title: "",
+        list: "Travel & Hospitality",
+      },      
+      {
+        title: "",
+        list: "Corporate & Professional Services",
+      },                    
+    ],
+    hireHead: "Trends Transforming Social Media Marketing",
+    hireListHead:
+      `<p>The social environment is in a continuous process of change and we guarantee your brand is also changing. 
+      Our professionals blend innovation and creativity to make your brand stay on the top of the trend.</p>`,
+    hireList: [
+      {
+        title: "Emerging Trends:",
+        list: "AI-driven content creation and engagement insights.",
+      },
+      {
+        title: "",
+        list: "Short-form video dominance (Reels, Shorts, TikToks).",
+      },
+      {
+        title: "",
+        list: "Social commerce and shoppable content.",
+      },
+      {
+        title: "",
+        list: "Influencer and micro-influencer collaborations.",
+      },     
+      {
+        title: "",
+        list: "Data-led personalization and predictive audience targeting.",
+      },             
+    ],
+    whyChooseHead: "The Uniterrene Advantage: Driving Conversations that Convert",
+    whyChooseContent: `<p>Making a partnership with Uniterrene Websoft implies having to work with a team that is inspired by innovation, planning, and results. 
+    We are not only targeting campaigns to get likes but also create loyalty and influence.</p>`,
+    whyChooseListHead:
+      "We Ensure:",
+    whyChooseList: [
+      {
+        title: "",
+        list: "Authentic audience engagement and storytelling.",
+      },
+      {
+        title: "",
+        list: "Consistent branding across all social platforms.",
+      },
+      {
+        title: "",
+        list: "Transparent performance reporting.",
+      },
+      {
+        title: "",
+        list: "Scalable solutions tailored for startups and enterprises alike.",
+      },                        
+    ],
+    faqImg: SmmFaqImg,
+    faqs: [
+      {
+        title: "What is Social Media Marketing (SMM)?",
+        content:
+          "Social Media Marketing means advertising your brand and products on such platforms as Facebook, Instagram, LinkedIn, and X to make more people interested and make more conversions.",
+        open: true,
+      },
+      {
+        title: "How can SMM help my business?",
+        content:
+          "It enhances brand recognition, relationship creation, web traffic, and quality leads.",
+        open: false,
+      },
+      {
+        title: "Which platforms do you manage?",
+        content:
+          "We handle Facebook, Instagram, LinkedIn, X (Twitter), YouTube, Pinterest, and TikTok.",
+        open: false,
+      },
+      {
+        title: "How do you measure campaign success?",
+        content:
+          "We track engagement, reach, traffic, leads, and conversions to ensure measurable results.",
+        open: false,
+      }, 
+      {
+        title: "How often should I post on social media?",
+        content:
+          "The frequency of posting should also be based on your objectives and strategy to use the platform, but frequent updates keep your audience active and keep you visible.",
+        open: false,
+      },       
+    ],
+  },
+
+
+
+  
+  {
+    id: 28,
+    parent: "Digital Marketing",
+    slug: "ppc",
+    serviceName: "PPC",
+    pageTitle:
+      "Drive Targeted Results with Strategic, Scalable, and ROI-Focused Pay-Per-Click Solutions",
+    description: `<p>At <strong>Uniterrene Websoft</strong>, we turn every click into an opportunity. 
+    Our Pay-per-Click (PPC) advertising solution is created to enable your brand to find the appropriate audience in the appropriate place and time, 
+    which provides immediate visibility and quantifiable business development. Our specialists design campaigns that are accurate, creative and effective, 
+    through keyword targeting, conversion monitoring, and more. 
+    We assist in maximizing ROI through data-driven advertisement campaigns whether creating a new product or scaling an existing one.</p>`,
+    topImg: PPCTopImg,
+    typeOfServicesHeading:
+      "Accelerate Growth with Performance-Driven PPC Services",
+    typeOfServicesContent:
+      `<p>We have constructed our PPC solutions to provide efficient, targeted, and long-term outcomes. 
+      We do not only control the advertisements, we also streamline all the details of your campaign so that it is highly effective.</p>
+      <p><strong>Our key offerings include:</strong></p>
+      `,
+    typeOfServicesList: [
+      {
+        head: "PPC Strategy & Planning:",
+        list: "Strategies and plans based on data to target your business aims and audience.",
+      },
+      {
+        head: "Google Ads Management:",
+        list: "Feature at the top of search traffic and get lead-generating interests immediately.",
+      },
+      {
+        head: "Social Media Advertising:",
+        list: "Get conversions on Facebook, Instagram, LinkedIn, and YouTube with thoughtful and effective ad campaigns.",
+      },
+      {
+        head: "Remarketing Campaigns:",
+        list: "Restart the contact with interested users and refer them back to your brand.",
+      },
+      {
+        head: "E-commerce PPC:",
+        list: "Increase the visibility of a product and sell online with optimized shopping campaigns.",
+      },   
+      {
+        head: "Performance Monitoring & Optimization:",
+        list: "Monitor KPIs and keep on optimizing campaigns to raise ROI.",
+      },                
+    ],
+    trendImg: PPCTrendsImg,
+    howWorkHeading: "The Science of Smart Advertising: How PPC Works",
+    howWorkContent: `<p>Pay-Per-Click model enables businesses to show ads to the people that are in the market looking at similar 
+    services or products and only pay when a user clicks. Uniterrene Websoft is a blend of analytics, audience insight and creative 
+    precision that will make sure your ad spend results in a measurable value.</p>`,
+
+    typeOfWebsiteHeading: "We focus on:",
+    typeOfWebsiteContent:
+      ``,
+    typeOfWebsiteListHead: "",
+    expertTeamList: [
+      {
+        heading: "",
+        content:
+          "Advanced keyword research and targeting strategies.",
+      },   
+      {
+        heading: "",
+        content:
+          "Compelling ad copywriting and design.",
+      },
+      {
+        heading: "",
+        content:
+          "Conversion-focused landing pages.",
+      },
+      {
+        heading: "",
+        content:
+          "Smart bidding strategies for cost efficiency.",
+      },  
+      {
+        heading: "",
+        content:
+          "Real-time tracking and continuous optimization.",
+      },        
+    ],
+    expertImg: PPCExpertImg,
+    trendBenefitHead:
+      "Designed for All: Industries We Serve",
+    trendBenefitContent: `<p>Our PPC expertise caters to diverse industries, empowering brands to achieve measurable growth and visibility.</p>`,
+    trendBenefitListHead:
+      "",
+    trendBenefitList: [
+      {
+        title: "",
+        list: "E-commerce & Retail",
+      },
+      {
+        title: "",
+        list: "Education & E-learning",
+      },
+      {
+        title: "",
+        list: "Healthcare & Wellness",
+      },
+      {
+        title: "",
+        list: "Real Estate",
+      },
+      {
+        title: "",
+        list: "Travel & Hospitality",
+      },      
+      {
+        title: "",
+        list: "Corporate & Professional Services",
+      },                    
+    ],
+    hireHead: "PPC in Action: Current Trends and Benefits",
+    hireListHead:
+      `<p>We are digitalizing at a rapid rate and so is digital advertising. We will use a combination of innovation and 
+      analytics in our strategies that will sustain your campaigns into the future.</p>`,
+    hireList: [
+      {
+        title: "Emerging Trends:",
+        list: "AI-powered bidding and audience targeting.",
+      },
+      {
+        title: "",
+        list: "Video and interactive ad formats.",
+      },
+      {
+        title: "",
+        list: "Cross-platform campaign integration.",
+      },
+      {
+        title: "",
+        list: "Voice and mobile-first PPC optimization.",
+      },                 
+    ],
+    whyChooseHead: "Why Choose Uniterrene Websoft: The PPC Edge",
+    whyChooseContent: `<p>Partnering with <strong>Uniterrene Websoft</strong> means collaborating with a performance-focused team dedicated to maximizing your advertising investment.</p>`,
+    whyChooseListHead:
+      "We ensure:",
+    whyChooseList: [
+      {
+        title: "",
+        list: "Real-time brand exposure and creation of leads.",
+      },
+      {
+        title: "",
+        list: "Increase in the conversion rates with accuracy in targeting.",
+      },
+      {
+        title: "",
+        list: "Real-time performance monitoring.",
+      },
+      {
+        title: "",
+        list: "Higher ROI through decision-supported by data.",
+      },   
+      {
+        title: "",
+        list: "Campaigns in any budget size.",
+      },                      
+    ],
+    faqImg: PPCFaqImg,
+    faqs: [
+      {
+        title: "How quickly can PPC deliver results?",
+        content:
+          "PPC can start driving traffic and leads within days of campaign launch.",
+        open: true,
+      },
+      {
+        title: "Do you handle multiple ad platforms?",
+        content:
+          "Yes, we manage campaigns across Google, Bing, Facebook, Instagram, and LinkedIn.",
+        open: false,
+      },
+      {
+        title: "Can PPC work for small businesses?",
+        content:
+          "Absolutely. PPC offers scalable solutions suitable for every budget size.",
+        open: false,
+      },
+      {
+        title: "Do you optimize landing pages?",
+        content:
+          "Yes, we create and optimize landing pages with increased conversion rates.",
+        open: false,
+      }, 
+      {
+        title: "Will I receive reports on campaign performance?",
+        content:
+          "Yes, we do have in-depth analytics and monthly performance reports.",
+        open: false,
+      },       
+    ],
+  },
+
+
+  
+  
+  {
+    id: 28,
+    parent: "Digital Marketing",
+    slug: "content-marketing",
+    serviceName: "Content Marketing",
+    pageTitle:
+      "Turn Every Word into a Powerful Growth Tool with Content Marketing",
+    description: `<p>At <strong>Uniterrene Websoft</strong>, we create content that converts. We have designed our Content Marketing services to appeal, 
+    entertain, and keep your target customers, as well as present them with powerful storytelling and distribution. 
+    All words, pictures and posts that we create support your brand objectives to generate exposure, power and prolonged interaction.</p>
+    <p>We develop content that will unite audiences to your brand purpose through research-based strategies, implementation, and innovative storytelling. 
+    It is our mission to transform communication into real business outcomes whether it is through creating awareness, developing leads or retention.</p>
+    `,
+    topImg: ContentMarketingTopImg,
+    typeOfServicesHeading:
+      "Fuel Business Growth with Strategic, Insightful Content",
+    typeOfServicesContent:
+      `<p>We do not write, we create discussions that trigger believability and response. We will make sure our messages will be received by the appropriate audience, 
+      create credibility, and cause meaningful behavior that will result in conversion and loyalty.</p>
+      `,
+    typeOfServicesList: [
+      {
+        head: "Content Strategy & Planning:",
+        list: "Customized approaches that match your objectives and the behavior of your audience.",
+      },
+      {
+        head: "SEO Content Writing:",
+        list: "Keyword-optimized blogs, web pages and articles that are aimed at increasing the rankings and visibility.",
+      },
+      {
+        head: "Social Media Content:",
+        list: "Engaging posts and visuals that strengthen your online community.",
+      },
+      {
+        head: "Copywriting & Ad Content:",
+        list: "Conversion based, persuasive messages that result in sales and brand recognition.",
+      },
+      {
+        head: "Content Audits & Performance Tracking:",
+        list: "An in-depth look to better your strategy and ROI.",
+      },                        
+    ],
+    trendImg: ContentMarketingTrendsImg,
+    howWorkHeading: "The Art and Science Behind Effective Content Marketing",
+    howWorkContent: `<p>Content marketing is a mixture of creativity and analytics. It is not merely a matter of the generation of words, 
+    it is a matter of generating impact. Uniterrene Websoft is a company that combines creativity, behavioural knowledge and technology to provide quantifiable growth.</p>
+    <p>This is done by making sure that all the content is purposeful, supported by audience knowledge, and distributed effectively through the appropriate channels.</p>
+    `,
+
+    typeOfWebsiteHeading: "We Focus On:",
+    typeOfWebsiteContent:
+      ``,
+    typeOfWebsiteListHead: "",
+    expertTeamList: [
+      {
+        heading: "",
+        content:
+          "Data-driven audience research and segmentation.",
+      },   
+      {
+        heading: "",
+        content:
+          "High-quality storytelling that captures attention.",
+      },
+      {
+        heading: "",
+        content:
+          "SEO-optimized, mobile-responsive content.",
+      },
+      {
+        heading: "",
+        content:
+          "Consistent publishing for sustained engagement.",
+      },  
+      {
+        heading: "",
+        content:
+          "Continuous analysis and improvement based on results.",
+      },        
+    ],
+    expertImg: ContentMarketingExpertImg,
+    trendBenefitHead:
+      "Building Connections Across Every Industry",
+    trendBenefitContent: `<p>Our team can know the specifics of various markets, and your content should appeal to the appropriate audience. 
+    Our industry-specific strategies help to create trust, develop awareness, and make people act.</p>`,
+    trendBenefitListHead:
+      "",
+    trendBenefitList: [
+      {
+        title: "Industries We Serve",
+        list: "E-commerce & Retail",
+      },
+      {
+        title: "",
+        list: "Education & E-learning",
+      },
+      {
+        title: "",
+        list: "Healthcare & Wellness",
+      },
+      {
+        title: "",
+        list: "Real Estate",
+      },
+      {
+        title: "",
+        list: "Travel & Hospitality",
+      },      
+      {
+        title: "",
+        list: "Corporate & Professional Services",
+      },                    
+    ],
+    hireHead: "Innovating Communication: Trends Shaping Content Marketing",
+    hireListHead:
+      `<p>The digital landscape evolves continuously, and so does our strategy. We merge creativity with innovation to ensure your brand stays ahead.</p>`,
+    hireList: [
+      {
+        title: "Emerging Trends:",
+        list: "AI-assisted content creation and optimization.",
+      },
+      {
+        title: "",
+        list: "Voice search-friendly and interactive content.",
+      },
+      {
+        title: "",
+        list: "Cross-channel storytelling and omnichannel engagement.",
+      },
+      {
+        title: "",
+        list: "Data-driven personalization and predictive analytics.",
+      },                 
+    ],
+    whyChooseHead: "The Uniterrene Advantage: Your Partner in Powerful Storytelling",
+    whyChooseContent: `<p>Collaborating with Uniterrene Websoft implies working with a team that is interested in strategy, creativity, and quantifiable results. 
+    Our content is designed to speak, influence and convert.</p>`,
+    whyChooseListHead:
+      "We ensure:",
+    whyChooseList: [
+      {
+        title: "",
+        list: "One on one messaging to your target audience.",
+      },
+      {
+        title: "",
+        list: "Convincing and attractive content materials.",
+      },
+      {
+        title: "",
+        list: "Regular publications and intelligent automation.",
+      },
+      {
+        title: "",
+        list: "Open disclosure of performance.",
+      },   
+      {
+        title: "",
+        list: "Packages that are scalable to start ups and enterprises.",
+      },                      
+    ],
+    faqImg: ContentMarketingFaqImg,
+    faqs: [
+      {
+        title: "How does content marketing help my business?",
+        content:
+          "It builds brand awareness, drives traffic, and boosts conversions through engaging, valuable content.",
+        open: true,
+      },
+      {
+        title: "What type of content do you create?",
+        content:
+          "We create blogs, web copy, social media posts, and ad content tailored to your brand goals.",
+        open: false,
+      },
+      {
+        title: "How do you measure success?",
+        content:
+          "By tracking engagement, traffic, leads, and conversions to ensure consistent growth.",
+        open: false,
+      },             
+    ],
+  },
+
+
+
+    
+  
+  {
+    id: 29,
+    parent: "Digital Marketing",
+    slug: "email-marketing",
+    serviceName: "Email Marketing",
+    pageTitle:
+      "Turn Every Inbox into an Opportunity for Growth with Email Marketing",
+    description: `<p>At <strong>Uniterrene Websoft</strong>, we make every email count. Our <strong>Email Marketing</strong> services are crafted to deliver your message to the right audience, 
+    at the right time, for maximum impact. Every campaign is designed to increase visibility, conversions, and long-term engagement.</p>
+    <p>Through strategic storytelling, precise targeting, and automation, we create experiences that connect. 
+    Whether launching new campaigns, nurturing leads, or scaling retention efforts, we help you transform communication into measurable business success.</p>    
+    `,
+    topImg: EmailMarketingTopImg,
+    typeOfServicesHeading:
+      "Fuel Business Growth with Data-Driven Email Campaigns",
+    typeOfServicesContent:
+      `<p>We do not simply send emails but develop relationships with people. 
+      We work towards ensuring that we convey the right message to the right individual and the long-term brand relationships that lead to conversion and loyalty.</p>
+      `,
+    typeOfServicesList: [
+      {
+        head: "Strategic Campaign Planning:",
+        list: "Custom email tactics to your values and behavior of your audience.",
+      },
+      {
+        head: "Automation & Drip Sequences:",
+        list: "Smart processes to service customers through their experience.",
+      },
+      {
+        head: "Engaging Newsletters:",
+        list: "Build trust and brand recall through insightful and valuable updates.",
+      },
+      {
+        head: "E-commerce Email Campaigns:",
+        list: "Recovery of carts and repeat purchases through personalized recommendations.",
+      },
+      {
+        head: "Performance Analytics:",
+        list: "Monitor engagement, maximize campaigns, and maximize ROI.",
+      },                        
+    ],
+    trendImg: EmailMarketingTrendsImg,
+    howWorkHeading: "The Art and Science Behind Effective Email Marketing",
+    howWorkContent: `<p>Email marketing is not communication, it is action precision. 
+    It incorporates innovation, behavioral acumen, and technology to reach audiences and achievement of quantifiable outcomes..</p>
+    <p>We achieve this at Uniterrene Websoft by ensuring each email is made effective through the combination of analytical precision and creative narrations.</p>
+    `,
+
+    typeOfWebsiteHeading: "We focus on:",
+    typeOfWebsiteContent:
+      ``,
+    typeOfWebsiteListHead: "",
+    expertTeamList: [
+      {
+        heading: "",
+        content:
+          "Intelligent audience profiling and targeting.",
+      },   
+      {
+        heading: "",
+        content:
+          "Designs and high converting content.",
+      },
+      {
+        heading: "",
+        content:
+          "Responsive templates optimized to mobile.",
+      },
+      {
+        heading: "",
+        content:
+          "Robotized delivery to ensure constant participation.",
+      },  
+      {
+        heading: "",
+        content:
+          "Constant monitoring and performance improvement.",
+      },        
+    ],
+    expertImg: EmailMarketingExpertImg,
+    trendBenefitHead:
+      "Building Connections Across Every Industry",
+    trendBenefitContent: `<p>We are skilled across a variety of industries and make sure that every campaign appeals to a certain audience. 
+    Our strategies to various industries are custom made in order to realize a quantifiable growth and brand loyalty.</p>`,
+    trendBenefitListHead:
+      "",
+    trendBenefitList: [
+      {
+        title: "",
+        list: "E-commerce & Retail",
+      },
+      {
+        title: "",
+        list: "Education & E-learning",
+      },
+      {
+        title: "",
+        list: "Healthcare & Wellness",
+      },
+      {
+        title: "",
+        list: "Real Estate",
+      },
+      {
+        title: "",
+        list: "Travel & Hospitality",
+      },      
+      {
+        title: "",
+        list: "Corporate & Professional Services",
+      },                    
+    ],
+    hireHead: "Innovating Communication: Trends Shaping Email Marketing",
+    hireListHead:
+      `<p>Digital communication is changing and we are changing with it. Our plans are a combination of data and innovation to ensure your brand is the first to follow.</p>`,
+    hireList: [
+      {
+        title: "Emerging Trends:",
+        list: "AI-powered personalization for smarter engagement.",
+      },
+      {
+        title: "",
+        list: "Interactive and video-rich email content.",
+      },
+      {
+        title: "",
+        list: "Integrated cross-channel campaign experiences.",
+      },
+      {
+        title: "",
+        list: "Mobile-first and voice-optimized designs.",
+      },                 
+    ],
+    whyChooseHead: "The Uniterrene Advantage: Your Partner in Powerful Email Campaigns",
+    whyChooseContent: `<p>Collaborating with <strong>Uniterrene Websoft</strong> means working with a team that’s passionate about precision, 
+    creativity, and measurable growth. We craft campaigns that speak, connect, and convert.</p>`,
+    whyChooseListHead:
+      "We ensure:",
+    whyChooseList: [
+      {
+        title: "",
+        list: "Tailored messaging that matches your audience’s behavior.",
+      },
+      {
+        title: "",
+        list: "Eye-catching designs and persuasive content.",
+      },
+      {
+        title: "",
+        list: "Seamless automation and smart segmentation.",
+      },
+      {
+        title: "",
+        list: "Transparent performance tracking.",
+      },   
+      {
+        title: "",
+        list: "Flexible packages for all business scales.",
+      },                      
+    ],
+    faqImg: EmailMarketingFaqImg,
+    faqs: [
+      {
+        title: "How soon can I see results from email marketing?",
+        content:
+          "Depending on the size of the audience, segmentation and the type of campaign, results can start in days of launch.",
+        open: true,
+      },
+      {
+        title: "Do you design customized email templates?",
+        content:
+          "Yes, we do build receptive, brand motivated email templates that are mobile device compatible.",
+        open: false,
+      },
+      {
+        title: "Is email marketing effective for small businesses?",
+        content:
+          "Absolutely. It is cheap, scalable and very effective to both big and small firms.",
+        open: false,
+      }, 
+      {
+        title: "Do you handle automation and audience segmentation?",
+        content:
+          "Yes, we manage complete workflows and segmented campaigns to boost engagement and conversions.",
+        open: false,
+      },  
+      {
+        title: "Will I get reports on campaign performance?",
+        content:
+          "Yes, we offer a detailed performance report which contains open rates, clicks, conversion and ROI analysis.",
+        open: false,
+      },                     
+    ],
+  },
+
+
+  
+  {
+    id: 30,
+    parent: "AI Development",
+    slug: "chatbot-development",
+    serviceName: "Chatbot Development",
+    pageTitle:
+      "Enhance Customer Experiences with Intelligent Chatbot Development Solutions",
+    description: `<p>At Uniterrene Websoft, we create AI-driven chatbot systems that elevate customer engagement and streamline business processes. 
+    Our area of specialization is the construction of safe, reliable, and visionary chatbot systems that operate using superior AI, language processing, 
+    and intelligent workflow. We aim to assist organizations in going beyond the constraints of the previous support strategies and elevate the levels 
+    of operation be it automation, personalized interactions, or intelligent data management.</p>      
+    `,
+    topImg: ChatbotTopImg,
+    typeOfServicesHeading:
+      "Accelerate Engagement with Context-Aware Conversational Systems",
+    typeOfServicesContent:
+      `<p>We not only do not create chatbots, but we create reactive digital communication systems. 
+      We can make your chatbot world intelligent, adaptive, and responsive to the real-time business needs through our engineering competency. 
+      Our solutions lessen the amount of work, enhance response time, and business continuity via automated conversation.</p>
+      <p><strong>Our Core Services Include:</strong></p>
+      `,
+    typeOfServicesList: [
+      {
+        head: "Chatbot Consulting & Strategy:",
+        list: "Customized measures that assist companies to recognize the appropriate automation strategy that can meet user requirements and scalability objectives.",
+      },
+      {
+        head: "AI Chatbot Development:",
+        list: "Design, build, and deploy smart AI-powered chatbots using NLP and ML across platforms such as websites, apps, WhatsApp, Messenger, and more.",
+      },
+      {
+        head: "Custom Workflow Automation:",
+        list: "Automation of repetitive tasks, ticketing systems, lead generation, FAQs, and operational processes to improve efficiency.",
+      },
+      {
+        head: "Omnichannel Chatbot Integration:",
+        list: "Seamless integration with CRM, ERP, marketing tools, and customer support platforms to unify communication across channels.",
+      },
+      {
+        head: "Chatbot Training & Optimization:",
+        list: "Consistent performance refinement through data training, behavior analysis, and accuracy improvement.",
+      }, 
+      {
+        head: "Maintenance & Continuous Support:",
+        list: "Continuous and frequent upgrades and new features to make sure that the chatbot keeps up with your business.",
+      },                                    
+    ],
+    trendImg: ChatbotTrendsImg,
+    howWorkHeading: "The Art and Science Behind Effective Chatbot Development",
+    howWorkContent: `<p>The construction of a smart chatbot is an operational and a tactical undertaking. 
+    In Uniterrene Websoft, we integrate the language knowledge, engineering accuracy, and user behaviour to provide effective results.</p>
+    `,
+
+    typeOfWebsiteHeading: "We Focus On:",
+    typeOfWebsiteContent:
+      ``,
+    typeOfWebsiteListHead: "",
+    expertTeamList: [
+      {
+        heading: "",
+        content:
+          "Dynamically extensible conversation.",
+      },   
+      {
+        heading: "",
+        content:
+          "Secure application and monitoring.",
+      },
+      {
+        heading: "",
+        content:
+          "NLP-based meaning and situational reactions.",
+      },
+      {
+        heading: "",
+        content:
+          "Constant training and repetitive upgrading.",
+      },  
+      {
+        heading: "",
+        content:
+          "Efficiency and precision on all levels.",
+      },        
+    ],
+    expertImg: ChatbotExpertImg,
+    trendBenefitHead:
+      "Building Chatbot Solutions Across Industries",
+    trendBenefitContent: `<p>Our team realizes the specific communication requirements of various industries and creates chatbots 
+    that can be used to the fullest and work most efficiently. Our smart chatbot systems assist firms to remain productive, responsive, and digitally-aligned.</p>`,
+    trendBenefitListHead:
+      "Industries We Serve:",
+    trendBenefitList: [
+      {
+        title: "",
+        list: "E-commerce & Retail",
+      },
+      {
+        title: "",
+        list: "Education & E-learning",
+      },
+      {
+        title: "",
+        list: "Healthcare & Life Sciences",
+      },
+      {
+        title: "",
+        list: "Real Estate & Property Management",
+      },
+      {
+        title: "",
+        list: "Travel & Logistics",
+      },      
+      {
+        title: "",
+        list: "Banking, Finance & Professional Services",
+      },                    
+    ],
+    hireHead: "Innovating the Future: Trends Reshaping Chatbot Development",
+    hireListHead:
+      `<p>Chatbot technology continues to evolve with advancements in AI and automation.  Every project we deliver incorporates intelligence, predictive understanding, and user-centric design to help brands stay future-ready.</p>`,
+    hireList: [
+      {
+        title: "Emerging Trends:",
+        list: "AI-driven conversational agents with deep learning capabilities.",
+      },
+      {
+        title: "",
+        list: "Voice-enabled chatbot systems.",
+      },
+      {
+        title: "",
+        list: "Predictive and emotion-aware chatbots.",
+      },
+      {
+        title: "",
+        list: "Hyper-personalized communication engines.",
+      },                 
+    ],
+    whyChooseHead: "Your Trusted Chatbot Development Partner",
+    whyChooseContent: `<p>Partnering with Uniterrene Websoft means working with a team that values strategy, innovation, and performance. 
+    We create chatbot systems that increase customer relations, automate business processes, and promote steady business development.</p>`,
+    whyChooseListHead:
+      "We ensure:",
+    whyChooseList: [
+      {
+        title: "",
+        list: "Chatbot strategies targeted to specific business requirements.",
+      },
+      {
+        title: "",
+        list: "Safety development architecture.",
+      },
+      {
+        title: "",
+        list: "Open deployment and monitoring.",
+      },
+      {
+        title: "",
+        list: "On-going improvement training and performance.",
+      },   
+      {
+        title: "",
+        list: "Variable packages to startups, SMEs, and enterprises.",
+      },                      
+    ],
+    faqImg: ChatbotFaqImg,
+    faqs: [
+      {
+        title: "What is Chatbot Development and how does it help my business?",
+        content:
+          "The development of chatbots helps businesses to automate their activities during customer interaction, enhance promptness of their response, or minimize human workload, and offer real-time services through the digital medium.",
+        open: true,
+      },
+      {
+        title: "Do you build AI-powered chatbots?",
+        content:
+          "Yes, we do chatbots based on NLP and machine learning that can comprehend user intent, give contextual replies and train in real-time.",
+        open: false,
+      },
+      {
+        title: "Can chatbots be integrated with our existing systems?",
+        content:
+          "Absolutely. We combine chatbots with CRM, ERP, ticketing systems, marketing tools, websites, mobile applications, and social platforms to have a single communication system.",
+        open: false,
+      }, 
+      {
+        title: "Do you offer multi-language chatbot development?",
+        content:
+          "Yes, we can train our chatbots to serve more than one language in order to serve both the regional and global communication requirements.",
+        open: false,
+      },                       
+    ],
+  },
+
+
+
+    
+  {
+    id: 31,
+    parent: "AI Development",
+    slug: "machine-learning-solutions",
+    serviceName: "Machine Learning Solutions",
+    pageTitle:
+      "Accelerate Business Intelligence with Advanced Machine Learning Solutions",
+    description: `<p>At Uniterrene Websoft, we build intelligent machine learning systems that elevate decision-making, 
+    streamline operations, and unlock scalable digital innovation. We are the experts in creating secure, adaptive, 
+    and insight-driven ML models to address real issues and optimize the workflow and efficiency.</p>      
+    `,
+    topImg: MachineLearningTopImg,
+    typeOfServicesHeading:
+      "Transform Operations with Predictive, Automated, and Insight-Driven ML Architecture",
+    typeOfServicesContent:
+      `<p>Our algorithms are not simply put into practice, but rather we are building intelligent, self-learning and context-aware ML ecosystems.
+       Our engineering skill allows companies to create applications that process data in real-time and learn patterns and deliver meaningful insights with great responsibility. 
+       Machine learning will decrease the amount of manual decision-making, operational error, 
+       and enhance business continuity by providing insights or accurate forecasts through automation.</p>
+      <p><strong>What We Deliver: Machine Learning Solutions Built for Real-World Impact:</strong></p>
+      `,
+    typeOfServicesList: [
+      {
+        head: "ML Consulting & Strategy:",
+        list: "Leading companies to find the appropriate ML solution to improve the process, automate it and create long-run value.",
+      },
+      {
+        head: "Custom ML Model Development:",
+        list: "Constructing custom machine learning models, such as prediction, classification, segmentation, and anomaly detection.",
+      },
+      {
+        head: "Data Engineering & Preparation:",
+        list: "Cleaning, transforming, and structuring data to ensure accurate and high-quality ML output.",
+      },
+      {
+        head: "AI-Powered Automation:",
+        list: "Designing automated reporting, recommendation, approvals and real time decision making systems.",
+      },
+      {
+        head: "Deep Learning Solutions:",
+        list: "Creating neural networks systems to analyze images, recognize speech, identify patterns among others.",
+      }, 
+      {
+        head: "MLOps & Managed ML Infrastructure:",
+        list: "Full lifecycle monitoring, automation, optimization, and continuous model improvement.",
+      },  
+      {
+        head: "Security, Governance & Compliance:",
+        list: "Providing a high level of data governance, data pipeline security and regulatory compliance of ML workflows.",
+      },                                   
+    ],
+    trendImg: MachineLearningTrendsImg,
+    howWorkHeading: "The Craft Behind High-Performance ML Engineering",
+    howWorkContent: `<p>Building a reliable ML ecosystem requires strategic planning, strong data foundations, and robust engineering.</p>
+    <p>We integrate extensive technical mastery with user-oriented design to provide ML ecosystems that yield quantifiable results.</p>
+    `,
+
+    typeOfWebsiteHeading: "We Focus On:",
+    typeOfWebsiteContent:
+      ``,
+    typeOfWebsiteListHead: "",
+    expertTeamList: [
+      {
+        heading: "",
+        content:
+          "Clean and structured datasets.",
+      },   
+      {
+        heading: "",
+        content:
+          "Ethical and explainable AI.",
+      },
+      {
+        heading: "",
+        content:
+          "Optimized model training.",
+      },
+      {
+        heading: "",
+        content:
+          "Real-time inference systems.",
+      },  
+      {
+        heading: "",
+        content:
+          "High performance under complex workloads.",
+      },        
+    ],
+    expertImg: MachineLearningExpertImg,
+    trendBenefitHead:
+      "Tailored Machine Learning Solutions for Every Industry",
+    trendBenefitContent: `<p>Our team is aware of the operational requirements of various industries and develops ML systems that reinforced productivity and growth.</p>
+    <p>Our solutions enable organizations to remain competitive, scalable and digital.</p>`,
+    trendBenefitListHead:
+      "Industries We Serve:",
+    trendBenefitList: [
+      {
+        title: "",
+        list: "E-commerce & Retail",
+      },
+      {
+        title: "",
+        list: "Fintech & Banking",
+      },
+      {
+        title: "",
+        list: "Healthcare & Life Sciences",
+      },
+      {
+        title: "",
+        list: "Education & E-learning",
+      },
+      {
+        title: "",
+        list: "Travel & Logistics",
+      },      
+      {
+        title: "",
+        list: "Real Estate & Property Services",
+      },  
+      {
+        title: "",
+        list: "SaaS & Technology Platforms",
+      },                   
+    ],
+    hireHead: "The Future Is Intelligent: Trends Shaping the Next Era of Machine Learning",
+    hireListHead:
+      `<p>Machine learning continues to evolve with automation, predictive analytics, and generative AI. Every solution we build includes intelligent scaling, high accuracy, and performance-focused workflows.</p>`,
+    hireList: [
+      {
+        title: "Emerging Trends:",
+        list: "Real-time predictive analytics.",
+      },
+      {
+        title: "",
+        list: "Generative AI and automated content creation.",
+      },
+      {
+        title: "",
+        list: "Intelligent personalization engines.",
+      },
+      {
+        title: "",
+        list: "AI-driven security systems.",
+      },    
+      {
+        title: "",
+        list: "Edge-based ML processing.",
+      },              
+    ],
+    whyChooseHead: "Why Choose Us as Your Machine Learning Transformation Partner?",
+    whyChooseContent: `<p>By collaborating with Uniterrene Websoft, one will select a team focused on accuracy, development, and effectiveness.</p>
+    <p>Our ML solutions simplify the processes, facilitate business expansions, and generate sustainability and digital value in the long term.</p>`,
+    whyChooseListHead:
+      "We Ensure:",
+    whyChooseList: [
+      {
+        title: "",
+        list: "Tailored ML strategies.",
+      },
+      {
+        title: "",
+        list: "Transparent processes and training cycles.",
+      },
+      {
+        title: "",
+        list: "Ethical and secure AI practices.",
+      },
+      {
+        title: "",
+        list: "End-to-end deployment and monitoring.",
+      },   
+      {
+        title: "",
+        list: "Flexible engagement models for all business sizes.",
+      },                      
+    ],
+    faqImg: MachineLearningFaqImg,
+    faqs: [
+      {
+        title: "What is Machine Learning and how does it help my business?",
+        content:
+          "Machine learning empowers systems to learn and make correct predictions enhancing automation, decision-making and operational efficiency.",
+        open: true,
+      },
+      {
+        title: "Can ML models integrate with my existing software?",
+        content:
+          "Yes, ML models have the ability to interoperate with databases, CRM software, cloud applications and enterprise systems to create automated workflows.",
+        open: false,
+      },
+      {
+        title: "How long does it take to build an ML solution?",
+        content:
+          "Timelines vary based on data complexity and project needs, but we ensure structured phases data preparation, model creation, testing, and deployment.",
+        open: false,
+      },                             
+    ],
+  },
+
+ 
+    
+  {
+    id: 31,
+    parent: "AI Development",
+    slug: "deep-learning-models",
+    serviceName: "Deep Learning Models",
+    pageTitle:
+      "Advanced Deep Learning Model Development Solutions",
+    description: `<p>At Uniterrene Websoft, we build cutting-edge deep learning models that help businesses harness 
+    the full potential of intelligent systems. We are the experts in developing AI solutions that are scalable, accurate and perform well, 
+    comprehend patterns, predict, and automate the processes of making decisions which are very complex. 
+    We are also highly skilled in neural networks, data engineering, and computational modeling and we assist organizations to upgrade their digital systems, 
+    be it through automation, predictive power, or smart analytics.</p>      
+    `,
+    topImg: DeepLearningTopImg,
+    typeOfServicesHeading:
+      "Optimize Outcomes with Intelligent Deep Learning Architectures",
+    typeOfServicesContent:
+      `<p>We are not merely model makers, but we are systems that are adaptive, data driven and are made to grow as your business grows. 
+      Your deep learning solutions can respond with elegant precision to large datasets, detect patterns and trends, and predict using our engineering power. 
+      These smart systems decrease manual work, enhance predictive skills, and reinforce the uniformity of decisions made by business activities.</p>
+      <p><strong>Our Core Services Include:</strong></p>
+      `,
+    typeOfServicesList: [
+      {
+        head: "Deep Learning Consulting & Framework Design:",
+        list: "Specified plans that enable companies to pinpoint an appropriate model structure, data necessities, and combination strategy to effect powerful AI implementation.",
+      },
+      {
+        head: "Neural Network Development:",
+        list: "Design and deployment of high-performance models including CNNs, RNNs, LSTMs, GANs, and Transformer-based architectures for diverse applications.",
+      },
+      {
+        head: "Automated Data Processing Pipelines:",
+        list: "Creation of end-to-end data workflows that cleanse, structure, and optimize datasets for reliable deep learning performance.",
+      },
+      {
+        head: "AI System Integration:",
+        list: "Uninterrupted connections between deep learning models and enterprise applications, analytics, mobile applications, and automatic systems.",
+      },
+      {
+        head: "Model Training & Optimization:",
+        list: "Ongoing improvement on data retraining, hyperparameter optimization, monitoring behavior, and accuracy.",
+      }, 
+      {
+        head: "Maintenance & Ongoing Support:",
+        list: "Regular updates, performance checks, and feature expansions to ensure the model remains aligned with your evolving business goals.",
+      },        
+                                        
+    ],
+    trendImg: DeepLearningTrendsImg,
+    howWorkHeading: "The Science Behind Effective Deep Learning Solutions",
+    howWorkContent: `<p>The creation of sophisticated deep learning is both a strategy and precision. 
+    At Uniterrene Websoft, we integrate computational intelligence, algorithmic accuracy and real world understanding to provide systems which work consistently.</p>
+    `,
+
+    typeOfWebsiteHeading: "We Focus On:",
+    typeOfWebsiteContent:
+      ``,
+    typeOfWebsiteListHead: "",
+    expertTeamList: [
+      {
+        heading: "",
+        content:
+          "Scalable neural network architectures",
+      },   
+      {
+        heading: "",
+        content:
+          "Secure model deployment and monitoring.",
+      },
+      {
+        heading: "",
+        content:
+          "Context-aware pattern recognition.",
+      },
+      {
+        heading: "",
+        content:
+          "Continuous improvement and iterative training.",
+      },  
+      {
+        heading: "",
+        content:
+          "High accuracy across varied datasets.",
+      },        
+    ],
+    expertImg: DeepLearningExpertImg,
+    trendBenefitHead:
+      "Deep Learning Solutions Across Industries",
+    trendBenefitContent: `<p>We are aware of the data issues in other industries and develop models that meet specific industries. 
+    Our smart AI provides businesses with the ability to be efficient, predictive and digitally empowered.</p>`,
+    trendBenefitListHead:
+      "Industries We Serve:",
+    trendBenefitList: [
+      {
+        title: "",
+        list: "Healthcare & Diagnostics",
+      },
+      {
+        title: "",
+        list: "Finance & Risk Analysis",
+      },
+      {
+        title: "",
+        list: "E-commerce & Retail",
+      },
+      {
+        title: "",
+        list: "Manufacturing & Robotics",
+      },
+      {
+        title: "",
+        list: "Education & E-learning",
+      },      
+      {
+        title: "",
+        list: "Real Estate & Property Insights",
+      },  
+      {
+        title: "",
+        list: "Travel & Logistics",
+      },                   
+    ],
+    hireHead: "Innovating the Future: Trends Shaping Deep Learning Technology",
+    hireListHead:
+      `<p>Deep learning continues to evolve as new breakthroughs emerge in AI research. Every solution we design incorporates advanced algorithms, predictive logic, and user-centric intelligence to keep organizations future-ready.</p>`,
+    hireList: [
+      {
+        title: "Emerging Trends:",
+        list: "Deep learning models using Transformer architectures.",
+      },
+      {
+        title: "",
+        list: "Vision-based AI systems for recognition and detection.",
+      },
+      {
+        title: "",
+        list: "Generative models for content and design automation.",
+      },       
+      {
+        title: "",
+        list: "Emotion-aware AI for enhanced human-machine interaction.",
+      },              
+    ],
+    whyChooseHead: "Your Trusted Deep Learning Technology Partner",
+    whyChooseContent: `<p>Partnering with Uniterrene Websoft means working with a team committed to innovation, precision, and measurable outcomes. 
+    We design intelligent models that enhance operations, support strategic planning, and enable smarter digital ecosystems.</p>`,
+    whyChooseListHead:
+      "We Ensure:",
+    whyChooseList: [
+      {
+        title: "",
+        list: "Tailored deep learning frameworks for unique business needs.",
+      },
+      {
+        title: "",
+        list: "Secure and compliant deployment.",
+      },
+      {
+        title: "",
+        list: "Transparent performance monitoring.",
+      },
+      {
+        title: "",
+        list: "Continuous model upgrades and enhancements.",
+      },   
+      {
+        title: "",
+        list: "Flexible solutions for startups, SMEs, and enterprises.",
+      },                      
+    ],
+    faqImg: DeepLearningFaqImg,
+    faqs: [
+      {
+        title: "What are Deep Learning Models and how can they help my business?",
+        content:
+          "Deep learning models are models that make use of large data sets to identify patterns, automate decisions, and enhance predictions, which assists the business to operate more effectively and precisely.",
+        open: true,
+      },
+      {
+        title: "Do you build custom neural network models?",
+        content:
+          "Yes, we are creating and training high-performance neural networks with certain business objectives, such as vision models, predictive systems, and natural language models.",
+        open: false,
+      },
+      {
+        title: "Can deep learning solutions integrate with our existing systems?",
+        content:
+          "Absolutely. We combine models and enterprise software, analytics, mobile applications, and automated platforms to support end-to-end workflows.",
+        open: false,
+      }, 
+      {
+        title: "Do you provide ongoing model training and updates?",
+        content:
+          "Yes, we optimize performance by training, assessing and refining performance continuously to get the same degree of accuracy with time.",
+        open: false,
+      },                            
+    ],
+  },
+
+
+
+
+
+
+
+  {
+    id: 32,
+    parent: "AI Development",
+    slug: "nlp",
+    serviceName: "NLP",
+    pageTitle:
+      "Empower Digital Intelligence with Advanced NLP Solutions",
+    description: `<p>At Uniterrene Websoft, we develop intelligent NLP systems that understand language, extract meaning, 
+    and transform unstructured data into actionable insights. We have a background of creating context-aware, 
+    secure and scalable NLP models that do not need the oversight of complex linguistic workflows to serve the digital operations of the present day world. </p> 
+    <p>We want to assist businesses to overcome the constraints of text processing and attain smarter results by having language understanding, 
+    automated interpretation, and text analysis in real-time.</p>     
+    `,
+    topImg: NLPTopImg,
+    typeOfServicesHeading:
+      "Drive Real-Time Understanding Through Intelligent Language Systems",
+    typeOfServicesContent:
+      `<p>We do not just generate NLP models but rather we design adaptive, intuitive, and high-performing NLP ecosystems. 
+      Our solutions enable businesses to analyze conversations, decode sentiment, respond to text automatically and provide personalized user experiences with more accuracy. 
+      The NLP systems simplify the process of data interpretation, minimise operational delays, and increase the performance of services by creating automated linguistic processes.</p>
+      <p><strong>What We Deliver: NLP Solutions That Transform Processes</strong></p>
+      `,
+    typeOfServicesList: [
+      {
+        head: "NLP Consulting & Strategy:",
+        list: "Guiding organizations in identifying the right NLP techniques for improved efficiency, automated workflows, and enhanced user experiences.",
+      },
+      {
+        head: "Custom NLP Model Development:",
+        list: "Building tailored NLP models using machine learning, deep learning, and industry-leading AI frameworks.",
+      },
+      {
+        head: "Chatbot & Virtual Assistant Development:",
+        list: "Creating intelligent conversational systems with natural, human-like responses for smoother customer engagement.",
+      },
+      {
+        head: "Text Analytics & Data Processing:",
+        list: "Extracting insights from documents, emails, reviews, feedback, and large text datasets to support business decisions.",
+      },
+      {
+        head: "Sentiment Analysis & Opinion Mining:",
+        list: "Analyzing customer sentiment to help brands understand emotions, behavior, and market perception.",
+      }, 
+      {
+        head: "NLP Automation for Workflows:",
+        list: "Automating document handling, text categorization, keyword extraction, and report generation.",
+      }, 
+      {
+        head: "AI Content Understanding & Classification:",
+        list: "Building smart systems that classify, summarize, and interpret content in real time.",
+      },        
+                                        
+    ],
+    trendImg: NLPTrendsImg,
+    howWorkHeading: "The Craft Behind High-Performance NLP Engineering",
+    howWorkContent: `<p>The creation of an intelligent NLP system needs linguistic expertise, technical engineering, and design, based on the user. 
+    As a team, we have integrated these strengths in order to achieve NLP environments that have practical results that are measurable.</p>
+    `,
+
+    typeOfWebsiteHeading: "We Focus On:",
+    typeOfWebsiteContent:
+      ``,
+    typeOfWebsiteListHead: "",
+    expertTeamList: [
+      {
+        heading: "",
+        content:
+          "Context-aware NLP models.",
+      },   
+      {
+        heading: "",
+        content:
+          "Secure and scalable AI architecture.",
+      },
+      {
+        heading: "",
+        content:
+          "Optimized text processing workflows.",
+      },
+      {
+        heading: "",
+        content:
+          "Real-time data interpretation.",
+      },  
+      {
+        heading: "",
+        content:
+          "High efficiency under heavy text volume.",
+      },        
+    ],
+    expertImg: NLPExpertImg,
+    trendBenefitHead:
+      "Tailored NLP Solutions for Every Industry Landscape",
+    trendBenefitContent: `<p>We are aware of the communication demands of different sectors and develop NLP-based systems that make the processes easier and more productive. 
+    Our solutions assist organizations to be efficient, nimble, and digital ready.</p>`,
+    trendBenefitListHead:
+      "Industries We Serve:",
+    trendBenefitList: [
+      {
+        title: "",
+        list: "E-commerce & Retail",
+      },
+      {
+        title: "",
+        list: "Fintech & Banking",
+      },
+      {
+        title: "",
+        list: "Healthcare & Life Sciences",
+      },
+      {
+        title: "",
+        list: "Education & E-learning",
+      },
+      {
+        title: "",
+        list: "Travel & Logistics",
+      },      
+      {
+        title: "",
+        list: "Real Estate & Property Management",
+      },  
+      {
+        title: "",
+        list: "SaaS & Technology Enterprises",
+      },                   
+    ],
+    hireHead: "The Future Is NLP: Trends Defining the Next Stage of AI Language Understanding",
+    hireListHead:
+      `<p>NLP continues to evolve with advancements in automation, machine reasoning, and real-time linguistic processing. 
+      Our solutions integrate these innovations to deliver smarter, more capable systems.</p>`,
+    hireList: [
+      {
+        title: "Emerging Trends:",
+        list: "Generative AI-driven text workflows.",
+      },
+      {
+        title: "",
+        list: "Multilingual language systems.",
+      },
+      {
+        title: "",
+        list: "Real-time voice-to-text engines.",
+      },       
+      {
+        title: "",
+        list: "Emotion and intent interpretation.",
+      },  
+      {
+        title: "",
+        list: "Document intelligence with automation.",
+      },             
+    ],
+    whyChooseHead: "Why Choose Us as Your NLP Transformation Partner?",
+    whyChooseContent: `<p>Partnering with Uniterrene Websoft means choosing a team focused on precision, intelligence, and long-term digital growth. 
+    We build NLP systems that elevate operations, strengthen engagement, and support continuous improvement.</p>`,
+    whyChooseListHead:
+      "We Ensure:",
+    whyChooseList: [
+      {
+        title: "",
+        list: "Customized NLP strategies.",
+      },
+      {
+        title: "",
+        list: "Secure and compliant AI processes.",
+      },
+      {
+        title: "",
+        list: "Transparent model training and deployment.",
+      },
+      {
+        title: "",
+        list: "Continuous refinement and optimization.",
+      },   
+      {
+        title: "",
+        list: "Flexible solutions for all business scales.",
+      },                      
+    ],
+    faqImg: NLPFaqImg,
+    faqs: [
+      {
+        title: "What is NLP and how does it help my business?",
+        content:
+          "NLP enables systems to understand and analyze human language. It helps businesses automate communication, interpret customer feedback, and process large volumes of text with ease.",
+        open: true,
+      },
+      {
+        title: "Can NLP integrate with existing platforms and tools?",
+        content:
+          "Yes, NLP systems can integrate with CRM platforms, chat systems, data tools, apps, and enterprise dashboards to support seamless workflows.",
+        open: false,
+      },
+      {
+        title: "Which technologies do you use for NLP development?",
+        content:
+          "We use leading AI and cloud platforms including AWS, Google Cloud, Azure, and advanced AI frameworks to create models suited to your business needs.",
+        open: false,
+      }, 
+                                 
+    ],
+  },
+
+
+
+  {
+    id: 33,
+    parent: "Digital Marketing",
+    slug: "smo",
+    serviceName: "SMO",
+    pageTitle:
+      "Power Your Digital Engagement with Strategic, Scalable, and Impactful SMO Solutions",
+    description: `<p>At <strong>Uniterrene Websoft</strong>, we believe in the power of social media to shape conversations, build relationships, and grow brands. Our <strong>Social Media Optimization (SMO)</strong> services go beyond likes and shares, we help you build a strong, meaningful, and data-driven social presence that attracts, engages, and retains your audience. Whether you are launching a new brand or strengthening an existing one, our expert SMO team designs campaigns that reflect your voice and amplify your visibility across all major platforms. </p>         
+    `,
+    topImg: SMOTopImg,
+    typeOfServicesHeading:
+      "Crafting Connections That Matter: Our SMO Services",
+    typeOfServicesContent:
+      `<p>Our SMO services offer a complete package, which will position your brand well in the social arena and guarantee frequent interactions with your audience.</p>
+      <p><strong>Our key offerings include:</strong></p>
+      `,
+    typeOfServicesList: [
+      {
+        head: "Social Media Strategy & Planning:",
+        list: "Data-driven roadmaps tailored to your brand’s audience and goals.",
+      },
+      {
+        head: "Content Creation & Management:",
+        list: "Engaging visuals, videos, and posts that reflect your brand identity.",
+      },
+      {
+        head: "Social Media Profile Optimization:",
+        list: "Enhancing bios, visuals, and keywords for maximum visibility.",
+      },
+      {
+        head: "Community Building & Engagement:",
+        list: "Developing real-time interactions that foster brand loyalty.",
+      },
+      {
+        head: "Social Media Advertising:",
+        list: "Targeted campaigns for measurable growth and higher ROI.",
+      }, 
+      {
+        head: "Analytics & Performance Tracking:",
+        list: "Real-time monitoring and reporting to refine strategies continuously.",
+      },        
+                                        
+    ],
+    trendImg: SMOTrendsImg,
+    howWorkHeading: "The Science of Social Success: How SMO Works",
+    howWorkContent: `<p>Social Media Optimization helps improve your presence on social media by doing strategic management and optimization of your social media profiles.
+     We also match creativity with analytics in Uniterrene Websoft so that your social channels can be more effective and reach more people.</p>
+    `,
+
+    typeOfWebsiteHeading: "We focus on:",
+    typeOfWebsiteContent:
+      ``,
+    typeOfWebsiteListHead: "",
+    expertTeamList: [
+      {
+        heading: "",
+        content:
+          "Consistent brand messaging across all platforms.",
+      },   
+      {
+        heading: "",
+        content:
+          "Platform-specific content strategies for Facebook, Instagram, LinkedIn, X (Twitter), and YouTube.",
+      },
+      {
+        heading: "",
+        content:
+          "User behavior-based optimization of timing, frequency and engagement.",
+      },
+      {
+        heading: "",
+        content:
+          "Using insights to build valuable interactions with customers.",
+      },           
+    ],
+    expertImg: SMOExpertImg,
+    trendBenefitHead:
+      "Designed for All: Industries We Serve",
+    trendBenefitContent: `<p>Our SMO services apply across diverse industries and audiences, enabling the brands to develop in a natural manner online.</p>`,
+    trendBenefitListHead:
+      "",
+    trendBenefitList: [
+      {
+        title: "",
+        list: "E-commerce & Retail",
+      },
+      {
+        title: "",
+        list: "Education & E-learning",
+      },
+      {
+        title: "",
+        list: "Healthcare & Wellness",
+      },
+      {
+        title: "",
+        list: "Real Estate",
+      },
+      {
+        title: "",
+        list: "Travel & Logistics",
+      },      
+      {
+        title: "",
+        list: "Corporate & Professional Services",
+      },                          
+    ],
+    hireHead: "SMO in Action: Current Trends and Benefits",
+    hireListHead:
+      `<p>Social media develops fast and we develop fast. We have strategies that bring on board the new social and content trends, and ensure that the audience is well engaged.</p>`,
+    hireList: [
+      {
+        title: "Emerging Trends:",
+        list: "The domination of the short-form video and interactive narration.",
+      },
+      {
+        title: "",
+        list: "User-generated content and influencer collaboration.",
+      },
+      {
+        title: "",
+        list: "Artificial intelligence-based content scheduling and listening.",
+      },       
+      {
+        title: "",
+        list: "Social commerce and shoppable post integration.",
+      },                     
+    ],
+    whyChooseHead: "Why Choose Uniterrene Websoft: The SMO Edge",
+    whyChooseContent: `<p>Collaborating with Uniterrene Websoft implies accessing an innovative and problem-solving team,
+     which is also interested in the success of your brand in the online social environment.</p>`,
+    whyChooseListHead:
+      "We ensure:",
+    whyChooseList: [
+      {
+        title: "",
+        list: "Personalized social strategies in line with business objectives.",
+      },
+      {
+        title: "",
+        list: "Maximum reach platform optimization.",
+      },
+      {
+        title: "",
+        list: "Open performance reporting and analytics.",
+      },
+      {
+        title: "",
+        list: "Imaginative narration that develops society.",
+      },   
+      {
+        title: "",
+        list: "Specialized personnel that run your brand reputation.",
+      },                      
+    ],
+    faqImg: SMOFaqImg,
+    faqs: [
+      {
+        title: "What platforms do you optimize for SMO?",
+        content:
+          "We control and maximize such large platforms as Facebook, Instagram, LinkedIn, X, and YouTube.",
+        open: true,
+      },
+      {
+        title: "Can SMO help increase website traffic?",
+        content:
+          "Yes, SMO gets quality traffic to your website with a regular flow of interactions and focused content.",
+        open: false,
+      },
+      {
+        title: "Is SMO suitable for small and local businesses?",
+        content:
+          "Absolutely. It assists small brands to get noticed and create trust within the community at a low cost.",
+        open: false,
+      }, 
+       {
+        title: "Do you create social media content as well?",
+        content:
+          "Yes, our creative team designs platform-specific content tailored to your audience.",
+        open: false,
+      }, 
+       {
+        title: "How do you measure SMO success?",
+        content:
+          " We track engagement, reach, clicks, and conversions to measure and improve results.",
+        open: false,
+      }, 
+   
+                                 
+    ],
+  },
+
+
 ];

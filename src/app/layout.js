@@ -44,11 +44,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   
   return (
-    <html lang="en">
+    <html lang="en" className={kanit.variable}>
       <Head>
        
       </Head>
-      <body className={`${kanit.variable}`}>
+      <body suppressHydrationWarning>
         {/* Site-wide components */}
        
         <Cursor />

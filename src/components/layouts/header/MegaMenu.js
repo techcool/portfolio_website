@@ -11,8 +11,8 @@ export default function MegaMenu({ submenu }) {
 
   return (
     <>
-      <div className="mega-menu customize-megamenu">
-        <div className="grid main lg:grid-cols-5 md:grid-cols-3 gap-6">
+      <div className="mega-menu customize-megamenu" suppressHydrationWarning>
+        <div className="grid main lg:grid-cols-5 md:grid-cols-3 gap-6" suppressHydrationWarning>
           {submenu.map((item, idx) => (
             <div
               key={idx}
@@ -24,7 +24,7 @@ export default function MegaMenu({ submenu }) {
             >
               {/* Top-Level Title */}
               {/* Title */}
-              <div className="flex heading flex-row items-center gap-2 mb-4">
+              <div className="flex heading flex-row items-center gap-2 mb-4" suppressHydrationWarning>
                 <Link
                   href={`/services/${slugify(item?.title)}`}
                   className="mb-0 text-white text-xl"

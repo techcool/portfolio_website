@@ -59,8 +59,8 @@ export default function Cursor() {
 
   return (
     <>
-      <div className="cursor1"></div>
-      <div className="cursor2"></div>
+      <div className="cursor1" suppressHydrationWarning></div>
+      <div className="cursor2" suppressHydrationWarning></div>
     </>
   );
 }

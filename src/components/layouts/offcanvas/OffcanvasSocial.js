@@ -6,7 +6,7 @@ import React from 'react'
 function OffcanvasSocial() {
   return (
     <>
-        <div className="offcanvas__social">
+        <div className="offcanvas__social" suppressHydrationWarning>
             <h3 className="social-title">Follow Us</h3>
             <ul>
               { socialLinks.map((links, index)=>(
