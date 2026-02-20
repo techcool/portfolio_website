@@ -131,7 +131,7 @@ import ExpressJsExpertImg from "@public/assets/imgs/services/expressjs-expert.jp
 import ExpressJsFaqImg from "@public/assets/imgs/services/expressjs-faq.jpg";
 import AngularTopImg from "@public/assets/imgs/services/angular-top.jpg";
 import AngularTrendsImg from "@public/assets/imgs/services/angular-trend.jpg";
-import AngularSpecialistImg from "@public/assets/imgs/services/angular-expert.jpg";
+import AngularExpertImg from "@public/assets/imgs/services/angular-expert.jpg";
 import AngularFaqImg from "@public/assets/imgs/services/angular-faq.jpg";
 import MongoDBTopImg from "@public/assets/imgs/services/MongoDB-top.jpg";
 import MongoDBTrendsImg from "@public/assets/imgs/services/MongoDB-trend.jpg";
@@ -201,6 +201,13 @@ import SMOTopImg from "@public/assets/imgs/services/smo-top.jpg";
 import SMOTrendsImg from "@public/assets/imgs/services/smo-trend.jpg";
 import SMOExpertImg from "@public/assets/imgs/services/smo-expert.jpg";
 import SMOFaqImg from "@public/assets/imgs/services/smo-faq.jpg"; 
+import PWATopImg from "@public/assets/imgs/services/progressive-web-apps-top.jpg";
+import PWATrendsImg from "@public/assets/imgs/services/progressive-web-apps-trend.jpg";
+import PWAExpertImg from "@public/assets/imgs/services/progressive-web-apps-expert.jpg";
+import PWAFaqImg from "@public/assets/imgs/services/progressive-web-apps-faq.jpg"; 
+
+
+
 
 
 export {
@@ -278,7 +285,7 @@ export {
   ExpressJsFaqImg,
   AngularTopImg,
   AngularTrendsImg,
-  AngularSpecialistImg,
+  AngularExpertImg,
   AngularFaqImg,
   MongoDBTopImg,
   MongoDBTrendsImg,
@@ -348,5 +355,9 @@ export {
   SMOTrendsImg,
   SMOExpertImg,
   SMOFaqImg,
+  PWATopImg,
+  PWATrendsImg,
+  PWAExpertImg,
+  PWAFaqImg,
 
 };

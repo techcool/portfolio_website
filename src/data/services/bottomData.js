@@ -143,6 +143,10 @@ import {
   SMOTrendsImg,
   SMOExpertImg,
   SMOFaqImg,
+  PWATopImg,
+  PWATrendsImg,
+  PWAExpertImg,
+  PWAFaqImg,
 
 } from "./serviceImages";
 export const bottomData = [
@@ -6722,7 +6726,7 @@ export const bottomData = [
     description: `<p>At Uniterrene Websoft, we design and develop Progressive Web Apps that combine the reach of the web with the reliability of native applications. 
     Our PWA development services focus on performance, accessibility, and seamless user experiences across devices. </p>         
     `,
-    topImg: SMOTopImg,
+    topImg: PWATopImg,
     typeOfServicesHeading:
       "Improve User Engagement Through Reliable Progressive Web Apps",
     typeOfServicesContent:
@@ -6742,10 +6746,6 @@ export const bottomData = [
         list: "Ensuring quick load times, smooth interactions, and efficient resource usage for better user satisfaction.",
       },
       {
-        head: "Social Media Profile Optimization:",
-        list: "Enhancing bios, visuals, and keywords for maximum visibility.",
-      },
-      {
         head: "Offline Functionality & Caching:",
         list: "Implementing offline access and smart caching to maintain usability even with limited connectivity.",
       },
@@ -6763,11 +6763,12 @@ export const bottomData = [
       },        
                                         
     ],
-    trendImg: SMOTrendsImg,
+    trendImg: PWATrendsImg,
     howWorkHeading: "The Engineering Behind High-Quality Progressive Web Apps",
-    howWorkContent: `<p>Reliable PWAs have to be developed thoroughly and with technical accuracy. We have engineers who are oriented to performance, stability, 
-    and usability so that applications offer similar experiences. Our priorities are based on systematic work processes, verified elements, and scalable 
-    architecture to facilitate increase without impacting quality throughout the settings.</p>
+    howWorkContent: `<p>Reliable PWAs have to be developed thoroughly and with technical accuracy. 
+    We have engineers who are oriented to performance, stability, and usability so that applications offer similar experiences. 
+    Our priorities are based on systematic work processes, verified elements, 
+    and scalable architecture to facilitate increase without impacting quality throughout the settings.</p>
     `,
 
     typeOfWebsiteHeading: "We Focus On:",
@@ -6801,12 +6802,12 @@ export const bottomData = [
           "Long-term maintainability.",
       },            
     ],
-    expertImg: SMOExpertImg,
+    expertImg: PWAExpertImg,
     trendBenefitHead:
       "Tailored Progressive Web App Solutions for Diverse Industries",
-    trendBenefitContent: `<p>There are various industries that have various digital experiences. 
-    Progressive Web App development services can be tailored to carry out business objectives, 
-    user demands and operational requirements at an acceptable level of performance and reliability.</p>`,
+    trendBenefitContent: `<p>There are various industries that have various digital experiences.
+     Progressive Web App development services can be tailored to carry out business objectives,
+      user demands and operational requirements at an acceptable level of performance and reliability.</p>`,
     trendBenefitListHead:
       "Industries We Serve",
     trendBenefitList: [
@@ -6888,7 +6889,7 @@ export const bottomData = [
         list: "Flexible engagement models.",
       },                      
     ],
-    faqImg: SMOFaqImg,
+    faqImg: PWAFaqImg,
     faqs: [
       {
         title: "What is included in Progressive Web App development services?",
