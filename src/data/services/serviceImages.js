@@ -131,7 +131,7 @@ import ExpressJsExpertImg from "@public/assets/imgs/services/expressjs-expert.jp
 import ExpressJsFaqImg from "@public/assets/imgs/services/expressjs-faq.jpg";
 import AngularTopImg from "@public/assets/imgs/services/angular-top.jpg";
 import AngularTrendsImg from "@public/assets/imgs/services/angular-trend.jpg";
-import AngularExpertImg from "@public/assets/imgs/services/angular-expert.jpg";
+import AngularSpecialistImg from "@public/assets/imgs/services/angular-expert.jpg";
 import AngularFaqImg from "@public/assets/imgs/services/angular-faq.jpg";
 import MongoDBTopImg from "@public/assets/imgs/services/MongoDB-top.jpg";
 import MongoDBTrendsImg from "@public/assets/imgs/services/MongoDB-trend.jpg";
@@ -278,7 +278,7 @@ export {
   ExpressJsFaqImg,
   AngularTopImg,
   AngularTrendsImg,
-  AngularExpertImg,
+  AngularSpecialistImg,
   AngularFaqImg,
   MongoDBTopImg,
   MongoDBTrendsImg,
