@@ -6913,5 +6913,204 @@ export const bottomData = [
     ],
   },
 
+  {
+    id: 35,
+    parent: "Game Development",
+    slug: "2d--3d-game-design",
+    serviceName: "2D and 3D Game Design",
+    pageTitle:
+      "Empower Interactive Experiences with Immersive 2D & 3D Game Design",
+    description: `<p>At Uniterrene Websoft, we craft engaging 2D and 3D game design solutions that combine creativity,
+     technology, and user-focused storytelling. Our game design services help brands, studios, and 
+     startups create visually compelling and performance-driven gaming experiences. 
+     From concept art to final visuals, we focus on clarity, consistency, and engagement. </p>         
+    `,
+    topImg: PWATopImg,
+    typeOfServicesHeading:
+      "Drive Player Engagement Through Thoughtful Game Design",
+    typeOfServicesContent:
+      `<p>Our interactive worlds have a manner of reacting to actions of players and visual balance during the play. 
+      Our design philosophy helps us to achieve ease in navigation, uniformity in appearance and easy to use interaction. 
+      With detail and structure, we assist in minimizing the development issues and the overall player experience. 
+      All the design components will be configured to facilitate performance, usability, and scalability in the long term.</p>
+      <p><strong>What We Deliver: Game Design Solutions That Elevate Gameplay</strong></p>
+      `,
+    typeOfServicesList: [
+      {
+        head: "2D Game Design:",
+        list: "Creating character designs, environments, animations, and assets that support smooth gameplay and visual clarity across devices.",
+      },
+      {
+        head: "3D Game Design:",
+        list: "Designing realistic and stylized 3D characters, environments, props, and animations optimized for performance and visual depth.",
+      },
+      {
+        head: "Concept Art & Visual Storyboarding:",
+        list: "Developing clear visual concepts and storyboards that define the game’s style, theme, and visual direction.",
+      },
+      {
+        head: "Character & Environment Design:",
+        list: "Crafting detailed characters and immersive environments that align with gameplay mechanics and narrative goals.",
+      }, 
+      {
+        head: "UI/UX Design for Games:",
+        list: "Designing user-friendly interfaces, menus, icons, and navigation elements to improve player interaction.",
+      },   
+      {
+        head: "Asset Optimization & Integration Support:",
+        list: "Ensuring assets are optimized for performance and ready for seamless integration into game engines.",
+      },        
+                                        
+    ],
+    trendImg: PWATrendsImg,
+    howWorkHeading: "The Engineering Behind High-Quality Progressive Web Apps",
+    howWorkContent: `<p>Reliable PWAs have to be developed thoroughly and with technical accuracy. 
+    We have engineers who are oriented to performance, stability, and usability so that applications offer similar experiences. 
+    Our priorities are based on systematic work processes, verified elements, 
+    and scalable architecture to facilitate increase without impacting quality throughout the settings.</p>
+    `,
+
+    typeOfWebsiteHeading: "We Focus On:",
+    typeOfWebsiteContent:
+      ``,
+    typeOfWebsiteListHead: "",
+    expertTeamList: [
+      {
+        heading: "",
+        content:
+          "Fast and reliable application performance.",
+      },   
+      {
+        heading: "",
+        content:
+          "Responsive and adaptive user interfaces.",
+      },
+      {
+        heading: "",
+        content:
+          "Secure and scalable architecture.",
+      },
+      {
+        heading: "",
+        content:
+          "Offline access and data reliability.",
+      }, 
+      {
+        heading: "",
+        content:
+          "Long-term maintainability.",
+      },            
+    ],
+    expertImg: PWAExpertImg,
+    trendBenefitHead:
+      "Tailored Progressive Web App Solutions for Diverse Industries",
+    trendBenefitContent: `<p>There are various industries that have various digital experiences.
+     Progressive Web App development services can be tailored to carry out business objectives,
+      user demands and operational requirements at an acceptable level of performance and reliability.</p>`,
+    trendBenefitListHead:
+      "Industries We Serve",
+    trendBenefitList: [
+      {
+        title: "",
+        list: "E-commerce & Retail Platforms",
+      },
+      {
+        title: "",
+        list: "SaaS & Product-Based Businesses",
+      },
+      {
+        title: "",
+        list: "Education & E-learning Solutions",
+      },
+      {
+        title: "",
+        list: "Healthcare & Service Applications",
+      },
+      {
+        title: "",
+        list: "Media & Content Platforms",
+      },      
+      {
+        title: "",
+        list: "Startups & Growing Enterprises",
+      },                          
+    ],
+    hireHead: "The Future of Progressive Web Apps: Trends Shaping Web Experiences",
+    hireListHead:
+      `<p>The adoption of Progressive Web Applications is still growing in terms of their flexibility and performance advantages.
+       Our solutions are compatible with the changing web standards, and they also have a sense of stability and simplicity.</p>`,
+    hireList: [
+      {
+        title: "Emerging Trends:",
+        list: "App-like web experiences.",
+      },
+      {
+        title: "",
+        list: "Improved offline capabilities.",
+      },
+      {
+        title: "",
+        list: "Enhanced performance metrics.",
+      },       
+      {
+        title: "",
+        list: "Better device integration.",
+      }, 
+      {
+        title: "",
+        list: "Increased adoption across industries.",
+      },                     
+    ],
+    whyChooseHead: "Why Choose Us as Your Progressive Web App Development Partner?",
+    whyChooseContent: `<p>A collaboration with Uniterrene Websoft would involve a team that is not only concerned with clarity, performance, 
+    and success in the long run. We create Progressive Web Apps that are in line with business goals and create a stable digital growth.</p>`,
+    whyChooseListHead:
+      "We Ensure:",
+    whyChooseList: [
+      {
+        title: "",
+        list: "Customized PWA strategies.",
+      },
+      {
+        title: "",
+        list: "Performance-focused development.",
+      },
+      {
+        title: "",
+        list: "Secure and stable applications.",
+      },
+      {
+        title: "",
+        list: "Clear documentation and processes.",
+      },   
+      {
+        title: "",
+        list: "Flexible engagement models.",
+      },                      
+    ],
+    faqImg: PWAFaqImg,
+    faqs: [
+      {
+        title: "What is included in Progressive Web App development services?",
+        content:
+          "Our services include PWA design, development, performance optimization, and offline support, security implementation, and maintenance.",
+        open: true,
+      },
+      {
+        title: "Can Progressive Web Apps work across different devices?",
+        content:
+          "Yes, PWAs are created to work uniformly across mobile applications, tablets and desktops.",
+        open: false,
+      },
+      {
+        title: "Are Progressive Web Apps suitable for business applications?",
+        content:
+          "Yes, PWAs are suitable for business platforms that require performance, accessibility, and broad user reach.",
+        open: false,
+      },   
+                                 
+    ],
+  },
+
 
 ];
