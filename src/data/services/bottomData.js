@@ -6963,11 +6963,10 @@ export const bottomData = [
                                         
     ],
     trendImg: PWATrendsImg,
-    howWorkHeading: "The Engineering Behind High-Quality Progressive Web Apps",
-    howWorkContent: `<p>Reliable PWAs have to be developed thoroughly and with technical accuracy. 
-    We have engineers who are oriented to performance, stability, and usability so that applications offer similar experiences. 
-    Our priorities are based on systematic work processes, verified elements, 
-    and scalable architecture to facilitate increase without impacting quality throughout the settings.</p>
+    howWorkHeading: "The Craft Behind High-Quality 2D & 3D Game Design",
+    howWorkContent: `<p>Games need creative thinking and technical knowledge to design. 
+    We are a group of artists and engineers with design sensibilities to create cross-platform-performing assets. 
+    Our priorities are consistency, clarity and scalability to enable us to have smooth development cycles and to ensure reliable performance.</p>
     `,
 
     typeOfWebsiteHeading: "We Focus On:",
@@ -6978,12 +6977,12 @@ export const bottomData = [
       {
         heading: "",
         content:
-          "Fast and reliable application performance.",
+          "Visual consistency and style coherence.",
       },   
       {
         heading: "",
         content:
-          "Responsive and adaptive user interfaces.",
+          "Player-centric design principles.",
       },
       {
         heading: "",
@@ -6993,95 +6992,104 @@ export const bottomData = [
       {
         heading: "",
         content:
-          "Offline access and data reliability.",
+          "Performance-optimized assets.",
       }, 
       {
         heading: "",
         content:
-          "Long-term maintainability.",
+          "Cross-platform compatibility.",
+      }, 
+      {
+        heading: "",
+        content:
+          "Scalable design systems.",
       },            
     ],
     expertImg: PWAExpertImg,
     trendBenefitHead:
-      "Tailored Progressive Web App Solutions for Diverse Industries",
-    trendBenefitContent: `<p>There are various industries that have various digital experiences.
-     Progressive Web App development services can be tailored to carry out business objectives,
-      user demands and operational requirements at an acceptable level of performance and reliability.</p>`,
+      "Tailored Game Design Solutions for Diverse Industries",
+    trendBenefitContent: `<p>We know that industries have varying game experiences needed. 
+    Our 2D and 3D game solutions are customized to achieve targeted parameters in terms of engagement, 
+    learning or entertainment without compromising on visual quality and performance.</p>`,
     trendBenefitListHead:
       "Industries We Serve",
     trendBenefitList: [
       {
         title: "",
-        list: "E-commerce & Retail Platforms",
+        list: "Mobile & Console Gaming",
       },
       {
         title: "",
-        list: "SaaS & Product-Based Businesses",
+        list: "EdTech & Learning Platforms",
       },
       {
         title: "",
-        list: "Education & E-learning Solutions",
+        list: "Healthcare Simulations",
       },
       {
         title: "",
-        list: "Healthcare & Service Applications",
+        list: "Corporate Training Solutions",
       },
       {
         title: "",
-        list: "Media & Content Platforms",
+        list: "Marketing & Brand Engagement",
       },      
       {
         title: "",
-        list: "Startups & Growing Enterprises",
+        list: "AR/VR Experiences",
+      },  
+      {
+        title: "",
+        list: "Indie & AAA Game Studios",
       },                          
     ],
-    hireHead: "The Future of Progressive Web Apps: Trends Shaping Web Experiences",
+    hireHead: "The Future of Game Design: Trends Shaping Interactive Entertainment",
     hireListHead:
-      `<p>The adoption of Progressive Web Applications is still growing in terms of their flexibility and performance advantages.
-       Our solutions are compatible with the changing web standards, and they also have a sense of stability and simplicity.</p>`,
+      `<p>The game design keeps on advancing with the new technologies and user expectations. 
+      Our design solutions are in line with the current trends and still in use and performance standards.</p>`,
     hireList: [
       {
         title: "Emerging Trends:",
-        list: "App-like web experiences.",
+        list: "Stylized and hyper-realistic visuals.",
       },
       {
         title: "",
-        list: "Improved offline capabilities.",
+        list: "Interactive storytelling design.",
       },
       {
         title: "",
-        list: "Enhanced performance metrics.",
+        list: "Real-time 3D environments.",
       },       
       {
         title: "",
-        list: "Better device integration.",
+        list: "Cross-platform asset design.",
       }, 
       {
         title: "",
-        list: "Increased adoption across industries.",
+        list: "AR and VR-ready visuals.",
       },                     
     ],
-    whyChooseHead: "Why Choose Us as Your Progressive Web App Development Partner?",
-    whyChooseContent: `<p>A collaboration with Uniterrene Websoft would involve a team that is not only concerned with clarity, performance, 
-    and success in the long run. We create Progressive Web Apps that are in line with business goals and create a stable digital growth.</p>`,
+    whyChooseHead: "Why Choose Us as Your 2D & 3D Game Design Partner?",
+    whyChooseContent: `<p>Partnering with Uniterrene Websoft means working with a team focused on precision, creativity, and reliability. 
+    We design assets that align with gameplay goals, technical constraints, and long-term scalability.</p>`,
     whyChooseListHead:
       "We Ensure:",
     whyChooseList: [
       {
         title: "",
-        list: "Customized PWA strategies.",
+        list: "Customized game design strategies.",
       },
       {
         title: "",
-        list: "Performance-focused development.",
+        list: "Clear visual planning and execution.",
       },
       {
         title: "",
-        list: "Secure and stable applications.",
+        list: "Performance-focused asset creation.",
       },
       {
         title: "",
-        list: "Clear documentation and processes.",
+        list: "Consistent quality standards.",
       },   
       {
         title: "",
@@ -7091,26 +7099,425 @@ export const bottomData = [
     faqImg: PWAFaqImg,
     faqs: [
       {
-        title: "What is included in Progressive Web App development services?",
+        title: "What is included in 2D and 3D game design services?",
         content:
-          "Our services include PWA design, development, performance optimization, and offline support, security implementation, and maintenance.",
+          "We offer concept art, character design, environment design and animations, UI elements and optimized game assets.",
         open: true,
       },
       {
-        title: "Can Progressive Web Apps work across different devices?",
+        title: "Can your game designs work across different platforms?",
         content:
-          "Yes, PWAs are created to work uniformly across mobile applications, tablets and desktops.",
+          "Yes, we create assets that can be used with various platforms and game engines without compromising performance and quality.",
         open: false,
       },
       {
-        title: "Are Progressive Web Apps suitable for business applications?",
+        title: "Do you support both indie developers and large studios?",
         content:
-          "Yes, PWAs are suitable for business platforms that require performance, accessibility, and broad user reach.",
+          "Yes, our game design services are scalable and tailored to support indie projects, startups, and established studios alike.",
         open: false,
       },   
                                  
     ],
   },
+
+
+  {
+    id: 36,
+    parent: "Game Development",
+    slug: "unityunreal-engine-development",
+    serviceName: "Unity/Unreal Engine Development",
+    pageTitle:
+      "Empower Immersive Digital Experiences with Advanced Unity and Unreal Engine Development",
+    description: `<p>At Uniterrene Websoft, we deliver high-performance Unity and Unreal Engine development solutions that power immersive, 
+    interactive, and visually rich digital experiences. Our focus is on precision development, visual realism, and technical stability to ensure 
+    consistent results across platforms and devices.</p>         
+    `,
+    topImg: PWATopImg,
+    typeOfServicesHeading:
+      "Drive Innovation Through High-Performance Real-Time 3D Experiences",
+    typeOfServicesContent:
+      `<p>We create smart, adaptable, and progressive interactive ecosystems. 
+      We have a smooth rendering, optimized performance and reliable deployment development strategy. Our solutions minimize technical friction, 
+      enhance responsiveness, which, in turn, allows businesses to reduce development cycles, enhance engagement, and ensure continuity amidst the changing digital needs.</p>
+      <p><strong>What We Deliver: Unity and Unreal Engine Solutions That Create Impact</strong></p>
+      `,
+    typeOfServicesList: [
+      {
+        head: "Unity and Unreal Engine Consulting & Strategy:",
+        list: "Helping organizations define the right engine, tools, and architecture to meet performance goals, project scope, and long-term scalability needs.",
+      },
+      {
+        head: "Game Development Solutions:",
+        list: "Designing and developing 2D and 3D games with optimized mechanics, realistic visuals, and stable performance across platforms.",
+      },
+      {
+        head: "AR, VR, and XR Development:",
+        list: "Creating immersive augmented, virtual, and mixed reality experiences that support training, visualization, and interactive engagement.",
+      },    
+      {
+        head: "Simulation and Visualization Development:",
+        list: "Building realistic simulations and visual environments for education, product demos, and industrial use cases.",
+      },   
+      {
+        head: "Cross-Platform Deployment:",
+        list: "Ensuring applications run smoothly across mobile, desktop, console, and VR devices without compromising quality.",
+      },
+      {
+        head: "Maintenance, Optimization, and Support:",
+        list: "Providing continuous updates, performance tuning, and technical support for stable and reliable application operations.",
+      },      
+                                        
+    ],
+    trendImg: PWATrendsImg,
+    howWorkHeading: "The Craft Behind High-Performance Interactive Development",
+    howWorkContent: `<p>Developing robust Unity and Unreal Engine solutions requires technical precision and creative planning. 
+    Our team combines engine expertise, visual design, and user-focused development to create applications that deliver measurable value.</p>
+    `,
+
+    typeOfWebsiteHeading: "We Focus On:",
+    typeOfWebsiteContent:
+      ``,
+    typeOfWebsiteListHead: "",
+    expertTeamList: [
+      {
+        heading: "",
+        content:
+          "Real-time rendering and performance optimization.",
+      },   
+      {
+        heading: "",
+        content:
+          "Scalable application architecture.",
+      },
+      {
+        heading: "",
+        content:
+          "Cross-platform compatibility.",
+      },
+      {
+        heading: "",
+        content:
+          "Interactive and user-driven experiences.",
+      }, 
+      {
+        heading: "",
+        content:
+          "Stable performance under complex workloads.",
+      },                   
+    ],
+    expertImg: PWAExpertImg,
+    trendBenefitHead:
+      "Tailored Interactive Solutions for Every Industry Landscape",
+    trendBenefitContent: `<p>We have an operational and engagement grasp of various industries. 
+    Our unified and Unreal Engine products assist companies in making their interactions, visualizations, and online presence more engaging.</p>`,
+    trendBenefitListHead:
+      "Industries We Serve",
+    trendBenefitList: [
+      {
+        title: "",
+        list: "Gaming and Entertainment",
+      },
+      {
+        title: "",
+        list: "Education and Training",
+      },
+      {
+        title: "",
+        list: "Healthcare and Medical Simulation",
+      },
+      {
+        title: "",
+        list: "Real Estate and Architecture",
+      },
+      {
+        title: "",
+        list: "Automotive and Manufacturing",
+      },      
+      {
+        title: "",
+        list: "Retail and Virtual Showrooms",
+      },  
+      {
+        title: "",
+        list: "Media, Advertising, and Marketing",
+      },                          
+    ],
+    hireHead: "The Future of Interactive Development: Trends Shaping Real-Time Experiences",
+    hireListHead:
+      `<p>The Unity and Unreal Engine technologies are constantly being upgraded along with real-time rendering, AI-based interaction, and immersive environment.
+       Our solutions have been tailored to the trends and the future requirements.</p>`,
+    hireList: [
+      {
+        title: "Emerging Trends:",
+        list: "Real-time 3D visualization.",
+      },
+      {
+        title: "",
+        list: "Virtual production and digital twins.",
+      },
+      {
+        title: "",
+        list: "AI-driven game mechanics.",
+      },       
+      {
+        title: "",
+        list: "Immersive training simulations.",
+      }, 
+      {
+        title: "",
+        list: "Cross-platform interactive ecosystems.",
+      },                     
+    ],
+    whyChooseHead: "Why Choose Uniterrene Websoft for Unity and Unreal Engine Development?",
+    whyChooseContent: `<p>Collaborating with Uniterrene Websoft would be to collaborate with a team that focuses on technical perfection, innovation, and value creation. 
+    Our Unity and Unreal engine solutions allow us to build innovation, scalability, and performance durability.</p>`,
+    whyChooseListHead:
+      "We Ensure:",
+    whyChooseList: [
+      {
+        title: "",
+        list: "Engine-specific development expertise.",
+      },
+      {
+        title: "",
+        list: "Secure and stable application design.",
+      },
+      {
+        title: "",
+        list: "Clear deployment and performance tracking.",
+      },
+      {
+        title: "",
+        list: "Continuous optimization and support.",
+      },   
+      {
+        title: "",
+        list: "Flexible engagement models for varied business needs.",
+      },                      
+    ],
+    faqImg: PWAFaqImg,
+    faqs: [
+      {
+        title: "What is the difference between Unity and Unreal Engine development?",
+        content:
+          "Unity is usually favored in terms of flexible cross-platform development, whereas Unreal Engine is characterized by high-quality visual realism and high-end rendering. This decision is based on project objectives and performance requirements.",
+        open: true,
+      },
+      {
+        title: "Can Unity and Unreal Engine applications work across multiple platforms?",
+        content:
+          "Yes. Unity and Unreal Engine applications have the potential to be optimized to run on mobile platforms, desktop and console applications, and VR devices.",
+        open: false,
+      },
+      {
+        title: "Do you provide ongoing support after development?",
+        content:
+          "Yes. Our services include the maintenance and optimization and performance support that allows our clients to have long-term stability and reliable performance of their applications.",
+        open: false,
+      },   
+                                 
+    ],
+  },
+
+
+    {
+    id: 37,
+    parent: "Game Development",
+    slug: "arvr-game-experinces",
+    serviceName: "AR/VR Game Experiences",
+    pageTitle:
+      "Empower Immersive Engagement with Next-Generation AR/VR Game Experiences",
+    description: `<p>At <strong>Uniterrene Websoft</strong>, we design cutting-edge AR/VR game experiences that redefine how users interact with digital worlds. 
+    Our solutions blend creativity, technology, and performance to deliver immersive, interactive, and visually compelling gaming environments. 
+    From concept to deployment, we focus on building scalable, engaging, and high-performance AR/VR games that captivate audiences and elevate brand experiences. </p>         
+    `,
+    topImg: PWATopImg,
+    typeOfServicesHeading:
+      "Drive Deeper Interaction Through Immersive AR/VR Gameplay Design",
+    typeOfServicesContent:
+      `<p>Our AR/VR development strategy is focused on the realism, user-friendly interaction, and compatibility between the devices. 
+      Combining high-end graphics, spatial computing and reactive mechanics, we guarantee our players with a smoother, more memorable and emotionally charged gameplay. </p>
+      <p><strong>What We Deliver: AR/VR Game Solutions That Inspire Engagement</strong></p>
+      `,
+    typeOfServicesList: [
+      {
+        head: "AR/VR Game Consulting & Concept Design:",
+        list: "Helping clients define gameplay concepts, platforms, and immersive strategies aligned with user expectations and business goals.",
+      },
+      {
+        head: "AR Game Development:",
+        list: "Developing augmented reality games that are interactive and combine virtual aspects of technology with real-life settings in the mobile and wearable device markets.",
+      },
+      {
+        head: "VR Game Development:",
+        list: "Creating headset and console Virtual reality games with realistic settings, physics, and interactions.",
+      },    
+      {
+        head: "3D Modeling & Environment Design:",
+        list: "Developing high-quality characters, assets, and environments that enhance realism and visual appeal.",
+      },
+      {
+        head: "Multiplayer & Interactive Features:",
+        list: "Building real-time multiplayer functionality, social interactions, and competitive gameplay elements.",
+      },  
+      {
+        head: "Testing, Optimization & Deployment:",
+        list: "Ensuring smooth performance, device compatibility, and optimized user experience across platforms.",
+      },  
+                                        
+    ],
+    trendImg: PWATrendsImg,
+    howWorkHeading: "The Craft Behind High-Impact AR/VR Game Engineering",
+    howWorkContent: `<p>The design of immersive AR/VR games requires creativity, technical skills, and user-oriented design. 
+    We are a group of people who integrate the principles of game design and the best practices in the development of the product to achieve 
+    the following experiences which are engaging, scalable, and performance-driven.</p>
+    `,
+
+    typeOfWebsiteHeading: "We Focus On:",
+    typeOfWebsiteContent:
+      ``,
+    typeOfWebsiteListHead: "",
+    expertTeamList: [
+      {
+        heading: "",
+        content:
+          "Immersive storytelling and gameplay mechanics.",
+      },   
+      {
+        heading: "",
+        content:
+          "Realistic visuals and spatial interaction.",
+      },
+      {
+        heading: "",
+        content:
+          "Cross-platform compatibility.",
+      },
+      {
+        heading: "",
+        content:
+          "Optimized performance and responsiveness.",
+      }, 
+      {
+        heading: "",
+        content:
+          "User-centric experience design.",
+      },                   
+    ],
+    expertImg: PWAExpertImg,
+    trendBenefitHead:
+      "Tailored AR/VR Game Experiences for Diverse Industries",
+    trendBenefitContent: `<p>We are not ignorant of the fact that immersive gaming is more than entertainment. 
+    Our AR /VR game solutions are customized according to the individual engagement and learning requirements in different industries.</p>`,
+    trendBenefitListHead:
+      "Industries We Serve:",
+    trendBenefitList: [
+      {
+        title: "",
+        list: "Gaming & Entertainment",
+      },
+      {
+        title: "",
+        list: "Education & E-learning",
+      },
+      {
+        title: "",
+        list: "Retail & Brand Engagement",
+      },
+      {
+        title: "",
+        list: "Healthcare & Simulation Training",
+      },
+      {
+        title: "",
+        list: "Real Estate & Virtual Tours",
+      },      
+      {
+        title: "",
+        list: "Tourism & Cultural Experiences",
+      },  
+      {
+        title: "",
+        list: "Corporate Training & Events",
+      },                          
+    ],
+    hireHead: "The Future of Gaming: Trends Shaping AR/VR Experiences",
+    hireListHead:
+      `<p>AR /VR gaming is still being developed in connection with the development of hardware, artificial intelligence and interaction in real-time. 
+      Each game experience is designed by us to conform to future-ready technologies and expectations of the players.</p>`,
+    hireList: [
+      {
+        title: "Emerging Trends:",
+        list: "Mixed reality gameplay.",
+      },
+      {
+        title: "",
+        list: "Social and multiplayer VR worlds.",
+      },
+      {
+        title: "",
+        list: "AI-driven characters and environments.",
+      },       
+      {
+        title: "",
+        list: "Location-based AR gaming.",
+      }, 
+      {
+        title: "",
+        list: "Cross-device immersive experiences.",
+      },                     
+    ],
+    whyChooseHead: "Why Choose Us as Your AR/VR Game Development Partner?",
+    whyChooseContent: `<p>By collaborating with Uniterrene Websoft, one will be collaborating with a team that believes in immersive technology and creative excellence. 
+    We create ideas into fun AR/ VR games that produce impact that is measurable.</p>`,
+    whyChooseListHead:
+      "We Ensure:",
+    whyChooseList: [
+      {
+        title: "",
+        list: "Custom game design strategies.",
+      },
+      {
+        title: "",
+        list: "High-quality visuals and performance.",
+      },
+      {
+        title: "",
+        list: "Secure and scalable development.",
+      },
+      {
+        title: "",
+        list: "Transparent project execution.",
+      },   
+      {
+        title: "",
+        list: "Flexible solutions for startups and enterprises.",
+      },                      
+    ],
+    faqImg: PWAFaqImg,
+    faqs: [
+      {
+        title: "What are AR/VR game experiences?",
+        content:
+          "AR/VR game experiences are created with the help of augmented reality and virtual reality technologies that can build interactive and immersive gameplays.",
+        open: true,
+      },
+      {
+        title: "Can AR/VR games be developed for multiple platforms?",
+        content:
+          "Yes, AR/VR games are compatible with mobile applications, VR headsets, consoles and cross-platform.",
+        open: false,
+      },
+      {
+        title: "Which technologies do you use for AR/VR game development?",
+        content:
+          "We use leading tools and platforms such as Unity, Unreal Engine, ARKit, ARCore, and major VR hardware ecosystems to deliver high-quality experiences.",
+        open: false,
+      },   
+                                 
+    ],
+  },
+
 
 
 ];
