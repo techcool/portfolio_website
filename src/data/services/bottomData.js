@@ -147,6 +147,18 @@ import {
   PWATrendsImg,
   PWAExpertImg,
   PWAFaqImg,
+  GameDesign2D3DTopImg,
+  GameDesign2D3DTrendsImg,
+  GameDesign2D3DExpertImg,
+  GameDesign2D3DFaqImg,
+  UnityunrealEngineDevelopmentTopImg,
+  UnityunrealEngineDevelopmentTrendsImg,
+  UnityunrealEngineDevelopmentExpertImg,
+  UnityunrealEngineDevelopmentFaqImg,
+  ArVrGameExperincesTopImg,
+  ArVrGameExperincesTrendsImg,
+  ArVrGameExperincesExpertImg,
+  ArVrGameExperincesFaqImg,
 
 } from "./serviceImages";
 export const bottomData = [
@@ -6925,7 +6937,7 @@ export const bottomData = [
      startups create visually compelling and performance-driven gaming experiences. 
      From concept art to final visuals, we focus on clarity, consistency, and engagement. </p>         
     `,
-    topImg: PWATopImg,
+    topImg: GameDesign2D3DTopImg,
     typeOfServicesHeading:
       "Drive Player Engagement Through Thoughtful Game Design",
     typeOfServicesContent:
@@ -6962,7 +6974,7 @@ export const bottomData = [
       },        
                                         
     ],
-    trendImg: PWATrendsImg,
+    trendImg: GameDesign2D3DTrendsImg,
     howWorkHeading: "The Craft Behind High-Quality 2D & 3D Game Design",
     howWorkContent: `<p>Games need creative thinking and technical knowledge to design. 
     We are a group of artists and engineers with design sensibilities to create cross-platform-performing assets. 
@@ -7005,7 +7017,7 @@ export const bottomData = [
           "Scalable design systems.",
       },            
     ],
-    expertImg: PWAExpertImg,
+    expertImg: GameDesign2D3DExpertImg,
     trendBenefitHead:
       "Tailored Game Design Solutions for Diverse Industries",
     trendBenefitContent: `<p>We know that industries have varying game experiences needed. 
@@ -7096,7 +7108,7 @@ export const bottomData = [
         list: "Flexible engagement models.",
       },                      
     ],
-    faqImg: PWAFaqImg,
+    faqImg: GameDesign2D3DFaqImg,
     faqs: [
       {
         title: "What is included in 2D and 3D game design services?",
@@ -7132,7 +7144,7 @@ export const bottomData = [
     interactive, and visually rich digital experiences. Our focus is on precision development, visual realism, and technical stability to ensure 
     consistent results across platforms and devices.</p>         
     `,
-    topImg: PWATopImg,
+    topImg: UnityunrealEngineDevelopmentTopImg,
     typeOfServicesHeading:
       "Drive Innovation Through High-Performance Real-Time 3D Experiences",
     typeOfServicesContent:
@@ -7168,7 +7180,7 @@ export const bottomData = [
       },      
                                         
     ],
-    trendImg: PWATrendsImg,
+    trendImg: UnityunrealEngineDevelopmentTrendsImg,
     howWorkHeading: "The Craft Behind High-Performance Interactive Development",
     howWorkContent: `<p>Developing robust Unity and Unreal Engine solutions requires technical precision and creative planning. 
     Our team combines engine expertise, visual design, and user-focused development to create applications that deliver measurable value.</p>
@@ -7205,7 +7217,7 @@ export const bottomData = [
           "Stable performance under complex workloads.",
       },                   
     ],
-    expertImg: PWAExpertImg,
+    expertImg: UnityunrealEngineDevelopmentExpertImg,
     trendBenefitHead:
       "Tailored Interactive Solutions for Every Industry Landscape",
     trendBenefitContent: `<p>We have an operational and engagement grasp of various industries. 
@@ -7295,7 +7307,7 @@ export const bottomData = [
         list: "Flexible engagement models for varied business needs.",
       },                      
     ],
-    faqImg: PWAFaqImg,
+    faqImg: UnityunrealEngineDevelopmentFaqImg,
     faqs: [
       {
         title: "What is the difference between Unity and Unreal Engine development?",
@@ -7331,7 +7343,7 @@ export const bottomData = [
     Our solutions blend creativity, technology, and performance to deliver immersive, interactive, and visually compelling gaming environments. 
     From concept to deployment, we focus on building scalable, engaging, and high-performance AR/VR games that captivate audiences and elevate brand experiences. </p>         
     `,
-    topImg: PWATopImg,
+    topImg: ArVrGameExperincesTopImg,
     typeOfServicesHeading:
       "Drive Deeper Interaction Through Immersive AR/VR Gameplay Design",
     typeOfServicesContent:
@@ -7366,7 +7378,7 @@ export const bottomData = [
       },  
                                         
     ],
-    trendImg: PWATrendsImg,
+    trendImg: ArVrGameExperincesTrendsImg,
     howWorkHeading: "The Craft Behind High-Impact AR/VR Game Engineering",
     howWorkContent: `<p>The design of immersive AR/VR games requires creativity, technical skills, and user-oriented design. 
     We are a group of people who integrate the principles of game design and the best practices in the development of the product to achieve 
@@ -7404,7 +7416,7 @@ export const bottomData = [
           "User-centric experience design.",
       },                   
     ],
-    expertImg: PWAExpertImg,
+    expertImg: ArVrGameExperincesExpertImg,
     trendBenefitHead:
       "Tailored AR/VR Game Experiences for Diverse Industries",
     trendBenefitContent: `<p>We are not ignorant of the fact that immersive gaming is more than entertainment. 
@@ -7494,7 +7506,7 @@ export const bottomData = [
         list: "Flexible solutions for startups and enterprises.",
       },                      
     ],
-    faqImg: PWAFaqImg,
+    faqImg: ArVrGameExperincesFaqImg,
     faqs: [
       {
         title: "What are AR/VR game experiences?",

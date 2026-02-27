@@ -205,9 +205,18 @@ import PWATopImg from "@public/assets/imgs/services/progressive-web-apps-top.jpg
 import PWATrendsImg from "@public/assets/imgs/services/progressive-web-apps-trend.jpg";
 import PWAExpertImg from "@public/assets/imgs/services/progressive-web-apps-expert.jpg";
 import PWAFaqImg from "@public/assets/imgs/services/progressive-web-apps-faq.jpg"; 
-
-
-
+import GameDesign2D3DTopImg from "@public/assets/imgs/services/game-design-2D3D-top.jpg";
+import GameDesign2D3DTrendsImg from "@public/assets/imgs/services/game-design-2D3D-trend.jpg";
+import GameDesign2D3DExpertImg from "@public/assets/imgs/services/game-design-2D3D-expert.jpg";
+import GameDesign2D3DFaqImg from "@public/assets/imgs/services/game-design-2D3D-faq.jpg"; 
+import UnityunrealEngineDevelopmentTopImg from "@public/assets/imgs/services/unityunreal-engine-development-top.jpg";
+import UnityunrealEngineDevelopmentTrendsImg from "@public/assets/imgs/services/unityunreal-engine-development-trend.jpg";
+import UnityunrealEngineDevelopmentExpertImg from "@public/assets/imgs/services/unityunreal-engine-development-expert.jpg";
+import UnityunrealEngineDevelopmentFaqImg from "@public/assets/imgs/services/unityunreal-engine-development-faq.jpg"; 
+import ArVrGameExperincesTopImg from "@public/assets/imgs/services/arvr-game-experinces-top.jpg";
+import ArVrGameExperincesTrendsImg from "@public/assets/imgs/services/arvr-game-experinces-trend.jpg";
+import ArVrGameExperincesExpertImg from "@public/assets/imgs/services/arvr-game-experinces-expert.jpg";
+import ArVrGameExperincesFaqImg from "@public/assets/imgs/services/arvr-game-experinces-faq.jpg"; 
 
 
 export {
@@ -359,5 +368,17 @@ export {
   PWATrendsImg,
   PWAExpertImg,
   PWAFaqImg,
+  GameDesign2D3DTopImg,
+  GameDesign2D3DTrendsImg,
+  GameDesign2D3DExpertImg,
+  GameDesign2D3DFaqImg,
+  UnityunrealEngineDevelopmentTopImg,
+  UnityunrealEngineDevelopmentTrendsImg,
+  UnityunrealEngineDevelopmentExpertImg,
+  UnityunrealEngineDevelopmentFaqImg,
+  ArVrGameExperincesTopImg,
+  ArVrGameExperincesTrendsImg,
+  ArVrGameExperincesExpertImg,
+  ArVrGameExperincesFaqImg,
 
 };
