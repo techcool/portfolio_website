@@ -190,7 +190,7 @@ function Services() {
                                     )}`}
                                     className="wc-btn-secondary btn-item btn-hover"
                                   >
-                                    <span></span>Lear More
+                                    <span></span>Learn More
                                     <FontAwesomeIcon
                                       icon={faArrowRight}
                                     ></FontAwesomeIcon>
