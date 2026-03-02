@@ -343,7 +343,7 @@ export const bottomData = [
     topImg: uiuxTopImg,
     typeOfServicesHeading:
       "What We Deliver: Web & UI/UX Design Built for Results",
-    typeOfServicesContent: "",
+    typeOfServicesContent: " ",
     typeOfServicesList: [
       {
         head: "Design Strategy and User Research",
@@ -414,7 +414,7 @@ export const bottomData = [
     trendBenefitListHead: "",
     trendBenefitList: [
       {
-        title: "",
+        title: "Emerging Trends:",
         list: "User-centered and accessibility-first design",
       },
       {
@@ -1336,7 +1336,7 @@ export const bottomData = [
         content: "Optimize, measure and continually improve.",
       },
       {
-        heading: "Built-in Marketing Automation:",
+        heading: "Reliable Cloud Hosting:",
         content: "Rapid, reliable and maintenance free.",
       },
     ],
@@ -1460,8 +1460,8 @@ export const bottomData = [
     description: `<p>At Uniterrene Websoft, we engineer powerful, conversion-focused, and scalable eCommerce experiences using the full capabilities of WooCommerce. With WooCommerce, we create online stores that merge stunning design, seamless performance, strong security, and business-ready flexibility enabling brands to scale without limits.</p>`,
     topImg: woocommerceTopImg,
     typeOfServicesHeading:
-      "What We Deliver: WooCommerce Solutions Built for High Impact",
-    typeOfServicesContent: "",
+      "Empower Online Sales with Intelligent WooCommerce Engineering",
+    typeOfServicesContent: "<p>We do not simply create online stores, we create whole WooCommerce ecosystems, which are speedy, precise, and dependable over time. Each module, integration, checkout process, and back-end process is designed to minimize friction, maximize conversions, and promote the dynamic development of businesses.</p> <div class='mt-5'><h5 class='text-[20px] md:text-2xl'>What We Deliver: WooCommerce Solutions Built for High Impact</h5></div>",
     typeOfServicesList: [
       {
         head: "WooCommerce Consulting & Store Architecture:",
@@ -2134,7 +2134,7 @@ export const bottomData = [
     typeOfServicesHeading:
       "Accelerate Growth with Intelligent Cloud Engineering",
     typeOfServicesContent:
-      "We do not develop, we create trustworthy digital ecosystems. Your cloud environment is agile, secure, and responsive to the market needs prepared by our team. Our solutions are all performance enhancing, lessening downtime and powering business continuity.",
+      "<p>We do not develop, we create trustworthy digital ecosystems. Your cloud environment is agile, secure, and responsive to the market needs prepared by our team. Our solutions are all performance enhancing, lessening downtime and powering business continuity.</p><div class='mt-5'><h5 class='text-[20px] md:text-2xl'>Our Core Services Include:</h5></div>    ",
     typeOfServicesList: [
       {
         head: "Cloud Consulting & Strategy:",
@@ -2235,20 +2235,12 @@ export const bottomData = [
     hireList: [
       {
         title: "Emerging Trends:",
-        list: "Artificial intelligence to assist customers by giving recommendations on their products.",
+        list: "AI-integrated cloud solutions and predictive analytics.",
       },
       {
         title: "",
-        list: "Mobile first design that guarantees quicker loading and increased interaction.",
-      },
-      {
-        title: "",
-        list: "Multi-channel retailing in the social media, Amazon, and marketplace.",
-      },
-      {
-        title: "",
-        list: "In-built analytics to execute live performance monitoring.",
-      },      
+        list: "Serverless computing and edge technologies.",
+      },        
     ],
     whyChooseHead: "The Uniterrene Advantage: Your Trusted Cloud Partner",
     whyChooseContent: `<p>Partnering with Uniterrene Websoft means working with a team that values strategy, innovation, and measurable outcomes. We build cloud systems that empower growth, drive efficiency, and ensure continuity.</p>`,
@@ -2323,7 +2315,7 @@ export const bottomData = [
     typeOfServicesHeading:
       "Accelerate Development Cycles Through Structured CI/CD Pipelines",
     typeOfServicesContent:
-      "The CI/CD pipelines will be developed to simplify the process of integrating and deploying code and minimize manual processes and errors. Our development process is highly-structured and everything flows seamlessly to production. We assist the teams in improving the speed of release, lessening downtime, and ensuring the quality of code by ensuring consistency between environments and applying automated tests. All the pipes are designed to aid performance, reliability and maintainability.",
+      "<p>The CI/CD pipelines will be developed to simplify the process of integrating and deploying code and minimize manual processes and errors. Our development process is highly-structured and everything flows seamlessly to production. We assist the teams in improving the speed of release, lessening downtime, and ensuring the quality of code by ensuring consistency between environments and applying automated tests. All the pipes are designed to aid performance, reliability and maintainability.</p><div class='mt-5'><h5 class='text-[20px] md:text-2xl'>What We Deliver: CI/CD Pipeline Solutions That Improve Deployment Efficiency</h5></div>      ",
     typeOfServicesList: [
       {
         head: "Continuous Integration Setup:",
@@ -2510,7 +2502,8 @@ export const bottomData = [
       "Drive Real-Time Efficiency Through Automated Container Orchestration",
     typeOfServicesContent:
       `<p>We do not just containerize applications. We develop completely optimized, adaptive, and reliable container ecosystems. Our engineering professionals help companies to operate microservices, automate scale, stream deployments and ensure consistency between development, testing and production environments.</p>
-      <p>Containerization minimizes operational overheads, decreases release time, and improves the service delivery via automatic coordination and smart allocation of resources.</p>`,
+      <p>Containerization minimizes operational overheads, decreases release time, and improves the service delivery via automatic coordination and smart allocation of resources.</p>      
+      <div class="mt-5"><h5 class="text-[20px] md:text-2xl">What We Deliver: Container Solutions That Redefine Deployment</h5></div>`,
     typeOfServicesList: [
       {
         head: "Containerization Consulting & Strategy:",
@@ -2704,7 +2697,8 @@ export const bottomData = [
     typeOfServicesHeading:
       "Drive Real-Time Innovation Through Event-Powered Cloud Architecture",
     typeOfServicesContent:
-      `<p>We don’t just deploy serverless functions; we create intelligent, adaptive, and resilient serverless ecosystems. Our engineering power allows our businesses to create applications that are automatically scaled, are more responsive, and also run with a high degree of reliability. Serverless systems lessen complexities with servers, minimize time to market, and enhance business continuity through automated expansion and productivity.</p>`,
+      `<p>We don’t just deploy serverless functions; we create intelligent, adaptive, and resilient serverless ecosystems. Our engineering power allows our businesses to create applications that are automatically scaled, are more responsive, and also run with a high degree of reliability. Serverless systems lessen complexities with servers, minimize time to market, and enhance business continuity through automated expansion and productivity.</p>      
+      <div class="mt-5"><h5 class="text-[20px] md:text-2xl">What We Deliver: Serverless Solutions That Transform Operations</h5></div>`,
     typeOfServicesList: [
       {
         head: "Serverless Consulting & Strategy:",
@@ -2794,13 +2788,9 @@ export const bottomData = [
     hireHead: "The Future Is Serverless: Trends Defining the Next Era of Cloud Computing",
     hireListHead:
       `<p>Serverless technology is developing in the progress of automation, cloud intelligences, and distributed computing. We design every solution to include intelligent scaling, performance, and design-driven solutions.</p>`,
-    hireList: [
+    hireList: [ 
       {
         title: "Emerging Trends:",
-        list: "",
-      },
-      {
-        title: "",
         list: "Event-driven microservices",
       },
       {
@@ -2881,7 +2871,8 @@ export const bottomData = [
       "Accelerate Digital Growth with Real-Time Node.js Engineering",
     typeOfServicesContent:
       `<p>We do not just come up with applications. We create full Node.js systems with efficient architecture, powerful APIs, compartmentalized parts, and high workflow. Our team of engineers assists companies to run smooth backend operations, low-latency interactions and to manage concurrent tasks without difficulties.</p>
-      <p>Node.js is known to guarantee shorter development duration, better performances of applications, and enhanced performances with the high-performance of the efficient event-driven architecture.</p>`,
+      <p>Node.js is known to guarantee shorter development duration, better performances of applications, and enhanced performances with the high-performance of the efficient event-driven architecture.</p>
+      <div class="mt-5"><h5 class="text-[20px] md:text-2xl">What We Deliver: Node.js Solutions That Strengthen Your Digital Core</h5></div>`,
     typeOfServicesList: [
       {
         head: "Node.js Consulting & Strategy:",
@@ -2957,7 +2948,7 @@ export const bottomData = [
       `<p>Various industries require a different workflow, processing speed, and patterns of integration. Our Node.js applications make operations strong, user experience better, and enable us to scale to digital size fast.</p>`,
     hireList: [
       {
-        title: "",
+        title: "Industries We Serve:",
         list: "E-commerce & Retail",
       },
       {
@@ -3050,7 +3041,8 @@ export const bottomData = [
     typeOfServicesHeading:
       "Drive Smooth Server Performance with Accelerated Express.js Engineering",
     typeOfServicesContent:
-      `<p>We go way beyond the configuration of simple servers. We develop powerful, production-ready, and enterprise level Express.js systems. We enable companies to operate digital platforms with optimized routing that enables them to process data within a faster range, requests within an efficient manner, and scale up with minimal effort through the use of a secure API architecture and modular backend logic. Both, in the integration of complex APIs and structuring of multi-layered server logic, each functionality is incorporated with accuracy.</p>`,
+      `<p>We go way beyond the configuration of simple servers. We develop powerful, production-ready, and enterprise level Express.js systems. We enable companies to operate digital platforms with optimized routing that enables them to process data within a faster range, requests within an efficient manner, and scale up with minimal effort through the use of a secure API architecture and modular backend logic. Both, in the integration of complex APIs and structuring of multi-layered server logic, each functionality is incorporated with accuracy.</p>
+      <div class="mt-5"><h5 class="text-[20px] md:text-2xl">What We Deliver: Express.js Solutions That Transform Digital Operations</h5></div>`,
     typeOfServicesList: [
       {
         head: "Express.js Consulting & Architecture Planning:",
@@ -3117,7 +3109,7 @@ export const bottomData = [
       `<p>Every industry will require certain capabilities of the backend and data processes. The Express.js development solutions are built to serve the effectiveness of operations, improve the logic on the back, and assist organizations to scale in various fields.</p>`,
     hireList: [
       {
-        title: "",
+        title: "Industries We Serve:",
         list: "E-commerce & Retail",
       },
       {
@@ -3205,7 +3197,8 @@ export const bottomData = [
     typeOfServicesHeading:
       "Accelerate Growth with Structured and High-Performance Angular Engineering",
     typeOfServicesContent:
-      `<p>We implement full Angular ecosystems, not front-end interfaces. Our crew develops strong architecture, reusability, clean, user-interfaces, and well-organized business workflows that enable companies to handle large-scale applications without difficulty. Angular has in-built tools that aid in the minimization of development time, enhanced stability of application, and facilitated rapid rendering on all devices.</p>`,
+      `<p>We implement full Angular ecosystems, not front-end interfaces. Our crew develops strong architecture, reusability, clean, user-interfaces, and well-organized business workflows that enable companies to handle large-scale applications without difficulty. Angular has in-built tools that aid in the minimization of development time, enhanced stability of application, and facilitated rapid rendering on all devices.</p>
+      <div class="mt-5"><h5 class="text-[20px] md:text-2xl">What We Deliver: Angular Solutions That Strengthen Front-End Power</h5></div>`,
     typeOfServicesList: [
       {
         head: "Angular Consulting & Architecture Planning:",
@@ -3276,7 +3269,7 @@ export const bottomData = [
       `<p>Each industry needs a different workflow, speed, and interface style. Our Angular applications improve operations, enhance usability, and support rapid business expansion.</p>`,
     hireList: [
       {
-        title: "",
+        title: "Industries We Serve:",
         list: "E-commerce & Retail",
       },
       {
@@ -3371,7 +3364,8 @@ export const bottomData = [
       "Drive Data Efficiency with Intelligent MongoDB Engineering",
     typeOfServicesContent:
       `<p>We do not just establish databases. We develop entire MongoDB-powered infrastructures to support dynamic applications with rapid processing, secure data model and contemporary integrations. Our developmental mode assists organizations in handling structured, semi-structured, and unstructured data easily, which enables quick access, better performance, and flexibility at a greater level.</p>
-      <p>In creating optimized schemas, to leverage distributed clusters, data query optimization, at either layer, everything is created with accuracy.</p>`,
+      <p>In creating optimized schemas, to leverage distributed clusters, data query optimization, at either layer, everything is created with accuracy.</p>
+      <div class="mt-5"><h5 class="text-[20px] md:text-2xl">What We Deliver: MongoDB Solutions That Transform Digital Operations</h5></div>`,
     typeOfServicesList: [
       {
         head: "MongoDB Consulting & Architectural Planning:",
@@ -3566,7 +3560,8 @@ export const bottomData = [
       which are faster to load, instantly responsive, and can scale with grace using optimized rendering, 
       modular bespoke components and optimized state workflows. 
       Regardless of the integration of APIs or the development of complicated logic in the UI, 
-      we make every feature precise.</p>`,
+      we make every feature precise.</p>
+      <div class="mt-5"><h5 class="text-[20px] md:text-2xl">What We Deliver: React.js Solutions That Transform Digital Interactions</h5></div>`,
     typeOfServicesList: [
       {
         head: "React.js Consulting & Architecture Planning:",
@@ -3758,7 +3753,7 @@ export const bottomData = [
        speed and reliability. Our engineering solution assists institutions to ease the processes, 
        improve the stability of their applications and facilitate changing needs with a lot of ease. 
        Backend logic to cross-platform development all the components are designed with the thought of detail, 
-       high security and forward looking engineering.</p>`,
+       high security and forward looking engineering.</p> <div class="mt-5"><h5 class="text-[20px] md:text-2xl">What We Deliver: C# Solutions That Transform Digital Operations</h5></div>`,
     typeOfServicesList: [
       {
         head: "C# Consulting & Architecture Planning:",
@@ -3957,7 +3952,7 @@ export const bottomData = [
       and to be long term reliable. The engineering direction we are taking aims at making operations easy, 
       make the applications have stability and be able to be adapted to the dynamic nature of the business. 
       From backend frameworks to cloud-native deployments, each layer is designed with accuracy, protection, 
-      and innovation.</p>`,
+      and innovation.</p><div class="mt-5"><h5 class="text-[20px] md:text-2xl">What We Deliver: .NET Solutions Built for High Impact</h5></div>`,
     typeOfServicesList: [
       {
         head: ".NET Consulting & Architecture Strategy:",
@@ -4156,6 +4151,7 @@ export const bottomData = [
       trust and like your application.</p> 
       <p>Our strategies will help you have an app that remains within the user expectations and meets the business objectives with design logic consistency,
        accessibility and performance conscious layouts. </p>
+       <div class="mt-5"><h5 class="text-[20px] md:text-2xl">What We Deliver: App Design Built for Real-World Use</h5></div>
       `,
     typeOfServicesList: [
       {
@@ -4359,6 +4355,7 @@ export const bottomData = [
       Our strategy will be to develop visual systems that ensure that there is clarity across platforms and channels of communication.</p>
       <p>The design of logos, color systems, and typography are all designed with precision, balanced, and useability. 
       The outcome is a brand identity which helps in marketing, digital communication and business growth without compromising the consistency.</p>
+      <div class="mt-5"><h5 class="text-[20px] md:text-2xl">What We Deliver: Logo and Brand Identity Solutions with Purpose</h5></div>
       `,
     typeOfServicesList: [
       {
@@ -4559,6 +4556,7 @@ export const bottomData = [
       All the campaigns will have clarity, relevancy to the platform, and tracking of performance.</p>
       <p>Our strategy will make sure your advertisements reach the correct individuals at the correct moment, regularly, and to the fullest extent, 
       no matter the audience segmentation to the creative message or optimization.</p>
+      <div class="mt-5"><h5 class="text-[20px] md:text-2xl">What We Deliver: Social Media Ads Built for Results</h5></div>
       `,
     typeOfServicesList: [
       {
@@ -4757,8 +4755,8 @@ export const bottomData = [
     typeOfServicesHeading:
       "Crafting Digital Authority: Our SEO Services.",
     typeOfServicesContent:
-      `<p>Our end-to-end SEO services are aimed at delivering your business a sustainable growth and an online presence.</p>
-      <p><strong>Our key offerings include:</strong></p>
+      `<p>Our end-to-end SEO services are aimed at delivering your business a sustainable growth and an online presence.</p>      
+      <div class="mt-5"><h5 class="text-[20px] md:text-2xl">Our key offerings include:</h5></div>
       `,
     typeOfServicesList: [
       {
@@ -4957,8 +4955,8 @@ export const bottomData = [
       "Amplify Brand Growth with Strategic Social Media Campaigns",
     typeOfServicesContent:
       `<p>It is our view that social media is not all about being seen but it is about engagement. 
-      Your brand message will be delivered to the right people, at the right moment through our team of creatives who will ignite a reaction of engagement, credibility and loyalty.</p>
-      <p><strong>Our Core Services Include:</strong></p>
+      Your brand message will be delivered to the right people, at the right moment through our team of creatives who will ignite a reaction of engagement, credibility and loyalty.</p>      
+      <div class="mt-5"><h5 class="text-[20px] md:text-2xl">Our Core Services Include:</h5></div>
       `,
     typeOfServicesList: [
       {
@@ -5156,7 +5154,8 @@ export const bottomData = [
     typeOfServicesContent:
       `<p>We have constructed our PPC solutions to provide efficient, targeted, and long-term outcomes. 
       We do not only control the advertisements, we also streamline all the details of your campaign so that it is highly effective.</p>
-      <p><strong>Our key offerings include:</strong></p>
+      
+      <div class="mt-5"><h5 class="text-[20px] md:text-2xl">Our key offerings include:</h5></div>
       `,
     typeOfServicesList: [
       {
@@ -5358,6 +5357,7 @@ export const bottomData = [
     typeOfServicesContent:
       `<p>We do not write, we create discussions that trigger believability and response. We will make sure our messages will be received by the appropriate audience, 
       create credibility, and cause meaningful behavior that will result in conversion and loyalty.</p>
+      <div class="mt-5"><h5 class="text-[20px] md:text-2xl">Our Core Services Include:</h5></div>
       `,
     typeOfServicesList: [
       {
@@ -5545,6 +5545,7 @@ export const bottomData = [
     typeOfServicesContent:
       `<p>We do not simply send emails but develop relationships with people. 
       We work towards ensuring that we convey the right message to the right individual and the long-term brand relationships that lead to conversion and loyalty.</p>
+      <div class="mt-5"><h5 class="text-[20px] md:text-2xl">Our Core Services Include:</h5></div>
       `,
     typeOfServicesList: [
       {
@@ -5742,8 +5743,8 @@ export const bottomData = [
     typeOfServicesContent:
       `<p>We not only do not create chatbots, but we create reactive digital communication systems. 
       We can make your chatbot world intelligent, adaptive, and responsive to the real-time business needs through our engineering competency. 
-      Our solutions lessen the amount of work, enhance response time, and business continuity via automated conversation.</p>
-      <p><strong>Our Core Services Include:</strong></p>
+      Our solutions lessen the amount of work, enhance response time, and business continuity via automated conversation.</p>      
+      <div class="mt-5"><h5 class="text-[20px] md:text-2xl">Our Core Services Include:</h5></div>
       `,
     typeOfServicesList: [
       {
@@ -5939,8 +5940,8 @@ export const bottomData = [
       `<p>Our algorithms are not simply put into practice, but rather we are building intelligent, self-learning and context-aware ML ecosystems.
        Our engineering skill allows companies to create applications that process data in real-time and learn patterns and deliver meaningful insights with great responsibility. 
        Machine learning will decrease the amount of manual decision-making, operational error, 
-       and enhance business continuity by providing insights or accurate forecasts through automation.</p>
-      <p><strong>What We Deliver: Machine Learning Solutions Built for Real-World Impact:</strong></p>
+       and enhance business continuity by providing insights or accurate forecasts through automation.</p>      
+      <div class="mt-5"><h5 class="text-[20px] md:text-2xl">What We Deliver: Machine Learning Solutions Built for Real-World Impact</h5></div>
       `,
     typeOfServicesList: [
       {
@@ -6143,7 +6144,8 @@ export const bottomData = [
       `<p>We are not merely model makers, but we are systems that are adaptive, data driven and are made to grow as your business grows. 
       Your deep learning solutions can respond with elegant precision to large datasets, detect patterns and trends, and predict using our engineering power. 
       These smart systems decrease manual work, enhance predictive skills, and reinforce the uniformity of decisions made by business activities.</p>
-      <p><strong>Our Core Services Include:</strong></p>
+      
+      <div class="mt-5"><h5 class="text-[20px] md:text-2xl">Our Core Services Include:</h5></div>
       `,
     typeOfServicesList: [
       {
@@ -6349,7 +6351,7 @@ export const bottomData = [
       `<p>We do not just generate NLP models but rather we design adaptive, intuitive, and high-performing NLP ecosystems. 
       Our solutions enable businesses to analyze conversations, decode sentiment, respond to text automatically and provide personalized user experiences with more accuracy. 
       The NLP systems simplify the process of data interpretation, minimise operational delays, and increase the performance of services by creating automated linguistic processes.</p>
-      <p><strong>What We Deliver: NLP Solutions That Transform Processes</strong></p>
+      <div class="mt-5"><h5 class="text-[20px] md:text-2xl">What We Deliver: NLP Solutions That Transform Processes</h5></div>
       `,
     typeOfServicesList: [
       {
@@ -6549,7 +6551,8 @@ export const bottomData = [
       "Crafting Connections That Matter: Our SMO Services",
     typeOfServicesContent:
       `<p>Our SMO services offer a complete package, which will position your brand well in the social arena and guarantee frequent interactions with your audience.</p>
-      <p><strong>Our key offerings include:</strong></p>
+      
+      <div class="mt-5"><h5 class="text-[20px] md:text-2xl">Our key offerings include:</h5></div>
       `,
     typeOfServicesList: [
       {
@@ -6745,8 +6748,8 @@ export const bottomData = [
       `<p>Progressive Web Apps are developed to load fast, offline capabilities and cross-platform experiences. 
       We have a systematic development strategy that makes navigation uniform, user-friendly, and reliable. 
       We assist companies in decreasing the number of bounces, enhancing retention of users, 
-      and providing uninterrupted access by developing optimized and well-tested PWA solutions to be used over a long period of time.</p>
-      <p><strong>What We Deliver: Progressive Web App Solutions That Drive Results</strong></p>
+      and providing uninterrupted access by developing optimized and well-tested PWA solutions to be used over a long period of time.</p>      
+      <div class="mt-5"><h5 class="text-[20px] md:text-2xl">What We Deliver: Progressive Web App Solutions That Drive Results</h5></div>
       `,
     typeOfServicesList: [
       {
@@ -6944,8 +6947,8 @@ export const bottomData = [
       `<p>Our interactive worlds have a manner of reacting to actions of players and visual balance during the play. 
       Our design philosophy helps us to achieve ease in navigation, uniformity in appearance and easy to use interaction. 
       With detail and structure, we assist in minimizing the development issues and the overall player experience. 
-      All the design components will be configured to facilitate performance, usability, and scalability in the long term.</p>
-      <p><strong>What We Deliver: Game Design Solutions That Elevate Gameplay</strong></p>
+      All the design components will be configured to facilitate performance, usability, and scalability in the long term.</p>      
+      <div class="mt-5"><h5 class="text-[20px] md:text-2xl">What We Deliver: Game Design Solutions That Elevate Gameplay</h5></div>
       `,
     typeOfServicesList: [
       {
@@ -7150,8 +7153,8 @@ export const bottomData = [
     typeOfServicesContent:
       `<p>We create smart, adaptable, and progressive interactive ecosystems. 
       We have a smooth rendering, optimized performance and reliable deployment development strategy. Our solutions minimize technical friction, 
-      enhance responsiveness, which, in turn, allows businesses to reduce development cycles, enhance engagement, and ensure continuity amidst the changing digital needs.</p>
-      <p><strong>What We Deliver: Unity and Unreal Engine Solutions That Create Impact</strong></p>
+      enhance responsiveness, which, in turn, allows businesses to reduce development cycles, enhance engagement, and ensure continuity amidst the changing digital needs.</p>      
+      <div class="mt-5"><h5 class="text-[20px] md:text-2xl">What We Deliver: Unity and Unreal Engine Solutions That Create Impact</h5></div>
       `,
     typeOfServicesList: [
       {
@@ -7348,8 +7351,8 @@ export const bottomData = [
       "Drive Deeper Interaction Through Immersive AR/VR Gameplay Design",
     typeOfServicesContent:
       `<p>Our AR/VR development strategy is focused on the realism, user-friendly interaction, and compatibility between the devices. 
-      Combining high-end graphics, spatial computing and reactive mechanics, we guarantee our players with a smoother, more memorable and emotionally charged gameplay. </p>
-      <p><strong>What We Deliver: AR/VR Game Solutions That Inspire Engagement</strong></p>
+      Combining high-end graphics, spatial computing and reactive mechanics, we guarantee our players with a smoother, more memorable and emotionally charged gameplay. </p><br>      
+      <div class="mt-5"><h5 class="text-[20px] md:text-2xl">What We Deliver: AR/VR Game Solutions That Inspire Engagement</h5></div>
       `,
     typeOfServicesList: [
       {
