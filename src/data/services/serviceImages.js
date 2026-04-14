@@ -217,6 +217,19 @@ import ArVrGameExperincesTopImg from "@public/assets/imgs/services/arvr-game-exp
 import ArVrGameExperincesTrendsImg from "@public/assets/imgs/services/arvr-game-experinces-trend.jpg";
 import ArVrGameExperincesExpertImg from "@public/assets/imgs/services/arvr-game-experinces-expert.jpg";
 import ArVrGameExperincesFaqImg from "@public/assets/imgs/services/arvr-game-experinces-faq.jpg"; 
+import PythonTopImg from "@public/assets/imgs/services/python-top.jpg";
+import PythonTrendsImg from "@public/assets/imgs/services/python-trend.jpg";
+import PythonExpertImg from "@public/assets/imgs/services/python-expert.jpg";
+import PythonFaqImg from "@public/assets/imgs/services/python-faq.jpg"; 
+import PhpTopImg from "@public/assets/imgs/services/php-top.jpg";
+import PhpTrendsImg from "@public/assets/imgs/services/php-trend.jpg";
+import PhpExpertImg from "@public/assets/imgs/services/php-expert.jpg";
+import PhpFaqImg from "@public/assets/imgs/services/php-faq.jpg"; 
+import LaravelTopImg from "@public/assets/imgs/services/laravel-top.jpg";
+import LaravelTrendsImg from "@public/assets/imgs/services/laravel-trend.jpg";
+import LaravelExpertImg from "@public/assets/imgs/services/laravel-expert.jpg";
+import LaravelFaqImg from "@public/assets/imgs/services/laravel-faq.jpg"; 
+
 
 
 export {
@@ -380,5 +393,17 @@ export {
   ArVrGameExperincesTrendsImg,
   ArVrGameExperincesExpertImg,
   ArVrGameExperincesFaqImg,
+  PythonTopImg,
+  PythonTrendsImg,
+  PythonExpertImg,
+  PythonFaqImg,
+  PhpTopImg,
+  PhpTrendsImg,
+  PhpExpertImg,
+  PhpFaqImg,
+  LaravelTopImg,
+  LaravelTrendsImg,
+  LaravelExpertImg,
+  LaravelFaqImg,
 
 };
