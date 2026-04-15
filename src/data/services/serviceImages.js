@@ -229,6 +229,18 @@ import LaravelTopImg from "@public/assets/imgs/services/laravel-top.jpg";
 import LaravelTrendsImg from "@public/assets/imgs/services/laravel-trend.jpg";
 import LaravelExpertImg from "@public/assets/imgs/services/laravel-expert.jpg";
 import LaravelFaqImg from "@public/assets/imgs/services/laravel-faq.jpg"; 
+import FlutterTopImg from "@public/assets/imgs/services/flutter-top.jpg";
+import FlutterTrendsImg from "@public/assets/imgs/services/flutter-trend.jpg";
+import FlutterExpertImg from "@public/assets/imgs/services/flutter-expert.jpg";
+import FlutterFaqImg from "@public/assets/imgs/services/flutter-faq.jpg";
+import JavascriptTopImg from "@public/assets/imgs/services/javaScript-top.jpg";
+import JavascriptTrendsImg from "@public/assets/imgs/services/javaScript-trend.jpg";
+import JavascriptExpertImg from "@public/assets/imgs/services/javascript-expert.jpg";
+import JavascriptFaqImg from "@public/assets/imgs/services/javaScript-faq.jpg"; 
+import SwiftTopImg from "@public/assets/imgs/services/Swift-top.jpg";
+import SwiftTrendsImg from "@public/assets/imgs/services/Swift-trend.jpg";
+import SwiftExpertImg from "@public/assets/imgs/services/Swift-expert.jpg";
+import SwiftFaqImg from "@public/assets/imgs/services/Swift-faq.jpg"; 
 
 
 
@@ -405,5 +417,16 @@ export {
   LaravelTrendsImg,
   LaravelExpertImg,
   LaravelFaqImg,
-
+  FlutterTopImg,
+  FlutterTrendsImg,
+  FlutterExpertImg,
+  FlutterFaqImg,
+  JavascriptTopImg,
+  JavascriptTrendsImg,
+  JavascriptExpertImg,
+  JavascriptFaqImg,
+  SwiftTopImg,
+  SwiftTrendsImg,
+  SwiftExpertImg,
+  SwiftFaqImg,
 };
