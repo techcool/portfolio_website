@@ -241,7 +241,14 @@ import SwiftTopImg from "@public/assets/imgs/services/Swift-top.jpg";
 import SwiftTrendsImg from "@public/assets/imgs/services/Swift-trend.jpg";
 import SwiftExpertImg from "@public/assets/imgs/services/Swift-expert.jpg";
 import SwiftFaqImg from "@public/assets/imgs/services/Swift-faq.jpg"; 
-
+import HybridAppTopImg from "@public/assets/imgs/services/HybridApp-top.jpg";
+import HybridAppTrendsImg from "@public/assets/imgs/services/HybridApp-trend.jpg";
+import HybridAppExpertImg from "@public/assets/imgs/services/HybridApp-expert.jpg";
+import HybridAppFaqImg from "@public/assets/imgs/services/HybridApp-faq.jpg"; 
+import ReactNativeDevTopImg from "@public/assets/imgs/services/ReactNativeDev-top.jpg";
+import ReactNativeDevTrendsImg from "@public/assets/imgs/services/ReactNativeDev-trend.jpg";
+import ReactNativeDevExpertImg from "@public/assets/imgs/services/ReactNativeDev-expert.jpg";
+import ReactNativeDevFaqImg from "@public/assets/imgs/services/ReactNativeDev-faq.jpg"; 
 
 
 export {
@@ -429,4 +436,12 @@ export {
   SwiftTrendsImg,
   SwiftExpertImg,
   SwiftFaqImg,
+  HybridAppTopImg,
+  HybridAppTrendsImg,
+  HybridAppExpertImg,
+  HybridAppFaqImg,  
+  ReactNativeDevTopImg,
+  ReactNativeDevTrendsImg,
+  ReactNativeDevExpertImg,
+  ReactNativeDevFaqImg,
 };
