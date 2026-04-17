@@ -9243,33 +9243,33 @@ export const bottomData = [
         list: "Custom applications to suit business-specific needs.",
       },
       {
-        head: "Cross-Platform Mobile Solutions:",
-        list: "iOS and Android single codebase, time and resource-saving.",
+        head: "Kotlin & Java Framework Development:",
+        list: "Advanced Apps based on new Android frameworks and optimal code development.",
       },
       {
-        head: "Enterprise Mobile Apps:",
-        list: "Internal workflow, dashboards and business automation solutions that are scalable.",
+        head: "Enterprise Android Solutions:",
+        list: "Business automation, CRM, and internal management, scalable applications.",
       },    
       {
-        head: "API Integration & Backend Connectivity:",
-        list: "API to integrate applications with cloud services, databases and third-party applications.",
+        head: "API Integration & Backend Development:",
+        list: "Ensure API security to integrate applications with cloud resources, third-party applications, and databases.",
       },
       {
-        head: "UI/UX Design & Optimization:",
-        list: "An interactive, responsive and beautiful interface of the apps.",
+        head: "App Migration & Modernization:",
+        list: "Migrate old apps to Kotlin or Java, which is more efficient, secure and maintainable.",
       },  
       {
         head: "Maintenance & Performance Optimization:",
-        list: "The app is always updated, monitored, and optimized to ensure long-term success.",
+        list: "Continuous app monitoring, updates, and optimizations for peak performance.",
       },      
                                         
     ],
     trendImg: ReactNativeDevTrendsImg,
-    howWorkHeading: "How Does React Native Work?",
-    howWorkContent: `<p>React Native is a platform that allows developing native-like applications on several platforms using a single codebase written in JavaScript. </p>    
+    howWorkHeading: "How Do Kotlin & Java Work?",
+    howWorkContent: `<p>Kotlin and Java are compiled languages that are based on the Android Runtime (ART).</p>    
     `,
 
-    typeOfWebsiteHeading: "When the user is interacting with a React Native application:",
+    typeOfWebsiteHeading: "Upon user interaction with an app.",
     typeOfWebsiteContent:
       ``,
     typeOfWebsiteListHead: "",
@@ -9277,145 +9277,145 @@ export const bottomData = [
       {
         heading: "",
         content:
-          "The JavaScript code is interpreted in a virtual environment.",
+          "The Android device executes compiled Kotlin or Java code.",
       },   
       {
         heading: "",
         content:
-          "The architecture liaises with native elements to render UI elements.",
+          "The app efficiently processes business logic, UI rendering, and interactions.",
       },
       {
         heading: "",
         content:
-          "Real-time processing is done on business logic and dynamic data.",
+          "It communicates with backend servers or databases to fetch or store dynamic content.",
       }, 
       {
         heading: "",
         content:
-          "The app provides responsive, native and cross-platform smooth performance.",
+          "Users experience fast, responsive, and secure functionality.",
       }, 
       {
         heading: "",
         content:
-          "React Native applications usually have cloud services, APIs and databases like Firebase that are used to provide real-time updates. We have developers who ensure apps are fast, perform well, are secure, and provide a smooth user experience.",
+          "These languages may interoperate with databases such as SQLite or Firebase to handle real-time data. We have developers who ensure that each application has optimised code, smooth functionality, and strong security practices.",
       },                                    
     ],
     expertImg: ReactNativeDevExpertImg,
     trendBenefitHead:
-      "Types of Apps You Can Build with React Native",
+      "Types of Apps You Can Build with Kotlin & Java",
     trendBenefitContent: ``,
     trendBenefitListHead:
       "At Uniterrene Websoft, we develop:",
     trendBenefitList: [
       {
         title: "Business & Corporate Apps:",
-        list: " Pro apps that make brands more engaging and efficient in their workflow.",
+        list: " Business apps that enhance brand visibility and improve business.",
       },
       {
         title: "E-commerce & Retail Apps:",
-        list: "Shopping apps are secured, interactive, fast to navigate, and have seamless checkout.",
+        list: "Trusted shopping applications, lists, built-in payment systems, and smooth user experience.",
       },
       {
-        title: "Custom Enterprise Solutions:",
-        list: "Internal dashboards, reporting applications, and business automation applications.",
+        title: "Enterprise Solutions:",
+        list: "Organization style, dashboards, and management systems.",
       },
       {
         title: "Social & Community Apps:",
-        list: "Messaging, notification, subscriptions and interactive user portals.",
+        list: "Applications that have a system of logging in, communication, notifications, and interactivity.",
       },
       {
-        title: "Real-Time Applications:",
-        list: "Live dashboards, chat apps, and collaboration tools with instant updates.",
+        title: "Real-Time Apps:",
+        list: "Live dashboards, chat applications and collaboration tools with real-time updates.",
       },                                  
     ],
-    hireHead: "Current Trends and Benefits of React Native Development",
+    hireHead: "Current Trends and Benefits of Kotlin & Java Development",
     hireListHead:
-      `<p>React Native continues to grow in popularity due to its flexibility and efficiency:</p>`,
+      `<p>Kotlin and Java continue to dominate Android development due to their reliability and modern capabilities:</p>`,
     hireList: [
       {
         title: "",
-        list: "Single codebase for iOS and Android reduces development time and cost.",
+        list: "Kotlin offers concise syntax, type safety, and null-safety features.",
       },    
       {
         title: "",
-        list: "Rich library ecosystem for fast, interactive app development.",
+        list: "Java provides stability, backward compatibility, and wide device support.",
       },       
       {
         title: "",
-        list: "Hot reloading for instant preview and faster iteration.",
+        list: "Support for scalable, high-performance enterprise applications.",
       }, 
       {
         title: "",
-        list: "Strong integration with APIs, third-party services, and cloud platforms.",
+        list: "Seamless integration with Android libraries, APIs, and cloud services.",
       }, 
       {
         title: "",
-        list: "Scalable solutions for startups and enterprise-grade apps.",
+        list: "Continuous improvements in Android development frameworks.",
       },   
       {
         title: "",
-        list: "Native-like performance with responsive and smooth user experiences.",
-      }, 
+        list: "Enables fast, responsive, and secure mobile applications.",
+      },        
       {
         title: "",
-        list: "These features make React Native the ideal choice for businesses seeking cross-platform, future-ready mobile solutions.",
-      },           
+        list: "These features make Kotlin and Java ideal for businesses looking for long-lasting, scalable Android solutions.",
+      },     
     ],
     whyChooseHead: "Top Perks When You Hire Uniterrene Websoft",
-    whyChooseContent: `<p>Through the collaboration with Uniterrene Websoft, you can get the services of experienced React Native developers who will be eager to provide the high-quality mobile apps.</p>`,
+    whyChooseContent: `<p>Partnering with Uniterrene Websoft gives you access to expert Kotlin and Java developers focused on delivering exceptional Android apps.</p>`,
     whyChooseListHead:
       "We provide:",
     whyChooseList: [
       {
         title: "",
-        list: "Technical planning and strategic consultation of cross-platform app development.",
+        list: "Technical consultation and strategic planning for app development.",
       },
       {
         title: "",
-        list: "Bespoke solutions with focus on speed, scalability, and security.",
+        list: "Custom solutions emphasizing scalability, performance, and security.",
       },
       {
         title: "",
-        list: "Development that is cost effective and does not sacrifice on quality.",
+        list: "Cost-effective development with no compromise on quality.",
       },    
       {
         title: "",
-        list: "Agile process to deliver the project on time.",
+        list: "Agile project delivery for timely execution.",
       },    
       {
         title: "",
-        list: "This is due to continuous maintenance, updates and long term advice on the performance of the app.",
+        list: "Ongoing maintenance, updates, and support for continuous app success.",
       },  
       {
         title: "",
-        list: "We aim at developing React Native applications that would provide predictable outcomes, sustainable value, and entertaining user experiences.",
+        list: "Our goal is to build Android applications powered by Kotlin and Java that deliver lasting value and superior user experiences.",
       },                
    
     ],
     faqImg: ReactNativeDevFaqImg,
     faqs: [
       {
-        title: "Why choose React Native for app development?",
+        title: "Why choose Kotlin or Java for Android development?",
         content:
-          "React Native is cross-platform, and can be used to write in a single codebase and provide native-like performance on both iOS and Android.",
+          "Kotlin is stable, safe, and modern, whereas Java is stable and supports a large range of devices- these are ideal when it comes to Android applications that are robust.",
         open: true,
       },
       {
-        title: "Can React Native handle large-scale apps?",
+        title: "Can Kotlin & Java handle complex apps?",
         content:
-          "Yes. Enterprise-level, feature rich applications of high scalability can also be developed using React Native.",
+          "Yes. The two languages can be used to develop large-scale, enterprise-grade Android applications.",
         open: false,
       },
       {
-        title: "Is React Native suitable for e-commerce apps?",
+        title: "Are they suitable for e-commerce apps?",
         content:
-          "Absolutely. It promotes interactive product catalog, secure payment and easy checkouts.",
+          "Absolutely. Kotlin and Java facilitate safe payment systems, interactive product catalogues and flawless customer experiences.",
         open: false,
       },   
       {
-        title: "Do you provide maintenance and updates for React Native apps?",
+        title: "Do you provide maintenance and updates for Android apps?",
         content:
-          "Yes. We provide continuous support, optimization of performance, and updates to have your apps safe and working.",
+          "Yes. We also offer 24/7 support, optimization of performance, and releases to ensure that your apps are safe and responsive.",
         open: false,
       }, 
 
