@@ -249,6 +249,14 @@ import ReactNativeDevTopImg from "@public/assets/imgs/services/ReactNativeDev-to
 import ReactNativeDevTrendsImg from "@public/assets/imgs/services/ReactNativeDev-trend.jpg";
 import ReactNativeDevExpertImg from "@public/assets/imgs/services/ReactNativeDev-expert.jpg";
 import ReactNativeDevFaqImg from "@public/assets/imgs/services/ReactNativeDev-faq.jpg"; 
+import KotlinAndJavaTopImg from "@public/assets/imgs/services/KotlinAndJava-top.jpg";
+import KotlinAndJavaTrendsImg from "@public/assets/imgs/services/KotlinAndJava-trend.jpg";
+import KotlinAndJavaExpertImg from "@public/assets/imgs/services/KotlinAndJava-expert.jpg";
+import KotlinAndJavaFaqImg from "@public/assets/imgs/services/KotlinAndJava-faq.jpg"; 
+import DecisionManagementTopImg from "@public/assets/imgs/services/decision-management-top.jpg";
+import DecisionManagementTrendsImg from "@public/assets/imgs/services/decision-management-trend.jpg";
+import DecisionManagementExpertImg from "@public/assets/imgs/services/decision-management-expert.jpg";
+import DecisionManagementFaqImg from "@public/assets/imgs/services/decision-management-faq.jpg"; 
 
 
 export {
@@ -444,4 +452,12 @@ export {
   ReactNativeDevTrendsImg,
   ReactNativeDevExpertImg,
   ReactNativeDevFaqImg,
+  KotlinAndJavaTopImg,
+  KotlinAndJavaTrendsImg,
+  KotlinAndJavaExpertImg,
+  KotlinAndJavaFaqImg,  
+  DecisionManagementTopImg,
+  DecisionManagementTrendsImg,
+  DecisionManagementExpertImg,
+  DecisionManagementFaqImg,      
 };

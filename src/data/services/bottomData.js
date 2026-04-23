@@ -191,6 +191,14 @@ import {
   ReactNativeDevTrendsImg,
   ReactNativeDevExpertImg,
   ReactNativeDevFaqImg,
+  KotlinAndJavaTopImg,
+  KotlinAndJavaTrendsImg,
+  KotlinAndJavaExpertImg,
+  KotlinAndJavaFaqImg,
+  DecisionManagementTopImg,
+  DecisionManagementTrendsImg,
+  DecisionManagementExpertImg,
+  DecisionManagementFaqImg,
 
 } from "./serviceImages";
 export const bottomData = [
@@ -1989,14 +1997,14 @@ export const bottomData = [
     serviceName: "Cake php",
     pageTitle:
       "Build High-Performance Applications with Expert CakePHP Development",
-    description: `<p>At <strong>Uniterrene Websoft</strong>, we build robust, scalable, and secure applications using the full power of the <strong>CakePHP framework</strong>. Our goal is to craft fast, structured, and high-quality digital solutions that streamline business operations and enhance user experience. We provide applications which have a consistent performance at any setting due to the robust MVC architecture, security in-built in CakePHP, and its capability to develop fast.</p>`,
+    description: `<p>At <strong>Uniterrene Websoft</strong>, we build robust, scalable, and secure applications using the full power of the <strong>CakePHP framework</strong>. Our goal is to craft fast, structured, and high-quality digital solutions that streamline business operations and enhance user experience. We provide applications which have a consistent performance at any setting due to the robust MVC architecture, security in-built in CakePHP, and its capability to develop fast.<br><br>
+Through the capability of modern frameworks and strategic development practices, we turn ideas into reliable web applications that help businesses grow, innovate, and stay competitive.</p>`,
     topImg: CakeTopImg,
     typeOfServicesHeading:
-      "Drive Smooth Performance with Accelerated CakePHP Engineering",
+      "What We Deliver: CakePHP Solutions That Transform Digital Operations",
     typeOfServicesContent:
-      `<p>We do far more than develop basic PHP applications. We develop optimized, component-based and enterprise-ready CakePHP ecosystems. The superiority in the engineering of our products can help organizations to run faster, more reliable applications and scale without failure. Between MVC-compatible coding and secure database interactions, we make sure that all the modules are made with accuracy.
-      </p>
-      <div class='mt-5'><h5 class="text-[20px] md:text-2xl">What We Deliver: CakePHP Solutions That Transform Digital Operations</h5></div>`,
+      `<p>We do far more than develop basic PHP applications. We develop optimized, component-based and enterprise-ready CakePHP ecosystems. The superiority in the engineering of our products can help organizations run faster, more reliable applications and scale without failure. Between MVC-compatible coding and secure database interactions, we ensure that all modules are built with accuracy.</p>
+      `,
     typeOfServicesList: [
       {
         head: "CakePHP Consulting & Architecture Planning:",
@@ -2031,40 +2039,40 @@ export const bottomData = [
     howWorkHeading: "",
     howWorkContent: ``,
 
-    typeOfWebsiteHeading: "The Craft Behind High-Performance CakePHP Development",
+    typeOfWebsiteHeading: "How Does CakePHP Development Work?",
     typeOfWebsiteContent:
-      "Building scalable CakePHP applications requires deep knowledge of MVC architecture, clean coding practices, and secure system design. At <strong>Uniterrene Websoft</strong>, our development approach ensures precision and long-term maintainability.",
-    typeOfWebsiteListHead: "We Focus On:",
+      "Building scalable CakePHP applications requires deep knowledge of MVC architecture, clean coding practices, and secure system design. At Uniterrene Websoft, our development approach ensures precision and long-term maintainability. CakePHP development is a combination of structured coding, framework conventions, and best practices used to build efficient applications. ",
+    typeOfWebsiteListHead: "When a development process is executed:",
     expertTeamList: [
       {
         heading: "",
-        content:
-          "Structured and modular MVC architecture",
+        content:"The requirements are analyzed and project architecture is defined.",
       },
       {
         heading: "",
-        content:
-          "Secure coding and built-in CakePHP security tools",
+        content:"The application is developed using CakePHP’s MVC structure and built-in tools.",
       },
       {
         heading: "",
-        content: "Optimized database queries and ORM workflows",
+        content: "Database integration and business logic are implemented.",
       },
       {
         heading: "",
-        content:
-          "High-speed application response",
+        content: "Testing is performed to ensure performance, security, and reliability.",
       },
       {
         heading: "",
-        content:
-          "Clean and scalable codebases",
+        content: "The application is deployed and continuously monitored for improvements.",
+      },
+       {
+        heading: "",
+        content: "This makes web development faster, consistent, and more reliable.",
       },
     ],
     expertImg: CakeExpertImg,
     trendBenefitHead:
-      "Industry-Driven CakePHP Development Tailored for Growth",
-    trendBenefitContent: `<p>Different industries require unique digital workflows and custom features. We build CakePHP applications that support operational efficiency and digital expansion across sectors.</p><br/><h5 class="text-2xl">Industries We Serve:</h5><ul class="flex flex-wrap flex-row gap-6 inner-list double-list mt-5"><li>E-commerce & Retail</li><li>Fintech & Banking</li><li>Healthcare & Life Sciences</li><li>Education & E-learning</li><li>Travel & Logistics</li><li>Real Estate & Property Management</li><li>SaaS & Technology Enterprises</li></ul> `,
+      "Types of Applications You Can Build with CakePHP",
+    trendBenefitContent: `<h5 class="text-2xl">At Uniterrene Websoft, our CakePHP solutions help businesses develop:</h5><ul class="flex flex-wrap flex-row gap-6 inner-list double-list mt-5"><li>Enterprise Applications: Scalable systems for managing business operations.</li><li>E-commerce Platforms: Secure and feature-rich online stores.</li><li>Content Management Systems: Easy-to-manage content-driven websites.</li><li>Custom Web Portals: Tailored platforms for specific business needs.</li><li>API-Based Applications: Applications integrated with third-party services.</li></ul> `,
     trendBenefitListHead:
       "",
     trendBenefitList: [
@@ -2074,61 +2082,69 @@ export const bottomData = [
       },*/
       
     ],
-    hireHead: "The Future of Application Development with CakePHP",
+    hireHead: "Current Trends and Benefits of CakePHP Development",
     hireListHead:
-      `<P>CakePHP is furthering and developing with better tools, performances and more integration abilities. Our applications are built around these innovations to get-ahead of business processes.</P>`,
+      `<P>CakePHP technology continues to evolve, offering businesses several advantages:</P>`,
     hireList: [
       {
-        title: "Emerging Trends:",
-        list: "",
+        title: "",
+        list: "Rapid development with built-in tools and conventions.",
       },
       {
         title: "",
-        list: "Structured MVC workflows",
+        list: "Enhanced security features for safe applications.",
       },
       {
         title: "",
-        list: "Advanced ORM-based database management",
+        list: "Scalable architecture for growing business needs.",
+      },    
+      {
+        title: "",
+        list: "Cost-effective development with reduced coding effort.",
       },
       {
         title: "",
-        list: "Rapid application prototyping",
+        list: "Easy integration with modern technologies and APIs.",
       },
       {
         title: "",
-        list: "Secure authentication and authorization",
+        list: "Continuous updates for better performance and stability.",
       },
       {
         title: "",
-        list: "API-first architecture adoption",
+        list: "These features make CakePHP an essential framework for businesses seeking efficient, secure, and scalable web development solutions.",
       },
             
 
     ],
-    whyChooseHead: "Why Choose Us as Your CakePHP Development Partner?",
-    whyChooseContent: `<p>Partnering with Uniterrene Websoft means choosing a team that values accuracy, efficiency, and meaningful outcomes. We build CakePHP applications that are scalable, maintainable, and aligned with your long-term goals.</p>`,
+    whyChooseHead: "Top Perks When You Hire Uniterrene Websoft",
+    whyChooseContent: `<p>CakePHP is continually improving with better tools, better performance, and greater integration capabilities. Our applications are built around these innovations to get ahead of business processes. By collaborating with Uniterrene Websoft, you will have access to a range of skilled CakePHP developers and experts who provide end-to-end development solutions. </p>`,
     whyChooseListHead:
-      "We Ensure:",
+      "We provide:",
     whyChooseList: [
       {
         title: "",
-        list: "Custom CakePHP architecture tailored to business needs.",
+        list: "Expert planning and structured development approach.",
       },
       {
         title: "",
-        list: "Secure and clean coding practices.",
+        list: "Custom CakePHP solutions tailored to business needs.",
       },
       {
         title: "",
-        list: "Smooth integrations and deployment.",
+        list: "Scalable, secure, and high-performance applications.",
       },
       {
         title: "",
-        list: "Continuous monitoring and performance tuning.",
+        list: "Cost-effective development without compromising quality.",
       },
       {
         title: "",
-        list: "Flexible development packages.",
+        list: "Ongoing maintenance, support, and optimization services.",
+      },
+      {
+        title: "",
+        list: "Our mission is to help businesses build powerful web applications, improve digital presence, and achieve long-term success through innovative CakePHP development solutions.",
       } 
 
     ],
@@ -2137,19 +2153,25 @@ export const bottomData = [
       {
         title: "Why should I choose CakePHP for my application?",
         content:
-          "Cakephp has structured coding, inbuilt security and high speed development tools. It assists in minimizing the time of development and provides stable performance.",
+          "CakePHP has a structured coding framework, built-in security, and high-speed development tools. It helps minimize development time and provides stable performance.",
         open: true,
       },
       {
-        title: "CanCakePHP integrate with external systems or APIs?",
+        title: "Can CakePHP integrate with external systems or APIs?",
         content:
-          "Yes, CakePHP is compatible with the easy integration of APIs, payment systems, third-party services and external data tools.",
+          "Yes, CakePHP is well-suited for easy integration with APIs, payment systems, third-party services, and external data tools.",
         open: false,
       },
       {
         title: "Do you provide long-term support for CakePHP applications?",
         content:
-          "Yes, we are providing permanent customization, upgrades, optimization, and safety improvements of any CakePHP projects.",
+          "Yes, we provide permanent customization, upgrades, optimization, and safety improvements for any CakePHP project.",
+        open: false,
+      },  
+      {
+        title: "Do you provide support and maintenance for CakePHP applications?",
+        content:
+          "Absolutely. We offer continuous monitoring, updates, and optimization to keep your applications secure and high-performing.",
         open: false,
       },     
     ],
@@ -2897,14 +2919,14 @@ export const bottomData = [
     serviceName: "Node.Js",
     pageTitle:
       "Build High-Performance Applications with Expert Node.js Development",
-    description: `<p>At Uniterrene Websoft, we create powerful, scalable, and event-driven applications using Node.Js, one of the most efficient JavaScript runtimes used worldwide. We focus on delivering lightweight, fast, and flexible digital solutions that support real-time interactions, seamless integrations, and continuous performance.</p>`,
+    description: `<p>At Uniterrene Websoft, we create powerful, scalable, and event-driven applications using Node.js, one of the most efficient JavaScript runtimes used worldwide. We focus on delivering lightweight, fast, and flexible digital solutions that support real-time interactions, seamless integrations, and continuous performance.<br><br>
+    Our Node.js development services can help organizations improve application performance, handle large volumes of data, and build efficient backend systems for web applications, APIs, and real-time platforms. Through the capability of modern technologies and strategic development practices, we turn ideas into high-performing digital solutions that help businesses grow, innovate, and stay competitive.</p>`,
     topImg: NodeJsTopImg,
     typeOfServicesHeading:
-      "Accelerate Digital Growth with Real-Time Node.js Engineering",
+      "What We Deliver: Node.js Solutions That Strengthen Your Digital Core",
     typeOfServicesContent:
-      `<p>We do not just come up with applications. We create full Node.js systems with efficient architecture, powerful APIs, compartmentalized parts, and high workflow. Our team of engineers assists companies to run smooth backend operations, low-latency interactions and to manage concurrent tasks without difficulties.</p>
-      <p>Node.js is known to guarantee shorter development duration, better performances of applications, and enhanced performances with the high-performance of the efficient event-driven architecture.</p>
-      <div class="mt-5"><h5 class="text-[20px] md:text-2xl">What We Deliver: Node.js Solutions That Strengthen Your Digital Core</h5></div>`,
+      `<p>We do not just come up with applications. We create full Node.js systems with efficient architecture, powerful APIs, compartmentalized parts, and high workflow. 
+      Our team of engineers assists companies in running smooth backend operations, enabling low-latency interactions and managing concurrent tasks without difficulty.</p>`,
     typeOfServicesList: [
       {
         head: "Node.js Consulting & Strategy:",
@@ -2921,141 +2943,179 @@ export const bottomData = [
       {
         head: "Microservices Architecture:",
         list: "Transforming large applications into independent microservices for better agility, security, and long-term scalability.",
-      },      
+      }, 
+      {
+        head: "Real-Time Application Development:",
+        list: "Developing chat applications, tracking systems, video streaming platforms, and live dashboards using WebSockets and real-time engines.",
+      }, 
+      {
+        head: "Node.js Migration & Modernization:",
+        list: "Upgrading legacy applications to Node.js for improved performance, reduced maintenance, and future readiness.",
+      }, 
+      {
+        head: "Cloud-Native Node.js Deployment:",
+        list: "Deploying Node.js applications across AWS, Azure, Google Cloud, and hybrid infrastructures with full optimization.",
+      }, 
+      {
+        head: "Node.js Security & Compliance:",
+        list: "Implementing strong security practices, token-based authentication, encrypted APIs, and continuous monitoring.",
+      },        
     ],
     trendImg: NodeJsTrendsImg,
-    howWorkHeading: "Real-Time Application Development",
-    howWorkContent: `<p>Developing chat applications, tracking systems, video streaming platforms, and live dashboards using WebSockets and real-time engines.</p>`,
+    howWorkHeading: "How Does Node.js Development Work?",
+    howWorkContent: `<p>Node.js development combines asynchronous programming, event-driven architecture, and efficient resource management to build high-performance applications. </p>`,
 
-    typeOfWebsiteHeading: "Node.js Migration & Modernization",
+    typeOfWebsiteHeading: "When a development process is executed:",
     typeOfWebsiteContent:
-      `<p>Upgrading legacy applications to Node.js for improved performance, reduced maintenance, and future readiness.</p>`,
+      `<p></p>`,
     typeOfWebsiteListHead: "",
     expertTeamList: [
       {
-        heading: "Cloud-Native Node.js Deployment",
+        heading: "",
         content:
-          "Deploying Node.js applications across AWS, Azure, Google Cloud, and hybrid infrastructures with full optimization.",
+          "The requirements are analyzed, and the system architecture is planned.",
       },
       {
-        heading: "Node.js Security & Compliance",
+        heading: "",
         content:
-          "Implementing strong security practices, token-based authentication, encrypted APIs, and continuous monitoring.",
+          "The backend is developed in Node.js with a scalable, modular architecture.",
+      },  
+       {
+        heading: "",
+        content:
+          "APIs and databases are integrated to efficiently handle data.",
+      },
+      {
+        heading: "",
+        content:
+          "Applications are tested for performance, security, and reliability.",
+      },
+      {
+        heading: "",
+        content:
+          "The system is deployed and continuously monitored for improvements.",
+      },  
+       {
+        heading: "",
+        content:
+          "This makes application development faster, scalable, and performance-driven.",
       },     
     ],
     expertImg: NodeJsExpertImg,
     trendBenefitHead:
-      "The Engineering Craft Behind High-Performance Node.js Solutions",
-    trendBenefitContent: `<p>The creation of new variables in Node.js demands thorough knowledge of asynchronous applications, effective event loops, and distributed systems. These technical strengths, when combined at Uniterrene Websoft lead to the development of strong systems that can give quantifiable results.</p>`,
+      "Types of Applications You Can Build with Node.js",
+    trendBenefitContent: `<p>Node.js is known to guarantee shorter development time, better application performance, and enhanced performance through its performance-efficient, event-driven architecture. </p>`,
     trendBenefitListHead:
-      "We Focus On:",
+      "At Uniterrene Websoft, our Node.js solutions help businesses develop:",
     trendBenefitList: [
       {
         title: "",
-        list: "Modular and scalable backend architecture",
+        list: "Real-Time Applications: Chat apps, collaboration tools, and live updates systems.",
       },
       {
         title: "",
-        list: "Clean and maintainable JavaScript code",
+        list: "Web Applications: Scalable and high-performance websites and platforms.",
       },
       {
         title: "",
-        list: "Secure and compliant data exchange",
+        list: "API-Based Applications: Backend systems and microservices architecture.",
       },
       {
         title: "",
-        list: "Optimized request handling and performance",
+        list: "Streaming Applications: Video and audio streaming platforms.",
       },
       {
         title: "",
-        list: "Seamless integration with third-party services",
-      },
-      {
-        title: "",
-        list: "Error-resistant and fault-tolerant systems",
-      },     
+        list: "Enterprise Applications: Large-scale applications handling high traffic and data.",
+      },        
     ],
-    hireHead: "Industry-Specific Node.js Applications Built for Excellence",
+    hireHead: "Current Trends and Benefits of Node.js Development",
     hireListHead:
-      `<p>Various industries require a different workflow, processing speed, and patterns of integration. Our Node.js applications make operations strong, user experience better, and enable us to scale to digital size fast.</p>`,
+      `<p>Creating new variables in Node.js requires thorough knowledge of asynchronous programming, effective event loops, and distributed systems. These technical strengths, when combined at Uniterrene Websoft, result in robust systems that deliver quantifiable results. Node.js technology is evolving rapidly, offering businesses several advantages:</p>`,
     hireList: [
       {
-        title: "Industries We Serve:",
-        list: "E-commerce & Retail",
+        title: "",
+        list: "High performance with non-blocking architecture.",
       },
       {
         title: "",
-        list: "Fintech & Digital Banking",
+        list: "Real-time data processing and communication.",
       },
       {
         title: "",
-        list: "Healthcare & Medical Platforms",
+        list: "Scalable solutions for growing user demands.",
       },
       {
         title: "",
-        list: "Education & E-learning",
+        list: "Efficient handling of multiple requests simultaneously.",
       },     
       {
         title: "",
-        list: "Travel & Logistics",
+        list: "Strong ecosystem with extensive libraries and tools.",
       },  
       {
         title: "",
-        list: "Real Estate & Property Tech",
+        list: "Continuous improvements for speed and stability.",
       }, 
       {
         title: "",
-        list: "SaaS & Technology Enterprises",
+        list: "These features make Node.js an essential technology for businesses seeking fast, scalable, and modern application development.",
       },   
     ],
-    whyChooseHead: "The Future Is Node.js: Trends Shaping Modern Application Development",
-    whyChooseContent: `<p>Node.js continues to evolve with strong tooling, community support, and improvements in performance engineering. We integrate emerging advancements to help businesses stay ahead and grow confidently.</p>`,
+    whyChooseHead: "Top Perks When You Hire Uniterrene Websoft",
+    whyChooseContent: `<p>By collaborating with Uniterrene Websoft, you will have access to a range of skilled Node.js developers and experts who provide end-to-end development solutions. </p>`,
     whyChooseListHead:
-      "Emerging Trends:",
+      "We provide:",
     whyChooseList: [
       {
         title: "",
-        list: "Serverless Node.js architecture",
+        list: "Expert planning and architectural design",
       },
       {
         title: "",
-        list: "AI-enabled backend optimization",
+        list: "Custom Node.js solutions tailored to business needs",
       },
       {
         title: "",
-        list: "Real-time analytics engines",
+        list: "Scalable, secure, and high-performance applications",
       },
       {
         title: "",
-        list: "Edge computing deployments",
+        list: "Cost-effective development without compromising quality",
       },
       {
         title: "",
-        list: "Microservices and container orchestration",
+        list: "Ongoing maintenance, monitoring, and optimization services",
       },
       {
         title: "",
-        list: "API-first development patterns",
+        list: "Our mission is to help businesses build powerful applications, improve performance, and achieve long-term success through innovative Node.js development solutions.",
       }      
     ],
     faqImg: NodeJsFaqImg,
     faqs: [
       {
-        title: "What is Node.js and how does it help in application development?",
+        title: "What is Node.js, and how does it help in application development?",
         content:
-          "Node.js is a JavaScript runtime that is employed in the creation of fast and scalable applications. It enables managing numerous requests efficiently, minimizes the time of development, and provides the functionality of real-time.",
+          "Node.js is a JavaScript runtime used to build fast, scalable applications. It enables efficient management of numerous requests, minimizes development time, and provides real-time functionality.",
         open: true,
       },
       {
         title: "Can Node.js handle high traffic and large user loads?",
         content:
-          "Yes, Node.js is high concurrency. Its event based organization enables it to handle the high requests volumes without compromising on the performance.",
+          "Yes, Node.js is highly concurrent. Its event-based organization enables it to handle high volumes of requests without compromising performance.",
         open: false,
       },
       {
         title: "Do you support cloud deployment for Node.js applications?",
         content:
           "Yes, we deploy Node.js solutions across AWS, Azure, Google Cloud, and hybrid environments with full optimization.",
+        open: false,
+      }, 
+      {
+        title: "Do you provide support and maintenance for Node.js applications?",
+        content:
+          "Absolutely. We offer continuous monitoring, updates, and optimization to keep your applications secure and high-performing.",
         open: false,
       },      
     ],
@@ -4980,14 +5040,14 @@ export const bottomData = [
     serviceName: "SMM",
     pageTitle:
       "Turn Engagement into Impact with Social Media Marketing",
-    description: `<p>At <strong>Uniterrene Websoft</strong>, we transform social platforms into growth engines for your brand. We make social platforms your engine to grow your brand at Uniterrene Websoft. Social Media Marketing (SMM) services will be aimed at creating a genuine relationship, motivate discussions, and achieve quantifiable outcomes.</p> 
-<p>We design our strategies to improve the presence and impact of your brand by smart targeting, imagination, and performance-based implementation. Our SMM solutions transform social interaction into tangible business results whether you are trying to create awareness, generate leads or build community trust.</p>`,
+    description: `<p>At <strong>Uniterrene Websoft</strong>, we transform social platforms into growth engines for your brand. At Uniterrene Websoft, we make social platforms your engine for growing your brand. Social Media Marketing (SMM) services will focus on building genuine relationships, fostering discussions, and achieving quantifiable outcomes. <br><br>
+    We design our strategies to improve the presence and impact of your brand by smart targeting, imagination, and performance-based implementation. Our SMM solutions transform social interaction into tangible business results, whether you are trying to create awareness, generate leads or build community trust.</p>`,
     topImg: SmmTopImg,
     typeOfServicesHeading:
       "Amplify Brand Growth with Strategic Social Media Campaigns",
     typeOfServicesContent:
-      `<p>It is our view that social media is not all about being seen but it is about engagement. 
-      Your brand message will be delivered to the right people, at the right moment through our team of creatives who will ignite a reaction of engagement, credibility and loyalty.</p>      
+      `<p>It is our view that social media is not all about being seen, but about engagement. Your brand message will be delivered to the right people, at the right moment, 
+      through our team of creatives who will ignite a reaction of engagement, credibility and loyalty.</p>      
       <div class="mt-5"><h5 class="text-[20px] md:text-2xl">Our Core Services Include:</h5></div>
       `,
     typeOfServicesList: [
@@ -5013,11 +5073,10 @@ export const bottomData = [
       },                  
     ],
     trendImg: SmmTrendsImg,
-    howWorkHeading: "The Art and Science Behind Effective Social Media Marketing",
-    howWorkContent: `<p>Effective social media marketing is a combination of creativity, psychology and analytics. 
-    We merge narrative and data intelligence to get impactful results at Uniterrene Websoft. Our campaigns are always goal-focused, audience-specific and are maximally engaging.</p>`,
+    howWorkHeading: "How Does Social Media Marketing Work?",
+    howWorkContent: `<p>SMM is a combination of content, audience insights, and analytics used to drive engagement and results. </p>`,
 
-    typeOfWebsiteHeading: "We Focus On:",
+    typeOfWebsiteHeading: "When a campaign is executed:",
     typeOfWebsiteContent:
       ``,
     typeOfWebsiteListHead: "",
@@ -5025,117 +5084,135 @@ export const bottomData = [
       {
         heading: "",
         content:
-          "Deep audience research and segmentation.",
+          "The system identifies target audience segments based on data and behavior.",
       },   
       {
         heading: "",
         content:
-          "Platform-specific content and tone.",
+          "Content is created and optimized according to platform-specific trends and algorithms.",
       },
       {
         heading: "",
         content:
-          "Consistent brand identity across all channels.",
+          "Campaigns are published across selected social media platforms.",
       },
       {
         heading: "",
         content:
-          "Real-time engagement and feedback monitoring.",
+          "Audience engagement is monitored and interactions are managed in real time.",
       },  
       {
         heading: "",
         content:
-          "Continuous optimization based on analytics.",
+          "Performance metrics are analyzed to refine strategies and improve outcomes.",
+      },  
+      {
+        heading: "",
+        content:
+          "This makes marketing efforts more targeted, consistent, and data-driven.",
       },        
     ],
     expertImg: SmmExpertImg,
     trendBenefitHead:
-      "Empowering Every Industry Through Social Presence",
-    trendBenefitContent: `<p>Our team is knowledgeable of the intricacies of every industry and, as a result, is able to create content and campaigns that actually 
-    connect with your target audience. Through local businesses, to large-scale organizations, we plan social strategies that evoke trust and make decisions.</p>`,
+      "Types of Activities You Can Manage with SMM",
+    trendBenefitContent: `<p>Partnering with Uniterrene Websoft means working with a team inspired by innovation, planning, and results. 
+    We are not only targeting campaigns to get likes, but also to build loyalty and influence. </p>`,
     trendBenefitListHead:
-      "Industries We Serve:",
+      "At Uniterrene Websoft, our SMM solutions help businesses manage:",
     trendBenefitList: [
       {
-        title: "",
-        list: "E-commerce & Retail",
+        title: "Brand Awareness Activities:",
+        list: "Campaigns designed to increase visibility and reach.",
       },
       {
-        title: "",
-        list: "Education & E-learning",
+        title: "Customer Engagement Activities:",
+        list: "Interaction with audiences through comments, messages, and posts.",
       },
       {
-        title: "",
-        list: "Healthcare & Wellness",
+        title: "Lead Generation Activities:",
+        list: "Campaigns focused on capturing potential customer information.",
       },
       {
-        title: "",
-        list: "Real Estate",
+        title: "Reputation Management Activities: ",
+        list: "Monitoring and managing brand perception online.",
       },
       {
-        title: "",
-        list: "Travel & Hospitality",
-      },      
-      {
-        title: "",
-        list: "Corporate & Professional Services",
-      },                    
+        title: "Marketing & Sales Activities:",
+        list: "Promotions, product launches, and conversion-driven campaigns.",
+      },                            
     ],
-    hireHead: "Trends Transforming Social Media Marketing",
+    hireHead: "Current Trends and Benefits of Social Media Marketing",
     hireListHead:
-      `<p>The social environment is in a continuous process of change and we guarantee your brand is also changing. 
-      Our professionals blend innovation and creativity to make your brand stay on the top of the trend.</p>`,
+      `<p>Our team is knowledgeable about the intricacies of every industry and can create content and campaigns that actually connect with your target audience. 
+      From local businesses to large-scale organizations, we plan social strategies that evoke trust and drive decision-making. 
+      SMM technology is evolving rapidly, offering businesses significant advantages:</p>`,
     hireList: [
       {
-        title: "Emerging Trends:",
-        list: "AI-driven content creation and engagement insights.",
+        title: "",
+        list: "High engagement through interactive and visual content.",
       },
       {
         title: "",
-        list: "Short-form video dominance (Reels, Shorts, TikToks).",
+        list: "Real-time communication with target audiences.",
       },
       {
         title: "",
-        list: "Social commerce and shoppable content.",
+        list: "Data-driven insights to optimize marketing strategies.",
       },
       {
         title: "",
-        list: "Influencer and micro-influencer collaborations.",
+        list: "Integration of AI and automation for better performance.",
       },     
       {
         title: "",
-        list: "Data-led personalization and predictive audience targeting.",
-      },             
+        list: "Scalable campaigns tailored to business growth.",
+      }, 
+      {
+        title: "",
+        list: "Continuous improvement to achieve better reach and conversions.",
+      },
+      {
+        title: "",
+        list: "These features make SMM an essential tool for businesses seeking visibility, engagement, and measurable growth.",
+      },              
     ],
-    whyChooseHead: "The Uniterrene Advantage: Driving Conversations that Convert",
-    whyChooseContent: `<p>Making a partnership with Uniterrene Websoft implies having to work with a team that is inspired by innovation, planning, and results. 
-    We are not only targeting campaigns to get likes but also create loyalty and influence.</p>`,
+    whyChooseHead: "Top Perks When You Hire Uniterrene Websoft",
+    whyChooseContent: `<p>By collaborating with Uniterrene Websoft, you will have access to a range of skilled social media experts and strategists 
+    who provide end-to-end marketing solutions.</p>`,
     whyChooseListHead:
-      "We Ensure:",
+      "We provide:",
     whyChooseList: [
       {
         title: "",
-        list: "Authentic audience engagement and storytelling.",
+        list: "Expert planning and execution of social media campaigns.",
       },
       {
         title: "",
-        list: "Consistent branding across all social platforms.",
+        list: "Custom SMM solutions tailored to brand goals and audience.",
       },
       {
         title: "",
-        list: "Transparent performance reporting.",
+        list: "Scalable, secure, and high-performance marketing strategies.",
       },
       {
         title: "",
-        list: "Scalable solutions tailored for startups and enterprises alike.",
-      },                        
+        list: "Cost-effective solutions without compromising quality.",
+      }, 
+      {
+        title: "",
+        list: "Ongoing monitoring, reporting, and optimization services.",
+      },   
+      {
+        title: "",
+        list: "Our mission is to help businesses build strong online presence, connect with audiences, and achieve impactful results through innovative SMM solutions.",
+      },                          
     ],
     faqImg: SmmFaqImg,
     faqs: [
       {
-        title: "What is Social Media Marketing (SMM)?",
+        title: " What is Social Media Marketing (SMM)?",
         content:
-          "Social Media Marketing means advertising your brand and products on such platforms as Facebook, Instagram, LinkedIn, and X to make more people interested and make more conversions.",
+          "Social Media Marketing means advertising your brand and products on platforms like Facebook, Instagram, LinkedIn, and X to increase interest and drive more conversions.",
         open: true,
       },
       {
@@ -9230,7 +9307,7 @@ export const bottomData = [
       "Robust, Scalable, and Future-Ready Kotlin & Java Development for Android Apps",
     description: `<p>At Uniterrene Websoft, we specialize in developing high-performance Android applications using Kotlin and Java, two of the most reliable programming languages for mobile development. Kotlin brings modern syntax, safety features, and concise code, while Java ensures compatibility and stability across all Android devices. You might want a business application with more features, an interactive consumer platform, or a scalable business solution. Our development team will develop applications that are secure, high-performing, and user-friendly. With strengths in Kotlin and Java, we can create innovative Android solutions that enhance user interaction and drive business growth.</p>     
     `,
-    topImg: ReactNativeDevTopImg,
+    topImg: KotlinAndJavaTopImg,
     typeOfServicesHeading:
       "Types of Kotlin & Java Development Services We Offer",
     typeOfServicesContent:
@@ -9264,7 +9341,7 @@ export const bottomData = [
       },      
                                         
     ],
-    trendImg: ReactNativeDevTrendsImg,
+    trendImg: KotlinAndJavaTrendsImg,
     howWorkHeading: "How Do Kotlin & Java Work?",
     howWorkContent: `<p>Kotlin and Java are compiled languages that are based on the Android Runtime (ART).</p>    
     `,
@@ -9300,7 +9377,7 @@ export const bottomData = [
           "These languages may interoperate with databases such as SQLite or Firebase to handle real-time data. We have developers who ensure that each application has optimised code, smooth functionality, and strong security practices.",
       },                                    
     ],
-    expertImg: ReactNativeDevExpertImg,
+    expertImg: KotlinAndJavaExpertImg,
     trendBenefitHead:
       "Types of Apps You Can Build with Kotlin & Java",
     trendBenefitContent: ``,
@@ -9392,7 +9469,7 @@ export const bottomData = [
       },                
    
     ],
-    faqImg: ReactNativeDevFaqImg,
+    faqImg: KotlinAndJavaFaqImg,
     faqs: [
       {
         title: "Why choose Kotlin or Java for Android development?",
@@ -9422,11 +9499,210 @@ export const bottomData = [
                                  
     ],
   },
+  
 
 
+   {
+    id: 46,
+    parent: "AI Development",
+    slug: "decision-management-systems",
+    serviceName: "Decision Management Systems",
+    pageTitle:
+      "Intelligent, Automated, and Scalable Decision Management Systems for Businesses",
+    description: `<p>At Uniterrene Websoft, we specialize in designing and implementing Decision Management Systems (DMS) that empower businesses to automate and optimize critical decisions. A DMS is applied in decision-making processes to implement advanced rules and analytics and artificial intelligence to achieve quicker, precise, and dependable decisions. Our decision management solutions can assist organizations to minimize errors, enhance efficiency and generate actionable insights whether it is related to finance, operations, compliance or customer engagement. Through the capability of the aforementioned modern technologies and strategic frameworks, we turn data into smart and automated business decisions that help us grow, comply, and gain competitive advantage.</p>     
+    `,
+    topImg: DecisionManagementTopImg,
+    typeOfServicesHeading:
+      "Types of Decision Management System Services We Offer",
+    typeOfServicesContent:
+      `<p>Decision management systems help businesses to automate, track, and streamline intricate decisions.</p><br>      
+      <div class="mt-5"><h5 class="text-[20px] md:text-2xl">Our services include:</h5></div>
+      `,
+    typeOfServicesList: [
+      {
+        head: "Custom Decision Management Solutions:",
+        list: "Custom solutions created to conform to a particular business rule, goal and process.",
+      },
+      {
+        head: "Business Rule Engine Implementation:",
+        list: "Rule based systems that make consistent and automatic decisions.",
+      },
+      {
+        head: "Predictive Analytics & AI Integration:",
+        list: "Predictive analytics model involves the use of machine learning models to forecast the results and make strategic decisions.",
+      },    
+      {
+        head: "Workflow Automation:",
+        list: "Automation of redundant decisions to enhance efficiency and minimize operational errors.",
+      },
+      {
+        head: "System Integration:",
+        list: "This integrates in a seamless way with the already available ERP, CRM and database systems.",
+      },  
+      {
+        head: "Monitoring & Optimization:",
+        list: "Decisions should be constantly reviewed to ensure accuracy, compliance and improvement of performance.",
+      },      
+                                        
+    ],
+    trendImg: DecisionManagementTrendsImg,
+    howWorkHeading: "How Does a Decision Management System Work?",
+    howWorkContent: `<p>DMS is a collection of data, rules, and analytics to be used to automate decision-making.</p>    
+    `,
 
+    typeOfWebsiteHeading: "When a process is executed:",
+    typeOfWebsiteContent:
+      ``,
+    typeOfWebsiteListHead: "",
+    expertTeamList: [
+      {
+        heading: "",
+        content:
+          "The system gathers both internal and external data that are relevant.",
+      },   
+      {
+        heading: "",
+        content:
+          "The data is put through business rules and logic.",
+      },
+      {
+        heading: "",
+        content:
+          "The predictive models or AI algorithms access alternatives and make recommendations based on the best courses of action.",
+      }, 
+      {
+        heading: "",
+        content:
+          "Decisions are either automated or presented to the stakeholders to be approved.",
+      }, 
+      {
+        heading: "",
+        content:
+          "Results are measured and the system is able to constantly learn and optimize subsequent actions.",
+      },                                    
+    ],
+    expertImg: DecisionManagementExpertImg,
+    trendBenefitHead:
+      "This will make decision-making in the organization faster, consistent, and more data-driven.",
+    trendBenefitContent: `Types of Decisions You Can Automate with DMS`,
+    trendBenefitListHead:
+      "At Uniterrene Websoft, our DMS solutions help businesses automate:",
+    trendBenefitList: [
+      {
+        title: "Financial Decisions:",
+        list: "Credit and loan applications, credit card frauds, and investment policies.",
+      },
+      {
+        title: "Operational Decisions:",
+        list: "Production Planning, inventory management and resource allocation.",
+      },
+      {
+        title: "Customer Engagement Decisions:",
+        list: "Customer support routing, Loyalty Program Rewards, and Personalized offers.",
+      },
+      {
+        title: "Compliance & Risk Decisions:",
+        list: "Regulatory checks of compliance, scoring of risks and audit reporting.",
+      },
+      {
+        title: "Marketing & Sales Decisions:",
+        list: "Targeting marketing, scoring leads and product suggestions.",
+      },                                  
+    ],
+    hireHead: "Current Trends and Benefits of Decision Management Systems",
+    hireListHead:
+      `<p>DMS technology is evolving rapidly, offering businesses unprecedented advantages:</p>`,
+    hireList: [
+      {
+        title: "",
+        list: "Repetitive high volume decisions.",
+      },    
+      {
+        title: "",
+        list: "Live data-driven information to get the right results.",
+      },       
+      {
+        title: "",
+        list: "Machine learning and predictive decision-making.",
+      }, 
+      {
+        title: "",
+        list: "Less human error and enhanced compliance.",
+      }, 
+      {
+        title: "",
+        list: "Scalable solutions that are flexible to the increasing business needs.",
+      },   
+      {
+        title: "",
+        list: "Never stop improving to make smarter and faster decisions.",
+      },        
+      {
+        title: "",
+        list: "These features make DMS an essential tool for businesses seeking operational efficiency, agility, and improved profitability.",
+      },     
+    ],
+    whyChooseHead: "Top Perks When You Hire Uniterrene Websoft",
+    whyChooseContent: `<p>By collaborating with Uniterrene Websoft, you will have a range of skilled DMS consultants and programmers that provide end-to-end solutions in decision management.</p>`,
+    whyChooseListHead:
+      "We provide:",
+    whyChooseList: [
+      {
+        title: "",
+        list: "Expert analysis and strategic planning for automated decision systems.",
+      },
+      {
+        title: "",
+        list: "Custom DMS solutions tailored to business rules and workflows.",
+      },
+      {
+        title: "",
+        list: "Scalable, secure, and high-performance systems.",
+      },    
+      {
+        title: "",
+        list: "Cost-effective solutions without compromising quality.",
+      },    
+      {
+        title: "",
+        list: "Ongoing monitoring, maintenance, and optimization services.",
+      },  
+      {
+        title: "",
+        list: "Our mission is to help businesses make smarter, faster, and more accurate decisions through innovative DMS solutions.",
+      },                
+   
+    ],
+    faqImg: DecisionManagementFaqImg,
+    faqs: [
+      {
+        title: "What is a Decision Management System (DMS)?",
+        content:
+          "A DMS is a software platform that automates and optimizes business decisions using rules, analytics, and AI.",
+        open: true,
+      },
+      {
+        title: "How can DMS benefit my business?",
+        content:
+          "It reduces errors, improves efficiency, ensures compliance, and provides actionable insights for strategic decision-making.",
+        open: false,
+      },
+      {
+        title: "Can DMS integrate with existing systems?",
+        content:
+          "Yes. DMS can seamlessly connect with ERP, CRM, databases, and cloud platforms for smooth operations.",
+        open: false,
+      },   
+      {
+        title: "Do you provide support and optimization for DMS?",
+        content:
+          "Absolutely. We offer continuous monitoring, updates, and optimization to keep your DMS effective and reliable.",
+        open: false,
+      }, 
 
-
+                                 
+    ],
+  },
 
 
 
