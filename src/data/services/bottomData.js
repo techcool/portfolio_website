@@ -379,7 +379,9 @@ export const bottomData = [
     serviceName: "Web & UI/UX Design",
     pageTitle:
       "Drive Clarity, Experience, and Growth with Strategic Web & UI/UX Design",
-    description: `<p>At Uniterrene Websoft, we design user-focused, performance-driven web and UI/UX experiences that help businesses communicate clearly, engage users effectively, and convert interactions into measurable growth. Our web and UI/UX designs are not just visual layouts; they are structured digital experiences built around user behavior, business objectives, and usability principles.</p>`,
+    description: `<p>At Uniterrene Websoft, we design user-focused, performance-driven web and UI/UX experiences that help businesses communicate clearly, engage users effectively, and convert interactions into measurable growth. Our web and UI/UX designs are not just visual layouts; they are structured digital experiences built around user behavior, business objectives, and usability principles. <br><br>
+    <strong>Build High-Impact Digital Experiences with Intelligent Design</strong><br><br> We create coherent online experiences directing users, decreasing friction, and converting. The design, usability and performance are all combined together in a seamless manner. <br><br>
+    The information architecture, the interaction design, and responsive layouts are all planned. We make sure your online presence is user-friendly, reachable and responsive on both hardware and software with brand consistency by driving our design strategies.</p>`,
     topImg: uiuxTopImg,
     typeOfServicesHeading:
       "What We Deliver: Web & UI/UX Design Built for Results",
@@ -756,19 +758,19 @@ export const bottomData = [
         list: "Combining Drupal’s strong backend with modern front-end frameworks.",
       },
       {
-        title: "Cloud-Ready Solutions",
+        title: "Cloud-Ready Solutions:",
         list: "Optimized for scalability and global performance.",
       },
       {
-        title: "Enhanced Security",
+        title: "Enhanced Security:",
         list: "Frequent updates and enterprise-grade protection.",
       },
       {
-        title: "AI-Powered Extensions",
+        title: "AI-Powered Extensions:",
         list: "Smarter workflows and personalized experiences.",
       },
       {
-        title: "Future-Proof Flexibility",
+        title: "Future-Proof Flexibility:",
         list: "Seamless integrations and modular expansion.",
       },
     ],
@@ -1060,7 +1062,7 @@ export const bottomData = [
       },
       {
         title: "Portfolio & Creative Sites:",
-        list: "Ideal for designers, photographers, and artists",
+        list: "Ideal for designers, photographers, and artists.",
       },
       {
         title: "Event & Booking Websites:",
@@ -1882,12 +1884,7 @@ export const bottomData = [
       {
         heading: "",
         content: "Create your own store and monitor the sales with strong built-in analytics..",
-      },
-      {
-        heading: "",
-        content:
-          "",
-      },
+      },     
     ],
     expertImg: shopifyExpertImg,
     trendBenefitHead:
@@ -3642,18 +3639,13 @@ Through the capability of modern frameworks and strategic development practices,
     serviceName: "ReactJs",
     pageTitle:
       "Build High-Performance Interfaces with Expert React.js Development",
-    description: `<p>At Uniterrene Websoft, we create fast, scalable, and highly interactive front-end applications using the full strength of the React.js library. Our focus is on delivering structured, component-driven, and future-ready solutions that enhance user experience and support business growth. We build interfaces that maintain seamless performance under any environment, backed by React's virtual DOM, reusable components, and robust state-management capabilities.</p>`,
+    description: `<p>At Uniterrene Websoft, we create fast, scalable, and highly interactive front-end applications using the full strength of the React.js library. Our focus is on delivering structured, component-driven, and future-ready solutions that enhance user experience and support business growth. We build interfaces that maintain seamless performance across any environment, backed by React's virtual DOM, reusable components, and robust state management.</p>`,
     topImg: ReactJSTopImg,
     typeOfServicesHeading:
       "Drive Smooth User Experiences with Accelerated React.js Engineering",
     typeOfServicesContent:
-      `<p>We not only pass by interface layouts. We create production-grade, 
-      advanced and enterprise level React.js ecosystems. We enable companies to run digital platforms, 
-      which are faster to load, instantly responsive, and can scale with grace using optimized rendering, 
-      modular bespoke components and optimized state workflows. 
-      Regardless of the integration of APIs or the development of complicated logic in the UI, 
-      we make every feature precise.</p>
-      <div class="mt-5"><h5 class="text-[20px] md:text-2xl">What We Deliver: React.js Solutions That Transform Digital Interactions</h5></div>`,
+      `<p>We not only pass by interface layouts. We create production-grade, advanced, and enterprise-level React.js ecosystems. We enable companies to run digital platforms that load faster, are instantly responsive, and scale with grace through optimized rendering, modular, bespoke components, and optimized state workflows. Regardless of whether we integrate APIs or develop complex logic in the UI, we ensure every feature is precise.</p>
+      <div class="mt-5"><h5 class="text-[20px] md:text-2xl"></h5></div>`,
     typeOfServicesList: [
       {
         head: "React.js Consulting & Architecture Planning:",
@@ -3664,7 +3656,7 @@ Through the capability of modern frameworks and strategic development practices,
         list: "Crafting scalable, reusable, and interactive front-end systems using React.js, JSX, hooks, and component-based architecture.",
       },
       {
-        head: "Migration to React.js:",
+        head: "Migration to React.js: ",
         list: "Modernizing legacy interfaces by rebuilding or transitioning them into React.js for better speed, usability, and maintainability.",
       },
       {
@@ -3685,10 +3677,10 @@ Through the capability of modern frameworks and strategic development practices,
       },       
     ],
     trendImg: ReactJSTrendsImg,
-    howWorkHeading: "The Craft Behind High-Performance React.js Development",
-    howWorkContent: `<p>Enterprise-level React.js application development requires a strong understanding of component design, performance rendering, and compositional UI design. We are using the strategy of development based on speed, usability, and scalability at Uniterrene Websoft.</p>`,
+    howWorkHeading: "How Does React.js Development Work?",
+    howWorkContent: `<p>React.js development combines a component-based architecture, a virtual DOM, and efficient state management to build high-performance applications. </p>`,
 
-    typeOfWebsiteHeading: "We Focus On:",
+    typeOfWebsiteHeading: "When a development process is executed:",
     typeOfWebsiteContent:
       ``,
     typeOfWebsiteListHead: "",
@@ -3696,114 +3688,123 @@ Through the capability of modern frameworks and strategic development practices,
       {
         heading: "",
         content:
-          "Modular and reusable component structures",
+          "The requirements are analyzed, and the application architecture is defined.",
       },   
       {
         heading: "",
         content:
-          "Secure and optimized front-end coding",
+          "The application is developed using reusable React components.",
       },
       {
         heading: "",
         content:
-          "Efficient virtual DOM rendering",
+          "APIs and backend services are integrated for dynamic data handling.",
       },
       {
         heading: "",
         content:
-          "Robust state management (Redux, Zustand, Context API)",
+          "Testing is performed to ensure performance, usability, and reliability.",
       },  
       {
         heading: "",
         content:
-          "Clean and maintainable codebases",
+          "The application is deployed and continuously monitored for improvements.",
+      }, 
+      {
+        heading: "",
+        content:
+          "This makes front-end development faster, flexible, and performance-driven.",
       },     
     ],
     expertImg: ReactJSExpertImg,
     trendBenefitHead:
-      "Industry-Driven React.js Development Tailored for Growth",
-    trendBenefitContent: `<p>Each industry would demand specific interface capabilities and processes. Our React.js software development solutions are aimed to optimize the business, work better, and help achieve digital growth in various industries.</p>`,
+      "Types of Applications You Can Build with React.js",
+    trendBenefitContent: `<p>Enterprise-level React.js application development requires a strong understanding of component design, performance rendering, and compositional UI design. We use a development strategy based on speed, usability, and scalability at Uniterrene Websoft. </p>`,
     trendBenefitListHead:
-      "Industries We Serve:",
+      "At Uniterrene Websoft, our React.js solutions help businesses develop:",
     trendBenefitList: [
       {
-        title: "",
-        list: "E-commerce & Retail",
+        title: "Single Page Applications:",
+        list: "Fast-loading and interactive web applications.",
       },
       {
-        title: "",
-        list: "Fintech & Banking",
+        title: "Enterprise Applications:",
+        list: "Scalable systems for managing complex business operations.",
       },
       {
-        title: "",
-        list: "Healthcare & Life Sciences",
+        title: "Custom Dashboards:",
+        list: "Data-driven dashboards for analytics and reporting.",
       },
       {
-        title: "",
-        list: "Education & E-learning",
+        title: "Ecommerce Interfaces:",
+        list: "Dynamic and user-friendly online store experiences.",
       },
       {
-        title: "",
-        list: "Travel & Logistics",
-      },
-      {
-        title: "",
-        list: "Real Estate & Property Management",
-      }, 
-      {
-        title: "",
-        list: "SaaS & Technology Enterprises",
-      },              
+        title: "Progressive Web Apps:",
+        list: "Applications that deliver app-like experiences on the web.",
+      },               
     ],
-    hireHead: "The Future of Application Development with React.js",
+    hireHead: "Current Trends and Benefits of React.js Development",
     hireListHead:
-      `<p>React.js is being updated with more performance tools, an enhanced way of rendering as well as more robust ecosystem integrations. We build applications that stay aligned with these advancements to help businesses remain ahead of their competitors.</p>`,
+      `<p>React.js technology is continuously evolving, offering businesses several advantages:</p>`,
     hireList: [
       {
-        title: "Emerging Trends:",
-        list: "Component-driven UI ecosystems",
+        title: "",
+        list: "High performance with virtual DOM optimization.",
       },
       {
         title: "",
-        list: "Real-time data interactions",
+        list: "Reusable components for faster development.",
       },
       {
         title: "",
-        list: "Server-side rendering (SSR) and static site generation",
+        list: "Scalable architecture for large applications.",
       },
       {
         title: "",
-        list: "Progressive Web App (PWA) development",
+        list: "Strong ecosystem and community support.",
       },     
       {
         title: "",
-        list: "Advanced state-management patterns",
-      },          
+        list: "Seamless integration with APIs and backend systems.",
+      },     
+      {
+        title: "",
+        list: "Continuous improvements for better speed and efficiency.",
+      },  
+      {
+        title: "",
+        list: "These features make React.js an essential technology for businesses seeking modern, scalable, and high-performance front-end development solutions.",
+      },            
     ],
-    whyChooseHead: "Why Choose Us as Your React.js Development Partner?",
-    whyChooseContent: `<p>When collaborating with Uniterrene Websoft, one can select a team that is more focused on accuracy, stability, and contemporary engineering. We build React.js applications that evolve with your goals and maintain superior performance throughout their lifecycle.</p>`,
+    whyChooseHead: "Top Perks When You Hire Uniterrene Websoft",
+    whyChooseContent: `<p>By collaborating with Uniterrene Websoft, you will have access to a range of skilled React.js developers and experts who provide end-to-end development solutions.</p>`,
     whyChooseListHead:
-      "We Ensure:",
+      "We provide:",
     whyChooseList: [
       {
         title: "",
-        list: "Custom React.js architecture tailored to your business",
+        list: "Expert planning and front-end architecture design",
       },
       {
         title: "",
-        list: "Clean and secure front-end coding practices",
+        list: "Custom React.js solutions tailored to business needs",
       },
       {
         title: "",
-        list: "Smooth backend integrations and deployments",
+        list: "Scalable, secure, and high-performance applications",
       },
       {
         title: "",
-        list: "Continuous UI monitoring and performance improvements",
+        list: "Cost-effective development without compromising quality",
       },
       {
         title: "",
-        list: "Flexible, scalable, and business-friendly development plans",
+        list: "Ongoing maintenance, monitoring, and optimization services",
+      },  
+      {
+        title: "",
+        list: "Our mission is to help businesses build engaging user interfaces, improve user experience, and achieve long-term success through innovative React.js development solutions.",
       },              
     ],
     faqImg: ReactJSFaqImg,
@@ -3823,7 +3824,13 @@ Through the capability of modern frameworks and strategic development practices,
       {
         title: "Do you offer long-term support for React.js projects?",
         content:
-          "Yes, we make constant upgrades, code optimization, and security enhancement, and tailor-made improvements on any React.js apps.",
+          "Yes, we make constant upgrades, code optimization, security enhancements, and tailor-made improvements for any React.js app.",
+        open: false,
+      },  
+      {
+        title: "Do you provide support and maintenance for React.js applications?",
+        content:
+          "Absolutely. We offer continuous monitoring, updates, and optimization to keep your applications efficient and up to date.",
         open: false,
       },      
     ],
