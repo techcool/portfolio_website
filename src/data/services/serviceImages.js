@@ -121,10 +121,10 @@ import ServerlessArchitectureTopImg from "@public/assets/imgs/services/serverles
 import ServerlessArchitectureTrendsImg from "@public/assets/imgs/services/serverless-architecture-trend.jpg";
 import ServerlessArchitectureExpertImg from "@public/assets/imgs/services/serverless-architecture-expert.jpg";
 import ServerlessArchitectureFaqImg from "@public/assets/imgs/services/serverless-architecture-faq.jpg";
-import NodeJsTopImg from "@public/assets/imgs/services/nodeJs-top.jpg";
-import NodeJsTrendsImg from "@public/assets/imgs/services/nodeJs-trend.jpg";
-import NodeJsExpertImg from "@public/assets/imgs/services/nodeJs-expert.jpg";
-import NodeJsFaqImg from "@public/assets/imgs/services/nodeJs-faq.jpg";
+import NodeJsTopImg from "@public/assets/imgs/services/nodejs-top.jpg";
+import NodeJsTrendsImg from "@public/assets/imgs/services/nodejs-trend.jpg";
+import NodeJsExpertImg from "@public/assets/imgs/services/nodejs-expert.jpg";
+import NodeJsFaqImg from "@public/assets/imgs/services/nodejs-faq.jpg";
 import ExpressJsTopImg from "@public/assets/imgs/services/expressjs-top.jpg";
 import ExpressJsTrendsImg from "@public/assets/imgs/services/expressjs-trend.jpg";
 import ExpressJsExpertImg from "@public/assets/imgs/services/expressjs-expert.jpg";
