@@ -31,7 +31,7 @@ function HomeHero() {
                   <p className="hero__text-animation">
                     Static and dynamic secure code review can prevent a day
                     before your product is even released. We can integrate with
-                    your dev environment
+                    your dev environment.
                   </p>
                 </div>
                 <div className="md:-mt-16 homeHeroBtn">
