@@ -624,7 +624,7 @@ export const topData = [
     lastPartContent: `<p>At <strong>Uniterrene Websoft</strong>, we don’t just provide cloud solutions, we enable digital ecosystems that evolve with your business. Our Devops engineers, architects, and developers work together to make sure that your infrastructure is future-proof, scalable, and safe. Driven by an emphasis on innovation, performance, and reliability, we assist organizations to adopt the cloud with ease and expediency and open new vistas in the continuously changing digital age.</p>`,
   },
   {
-    id: 6,
+    id: 7,
     slug: "cloud--devops",
     topCategoryName: "Cloud & DevOps",
     pageTitle:
@@ -716,7 +716,7 @@ export const topData = [
     lastPartContent: `<p>At <strong>Uniterrene Websoft</strong>, we don’t just provide cloud solutions, we enable digital ecosystems that evolve with your business. Our Devops engineers, architects, and developers work together to make sure that your infrastructure is future-proof, scalable, and safe. Driven by an emphasis on innovation, performance, and reliability, we assist organizations to adopt the cloud with ease and expediency and open new vistas in the continuously changing digital age.</p>`,
   },
   {
-    id: 7,
+    id: 8,
     slug: "digital-marketing",
     topCategoryName: "Digital Marketing",
     pageTitle:
