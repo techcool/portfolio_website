@@ -103,7 +103,7 @@ import shopifyExpertImg from "@public/assets/imgs/services/shopify-expert.jpg";
 import shopifyFaqImg from "@public/assets/imgs/services/shopify-faq.jpg";
 import CloudComputingTopImg from "@public/assets/imgs/services/Cloud-computing-top.jpg";
 import CloudComputingTrendsImg from "@public/assets/imgs/services/Cloud-computing-trend.jpg";
-import CloudComputingExpertImg from "@public/assets/imgs/services/Cloud-computing-expert.jpg";
+import CloudComputingExpertImg from "@public/assets/imgs/services/cloud-computing-expert.jpg";
 import CloudComputingFaqImg from "@public/assets/imgs/services/Cloud-computing-faq.jpg";
 import CiCdTopImg from "@public/assets/imgs/services/cicd-top.jpg";
 import CiCdTrendsImg from "@public/assets/imgs/services/cicd-trend.jpg";
