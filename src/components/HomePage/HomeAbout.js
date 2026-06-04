@@ -29,7 +29,7 @@ function HomeAbout() {
             </div>
             <div className="w-full md:w-1/2 px-4">
               <div className="sec-title-wrapper mb-6">
-                <h2 className="sec-sub-title title-anim" label="Who We Are">Who We Are</h2>
+                <h2 className="sec-sub-title title-anim" label="Who We Are">Who We Are ??</h2>
                 {/* <TitleAnimHeading label="Who We Are" tag="h2" extraClass="sec-sub-title" /> */}
                 <h3 className="sec-title text-gray-900 title-anim">We are leading digital marketing agency.</h3>
                 {/* <TitleAnimHeading label="We are leading digital marketing agency." tag="h3" extraClass="sec-title text-gray-900" /> */}
