@@ -23,7 +23,7 @@ function HomeHero() {
             <div className="w-full">
               <div className="hero__inner-3">
                 <div className="sec-title-wrapper">
-                  <h2 className="sec-sub-title">Digitals</h2>
+                  <h2 className="sec-sub-title">Digital</h2>
                   <h3 className="sec-title title-left">Mark</h3>
                   <h3 className="sec-title title-right">eting</h3>
                 </div>
