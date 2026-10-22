@@ -8,12 +8,14 @@ import { jobData } from "@/data/jobData";
 import slugify from "@/libs/slugify";
 
 import React from "react";
+import { notFound } from "next/navigation";
 import ApplicationModalWrapper from "@/components/careerPage/ApplicationModalWrapper";
 import ScrollSmootherEffect from "@/components/layouts/ScrollSmootherEffect";
 
 export async function generateMetadata({ params }) {
   const { slug } = await params;
   const job = jobData.find((j) => slugify(j.title) === slug);
+  if (!job) notFound();
 
   return {
     title: job.title,

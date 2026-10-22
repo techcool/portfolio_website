@@ -11,9 +11,11 @@ import slugify from "@/libs/slugify";
 import Link from "next/link";
 
 import React from "react";
+import { notFound } from "next/navigation";
 export async function generateMetadata({params}) {
   const { slug } = await params;
   const portfolio = portfolioData.find((b) => slugify(b.title) === slug);
+  if (!portfolio) notFound();
   return {
     title: portfolio.title,
     description: portfolio.shortDescription.slice(0,160),

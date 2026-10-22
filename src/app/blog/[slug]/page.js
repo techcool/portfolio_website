@@ -9,6 +9,7 @@ import slugify from "@/libs/slugify";
 import CTA from "@/ui/CTA";
 import Link from "next/link";
 import React from "react";
+import { notFound } from "next/navigation";
 
 export async function generateStaticParams() {
   const blogData = getBlogData();
@@ -25,6 +26,7 @@ export async function generateMetadata({ params }) {
       (a, b) => new Date(b.date) - new Date(a.date)
     );
   const blog = blogData.find((b) => slugify(b.title) === slug);
+  if (!blog) notFound();
   return {
     title: blog.metaTitle,
     description: blog.metaDescription,

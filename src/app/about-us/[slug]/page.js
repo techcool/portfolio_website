@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import Link from "next/link";
 import React from "react";
+import { notFound } from "next/navigation";
 import slugify from "@/libs/slugify";
 import TeamImg from "@/components/aboutPage/TeamImg";
 import SingleTeamHeading from "@/components/aboutPage/SingleTeamHeading";
@@ -22,6 +23,7 @@ export async function generateStaticParams() {
 export async function generateMetadata({params}) {
   const {slug} = await params;
   const teamData = sinleTeamData.find(member => slugify(member.name) === slug);
+  if (!teamData) notFound();
   return {
     title: teamData.name,
     description: teamData.Message.slice(0,160),

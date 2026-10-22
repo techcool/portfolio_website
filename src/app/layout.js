@@ -39,6 +39,17 @@ export const metadata = {
   title: "Uniterrene: One-Stop Partner for Digital Solutions",
   description:
     "Uniterrene is a leading digital solutions provider empowering businesses. From web designing and development to online marketing services, we provide all!",
+  // Keep the whole site out of search engines (inherited by every page)
+  robots: {
+    index: false,
+    follow: false,
+    nocache: true,
+    googleBot: {
+      index: false,
+      follow: false,
+      noimageindex: true,
+    },
+  },
 };
 
 export default function RootLayout({ children }) {
